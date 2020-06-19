@@ -16,7 +16,7 @@ let package = Package(
             targets: ["Sight"]),
         .library(
             name: "SightIndex",
-            targets: ["SightIndex"]),
+            targets: ["SightBuilder", "SightIndex"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
