@@ -8,8 +8,15 @@
 import Foundation
 
 public struct Site {
+    private let schemeSeparator = "://"
+    
     internal let root: String // scheme + authority
     internal var queryParts: QueryParts?
+    
+    public var authority: String {
+        let startIndex = root.range(of: schemeSeparator)!.upperBound
+        return .init(root.suffix(from: startIndex))
+    }
     
     public var isQueryable: Bool { queryParts != nil }
     
@@ -17,8 +24,9 @@ public struct Site {
     // MARK: - Initializers
     
     public init(_ rootURLString: String) {
-        assert(!rootURLString.contains("/"), "root url cannot contain path components")
         self.root = rootURLString
+        assert(rootURLString.contains(schemeSeparator), "root url must contain scheme")
+        assert(!rootURLString.hasSuffix("/"), "root url cannot contain path components")
     }
 }
 
