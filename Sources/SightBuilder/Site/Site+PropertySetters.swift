@@ -15,7 +15,7 @@ public extension Site {
         assert(method == .GET, "method `\(method)` not-supported")
         
         var new = self
-        new.queryParts = .path(prefix: .init(queryPathParts[0]), suffix: .init(queryPathParts[2]))
+        new.queryParts = .path(prefix: .init(queryPathParts[0]), suffix: .init(queryPathParts[1]))
         
         return queryURL(root + path, method: method)
     }
