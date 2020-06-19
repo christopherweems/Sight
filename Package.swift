@@ -36,7 +36,7 @@ let package = Package(
             dependencies: ["SightBuilder"]),
         .testTarget(
             name: "SightTests",
-            dependencies: ["Sight"]),
+            dependencies: ["Sight", "SightBuilder", "SightIndex"]),
     ],
     swiftLanguageVersions: [.v5]
 )
