@@ -29,7 +29,7 @@ Sites are defined by their root url (scheme & authority), and optionally the pat
 `    .queryURL(path: "/search?q=%", method: .get)`
 
 
-Sites without a `.queryURL(..)` return false for `Site.isQueryable`
+Sites without a `.queryURL(..)` return false for `Site.isQueryable`.
 
 ### SightIndex
 
