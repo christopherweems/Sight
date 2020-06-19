@@ -41,4 +41,4 @@ Exact matches are O(n) for first & O(1) for repeated access:
 Best match is O(n^2) and uncached:
 `let apple = Site(authority: "aple.com", match: .best)`
 
-`n`: count of `Site`s in directory
+`n`: count of `Site` in directory (roughly `n`/27), due to splitting of domains into buckets a-z + misc)
