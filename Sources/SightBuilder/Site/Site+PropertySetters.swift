@@ -10,14 +10,21 @@ import Foundation
 public extension Site {
     func queryURL(path: String, method: HTTPMethod = .GET) -> Self {
         assert(path.first == "/", "query path must start with `/`")
-        let queryPathParts = path.split(separator: "%")
-        assert(queryPathParts.count == 2, "query path must contain exactly 1 `%` delimiter")
         assert(method == .GET, "method `\(method)` not-supported")
         
-        var new = self
-        new.queryParts = .path(prefix: .init(queryPathParts[0]), suffix: .init(queryPathParts[1]))
+        guard let delimiterRange = path.range(of: "%") else {
+            assertionFailure("query path must contain `%` query delimiter")
+            return self
+        }
         
-        return queryURL(root + path, method: method)
+        let prefix = String(path.prefix(upTo: delimiterRange.lowerBound))
+        let suffix = String(path.suffix(from: delimiterRange.upperBound))
+        
+        assert(!suffix.contains("%"), "query path must contain exactly 1 `%` query delimiter")
+        
+        var new = self
+        new.queryParts = .path(prefix: prefix, suffix: suffix)
+        return new
     }
     
     func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
