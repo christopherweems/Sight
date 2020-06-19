@@ -55,7 +55,17 @@ public extension Site {
     }
     
     internal func queryURLString(_ encodedQuery: String) -> String? {
-        fatalError("unimplemented")
+        switch self.queryParts {
+        case let .fullURLQuery(prefix, suffix):
+            return prefix + encodedQuery + suffix
+            
+        case let .path(prefix, suffix):
+            return root + prefix + encodedQuery + suffix
+            
+        default:
+            return nil
+        
+        }
     }
 }
 
