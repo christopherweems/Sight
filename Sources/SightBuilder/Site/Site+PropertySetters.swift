@@ -13,22 +13,29 @@ public extension Site {
         assert(path.first == "/", "query path must start with `/`")
         assert(method == .GET, "method `\(method)` is not supported")
         
-        let pathParts = path.split(separator: "%s", omittingEmptySubsequences: false)
-        assert(pathParts.count == 2, "query path must contain exactly 1 `%s` query delimiter")
+        let (prefix, suffix) = queryURLPartsSplit(path)
         
         var new = self
-        new.queryParts = .path(prefix: pathParts[0], suffix: pathParts[1])
+        new.queryParts = .path(prefix: prefix, suffix: suffix)
         return new
     }
     
     func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
-        let fullQueryURLParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
-        assert(fullQueryURLParts.count == 2, "query url string must contain exactly 1 `%` delimiter")
         assert(method == .GET, "method `\(method)` is not supported")
         
+        let (prefix, suffix) = queryURLPartsSplit(urlString)
+        
         var new = self
-        new.queryParts = .fullURLQuery(prefix: .init(fullQueryURLParts[0]),
-                                       suffix: .init(fullQueryURLParts[1]))
+        new.queryParts = .fullURLQuery(prefix: prefix, suffix: suffix)
         return new
+    }
+}
+
+private extension Site {
+    func queryURLPartsSplit(_ urlString: String) -> (prefix: String, suffix: String) {
+        let pathParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
+        assert(pathParts.count == 2, "query path must contain exactly 1 `%s` query delimiter")
+        
+        return (pathParts[0], pathParts[1])
     }
 }
