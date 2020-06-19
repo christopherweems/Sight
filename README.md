@@ -26,7 +26,7 @@ Internal library defining workings of Site object, used to build directory in Si
 
 Sites are defined by their root url (scheme & authority), and optionally the path of their query page:
 `Site("https://github.com")`
-`    .queryURL(path: "/search?q=%", method: .get)`
+`    .queryURL(path: "/search?q=%s", method: .get)`
 
 
 Sites without a `.queryURL(..)` return false for `Site.isQueryable`.
