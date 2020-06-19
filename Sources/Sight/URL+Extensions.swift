@@ -9,7 +9,7 @@ import Foundation
 import SightBuilder
 
 public extension URL {
-    init(site: Site, query: Site.Query = .root) throws {
+    init(site: Site, _ query: Site.Query = .root) throws {
         guard let queryURL = site.queryURL(for: query) else {
             throw Site.Error.cannotPerformQuery
         }

@@ -9,7 +9,8 @@ Also acts as a local index of thousands of websites. [Pull requests accepted!]
 ### Sight
 
 Create a url for the site's query results page:
-`try URL(site: "imdb.com", .query("Titanic II"))`
+`try URL(site: "imdb.com", .unencodedQuery("Titanic II"))`
+Spaces in .unencodedQuery(..) are automatically percent encoded
 
 
 Create a fully qualified root url, using https where available
