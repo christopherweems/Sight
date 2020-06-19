@@ -1,5 +1,8 @@
 import XCTest
 @testable import Sight
+@testable import SightBuilder
+@testable import SightIndex
+
 
 final class SightTests: XCTestCase {
     static var allTests = [
@@ -10,9 +13,14 @@ final class SightTests: XCTestCase {
 
 extension SightTests {
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertTrue(true)
+        let github = Site(authority: "github.com", match: .exact)
+        XCTAssertTrue(github?.isQueryable == true)
+        XCTAssert(github?.root == "https://github.com")
+        XCTAssert(github?.authority == "github.com")
+        
+        if let github = github {
+            let queryURL = try? URL(site: github, .unencodedQuery("Sight language:swift"))
+            XCTAssert(queryURL?.absoluteString == "https://github.com/search?q=Sight%20language:swift")
+        }
     }
 }
