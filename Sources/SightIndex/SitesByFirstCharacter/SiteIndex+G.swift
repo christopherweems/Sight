@@ -10,10 +10,10 @@ import SightBuilder
 internal extension SiteIndex {
     static var G = SiteSet {
         Site("https://github.com")
-            .queryURL(path: "/search?q=%")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://git-scm.com")
-            .queryURL(path: "/search/results?search=%")
+            .queryURL(path: "/search/results?search=%s")
         
     }
 }

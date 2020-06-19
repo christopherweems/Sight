@@ -6,29 +6,23 @@
 //
 
 import Foundation
+import unstandard
 
 public extension Site {
     func queryURL(path: String, method: HTTPMethod = .GET) -> Self {
         assert(path.first == "/", "query path must start with `/`")
-        assert(method == .GET, "method `\(method)` not-supported")
+        assert(method == .GET, "method `\(method)` is not supported")
         
-        guard let delimiterRange = path.range(of: "%") else {
-            assertionFailure("query path must contain `%` query delimiter")
-            return self
-        }
-        
-        let prefix = String(path.prefix(upTo: delimiterRange.lowerBound))
-        let suffix = String(path.suffix(from: delimiterRange.upperBound))
-        
-        assert(!suffix.contains("%"), "query path must contain exactly 1 `%` query delimiter")
+        let pathParts = path.split(separator: "%s", omittingEmptySubsequences: false)
+        assert(pathParts.count == 2, "query path must contain exactly 1 `%s` query delimiter")
         
         var new = self
-        new.queryParts = .path(prefix: prefix, suffix: suffix)
+        new.queryParts = .path(prefix: pathParts[0], suffix: pathParts[1])
         return new
     }
     
     func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
-        let fullQueryURLParts = urlString.split(separator: "%")
+        let fullQueryURLParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
         assert(fullQueryURLParts.count == 2, "query url string must contain exactly 1 `%` delimiter")
         assert(method == .GET, "method `\(method)` not-supported")
         
