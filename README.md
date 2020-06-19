@@ -42,3 +42,8 @@ Best match is O(n^2) and uncached:
 `let apple = Site(authority: "aple.com", match: .best)`
 
 `n`: count of `Site` in directory (roughly `n`/27), due to splitting of domains into buckets a-z + misc)
+
+
+## Related Links
+
+[Smart bookmark](https://en.wikipedia.org/wiki/Smart_bookmark) 
