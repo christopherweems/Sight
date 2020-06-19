@@ -24,7 +24,7 @@ public extension Site {
     func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
         let fullQueryURLParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
         assert(fullQueryURLParts.count == 2, "query url string must contain exactly 1 `%` delimiter")
-        assert(method == .GET, "method `\(method)` not-supported")
+        assert(method == .GET, "method `\(method)` is not supported")
         
         var new = self
         new.queryParts = .fullURLQuery(prefix: .init(fullQueryURLParts[0]),
