@@ -351,9 +351,12 @@ internal extension SiteIndex {
         Site("https://developer.mozilla.org")
             .queryURL(path: "/en-US/search?q=%s")
         
+        /*
+         // Modern Ambition
         Site("https://mpgsport.com")
             .queryURL(path: "/pages/search-results?q=%s&narrow=%5B%5B%22Vendor%22%2C%22Modern%20Ambition%22%5D%5D")
-        
+        */
+ 
         Site("https://mpgsport.com")
             .queryURL(path: "/search?q=%s")
         
