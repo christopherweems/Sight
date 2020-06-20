@@ -11,6 +11,8 @@ import SightBuilder
 internal class SiteSet {
     fileprivate var sites: [Site.Authority: Site]
     
+    internal var count: Int { sites.count }
+    
     func site(forAuthority authority: Site.Authority) -> Site? {
         if let exactMatch = sites[authority] {
             return exactMatch
