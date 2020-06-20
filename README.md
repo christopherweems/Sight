@@ -44,6 +44,11 @@ Best match is O(n^2) and uncached:
 `n`: count of `Site` in directory (roughly `n`/27), due to splitting of domains into buckets a-z + misc)
 
 
+### SightInspector
+
+Generate site query urls from the command line:
+`swift run SightInspector wikipedia.org "Dig Dug"`
+
 ## Related Links
 
 [Smart bookmark](https://en.wikipedia.org/wiki/Smart_bookmark) 
