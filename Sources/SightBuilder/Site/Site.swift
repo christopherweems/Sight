@@ -13,7 +13,7 @@ public struct Site {
     internal let root: String // scheme + authority
     internal var queryParts: QueryParts?
     
-    public var authority: String {
+    public var authority: Authority {
         let startIndex = root.range(of: schemeSeparator)!.upperBound
         return .init(root.suffix(from: startIndex))
     }

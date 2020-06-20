@@ -9,17 +9,25 @@ import Foundation
 import SightBuilder
 
 internal class SiteSet {
-    internal typealias Authority = String
-    fileprivate var sites: [Authority: Site]
+    fileprivate var sites: [Site.Authority: Site]
     
-    func site(forAuthority authority: Authority) -> Site? {
-        sites[authority]
+    func site(forAuthority authority: Site.Authority) -> Site? {
+        if let exactMatch = sites[authority] {
+            return exactMatch
+            
+        } else if let secondLevelMatch = sites.first(whereKey: { $0.secondLevel == authority.secondLevel }) {
+            return secondLevelMatch.value
+            
+        } else {
+            return nil
+            
+        }
     }
     
     
     // MARK: - Initializers
         
-    fileprivate init(sites: [Authority: Site]) {
+    fileprivate init(sites: [Site.Authority: Site]) {
         self.sites = sites
     }
     
@@ -54,7 +62,7 @@ internal struct EmptyBuilder {
 
 // MARK: - Helper Extensions
 
-fileprivate extension Dictionary where Key == SiteSet.Authority, Value == Site {
+fileprivate extension Dictionary where Key == Site.Authority, Value == Site {
     init(sites: [Site]) {
         self.init(uniqueKeysWithValues: sites.map { ($0.authority, $0) })
     }

@@ -43,10 +43,10 @@ internal class SiteIndex {
 
 internal extension SiteIndex {
     // exact matches only
-    func site(forAuthority authority: SiteSet.Authority) -> Site? {
+    func site(forAuthority authority: Site.Authority) -> Site? {
         assert(!authority.isEmpty, "Site authority must not be empty")
         
-        let key = authority.first
+        let key = authority.secondLevel.first
         let siteSet: SiteSet
         
         switch key {

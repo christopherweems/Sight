@@ -17,14 +17,14 @@ public extension Site {
         
     }
     
-    init?(authority: String, match: AuthorityMatch = .exact) {
+    init?(authority: Authority, match: AuthorityMatch = .exact) {
         assert(!authority.contains("@"), "authority `userinfo` & `password` components not supported")
         assert(!authority.contains(":"), "authority `port` component not supported")
         assert(match == .exact, "best match not supported")
         
         if let site = Self.index.site(forAuthority: authority) {
             self = site
-        
+            
         } else {
             return nil
             

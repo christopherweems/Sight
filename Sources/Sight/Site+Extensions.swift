@@ -12,6 +12,6 @@ import SightIndex
 
 extension Site: ExpressibleByStringLiteral {
     public init(stringLiteral value: String) {
-        self.init(authority: value, match: .exact)!
+        self.init(authority: .init(value), match: .exact)!
     }
 }
