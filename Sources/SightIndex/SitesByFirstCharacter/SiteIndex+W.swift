@@ -212,9 +212,6 @@ internal extension SiteIndex {
         Site("https://wmgk.com")
             .queryURL(path: "/?s=%s")
         
-        Site("https://wmgk.com")
-            .queryURL(path: "/?s=%s")
-        
         Site("https://www.wolfordshop.com")
             .queryURL(path: "/search?q=%s")
         
