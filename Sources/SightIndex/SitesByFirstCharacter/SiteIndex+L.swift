@@ -133,8 +133,11 @@ internal extension SiteIndex {
         Site("https://www.linkedin.com")
             .queryURL(path: "/people/search?firstName=%s&lastName=")
         
-        Site("https://www.linkedin.com")
+        /*
+        // linked-in jobs search
+         Site("https://www.linkedin.com")
             .queryURL(path: "/jobs/search?keywords=%s")
+        */
         
         Site("https://www.literacyworldwide.org")
             .queryURL(path: "/search-results?indexCatalogue=fullsitesearch&searchQuery=%s")
