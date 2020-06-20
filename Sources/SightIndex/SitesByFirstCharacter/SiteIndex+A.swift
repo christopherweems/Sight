@@ -16,10 +16,8 @@ internal extension SiteIndex {
         Site("https://www.acouplecooks.com")
             .queryURL(path: "/?s=%s")
         
-        /*
-        Site("https://shop.advanceautoparts.com")
-            .queryURL(path: "/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
-        */
+        Site("https://www.advanceautoparts.com")
+            .queryURL("https://shop.advanceautoparts.com/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
         
         Site("https://www.ae.com")
             .queryURL(path: "/us/en/s/%s")
@@ -57,11 +55,9 @@ internal extension SiteIndex {
         Site("https://developer.apple.com")
             .queryURL(path: "/search/?q=%s")
         
-        /*
         Site("https://maps.apple.com")
             .queryURL(path: "/?q=%s")
-        */
- 
+        
         Site("https://apple.com")
             .queryURL("/us/search/water?src=globalnav")
         
