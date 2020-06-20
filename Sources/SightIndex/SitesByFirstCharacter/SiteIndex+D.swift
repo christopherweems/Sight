@@ -115,7 +115,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?q=%s")
         
         Site("https://www.dickssportinggoods.com")
-            .queryURL(path: "search/SearchDisplay?searchTerm=%s")
+            .queryURL(path: "/search/SearchDisplay?searchTerm=%s")
         
         Site("https://www.dictionary.com")
             .queryURL(path: "/browse/%s")
