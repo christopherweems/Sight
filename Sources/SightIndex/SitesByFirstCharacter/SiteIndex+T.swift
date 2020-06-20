@@ -166,9 +166,12 @@ internal extension SiteIndex {
         Site("https://www.thekitchn.com")
             .queryURL(path: "/search?q=%s")
         
+        /*
+         // `thekitchn` recipes seaerch
         Site("https://www.thekitchn.com")
             .queryURL(path: "/search?q=%s&page=1&filter=recipes")
-        
+        */
+ 
         Site("http://theladiesfinger.com")
             .queryURL(path: "/?s=%s")
         
