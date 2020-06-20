@@ -30,7 +30,7 @@ struct PerformSearch: ParsableCommand {
         
     mutating func run() throws {
         guard let site = site else {
-            print("No site for authority")
+            print("No site for authority `\(authority)`")
             return
         }
         
