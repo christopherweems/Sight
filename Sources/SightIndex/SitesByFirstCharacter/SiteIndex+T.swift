@@ -43,9 +43,12 @@ internal extension SiteIndex {
         Site("https://www.tanga.com")
             .queryURL(path: "/deals/search?q=%s")
         
+        /*
+        // up&up product search
         Site("https://www.target.com")
             .queryURL(path: "/s?searchTerm=up%26up+%s")
-        
+        */
+ 
         Site("https://www.target.com")
             .queryURL(path: "/s?searchTerm=%s")
         
