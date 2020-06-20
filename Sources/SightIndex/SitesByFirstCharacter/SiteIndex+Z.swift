@@ -53,7 +53,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.zulily.com")
-            .queryURL(path: "/%s?fromSearch=true&searchTerm=%s")
+            /*.queryURL(path: "/%s?fromSearch=true&searchTerm=%s")*/
         
         Site("http://www.zuribeautysupply.com")
             .queryURL(path: "/?s=%s")
