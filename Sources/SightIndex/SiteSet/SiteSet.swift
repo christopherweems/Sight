@@ -18,7 +18,8 @@ internal class SiteSet {
         } else {
             let secondLevelMatches = sites.filter({ $0.key.secondLevel == authority.secondLevel })
             
-            if let wwwPrefixed = secondLevelMatches.first(whereKey: { $0.subdomainPrefix?.hasPrefix("www") == true }) {
+            if let wwwPrefixed = secondLevelMatches.first(whereKey: {
+                $0.subdomainPart(for: authority.domainPartCount)?.hasPrefix("www") == true }) {
                 return wwwPrefixed.value
             }
             

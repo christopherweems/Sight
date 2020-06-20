@@ -40,5 +40,11 @@ extension SightTests {
         
         let google = Site(authority: "google.com")
         XCTAssert(google?.authority.subdomainPrefix?.hasPrefix("www") == true)
+        
+        let nih = Site(authority: "nih.gov")
+        let niaid = Site(authority: "niaid.nih.gov")
+        
+        XCTAssertNotEqual(nih?.root, niaid?.root)
+        
     }
 }
