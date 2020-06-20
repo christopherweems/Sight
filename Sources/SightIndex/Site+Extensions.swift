@@ -33,3 +33,39 @@ public extension Site {
     }
     
 }
+
+internal extension Site.Authority {
+    /* zero-indexed, level zero == top-level domain */
+    func subdomainPart(for level: Int) -> String? {
+        switch level {
+        case 0:
+            assert(secondLevel.count == 2)
+            return secondLevel.split(separator: ".").last
+            
+        case 1:
+            assert(secondLevel.count == 2)
+            return secondLevel.split(separator: ".").first
+            
+        case 2...:
+            guard let subdomainParts = subdomainPrefix?.split(separator: ".") else { return nil }
+            let subdomainIndex = subdomainParts.lastIndex - (level - 2) // index into `subdomain parts`
+            guard 0 <= subdomainIndex else { return nil }
+            
+            return subdomainParts[subdomainIndex]
+            
+        default:
+            assertionFailure()
+            return nil
+            
+        }
+    }
+    
+}
+
+
+// MARK: - Helper extensions
+
+fileprivate extension Array {
+    var lastIndex: Index { count - 1 }
+    
+}
