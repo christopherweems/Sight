@@ -174,9 +174,12 @@ internal extension SiteIndex {
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
         
+        /*
+         // wavelength blog
         Site("https://www.focuscamera.com")
             .queryURL(path: "/wavelength/?s=%s")
-        
+        */
+ 
         Site("https://www.focuscamera.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -299,12 +302,6 @@ internal extension SiteIndex {
         
         Site("https://www.fvsu.edu")
             .queryURL(path: "/?s=%s")
-        
-        Site("https://www.fxnetworks.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://www.fxnetworks.com")
-            .queryURL(path: "/search?q=%s")
         
         Site("https://www.fxnetworks.com")
             .queryURL(path: "/search?q=%s")
