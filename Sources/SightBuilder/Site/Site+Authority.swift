@@ -12,12 +12,16 @@ public extension Site {
         public let subdomainPrefix: String? // www.
         public let secondLevel: String // duckduckgo.com
         
+        public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3
+        
         public init(stringLiteral value: StringLiteralType) {
             self.init(value)
         }
         
         public init<SP>(_ stringValue: SP) where SP : StringProtocol {
             let components = stringValue.split(separator: ".")
+            
+            domainPartCount = components.count
             
             switch components.count {
             case 3...:
