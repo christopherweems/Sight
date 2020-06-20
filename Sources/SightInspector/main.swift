@@ -9,3 +9,5 @@ import ArgumentParser
 import Foundation
 import SightBuilder
 import SightIndex
+
+PerformSearch.main()
