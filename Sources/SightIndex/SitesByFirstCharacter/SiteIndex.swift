@@ -7,7 +7,11 @@
 
 import SightBuilder
 
-internal class SiteIndex {
+public class SiteIndex {
+    fileprivate var allSets: [SiteSet] {
+        [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,misc]
+    }
+    
     lazy fileprivate var a = SiteIndex.A
     lazy fileprivate var b = SiteIndex.B
     lazy fileprivate var c = SiteIndex.C
@@ -35,10 +39,12 @@ internal class SiteIndex {
     lazy fileprivate var y = SiteIndex.Y
     lazy fileprivate var z = SiteIndex.Z
     lazy fileprivate var misc = SiteIndex.Misc
-
-
-
-
+    
+    
+    // MARK: - Initializers
+    
+    public init() { }
+    
 }
 
 internal extension SiteIndex {
@@ -135,4 +141,9 @@ internal extension SiteIndex {
         
         return siteSet.site(forAuthority: authority)
     }
+}
+
+public extension SiteIndex {
+    var count: Int { allSets.reduce(0) { $0 + $1.count } }
+    
 }
