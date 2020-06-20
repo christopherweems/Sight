@@ -38,5 +38,7 @@ extension SightTests {
         XCTAssertNotNil(saks1)
         XCTAssertNotNil(saks2)
         
+        let google = Site(authority: "google.com")
+        XCTAssert(google?.authority.subdomainPrefix?.hasPrefix("www") == true)
     }
 }

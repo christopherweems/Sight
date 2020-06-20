@@ -15,11 +15,14 @@ internal class SiteSet {
         if let exactMatch = sites[authority] {
             return exactMatch
             
-        } else if let secondLevelMatch = sites.first(whereKey: { $0.secondLevel == authority.secondLevel }) {
-            return secondLevelMatch.value
-            
         } else {
-            return nil
+            let secondLevelMatches = sites.filter({ $0.key.secondLevel == authority.secondLevel })
+            
+            if let wwwPrefixed = secondLevelMatches.first(whereKey: { $0.subdomainPrefix?.hasPrefix("www") == true }) {
+                return wwwPrefixed.value
+            }
+            
+            return secondLevelMatches.first?.value
             
         }
     }
