@@ -206,7 +206,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?type=product&q=%s*")
         
         Site("https://www.justmysize.com")
-            .queryURL(path: "catalogsearch/result/?q=%s")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         Site("https://www.justonecookbook.com")
             .queryURL(path: "/?s=%s")
