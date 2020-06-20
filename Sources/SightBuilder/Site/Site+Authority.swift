@@ -23,7 +23,7 @@ public extension Site {
             
             domainPartCount = components.count
             
-            switch components.count {
+            switch domainPartCount {
             case 3...:
                 subdomainPrefix = components.dropLast(2).joined(separator: ".") + "."
                 secondLevel = components.suffix(2).joined(separator: ".")
