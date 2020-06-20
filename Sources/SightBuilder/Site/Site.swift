@@ -56,11 +56,11 @@ public extension Site {
     
     internal func queryURLString(_ encodedQuery: String) -> String? {
         switch self.queryParts {
-        case let .fullURLQuery(prefix, suffix):
-            return prefix + encodedQuery + suffix
+        case let .fullURLQuery(parts):
+            return parts.joined(separator: encodedQuery)
             
-        case let .path(prefix, suffix):
-            return root + prefix + encodedQuery + suffix
+        case let .path(parts):
+            return root + parts.joined(separator: encodedQuery)
             
         default:
             return nil
@@ -74,10 +74,16 @@ public extension Site {
 
 internal extension Site {
     enum QueryParts {
-        case path(prefix: String, suffix: String) // site path, starting after authority
+        /** site path, starting after authority. begins with `/`.
+            the percent-encoded query appears between each part
+         */
+        case path(parts: [String])
         
-        /** contains scheme & authority, not required to match site root */
-        case fullURLQuery(prefix: String, suffix: String)
+        /**
+         contains scheme & authority, not required to match site root
+         the percent-encoded query appears between each part
+         */
+        case fullURLQuery(parts: [String])
         
     }
 }

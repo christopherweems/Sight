@@ -13,29 +13,29 @@ public extension Site {
         assert(path.first == "/", "query path must start with `/`")
         assert(method == .GET, "method `\(method)` is not supported")
         
-        let (prefix, suffix) = queryURLPartsSplit(path)
+        let parts = queryURLPartsSplit(path)
         
         var new = self
-        new.queryParts = .path(prefix: prefix, suffix: suffix)
+        new.queryParts = .path(parts: parts)
         return new
     }
     
     func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
         assert(method == .GET, "method `\(method)` is not supported")
         
-        let (prefix, suffix) = queryURLPartsSplit(urlString)
-        
+        let parts = queryURLPartsSplit(urlString)
+
         var new = self
-        new.queryParts = .fullURLQuery(prefix: prefix, suffix: suffix)
+        new.queryParts = .fullURLQuery(parts: parts)
         return new
     }
 }
 
 private extension Site {
-    func queryURLPartsSplit(_ urlString: String) -> (prefix: String, suffix: String) {
+    func queryURLPartsSplit(_ urlString: String) -> [String] {
         let pathParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
-        assert(pathParts.count == 2, "query path must contain exactly 1 `%s` query delimiter")
+        assert(2 <= pathParts.count, "query path must contain 1 or more `%s` query delimiters")
         
-        return (pathParts[0], pathParts[1])
+        return pathParts
     }
 }
