@@ -22,9 +22,6 @@ internal extension SiteIndex {
         Site("http://www.easttennesseepbs.org")
             .queryURL(path: "/search/?q=%s")
         
-        Site("http://www.easttennesseepbs.org")
-            .queryURL(path: "/search/?q=%s")
-        
         Site("https://www.eatingbirdfood.com")
             .queryURL(path: "/?s=%s")
         
@@ -123,9 +120,6 @@ internal extension SiteIndex {
         
         Site("https://www.epicgames.com")
             .queryURL(path: "/fortnite/en-US/search?q=%s")
-        
-        Site("https://www.epicgames.com")
-            .queryURL(path: "/store/en-US/browse?pageSize=30&q=%s")
         
         Site("https://www.epix.com")
             .queryURL(path: "/search?q=%s")
