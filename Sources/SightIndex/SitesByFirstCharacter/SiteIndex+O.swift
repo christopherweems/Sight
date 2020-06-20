@@ -34,9 +34,6 @@ internal extension SiteIndex {
         Site("https://www.officedepot.com")
             .queryURL(path: "/catalog/search.do?Ntt=%s")
         
-        Site("https://www.officedepot.com")
-            .queryURL(path: "/catalog/search.do?Ntt=%s")
-        
         Site("https://www.ofracosmetics.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
