@@ -97,25 +97,7 @@ internal extension SiteIndex {
         Site("https://sea-ny.com")
             .queryURL(path: "/search?q=%s*")
         
-        /*
-        Site("https://search.aol.com")
-            .queryURL(path: "/aol/search?q=%s")
-        
-        Site("https://search.aol.com")
-            .queryURL(path: "/aol/image;?q=%s")
-        
-        Site("https://search.auburn.edu")
-            .queryURL(path: "/?q=%s")
-        
-        Site("https://search.azlyrics.com")
-            .queryURL(path: "/search.php?q=%s")
-        
-        Site("https://search.bbc.co.uk")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://search.bbc.co.uk")
-            .queryURL(path: "/search?q=%s")
-        
+    /*
         Site("https://search.bu.edu")
             .queryURL(path: "/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
         
@@ -145,10 +127,7 @@ internal extension SiteIndex {
         
         Site("itms-apps://search.itunes.apple.com")
             .queryURL(path: "/WebObjects/MZSearch.woa/wa/search?media=software&term=%s")
-        
-        Site("https://search.jerrysartarama.com")
-            .queryURL(path: "/search?w=%s")
-        
+                
         Site("http://search.jvc.net")
             .queryURL(path: "/jvc/search.x?q=%s&d=The+Americas%09U.S.A.")
         

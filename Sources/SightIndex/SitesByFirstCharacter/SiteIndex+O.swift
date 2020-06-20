@@ -60,6 +60,9 @@ internal extension SiteIndex {
         
         Site("https://www.olay.com")
             .queryURL(path: "/search.php?search_query=%s")
+        
+        Site("https://www.oldpueblotraders.com")
+            .queryURL(path: "/search?search-type=user-generated&query=%s")
                 
         Site("https://www.oliso.com")
             .queryURL(path: "/?s=%s")

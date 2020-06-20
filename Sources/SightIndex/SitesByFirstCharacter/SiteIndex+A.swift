@@ -40,6 +40,14 @@ internal extension SiteIndex {
         Site("https://www.americanapparel.com")
             .queryURL(path: "/s?Ntt=%s")
         
+        Site("https://search.aol.com")
+            .queryURL(path: "/aol/search?q=%s")
+        
+        /*
+        Site("https://search.aol.com")
+            .queryURL(path: "/aol/image;?q=%s")
+        */
+        
         Site("https://aopd.com")
             .queryURL(path: "/?s=%s")
         
@@ -72,6 +80,9 @@ internal extension SiteIndex {
         
         Site("https://www.atari.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://auburn.edu")
+            .queryURL("https://search.auburn.edu/?q=%s")
                 
         Site("http://www.autoanything.com")
             .queryURL(path: "/shop/%s")
@@ -81,6 +92,9 @@ internal extension SiteIndex {
         
         Site("https://www.azpx.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://azlyrics.com")
+            .queryURL(path: "https://search.azlyrics.com/search.php?q=%s")
         
     }
 }

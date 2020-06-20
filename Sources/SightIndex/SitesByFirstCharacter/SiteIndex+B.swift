@@ -25,6 +25,9 @@ internal extension SiteIndex {
         Site("https://www.bathandbodyworks.com")
             .queryURL(path: "/s?q=%s")
         
+        Site("https://www.bbc.com")
+            .queryURL("https://www.bbc.co.uk/search?q=%s")
+        
         Site("https://www.beachcamera.com")
             .queryURL(path: "/shop/list/keyword/%s")
         
@@ -45,9 +48,6 @@ internal extension SiteIndex {
         
         Site("https://bittersweetblog.com")
             .queryURL(path: "/?s=%s")
-        
-        Site("https://oldpueblotraders.blair.com")
-            .queryURL(path: "/catalog/search.cmd?form_state=searchForm&keyword=%s")
         
         Site("https://blanknews.com")
             .queryURL(path: "/?s=%s")
