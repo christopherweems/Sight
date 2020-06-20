@@ -177,7 +177,6 @@ internal extension SiteIndex {
         Site("https://en.wiktionary.org")
             .queryURL(path: "/w/index.php?search=%s")
         
-        
         Site("https://www.wildfox.com")
             .queryURL(path: "/search?q=%s")
         
@@ -189,6 +188,9 @@ internal extension SiteIndex {
         
         Site("https://www.wired.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.wisegeek.com")
+            .queryURL("https://s.wisegeek.com/s/?cx=001721306601487571258%3Axvwilsw1lpg&cof=FORID%3A10&ie=ISO-8859-1&q=%s")
         
         Site("https://www.wivk.com")
             .queryURL(path: "/?s=%s")

@@ -151,6 +151,9 @@ internal extension SiteIndex {
         Site("https://itrboxing.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://iu.edu")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.ivoryella.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         

@@ -138,6 +138,9 @@ internal extension SiteIndex {
         Site("https://www.finra.org")
             .queryURL(path: "/search?search_api_fulltext=%s")
         
+        Site("https://www.fisk.edu")
+            .queryURL(path: "/?s=%s&post_type=all")
+        
         Site("https://fiskgroup.com")
             .queryURL(path: "/search?q=%s*")
         

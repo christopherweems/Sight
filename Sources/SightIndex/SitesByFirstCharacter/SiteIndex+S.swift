@@ -593,6 +593,9 @@ internal extension SiteIndex {
         Site("https://speechless.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.spelman.edu")
+            .queryURL(path: "/about-us/search-results?indexCatalogue=site%2Dsearch&searchQuery=%s&wordsMode=0")
+        
         Site("https://www.spin.com")
             .queryURL(path: "/?s=%s")
         
