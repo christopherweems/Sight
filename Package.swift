@@ -17,6 +17,9 @@ let package = Package(
         .library(
             name: "SightIndex",
             targets: ["SightBuilder", "SightIndex"]),
+        .executable(
+            name: "SightInspector",
+            targets: ["SightInspector"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -35,6 +38,8 @@ let package = Package(
         .target(
             name: "SightIndex",
             dependencies: ["SightBuilder"]),
+        .target(name: "SightInspector",
+                dependencies: ["SightIndex"]),
         .testTarget(
             name: "SightTests",
             dependencies: ["Sight", "SightBuilder", "SightIndex"]),
