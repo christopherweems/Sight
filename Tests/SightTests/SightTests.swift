@@ -8,6 +8,7 @@ final class SightTests: XCTestCase {
     static var allTests = [
         ("testSiteProperties", testSiteProperties),
         ("testURLFromSite", testURLFromSite),
+        ("testSitesWithSubdomains", testSitesWithSubdomains),
         
     ]
     
@@ -27,6 +28,15 @@ extension SightTests {
         
         let queryURL = try? URL(site: github, .unencodedQuery("Sight language:swift"))
         XCTAssert(queryURL?.absoluteString == "https://github.com/search?q=Sight%20language:swift")
+        
+    }
+    
+    func testSitesWithSubdomains() {
+        let saks1 = Site(authority: "www.saksfifthavenue.com")
+        let saks2 = Site(authority: "saksfifthavenue.com")
+        
+        XCTAssertNotNil(saks1)
+        XCTAssertNotNil(saks2)
         
     }
 }
