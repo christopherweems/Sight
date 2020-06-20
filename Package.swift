@@ -24,6 +24,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.1.0"),
         .package(url: "https://github.com/christopherweems/unstandard.git", .branch("master")),
     ],
     targets: [
@@ -39,7 +40,10 @@ let package = Package(
             name: "SightIndex",
             dependencies: ["SightBuilder"]),
         .target(name: "SightInspector",
-                dependencies: ["SightIndex"]),
+                dependencies: [
+                    "SightIndex",
+                    .product(name: "ArgumentParser", package: "swift-argument-parser"),
+                ]),
         .testTarget(
             name: "SightTests",
             dependencies: ["Sight", "SightBuilder", "SightIndex"]),
