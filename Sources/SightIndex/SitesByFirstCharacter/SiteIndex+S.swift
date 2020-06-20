@@ -23,7 +23,7 @@ internal extension SiteIndex {
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         
         Site("https://www.saksfifthavenue.com")
-            .queryURL(path: "/search/EndecaSearch.jsp?bmForm=endeca_search_form_one&submit-search=&bmSingle=N_Dim&N_Dim=0&bmHidden=Ntk&Ntk=Entire+Site&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&Ntt=%s&SearchString=%s")
+            .queryURL(path: "/search/EndecaSearch.jsp?bmForm=endeca_search_form_one&submit-search=&bmSingle=N_Dim&N_Dim=0&bmHidden=Ntk&Ntk=Entire+Site&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&Ntt=%s")
         
         Site("https://www.sallybeauty.com")
             .queryURL(path: "/search-show/?q=%s")
@@ -646,9 +646,6 @@ internal extension SiteIndex {
         
         Site("https://statecashmere.com")
             .queryURL(path: "/search?q=%s")
-        
-        Site("https://www.steepandcheap.com")
-            .queryURL(path: "/Store/catalog/search.jsp?q=%s")
         
         Site("https://www.steepandcheap.com")
             .queryURL(path: "/Store/catalog/search.jsp?q=%s")
