@@ -64,8 +64,11 @@ internal extension SiteIndex {
         Site("https://www.victoriassecret.com")
             .queryURL(path: "/vs/search?q=%s")
         
+        /*
+         // PINK product search
         Site("https://www.victoriassecret.com")
             .queryURL(path: "/pink/search?q=%s")
+        */
         
         Site("https://victrola.com")
             .queryURL(path: "/search?type=product&q=%s")
