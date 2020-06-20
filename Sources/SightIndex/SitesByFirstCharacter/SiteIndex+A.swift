@@ -94,7 +94,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://azlyrics.com")
-            .queryURL(path: "https://search.azlyrics.com/search.php?q=%s")
+            .queryURL("https://search.azlyrics.com/search.php?q=%s")
         
     }
 }
