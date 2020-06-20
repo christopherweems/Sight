@@ -67,7 +67,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?q=%s")
         
         Site("https://apple.com")
-            .queryURL("/us/search/water?src=globalnav")
+            .queryURL(path: "/us/search/%s?src=globalnav")
         
         Site("https://cse.appstate.edu")
             .queryURL(path: "/?q=%s")
