@@ -23,7 +23,7 @@ internal extension SiteIndex {
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         
         Site("https://www.saksfifthavenue.com")
-            .queryURL(path: "/EndecaSearch.jsp?submit-search=&bmSingle=N_Dim&N_Dim=0&bmHidden=Ntk&Ntk=Entire+Site&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&SearchString=%s")
+            .queryURL(path: "/search/EndecaSearch.jsp?submit-search=&bmSingle=N_Dim&N_Dim=0&bmHidden=Ntk&Ntk=Entire+Site&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&SearchString=%s")
         
         Site("https://www.sallybeauty.com")
             .queryURL(path: "/search-show/?q=%s")
