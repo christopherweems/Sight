@@ -43,6 +43,9 @@ internal extension SiteIndex {
         Site("https://bgr.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.bing.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://news.bitcoin.com")
             .queryURL(path: "/?s=%s")
         
