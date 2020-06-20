@@ -144,6 +144,8 @@ internal extension SiteIndex {
         Site("https://github.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://swiftweekly.github.io")
+        
         Site("https://gizmodo.com")
             .queryURL(path: "/search?q=%s")
         

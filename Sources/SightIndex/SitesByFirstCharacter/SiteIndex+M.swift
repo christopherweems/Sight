@@ -306,6 +306,9 @@ internal extension SiteIndex {
         Site("https://www.more.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.morehouse.edu")
+            .queryURL(path: "/?q=%s&sitesearch=morehouse.edu#")
+        
         Site("https://www.morfurniture.com")
             .queryURL(path: "/catalogsearch/result?q=%s")
         

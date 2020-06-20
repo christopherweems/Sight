@@ -28,6 +28,9 @@ internal extension SiteIndex {
         Site("https://www.xtrema.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://www.xula.edu")
+            .queryURL(path: "/searchresults?q=%s")
+        
         Site("https://www.xxlmag.com")
             .queryURL(path: "/search/?s=%s")
         

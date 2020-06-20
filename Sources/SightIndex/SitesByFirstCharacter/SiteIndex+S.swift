@@ -759,6 +759,9 @@ internal extension SiteIndex {
         
         Site("https://swift.org")
         
+        Site("https://www.swiftbysundell.com")
+            .queryURL(path: "/search?query=%s")
+        
         Site("https://swiftpackageindex.com")
         
         Site("https://www.swiglife.com")

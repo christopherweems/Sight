@@ -268,6 +268,8 @@ internal extension SiteIndex {
         Site("https://www.hylete.com")
             .queryURL(path: "/nsearch/?q=%s")
         
+        Site("https://hypercritical.co")
+        
         Site("https://www.hypershop.com")
             .queryURL(path: "/search?q=%s")
         

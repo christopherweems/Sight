@@ -22,6 +22,8 @@ internal extension SiteIndex {
         Site("https://bakingbites.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://basecamp.com")
+        
         Site("https://www.bathandbodyworks.com")
             .queryURL(path: "/s?q=%s")
         
