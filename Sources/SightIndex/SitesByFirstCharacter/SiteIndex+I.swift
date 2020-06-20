@@ -152,6 +152,6 @@ internal extension SiteIndex {
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         Site("https://izod.com")
-            .queryURL(path: "https://izod.com/SearchDisplay?categoryId=&storeId=12501&catalogId=15801&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&searchType=10&searchTerm=%s")
+            .queryURL( "https://izod.partnerbrands.com/SearchDisplay?categoryId=&storeId=12501&catalogId=15801&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&searchType=10&searchTerm=%s")
     }
 }
