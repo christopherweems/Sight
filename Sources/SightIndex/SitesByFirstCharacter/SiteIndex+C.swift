@@ -40,6 +40,8 @@ internal extension SiteIndex {
         Site("https://clickitupanotch.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.cloudflare.com")
+        
         Site("https://web-search.andrew.cmu.edu")
             .queryURL(path: "/search?entqr=3&entsp=a&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&client=default_frontend&ud=1&oe=UTF-8&ie=UTF-8&proxystylesheet=default_frontend&q=%s&site=")
         

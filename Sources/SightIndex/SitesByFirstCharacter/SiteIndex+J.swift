@@ -205,6 +205,8 @@ internal extension SiteIndex {
         Site("https://junoactive.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
+        Site("https://www.justfashionnow.com")
+        
         Site("https://www.justmysize.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         

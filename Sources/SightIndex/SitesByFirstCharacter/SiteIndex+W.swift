@@ -10,6 +10,8 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var W = SiteSet {
+        Site("https://www.w3.org")
+        
         Site("https://www.w7makeup.co.uk")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -223,6 +225,9 @@ internal extension SiteIndex {
         
         Site("https://www.womanwithin.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://wordpress.org")
+            .queryURL(path: "/search/%s")
         
         Site("https://woocommerce.com")
             .queryURL(path: "/search/?q=%s")

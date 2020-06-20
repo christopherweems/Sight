@@ -121,6 +121,9 @@ internal extension SiteIndex {
         Site("https://www.niaid.nih.gov")
             .queryURL(path: "/search/niaidsite?search=%s")
         
+        Site("https://www.nih.gov")
+            .queryURL("https://search.nih.gov/search?affiliate=nih&query=%s&commit=Search")
+        
         Site("https://www.nike.com")
             .queryURL(path: "/w?q=%s")
         

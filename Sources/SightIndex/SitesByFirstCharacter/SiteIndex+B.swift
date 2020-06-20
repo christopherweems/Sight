@@ -55,6 +55,8 @@ internal extension SiteIndex {
         Site("https://blanknews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.blogger.com")
+        
         Site("https://www.bona.co.za")
             .queryURL(path: "/?s=%s")
         

@@ -183,6 +183,9 @@ internal extension SiteIndex {
         Site("https://developers.google.com")
             .queryURL(path: "/s/results?q=%s")
         
+        Site("https://docs.google.com")
+            .queryURL(path: "/document/u/0/?q=%s")
+        
         Site("https://fonts.google.com")
             .queryURL(path: "/?query=%s")
         
@@ -191,6 +194,12 @@ internal extension SiteIndex {
         
         Site("https://news.google.com")
             .queryURL(path: "/news/search/section/q/%s/")
+        
+        Site("https://play.google.com")
+            .queryURL(path: "/store/search?q=%s")
+        
+        Site("https://support.google.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://toolbox.google.com")
             .queryURL(path: "/datasetsearch/search?query=%s")

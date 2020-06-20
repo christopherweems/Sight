@@ -127,6 +127,8 @@ internal extension SiteIndex {
         Site("http://www.linensbargains.com")
             .queryURL(path: "/nsearch.html?vwcatalog=yhst-66793626610370&query=%s&x=0&y=0")
         
+        Site("https://line.me/")
+        
         Site("https://www.linex.com")
             .queryURL(path: "/search?q=%s")
         

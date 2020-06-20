@@ -67,6 +67,9 @@ internal extension SiteIndex {
         Site("https://www.yourartsupplies.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.youtube.com")
+            .queryURL(path: "/results?search_query=%s")
+        
         Site("https://www.ysl.com")
             .queryURL(path: "/Search/Index?season=A,P,E&department=llmnwmn&gender=D,U,Etextsearch=%s")
         

@@ -142,6 +142,9 @@ internal extension SiteIndex {
         Site("https://www.iso1200.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.istockphoto.com")
+            .queryURL(path: "/photos/%s")
+        
         Site("https://www.italist.com")
             .queryURL(path: "/us/women/?q=%s")
         
