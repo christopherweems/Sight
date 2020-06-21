@@ -10,6 +10,9 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var C = SiteSet {
+        
+        // CA
+        
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
         
@@ -25,14 +28,29 @@ internal extension SiteIndex {
         Site("https://www.catofashions.com")
             .queryURL(path: "/all-products/browse/keyword/%s")
         
+        Site("https://www.cbc.ca")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.ccmmagazine.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.ccn.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // CE
+        
+        Site("https://www.cheapjoes.com")
+            .queryURL(path: "/nsearch/?q=%s")
+        
+        Site("https://www.chicagotribune.com")
+        .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+        
         Site("https://www.chrono24.com")
             .queryURL(path: "/timex/index.htm?query=%s")
+        
+        
+        // CI
         
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
@@ -45,14 +63,29 @@ internal extension SiteIndex {
         Site("https://web-search.andrew.cmu.edu")
             .queryURL(path: "/search?entqr=3&entsp=a&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&client=default_frontend&ud=1&oe=UTF-8&ie=UTF-8&proxystylesheet=default_frontend&q=%s&site=")
         
+        Site("https://www.cnbc.com")
+            .queryURL(path: "/search/?query=%s")
+        
+        Site("https://www.cnet.com")
+        .queryURL(path: "/search/?query=%s")
+        
         Site("https://cnz.to")
             .queryURL(path: "/?s=%s")
+        
+        
+        // CO
         
         Site("https://www.coach.com")
             .queryURL(path: "/staticcontent?q=%s")
         
         Site("https://colorofchange.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.commondreams.org")
+            .queryURL(path: "/search/site/%s")
+        
+        Site("https://www.computerworld.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://consequenceofsound.net")
             .queryURL(path: "/?s=%s")
@@ -83,6 +116,9 @@ internal extension SiteIndex {
         
         Site("https://css-tricks.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // CU
         
         Site("https://www.cultofmac.com")
             .queryURL(path: "/?s=%s")

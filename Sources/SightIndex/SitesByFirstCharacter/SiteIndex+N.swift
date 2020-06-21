@@ -82,6 +82,9 @@ internal extension SiteIndex {
         Site("https://www.newdelhiairport.in")
             .queryURL(path: "/search.aspx?val=%s")
         
+        Site("https://www.newyorker.com")
+            .queryURL(path: "/search/q/%s")
+        
         Site("https://www.newegg.com")
             .queryURL(path: "/p/pl?d=%s")
         
@@ -218,6 +221,11 @@ internal extension SiteIndex {
         Site("https://www.nytimes.com")
             .queryURL(path: "/search?query=%s")
         
+        /*
+        Site("https://www.nytimes.com/wirecutter")
+            .queryURL(path: "/search/?s=%s")
+        */
+ 
         Site("https://www.nyu.edu")
             .queryURL(path: "/search.html?search=%s")
         

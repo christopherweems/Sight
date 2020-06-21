@@ -37,6 +37,9 @@ internal extension SiteIndex {
         Site("https://www.ietf.org")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://www.ifixit.com")
+        .queryURL(path: "/Search?query=%s")
+        
         Site("https://www.ifla.org")
             .queryURL(path: "/search/node/%s")
         
@@ -58,6 +61,9 @@ internal extension SiteIndex {
         Site("https://www.imdb.com")
             .queryURL(path: "/find?q=%s")
         
+        Site("https://imgur.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.imore.com")
             .queryURL(path: "/search/%s")
         
@@ -67,8 +73,12 @@ internal extension SiteIndex {
         Site("https://www.inc.com")
             .queryURL(path: "/search?searchkey=%s")
         
+        Site("https://theincentive.org")
+        
         Site("https://www.indeed.com")
             .queryURL(path: "/jobs?q=%s")
+        
+        Site("https://www.independent.co.uk")
         
         Site("https://www.indiana.edu")
             .queryURL(path: "/search/?q=%s")
@@ -144,6 +154,8 @@ internal extension SiteIndex {
         
         Site("https://www.istockphoto.com")
             .queryURL(path: "/photos/%s")
+        
+        Site("https://italianartstore.com")
         
         Site("https://www.italist.com")
             .queryURL(path: "/us/women/?q=%s")

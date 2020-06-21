@@ -135,6 +135,9 @@ internal extension SiteIndex {
         Site("https://www.finishline.com")
             .queryURL(path: "/store/Ntt-%s")
         
+        Site("https://www.fineartstore.com")
+            .queryURL(path: "/search.aspx?searchterm=%s")
+        
         Site("https://www.finra.org")
             .queryURL(path: "/search?search_api_fulltext=%s")
         

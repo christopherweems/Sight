@@ -58,6 +58,9 @@ internal extension SiteIndex {
         Site("https://www.parkerny.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.partycity.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.pastemagazine.com")
             .queryURL(path: "/search?t=%s")
         
@@ -261,6 +264,9 @@ internal extension SiteIndex {
         
         Site("https://www.prana.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://premierchristian.news")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.premierleague.com")
             .queryURL(path: "/search?term=%s")

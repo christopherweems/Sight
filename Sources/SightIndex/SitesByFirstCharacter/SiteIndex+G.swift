@@ -105,6 +105,9 @@ internal extension SiteIndex {
         Site("https://www.getzs.com")
             .queryURL(path: "/browse/products.html?search=&terms=%s")
         
+        Site("https://gfycat.com")
+            .queryURL(path: "/gifs/search/%s")
+        
         Site("https://www.ghacks.net")
             .queryURL(path: "/?s=%s")
         
@@ -134,6 +137,8 @@ internal extension SiteIndex {
         
         Site("https://www.gimp.org")
             .queryURL(path: "/search.html?q=%s")
+        
+        Site("https://www.ginx.tv")
         
         Site("https://giphy.com")
             .queryURL(path: "/search/%s")

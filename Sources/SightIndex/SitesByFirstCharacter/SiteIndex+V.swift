@@ -19,6 +19,9 @@ internal extension SiteIndex {
         Site("https://www.vans.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/VFSearchDisplay?storeId=10153&catalogId=10703&langId=-1&beginIndex=0&searchSource=Q&sType=SimpleSearch&searchTerm=%s")
         
+        Site("https://variety.com")
+        .queryURL(path: "/results/#?q=%s")
+        
         Site("https://www.vat19.com")
             .queryURL(path: "/products/search?q=%s")
         
@@ -122,6 +125,9 @@ internal extension SiteIndex {
         
         Site("https://www.volcom.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://www.vonage.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("http://www.vonmaur.com")
             .queryURL(path: "/Results.aspx?md=s&search=%s&rt=1")

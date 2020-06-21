@@ -40,6 +40,9 @@ internal extension SiteIndex {
         Site("https://www.janome.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.japantimes.co.jp")
+            .queryURL(path: "/search-results/?q=%s&submit=Search")
+        
         Site("https://www.jayco.com")
             .queryURL(path: "/site/search/?term=%s")
         
@@ -189,6 +192,9 @@ internal extension SiteIndex {
         
         Site("https://joythebaker.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.jpost.com")
+            .queryURL(path: "/#/search;query=%s")
         
         Site("https://www.jtv.com")
             .queryURL(path: "/search/no-results/?Ntt=%s")

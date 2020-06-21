@@ -85,8 +85,13 @@ internal extension SiteIndex {
         Site("https://techmeme.com")
             .queryURL(path: "/search/query?q=%s")
         
+        Site("https://www.technewsworld.com")
+            .queryURL(path: "/perl/search.pl?x=0&y=0&query=%s")
+        
         Site("https://www.technobyte.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.technologynetworks.com")
         
         Site("https://www.techradar.com")
             .queryURL(path: "/search?searchTerm=%s")
@@ -96,6 +101,14 @@ internal extension SiteIndex {
         
         Site("https://techtonicstuning.com")
             .queryURL(path: "/main/index.php?main_page=advanced_search&keyword=%s")
+        
+        Site("https://www.techtricksworld.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://techcrunch.com")
+            .queryURL("https://search.techcrunch.com/search;?p=%s&fr=techcrunch")
+        
+        Site("https://www.techspot.com")
         
         Site("https://www.ted.com")
             .queryURL(path: "/search?q=%s")
@@ -142,6 +155,9 @@ internal extension SiteIndex {
         Site("https://www.theclymb.com")
             .queryURL(path: "/Search.aspx?k=%s")
         
+        Site("https://theconversation.com")
+            .queryURL(path: "/us/search?q=%s")
+        
         Site("https://www.thedailybeast.com")
             .queryURL(path: "/search?q=%s")
         
@@ -157,8 +173,13 @@ internal extension SiteIndex {
         Site("https://www.thefreshmarket.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.theguardian.com")
+        
         Site("https://thehealthyfoodie.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://thehill.com")
+            .queryURL(path: "/search/query/%s")
         
         Site("https://www.thehut.com")
             .queryURL(path: "/elysium.search?search=%s")
@@ -214,6 +235,9 @@ internal extension SiteIndex {
         Site("https://thegrapevine.theroot.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.pressofatlanticcity.com")
+        .queryURL(path: "/search/?l=25&sd=desc&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&q=%s")
+        
         Site("https://www.therustedgarden.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -228,6 +252,9 @@ internal extension SiteIndex {
         
         Site("https://www.thesun.co.uk")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.thetechie.de")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.thetot.com")
             .queryURL(path: "/?s=%s")
@@ -307,8 +334,8 @@ internal extension SiteIndex {
         Site("https://www.tirebuyer.com")
             .queryURL(path: "/searchpage?text=%s")
         
-        Site("https://tires.tirerack.com")
-            .queryURL(path: "/search?asug=&view=list&w=%s")
+        Site("https://tirerack.com")
+            .queryURL("https://tires.tirerack.com/search?asug=&view=list&w=%s")
         
         Site("https://www.titansonline.com")
             .queryURL(path: "/search/?query=%s")
@@ -430,6 +457,8 @@ internal extension SiteIndex {
         Site("https://www.tripadvisor.com")
             .queryURL(path: "/Search?q=%s")
         
+        Site("https://triplebyte.com")
+        
         Site("https://www.truemfg.com")
             .queryURL(path: "/Search/%s")
         
@@ -468,6 +497,9 @@ internal extension SiteIndex {
         
         Site("https://www.tva.gov")
             .queryURL(path: "/Search-Results?vgnextkeyword=%s")
+        
+        Site("https://www.tweaktown.com")
+            .queryURL(path: "/cse/?q=%s")
         
         Site("https://tweedlefarms.com")
             .queryURL(path: "/search.php?search_query=%s")

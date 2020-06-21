@@ -76,6 +76,8 @@ internal extension SiteIndex {
         Site("https://www.leipzig-halle-airport.de")
             .queryURL(path: "/en/search-190.html?q=%s")
         
+        Site("https://www.lemonaidhealth.com")
+        
         Site("https://www.lenox.com")
             .queryURL(path: "/search?q=%s")
         
@@ -96,6 +98,9 @@ internal extension SiteIndex {
         
         Site("https://www.lifeandhome.com")
             .queryURL(path: "/search?type=product&view=spring&q=%s")
+        
+        Site("https://lifehacker.com")
+            .queryURL(path: "/search?blogId=17&q=%s")
         
         Site("https://www.lifeisgood.com")
             .queryURL(path: "/on/demandware.store/Sites-LIG2015-Site/default/Search-ShowProductAndContent?q=%s")
@@ -144,6 +149,9 @@ internal extension SiteIndex {
         Site("https://www.literacyworldwide.org")
             .queryURL(path: "/search-results?indexCatalogue=fullsitesearch&searchQuery=%s")
         
+        Site("https://www.live5news.com")
+            .queryURL(path: "/search/%s/1/")
+        
         Site("https://www.liveleak.com")
             .queryURL(path: "/browse?q=%s")
         
@@ -158,6 +166,9 @@ internal extension SiteIndex {
         
         Site("https://www.llbean.com")
             .queryURL(path: "/llb/shop/50836?feat=sr&term=%s&csp=a")
+        
+        Site("https://www.lmtonline.com")
+            .queryURL(path: "/search/?action=search&query=%s")
         
         Site("https://www.lmu.edu")
             .queryURL(path: "/resources/searchresult/?q=%s")

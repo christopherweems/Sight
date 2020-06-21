@@ -259,6 +259,9 @@ internal extension SiteIndex {
         Site("https://www.hudsonjeans.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://huel.com")
+            .queryURL(path: "/pages/search-results?q=%s")
+        
         Site("https://www.hufworldwide.com")
             .queryURL(path: "/shop?q=%s")
         

@@ -93,6 +93,8 @@ internal extension SiteIndex {
         Site("https://www.webstaurantstore.com")
             .queryURL(path: "/search/%s.html")
         
+        Site("https://www.weebly.com")
+        
         Site("https://welltraveledmile.com")
             .queryURL(path: "/?s=%s")
         
@@ -164,6 +166,8 @@ internal extension SiteIndex {
                 
         Site("https://www.wikihow.com")
             .queryURL(path: "/wikiHowTo?search=%s")
+        
+        Site("https://www.wikimedia.org")
         
         Site("https://en.wikinews.org")
             .queryURL(path: "/w/index.php?search=%s")

@@ -52,6 +52,9 @@ internal extension SiteIndex {
         Site("https://www.madewell.com")
             .queryURL(path: "/search2/index.jsp?Ntrm=%s")
         
+        Site("https://www.madisonartshop.com")
+            .queryURL(path: "/nsearch.html?catalog=madisonartshop&query=%s&x=0&y=0")
+        
         Site("https://www.madmagazine.com")
             .queryURL(path: "/search?keyword=%s")
         
@@ -133,6 +136,9 @@ internal extension SiteIndex {
         Site("https://www.mckinsey.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.mcsweeneys.net")
+            .queryURL(path: "/articles/search?q=%s")
+        
         Site("https://www.mda.org")
             .queryURL(path: "/search/site/%s")
         
@@ -188,6 +194,9 @@ internal extension SiteIndex {
         
         Site("https://www.metacritic.com")
             .queryURL(path: "/search/all/%s/results")
+        
+        Site("https://metro.co.uk")
+            .queryURL(path: "/search/#gsc.tab=0&gsc.q=%s&gsc.sort=")
         
         Site("https://mexx.com")
             .queryURL(path: "/en/catalogsearch/result/?q=%s")
@@ -401,6 +410,9 @@ internal extension SiteIndex {
         
         Site("https://www.mwave.com")
             .queryURL(path: "/mwave/deepsearch_v3.asp?scriteria=%s&FilterCatID=")
+        
+        Site("https://www.mxdwn.com")
+            .queryURL(path: "/?s=%s")
                 
         Site("https://www.mybakingaddiction.com")
             .queryURL(path: "/?s=%s")

@@ -76,6 +76,9 @@ internal extension SiteIndex {
         Site("https://www.991thesportsanimal.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.9news.com.au")
+            .queryURL("https://search.nine.com.au/?q=%s&site=news")
+        
         Site("https://9to5google.com")
             .queryURL(path: "/?s=%s")
         

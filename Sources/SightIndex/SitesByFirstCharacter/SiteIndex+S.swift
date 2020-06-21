@@ -255,8 +255,13 @@ internal extension SiteIndex {
         Site("https://www.seriouseats.com")
             .queryURL(path: "/search?term=%s")
         
+        Site("https://serverfault.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.seventeen.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://sfist.com")
         
         Site("https://www.shacknews.com")
             .queryURL(path: "/editorial-search?q=%s")
@@ -434,6 +439,8 @@ internal extension SiteIndex {
         Site("https://www.simplybe.com")
             .queryURL(path: "/en-us/search/?text=%s")
         
+        Site("https://simplisafe.com")
+        
         Site("https://www.simplydresses.com")
             .queryURL(path: "/shop/find?keywords=%s")
         
@@ -535,6 +542,8 @@ internal extension SiteIndex {
  
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
+        
+        Site("https://www.sofi.com")
         
         Site("https://www.soffe.com")
             .queryURL(path: "/asearch?q=%s")

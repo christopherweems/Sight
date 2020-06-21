@@ -16,6 +16,9 @@ internal extension SiteIndex {
         Site("https://www.dafont.com")
             .queryURL(path: "/search.php?q=%s")
         
+        Site("https://davinciartistsupply.com")
+        .queryURL(path: "/shop/advanced_search_result.php?keywords=%s")
+        
         Site("https://dailycaller.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -123,8 +126,17 @@ internal extension SiteIndex {
         Site("https://digg.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.digit.in")
+        .queryURL(path: "/search/?keyword=%s")
+        
+        Site("http://www.digital-digest.com")
+            .queryURL(path: "/search_action.php?keywords=%s&type=all")
+        
         Site("https://digital-photography-school.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.digitaltrends.com")
+        .queryURL(path: "/?s=%s")
         
         Site("https://www.dillards.com")
             .queryURL(path: "/search-term/%s?")

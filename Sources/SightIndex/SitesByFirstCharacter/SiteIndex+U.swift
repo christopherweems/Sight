@@ -16,6 +16,9 @@ internal extension SiteIndex {
         Site("http://www.uab.edu")
             .queryURL(path: "/home/index.php?option=com_googlesearch_cse&n=30&view=googlesearchs&Itemid=1525&cx=004141537052427868461%3Azz92jk09ome&cof=FORID%3A11&ie=ISO-8859-1&q=%s&sa=Search")
         
+        Site("https://www.ubergizmo.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.uchicago.edu")
             .queryURL(path: "/search/?q=%s")
         
@@ -203,7 +206,7 @@ internal extension SiteIndex {
         Site("https://www.us.purecollection.com")
             .queryURL(path: "/search/%s")
         
-        Site("ttps://us.riverisland.com")
+        Site("https://us.riverisland.com")
             .queryURL(path: "/search?keyword=%s")
         
         Site("https://us.romwe.com")
