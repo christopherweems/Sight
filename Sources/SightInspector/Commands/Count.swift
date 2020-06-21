@@ -11,8 +11,39 @@ import SightBuilder
 import SightIndex
 
 struct Count: ParsableCommand {
+    @Flag(name: .shortAndLong, help: "Only count queryable sites")
+    var queryable: Bool
+    
+    @Flag(help: "Only count non-queryable sites")
+    var nonQueryable: Bool
+    
+    enum Error: Swift.Error {
+        case invalidArgumentCombination
+        
+    }
     
     func run() throws {
-        print(SiteIndex().count)
+        let sites = SiteIndex()
+        let count: Int
+        
+        if queryable {
+            count = sites.count { $0.isQueryable }
+            
+        } else if nonQueryable {
+            count = sites.count { !$0.isQueryable }
+            
+        } else {
+            count = sites.count
+            
+        }
+        
+        print(count)
+        
+    }
+    
+    func validate() throws {
+        if queryable && nonQueryable {
+            throw Error.invalidArgumentCombination
+        }
     }
 }
