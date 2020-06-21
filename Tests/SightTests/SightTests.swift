@@ -9,7 +9,7 @@ final class SightTests: XCTestCase {
         ("testSiteProperties", testSiteProperties),
         ("testURLFromSite", testURLFromSite),
         ("testSitesWithSubdomains", testSitesWithSubdomains),
-        
+        ("testCount", testCount),
     ]
     
 }
@@ -46,5 +46,16 @@ extension SightTests {
         
         XCTAssertNotEqual(nih?.root, niaid?.root)
         
+    }
+    
+    func testCount() {
+        let index = SiteIndex()
+        let count = index.count
+        let queryableCount = index.count { $0.isQueryable }
+        let nonQueryableCount = index.count { !$0.isQueryable }
+        
+        XCTAssertNotEqual(count, queryableCount)
+        XCTAssertNotEqual(count, nonQueryableCount)
+        XCTAssert(1800 < count)
     }
 }
