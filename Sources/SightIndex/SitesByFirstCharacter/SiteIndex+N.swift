@@ -130,6 +130,9 @@ internal extension SiteIndex {
         Site("https://www.nililotan.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        Site("https://www.ninacloak.com")
+            .queryURL(path: "/search/?words=%s")
+        
         Site("https://www.ninewest.com")
             .queryURL(path: "/search/?q=%s")
         
