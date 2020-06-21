@@ -11,8 +11,6 @@ import SightBuilder
 internal class SiteSet {
     fileprivate var sites: [Site.Authority: Site]
     
-    internal var count: Int { sites.count }
-    
     func site(forAuthority authority: Site.Authority) -> Site? {
         if let exactMatch = sites[authority] {
             return exactMatch
@@ -43,6 +41,17 @@ internal class SiteSet {
     
     convenience init(@EmptyBuilder _ builder: () -> Void) {
         self.init(sites: [:])
+    }
+}
+
+
+// MARK: - Count
+
+internal extension SiteSet {
+    var count: Int { sites.count }
+    
+    func count(where predicate: (Site) -> Bool) -> Int {
+        sites.values.reduce(0) { $0 + (predicate($1) ? 1 : 0) }
     }
 }
 
