@@ -19,6 +19,9 @@ internal extension SiteIndex {
         Site("https://hackernoon.com")
             .queryURL(path: "/search?stories%5Bquery%5D=%s")
         
+        Site("https://www.hackingwithswift.com")
+            .queryURL(path: "/search/%s")
+        
         Site("https://www.haggar.com")
             .queryURL(path: "/search?q=%s")
         
