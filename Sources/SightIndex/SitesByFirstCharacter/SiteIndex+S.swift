@@ -85,6 +85,9 @@ internal extension SiteIndex {
         Site("https://www.scotchporter.com")
             .queryURL(path: "/search?q=%s&type=product")
         
+        Site("https://scriptingosx.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.scrubsandbeyond.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         

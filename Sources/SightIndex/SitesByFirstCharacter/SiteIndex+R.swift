@@ -58,6 +58,8 @@ internal extension SiteIndex {
         Site("https://www.rd.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://rderik.com")
+        
         Site("https://readwrite.com")
             .queryURL(path: "/?s=%s")
         

@@ -112,6 +112,8 @@ internal extension SiteIndex {
         Site("https://www.enasco.com")
             .queryURL(path: "/search/?ea_q=%s&boxsearchBy=easyAskSearchTermSearchStrategy&boxea_path=All+Products%2F%2F%2F%2FNasco&boxea_rpp=16&boxea_cp=1&boxea_sort=")
         
+        Site("https://www.enekoalonso.com")
+        
         Site("https://www.engagemedia.org")
             .queryURL(path: "/@@search?SearchableText=%s")
         
