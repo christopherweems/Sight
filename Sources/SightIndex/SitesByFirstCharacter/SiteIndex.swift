@@ -146,4 +146,8 @@ internal extension SiteIndex {
 public extension SiteIndex {
     var count: Int { allSets.reduce(0) { $0 + $1.count } }
     
+    func count(where predicate: (Site) -> Bool) -> Int {
+        allSets.reduce(0) { $0 + $1.count(where: predicate) }
+    }
+    
 }
