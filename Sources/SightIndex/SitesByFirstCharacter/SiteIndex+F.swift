@@ -153,6 +153,8 @@ internal extension SiteIndex {
         Site("https://www.fiu.edu")
             .queryURL(path: "/results.html?q=%s")
         
+        Site("https://www.fivestars.blog")
+        
         Site("https://fivestoryny.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
