@@ -108,6 +108,8 @@ internal extension SiteIndex {
         Site("https://www.jessicalondon.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.jetbrains.com")
+        
         Site("https://www.jetmag.com")
             .queryURL(path: "/?s=%s")
         

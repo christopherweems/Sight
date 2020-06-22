@@ -433,6 +433,9 @@ internal extension SiteIndex {
         // #MR
         // #MS
         
+        Site("https://msi.com")
+            .queryURL("https://us.msi.com/search/%s")
+        
         Site("https://www.msf.org")
             .queryURL(path: "/search?keyword=%s")
         
