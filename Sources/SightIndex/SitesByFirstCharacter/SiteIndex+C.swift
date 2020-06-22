@@ -47,7 +47,7 @@ internal extension SiteIndex {
         .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
         Site("https://www.chrono24.com")
-            .queryURL(path: "/timex/index.htm?query=%s")
+            .queryURL(path: "/search/index.htm?query=%s&dosearch=true")
         
         
         // CI
