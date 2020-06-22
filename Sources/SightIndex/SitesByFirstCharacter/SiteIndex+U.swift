@@ -10,14 +10,24 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var U = SiteSet {
+        
+        // #U1
+        // #UA
+        
         Site("https://www.ua.edu")
             .queryURL(path: "/search?q=%s")
         
         Site("http://www.uab.edu")
             .queryURL(path: "/home/index.php?option=com_googlesearch_cse&n=30&view=googlesearchs&Itemid=1525&cx=004141537052427868461%3Azz92jk09ome&cof=FORID%3A11&ie=ISO-8859-1&q=%s&sa=Search")
         
+        
+        // #UB
+        
         Site("https://www.ubergizmo.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #UC
         
         Site("https://www.uchicago.edu")
             .queryURL(path: "/search/?q=%s")
@@ -31,8 +41,16 @@ internal extension SiteIndex {
         Site("https://www.ucwv.edu")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #UD
+        
         Site("https://www.udel.edu")
             .queryURL(path: "/udel-search/?q=%s")
+        
+        
+        // #UE
+        // #UF
+        // #UG
         
         Site("https://www.uga.edu")
             .queryURL(path: "/search.php?q=%s")
@@ -43,8 +61,17 @@ internal extension SiteIndex {
         Site("https://www.uglychristmassweater.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #UH
+        // #UI
+        
         Site("https://uiowa.edu")
             .queryURL(path: "/google-search?search=%s")
+        
+        
+        // #UJ
+        // #UK
+        // #UL
         
         Site("https://www.ullapopken.com")
             .queryURL(path: "/search/%s/")
@@ -58,11 +85,17 @@ internal extension SiteIndex {
         Site("https://www.ultimate-guitar.com")
             .queryURL(path: "/search.php?search_type=title&value=%s")
         
+        
+        // #UM
+        
         Site("https://www.umich.edu")
             .queryURL(path: "/search/?keywords=%s")
         
         Site("https://www.umwestern.edu")
             .queryURL(path: "/search.html?q=%s")
+        
+        
+        // #UN
         
         Site("https://www.unc.edu")
             .queryURL(path: "/search/?term=%s")
@@ -109,8 +142,14 @@ internal extension SiteIndex {
         Site("https://untilgone.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        
+        // #UO
+        
         Site("https://uomabeauty.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        
+        // #UP
         
         Site("https://www.upack.com")
             .queryURL(path: "/search/site/%s")
@@ -121,8 +160,14 @@ internal extension SiteIndex {
         Site("https://en.uptodown.com")
             .queryURL(path: "/mac/search/%s")
         
+        
+        // #UQ
+        
         Site("http://www.uq.edu.au")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #UR
         
         Site("https://www.urbandecay.com")
             .queryURL(path: "/search?q=%s")
@@ -132,6 +177,9 @@ internal extension SiteIndex {
         
         Site("https://www.urbanoutfitters.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #US
         
         /*
         Site("https://us.akris.com")
@@ -266,6 +314,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?q=eastern+%s")
         */
  
+        
+        // #UT
+        
         Site("https://www.utc.edu")
             .queryURL(path: "/search.php?q=%s")
         
@@ -281,8 +332,19 @@ internal extension SiteIndex {
         Site("https://utvolshop.com")
             .queryURL(path: "/search.aspx?searchterm=%s")
         
+        
+        // #UU
+        
         Site("https://www.uu.edu")
             .queryURL(path: "/search.cfm?q=%s")
+        
+        
+        // #UV
+        // #UW
+        // #UX
+        // #UY
+        // #UZ
+        
         
     }
 }

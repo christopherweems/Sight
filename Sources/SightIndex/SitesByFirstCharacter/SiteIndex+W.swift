@@ -10,10 +10,16 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var W = SiteSet {
+        
+        // #W1
+        
         Site("https://www.w3.org")
         
         Site("https://www.w7makeup.co.uk")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        
+        // #WA
         
         Site("https://www.walgreens.com")
             .queryURL(path: "/search/results.jsp?Ntt=%s")
@@ -51,6 +57,9 @@ internal extension SiteIndex {
         Site("https://www.wayfair.com")
             .queryURL(path: "/keyword.php?keyword=%s")
         
+        
+        // #WB
+        
         Site("https://wbhm.org")
             .queryURL(path: "/?s=%s")
         
@@ -63,17 +72,26 @@ internal extension SiteIndex {
         Site("https://www.wbur.org")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #WC
+        
         Site("https://www.wcu.edu")
             .queryURL(path: "/search-wcu.aspx?q=%s")
         
         Site("https://wcyb.com")
             .queryURL(path: "/search?find=%s")
         
+        
+        // #WD
+        
         Site("https://wdef.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://wdvx.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #WE
         
         Site("https://www.wearfigs.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -122,8 +140,14 @@ internal extension SiteIndex {
         Site("https://www.wetv.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #WF
+        
         Site("http://www.wfu.edu")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #WG
         
         Site("https://www.wga.org")
             .queryURL(path: "/search?keywords=%s")
@@ -133,6 +157,9 @@ internal extension SiteIndex {
         
         Site("https://www.wgbh.org")
             .queryURL(path: "/news/search?q=%s")
+        
+        
+        // #WH
         
         Site("https://www.whatgoesaroundnyc.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -157,6 +184,9 @@ internal extension SiteIndex {
         
         Site("https://www.whowhatwear.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #WI
         
         Site("https://www.wigs.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
@@ -199,6 +229,9 @@ internal extension SiteIndex {
         Site("https://www.wivk.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #WJ
+        
         Site("https://www.wjab.org")
             .queryURL(path: "/search/google/%s")
         
@@ -208,17 +241,30 @@ internal extension SiteIndex {
         Site("https://www.wjhl.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #WK
+        
         Site("https://www.wkyt.com")
             .queryURL(path: "/search?searchKeywords=%s")
         
+        
+        // #WL
+        
         Site("https://www.wlu.edu")
             .queryURL(path: "/search/#stq=%s&stp=1")
+        
+        
+        // #WM
         
         Site("https://www.wmagazine.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://wmgk.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #WN
+        // #WO
         
         Site("https://www.wolfordshop.com")
             .queryURL(path: "/search?q=%s")
@@ -268,6 +314,11 @@ internal extension SiteIndex {
         Site("https://www.wozoradio.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #WP
+        // #WQ
+        // #WR
+        
         Site("https://www.wrangler.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/VFSearchDisplay?storeId=7401&catalogId=13652&langId=-1&beginIndex=0&searchSource=Q&sType=SimpleSearch&searchTerm=%s")
         
@@ -280,11 +331,17 @@ internal extension SiteIndex {
         Site("https://www.wrti.org")
             .queryURL(path: "/search/google/%s")
         
+        
+        // #WS
+        
         Site("https://www.wsj.com")
             .queryURL(path: "/search/term.html?KEYWORDS=%s")
         
         Site("https://www.wssu.edu")
             .queryURL(path: "/search.html?query=%s&mode=&opts=&pr=searchwssu&dropXSL=html&sq=&prox=page&rorder=500&rprox=500&rdfreq=500&rwfreq=500&rlead=500&rdepth=0&sufs=0&order=r")
+        
+        
+        // #WT
         
         Site("https://www.wtcitv.org")
             .queryURL(path: "/search/?q=%s")
@@ -298,6 +355,9 @@ internal extension SiteIndex {
         Site("https://www.wtvm.com")
             .queryURL(path: "/search/%s/1/")
         
+        
+        // #WU
+        
         Site("https://www.wuot.org")
             .queryURL(path: "/search/google/%s")
         
@@ -307,14 +367,25 @@ internal extension SiteIndex {
         Site("https://wutkradio.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #WV
+        
         Site("https://www.wvlt.tv")
             .queryURL(path: "/search?searchKeywords=%s")
         
         Site("https://www.wvup.edu")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #WW
+        // #WX
                                 
         Site("http://www.wxbq.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #WY
+        // #WZ
         
     }
 }

@@ -10,8 +10,14 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var T = SiteSet {
+        
+        // #T1
+        
         Site("https://www.t-mobile.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #TA
         
         Site("https://www.tacobell.com")
             .queryURL(path: "/search?text=%s")
@@ -64,11 +70,21 @@ internal extension SiteIndex {
         Site("https://www.tazo.com")
             .queryURL(path: "/us/en/search.html?q=%s")
         
+        
+        // #TB
+        // #TC
+        
         Site("https://tcrf.net")
             .queryURL(path: "/index.php?search=%s")
         
+        
+        // #TD
+        
         Site("http://dictionary.tdf.org")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #TE
         
         Site("https://www.teacollection.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
@@ -128,8 +144,15 @@ internal extension SiteIndex {
         Site("https://www.teva.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #TF
+        // #TG
+        
         Site("https://www.tgw.com")
             .queryURL(path: "/SearchDisplay?categoryId=&storeId=10151&catalogId=10052&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=24&searchTerm=%s")
+        
+        
+        // #TH
         
         Site("https://thakoon.com")
             .queryURL(path: "/search?q=%s")
@@ -238,9 +261,6 @@ internal extension SiteIndex {
         Site("https://thegrapevine.theroot.com")
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.pressofatlanticcity.com")
-        .queryURL(path: "/search/?l=25&sd=desc&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&q=%s")
-        
         Site("https://www.therustedgarden.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -288,6 +308,9 @@ internal extension SiteIndex {
         
         Site("https://thrivecausemetics.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        
+        // #TI
         
         Site("http://www.ti.com")
             .queryURL(path: "/sitesearch/docs/universalsearch.tsp?searchTerm=%s")
@@ -352,20 +375,31 @@ internal extension SiteIndex {
         Site("https://www.tivo.com")
             .queryURL(path: "/gsearch?term=%s")
         
+        
+        // #TJ
+        
         Site("https://www.tjc.edu")
             .queryURL(path: "/site/scripts/google_results.php?q=%s")
+                
+        Site("https://tjmaxx.tjx.com")
+            .queryURL(path: "/store/shop/?Ntt=%s&qfh_sch=Search")
+        
+        
+        // #TK
+        // #TL
+        // #TM
         
         Site("https://secure.tmart.com")
             .queryURL(path: "/search.html?typeid=&q=%s")
-        
-        Site("https://tjmaxx.tjx.com")
-            .queryURL(path: "/store/shop/?Ntt=%s&qfh_sch=Search")
         
         Site("https://www.tmlewin.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.tmz.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #TN
         
         Site("https://www.tn.gov")
             .queryURL(path: "/twra/search-results.html?q=%s")
@@ -378,6 +412,9 @@ internal extension SiteIndex {
         
         Site("https://www.tnvacation.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #TO
         
         Site("https://www.tobi.com")
             .queryURL(path: "/search?search_term=%s")
@@ -442,6 +479,11 @@ internal extension SiteIndex {
         Site("http://www.tozostore.com")
             .queryURL(path: "/?product_cat=&s=%s&post_type=product")
         
+        
+        // #TP
+        // #TQ
+        // #TR
+        
         Site("https://www.tractorsupply.com")
             .queryURL(path: "/tsc/search/%s")
         
@@ -486,6 +528,9 @@ internal extension SiteIndex {
         Site("https://www.trwaftermarket.com")
             .queryURL(path: "/us/site-search-results/?query=%s")
         
+        
+        // #TS
+        
         Site("https://www.tsn.ca")
             .queryURL(path: "/search/search-7.427283?q=%s")
         
@@ -504,8 +549,20 @@ internal extension SiteIndex {
         Site("https://www.turtlebeach.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #TT
+        // #TU
+        
+        Site("https://home.tusculum.edu")
+            .queryURL(path: "/search/index.php?q=%s")
+        
+        // #TV
+        
         Site("https://www.tva.gov")
             .queryURL(path: "/Search-Results?vgnextkeyword=%s")
+        
+        
+        // #TW
         
         Site("https://www.tweaktown.com")
             .queryURL(path: "/cse/?q=%s")
@@ -531,11 +588,18 @@ internal extension SiteIndex {
         Site("https://www.twopeasandtheirpod.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #TX
+        // #TY
+        
         Site("https://www.tymestyle.com")
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
         Site("https://www.tysonfoods.com")
             .queryURL(path: "/search?search=%s")
+        
+        
+        // #TZ
         
     }
 }

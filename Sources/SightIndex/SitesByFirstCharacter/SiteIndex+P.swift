@@ -10,8 +10,14 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var P = SiteSet {
+        
+        // #P1
+        
         Site("http://en.p2cosmetics.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #PA
         
         Site("https://www.pacificcoast.com")
             .queryURL(path: "/search?q=%s")
@@ -82,6 +88,10 @@ internal extension SiteIndex {
         Site("https://www.paulsmith.com")
             .queryURL(path: "/uk/catalogsearch/result/?q=%s")
         
+        
+        // #PB
+        // #PC
+        
         Site("https://www.pcgamer.com")
             .queryURL(path: "/search/?searchTerm=%s")
         
@@ -97,8 +107,14 @@ internal extension SiteIndex {
         Site("https://www.pcworld.com")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #PD
+        
         Site("https://www.pdp.com")
             .queryURL(path: "/en/catalogsearch/result/?q=%s")
+        
+        
+        // #PE
         
         Site("https://www.peaceloveworld.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
@@ -154,8 +170,15 @@ internal extension SiteIndex {
         Site("https://www.pewresearch.org")
             .queryURL(path: "/search/%s")
         
+        
+        // #PF
+        
         Site("https://www.pfflyers.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #PG
+        // #PH
         
         Site("https://www.phoenixnewtimes.com")
             .queryURL(path: "/search?keyword=%s")
@@ -178,6 +201,9 @@ internal extension SiteIndex {
         Site("https://photographyspark.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #PI
+        
         Site("https://www.pier1.com")
             .queryURL(path: "/on/demandware.store/Sites-pier1_us-Site/default/Search-Show?q=%s")
         
@@ -199,6 +225,11 @@ internal extension SiteIndex {
         Site("https://www.pixibeauty.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PJ
+        // #PK
+        // #PL
+        
         Site("https://plantapothecary.com")
             .queryURL(path: "/search?q=%s")
         
@@ -213,6 +244,11 @@ internal extension SiteIndex {
         
         Site("https://www.plowhearth.com")
             .queryURL(path: "/site-search?text=&phw-text-search=%s")
+        
+        
+        // #PM
+        // #PN
+        // #PO
         
         Site("https://www.polarnopyretusa.com")
             .queryURL(path: "/search-results?FullText=%s")
@@ -255,6 +291,11 @@ internal extension SiteIndex {
         
         Site("https://www.potterybarnkids.com")
             .queryURL(path: "/search/results.html?words=%s")
+        
+        
+        // #PP
+        // #PQ
+        // #PR
                 
         Site("https://www.prada.com")
             .queryURL(path: "/us/en/search.%s.html")
@@ -264,6 +305,9 @@ internal extension SiteIndex {
         
         Site("https://www.prana.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.pressofatlanticcity.com")
+            .queryURL(path: "/search/?l=25&sd=desc&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&q=%s")
         
         Site("https://premierchristian.news")
             .queryURL(path: "/search/%s")
@@ -286,6 +330,9 @@ internal extension SiteIndex {
         Site("https://www.proozy.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PS
+        
         Site("https://www.psu.com")
             .queryURL(path: "/?s=%s")
         
@@ -294,6 +341,10 @@ internal extension SiteIndex {
         
         Site("https://www.psychologytoday.com")
             .queryURL(path: "/search/site/%s")
+        
+        
+        // #PT
+        // #PU
         
         Site("https://www.publix.com")
             .queryURL(path: "/search?searchTerm=%s")
@@ -304,11 +355,23 @@ internal extension SiteIndex {
         Site("https://www.purplebricks.com")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #PV
+        // #PW
+        // #PX
+        
         Site("https://pxlnv.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #PY
+        
         Site("https://pypi.org")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #PZ
+        
         
     }
 }

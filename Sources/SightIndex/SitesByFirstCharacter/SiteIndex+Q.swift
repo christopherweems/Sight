@@ -10,11 +10,39 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var Q = SiteSet {
+        
+        // #Q1
+        // #QA
+        // #QB
+        // #QC
+        // #QD
+        // #QE
+        // #QF
+        // #QG
+        // #QH
+        // #QI
+        // #QJ
+        // #QK
+        // #QL
+        // #QM
+        // #QN
+        
         Site("https://www.qnap.com")
             .queryURL(path: "/en-us/search?q=%s")
         
+        
+        // #QO
+        // #QP
+        // #QQ
+        // #QR
+        // #QS
+        // #QT
+        
         Site("https://www.qthemusic.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #QU
         
         Site("https://quickzipsheet.com")
             .queryURL(path: "/search?q=%s*")
@@ -28,8 +56,17 @@ internal extension SiteIndex {
         Site("https://www.quora.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #QV
+        
         Site("https://www.qvc.com")
             .queryURL(path: "/catalog/search.html?keyword=%s")
+        
+        
+        // #QW
+        // #QX
+        // #QY
+        // #QZ
         
     }
 }

@@ -10,8 +10,16 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var D = SiteSet {
+        
+        // #D1
+        
         Site("https://d23.com")
             .queryURL(path: "/search/%s")
+        
+        Site("http://www.dailymirror.lk")
+        
+        
+        // #DA
         
         Site("https://www.dafont.com")
             .queryURL(path: "/search.php?q=%s")
@@ -55,8 +63,16 @@ internal extension SiteIndex {
         Site("https://www.davidsbridal.com")
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
         
+        
+        // #DB
+        // #DC
+        
         Site("https://www.dcshoes.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #DD
+        // #DE
         
         Site("https://deadspin.com")
             .queryURL(path: "/search?q=%s")
@@ -109,13 +125,23 @@ internal extension SiteIndex {
         Site("https://www.dexter1818.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #DF
+        // #DG
+        
         Site("https://dgkallday.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #DH
         
         Site("https://www.dhgate.com")
             .queryURL(path: "/wholesale/search.do?act=search&sus=&searchkey=%s")
         
         Site("https://www.dhl.com")
+        
+        
+        // #DI
             
         Site("https://www.dickblick.com")
             .queryURL(path: "/search/?q=%s")
@@ -171,6 +197,14 @@ internal extension SiteIndex {
         Site("https://www.diyphotography.net")
             .queryURL(path: "/?s=%s")
         
+        
+        // #DJ
+        // #DK
+        // #DL
+        // #DM
+        // #DN
+        // #DO
+        
         Site("https://doaj.org")
             .queryURL(path: "/search?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%s%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D")
         
@@ -219,8 +253,15 @@ internal extension SiteIndex {
         Site("https://www.dove.com")
             .queryURL(path: "/us/en/search.html?q=%s")
         
+        
+        // #DP
+        
         Site("https://www.dpreview.com")
             .queryURL(path: "/search/?query=%s")
+        
+        
+        // #DQ
+        // #DR
         
         Site("https://draperjames.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -255,11 +296,20 @@ internal extension SiteIndex {
         Site("https://www.drschollsshoes.com")
             .queryURL(path: "/en-US/_/_/_/_/Srch0+%s/Products.aspx")
         
+        
+        // #DS
+        
         Site("https://ds18.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        
+        // #DT
+        
         Site("https://www.dtlr.com")
             .queryURL(path: "/search?type=product&q=tag:stock_in-stock%20%s*")
+        
+        
+        // #DU
         
         Site("http://www.dubaiairports.ae")
             .queryURL(path: "/search?indexCatalogue=dubai-airports-(en)&searchQuery=%s")
@@ -273,14 +323,26 @@ internal extension SiteIndex {
         Site("https://dunnbrothers.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #DV
+        
         Site("https://www.dvf.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #DW
         
         Site("https://www.dwell.com")
             .queryURL(path: "/query/%s")
         
+        
+        // #DX
+        
         Site("https://www.dxomark.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #DY
         
         Site("https://www.dynatrace.com")
             .queryURL("https://search.dynatrace.com/?q=%s")
@@ -290,6 +352,9 @@ internal extension SiteIndex {
         
         Site("https://www.dyson.com")
             .queryURL(path: "/search-results.html?searchText=%s&from=product")
+        
+        
+        // #DZ
         
     }
 }

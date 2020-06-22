@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var R = SiteSet {
+        
+        // #R1
+        // #RA
+        
         Site("https://www.rachelpally.com")
             .queryURL(path: "/search?q=%s")
         
@@ -49,16 +53,26 @@ internal extension SiteIndex {
         Site("https://www.razer.com")
             .queryURL(path: "/search?text=%s")
         
+        
+        // #RB
+        // #RC
+        
         Site("https://www.rca.com")
             .queryURL(path: "/us_en/search?q=%s")
         
         Site("https://www.rcmamakeup.net")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #RD
+        
         Site("https://www.rd.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://rderik.com")
+        
+        
+        // #RE
         
         Site("https://readwrite.com")
             .queryURL(path: "/?s=%s")
@@ -144,11 +158,19 @@ internal extension SiteIndex {
         Site("https://www.reynspooner.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #RF
+        // #RG
+        // #RH
+        
         Site("https://www.rhmodern.com")
             .queryURL(path: "/search/results.jsp?Ntt=%s")
         
         Site("https://www.rhone.com")
             .queryURL(path: "/pages/search-results-page?type=product&q=%s")
+        
+        
+        // #RI
         
         Site("https://www.ridgewallet.com")
             .queryURL(path: "/search?q=%s")
@@ -165,8 +187,18 @@ internal extension SiteIndex {
         Site("https://www.ringtv.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #RJ
+        // #RK
+        // #RL
+        // #RM
+        
         Site("https://www.rmsbeauty.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        
+        // #RN
+        // #RO
         
         Site("https://www.roadandtrack.com")
             .queryURL(path: "/search/?q=%s")
@@ -255,8 +287,17 @@ internal extension SiteIndex {
         Site("https://roztayger.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #RP
+        // #RQ
+        // #RR
+        // #RS
+        
         Site("https://www.rstbrands.com")
             .queryURL(path: "/search?keywords=%s")
+        
+        
+        // #RT
         
         Site("https://www.rt.com")
             .queryURL(path: "/search?q=%s")
@@ -266,6 +307,9 @@ internal extension SiteIndex {
         
         Site("https://www.rte.ie")
             .queryURL(path: "/search/query/%s/")
+        
+        
+        // #RU
         
         Site("https://www.rue21.com")
             .queryURL(path: "/store/usearch?Ntt=%s")
@@ -282,14 +326,26 @@ internal extension SiteIndex {
         Site("https://www.russellstover.com")
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
         
+        
+        // #RV
+        
         Site("https://www.rvca.com")
             .queryURL(path: "/search/?q=%s")
         
         Site("https://www.rvia.org")
             .queryURL(path: "/search?keywords=%s")
         
+        
+        // #RW
+        // #RX
+        // #RY
+        
         Site("https://www.ryobitools.com")
             .queryURL(path: "/search?query=%s")
+        
+        
+        // #RZ
+
         
     }
 }

@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var V = SiteSet {
+        
+        // #V1
+        // #VA
+        
         Site("https://vanheusen.com")
             .queryURL( "https://vanheusen.partnerbrands.com/SearchDisplay?advancedSearch=&originalSearchTerm=%s&pageView=grid&searchTermScope=&orderBy=&beginIndex=0&pageSize=&maxPrice=&resultCatEntryType=2&searchSource=Q&sType=SimpleSearch&manufacturer=&catalogId=15802")
         
@@ -24,6 +28,12 @@ internal extension SiteIndex {
         
         Site("https://www.vat19.com")
             .queryURL(path: "/products/search?q=%s")
+        
+        
+        // #VB
+        // #VC
+        // #VD
+        // #VE
         
         Site("https://vegalicious.recipes")
             .queryURL(path: "/?s=%s")
@@ -55,8 +65,16 @@ internal extension SiteIndex {
         Site("https://www.verywellmind.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #VF
+        // #VG
+        
         Site("https://www.vg247.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #VH
+        // #VI
         
         Site("https://www.vibe.com")
             .queryURL(path: "/?s=%s")
@@ -114,8 +132,17 @@ internal extension SiteIndex {
         Site("https://www.vixpaulahermanny.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #VJ
+        // #VK
+        
         Site("https://vk.com")
             .queryURL(path: "/search?c%5Bq%5D=%s")
+        
+        // #VL
+        // #VM
+        // #VN
+        // #VO
         
         Site("https://wiki.voidlinux.org")
             .queryURL(path: "/w/index.php?search=%s")
@@ -138,13 +165,30 @@ internal extension SiteIndex {
         Site("https://www.vox.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #VP
+        // #VQ
+        // #VR
+        
         Site("https://vr2.site")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.vrbo.com")
             .queryURL(path: "/results?q=%s")
         
+        
+        // #VS
+        // #VT
+        // #VU
+        
         Site("https://www.vulture.com")
             .queryURL(path: "/search.html?q=%s")
+        
+        // #VV
+        // #VW
+        // #VX
+        // #VY
+        // #VZ
+        
     }
 }

@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var L = SiteSet {
+        
+        // #L1
+        // #LA
+        
         Site("https://www.la-z-boy.com")
             .queryURL(path: "/no-results?Ntt=%s")
         
@@ -64,6 +68,13 @@ internal extension SiteIndex {
         Site("https://www.lazyone.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #LB
+        // #LC
+        // #LD
+
+        // #LE
+        
         Site("https://www.ledbury.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
@@ -90,8 +101,19 @@ internal extension SiteIndex {
         Site("https://www.lexus.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #LF
+        
+        
+        // #LG
+        
         Site("http://www.lg.com")
             .queryURL(path: "/us/search.lg?search=%s")
+        
+        
+        // #LH
+        
+        // #LI
         
         Site("https://www.libertylondon.com")
             .queryURL(path: "/us/search?q=%s")
@@ -163,14 +185,23 @@ internal extension SiteIndex {
         Site("https://liverpooljeans.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        // #LJ
+        // #LK
+        
         Site("https://www.lkbennett.com")
             .queryURL(path: "/search/?text=%s")
         
         Site("https://www.lkqonline.com")
             .queryURL(path: "/%s")
         
+        
+        // #LL
+        
         Site("https://www.llbean.com")
             .queryURL(path: "/llb/shop/50836?feat=sr&term=%s&csp=a")
+        
+        
+        // #LM
         
         Site("https://www.lmtonline.com")
             .queryURL(path: "/search/?action=search&query=%s")
@@ -181,8 +212,14 @@ internal extension SiteIndex {
         Site("https://www.lmunet.edu")
             .queryURL(path: "/search?keywords=%s")
         
+        
+        // #LN
+        
         Site("https://www.ln-cc.com")
             .queryURL(path: "/en/search-results?q=%s")
+        
+        
+        // #LO
         
         Site("https://loadedlandscapes.com")
             .queryURL(path: "/?s=%s")
@@ -256,8 +293,18 @@ internal extension SiteIndex {
         Site("https://www.lowes.com")
             .queryURL(path: "/search?searchTerm=%s")
         
+        
+        // #LP
+        
         Site("https://www.lpathelabel.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        
+        // #LQ
+        // #LR
+        // #LS
+        // #LT
+        // #LU
         
         Site("https://www.luckybrand.com")
             .queryURL(path: "/search?q=%s")
@@ -286,16 +333,30 @@ internal extension SiteIndex {
         Site("https://luxledlights.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #LV
+        
         Site("https://www.lvmh.com")
             .queryURL(path: "/#search?term=%s")
         
+        
+        // #LW
+        
         Site("https://www.lwsupply.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #LX
+        // #LY
         
         Site("https://www.lysse.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         Site("https://www.lyst.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #LZ
+        
     }
 }

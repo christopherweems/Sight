@@ -11,7 +11,7 @@ import SightBuilder
 internal extension SiteIndex {
     static var C = SiteSet {
         
-        // CA
+        // #CA
         
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
@@ -28,8 +28,14 @@ internal extension SiteIndex {
         Site("https://www.catofashions.com")
             .queryURL(path: "/all-products/browse/keyword/%s")
         
+        
+        // #CB
+        
         Site("https://www.cbc.ca")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #CC
         
         Site("https://www.ccmmagazine.com")
             .queryURL(path: "/?s=%s")
@@ -38,7 +44,10 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         
-        // CE
+        // #CE
+        
+        
+        // #CH
         
         Site("https://www.cheapjoes.com")
             .queryURL(path: "/nsearch/?q=%s")
@@ -50,7 +59,10 @@ internal extension SiteIndex {
             .queryURL(path: "/search/index.htm?query=%s&dosearch=true")
         
         
-        // CI
+        // #CI
+        
+        
+        // #CL
         
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
@@ -60,8 +72,14 @@ internal extension SiteIndex {
         
         Site("https://www.cloudflare.com")
         
+        
+        // #CM
+        
         Site("https://web-search.andrew.cmu.edu")
             .queryURL(path: "/search?entqr=3&entsp=a&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&client=default_frontend&ud=1&oe=UTF-8&ie=UTF-8&proxystylesheet=default_frontend&q=%s&site=")
+        
+        
+        // #CN
         
         Site("https://www.cnbc.com")
             .queryURL(path: "/search/?query=%s")
@@ -105,6 +123,9 @@ internal extension SiteIndex {
         Site("https://www.cosabella.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
+        
+        // #CR
+        
         Site("https://www.craftsman.com")
             .queryURL(path: "/products?ukeywords=%s")
         
@@ -114,11 +135,14 @@ internal extension SiteIndex {
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #CS
+        
         Site("https://css-tricks.com")
             .queryURL(path: "/?s=%s")
         
         
-        // CU
+        // #CU
         
         Site("https://www.cultofmac.com")
             .queryURL(path: "/?s=%s")
@@ -128,6 +152,9 @@ internal extension SiteIndex {
         
         Site("https://www.cutcutcraft.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #CV
         
         Site("https://www.cvs.com")
             .queryURL(path: "/search/?searchTerm=%s")

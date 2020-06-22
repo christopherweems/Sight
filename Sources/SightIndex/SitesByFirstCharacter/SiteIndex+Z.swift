@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var Z = SiteSet {
+        
+        // #Z1
+        // #ZA
+        
         Site("https://www.zaful.com")
             .queryURL(path: "/s/%s/")
         
@@ -25,8 +29,16 @@ internal extension SiteIndex {
         Site("https://www.zara.com")
             .queryURL(path: "/us/en/search?searchTerm=%s")
         
+        
+        // #ZB
+        // #ZC
+        // #ZD
+        
         Site("https://www.zdnet.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #ZE
         
         Site("https://www.zenartsupplies.co")
             .queryURL(path: "/?s=%s")
@@ -37,11 +49,25 @@ internal extension SiteIndex {
         Site("https://www.zenith-watches.com")
             .queryURL(path: "/en_en/catalogsearch/result/?q=%s")
         
+        
+        // #ZF
+        // #ZG
+        // #ZH
+        // #ZI
+        
         Site("https://www.zillow.com")
             .queryURL(path: "/homes/%s_rb/")
         
         Site("https://www.zinus.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
+        
+        
+        // #ZJ
+        // #ZK
+        // #ZL
+        // #ZM
+        // #ZN
+        // #ZO
         
         Site("https://www.zobha.com")
             .queryURL(path: "/search?q=%s")
@@ -51,6 +77,14 @@ internal extension SiteIndex {
         
         Site("https://www.zoro.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #ZP
+        // #ZQ
+        // #ZR
+        // #ZS
+        // #ZT
+        // #ZU
         
         Site("https://www.zulily.com")
             /*.queryURL(path: "/%s?fromSearch=true&searchTerm=%s")*/
@@ -63,6 +97,13 @@ internal extension SiteIndex {
         
         Site("https://zutano.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        
+        // #ZV
+        // #ZW
+        // #ZX
+        // #ZY
+        // #ZZ
         
     }
 }

@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var N = SiteSet {
+        
+        // #N1
+        // #NA
+        
         Site("https://www.naacp.org")
             .queryURL(path: "/search/?q=%s")
         
@@ -40,8 +44,14 @@ internal extension SiteIndex {
         Site("https://www.nautica.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #NB
+        
         Site("https://www.nbcnews.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #NC
         
         Site("http://www.nccu.edu")
             .queryURL(path: "/search?q=%s")
@@ -49,11 +59,19 @@ internal extension SiteIndex {
         Site("https://www.ncsu.edu")
             .queryURL(path: "/search/global.php?q=%s")
         
+        // #ND
+        
+        Site("https://churchlifejournal.nd.edu")
+            .queryURL(path: "/search/?as_sitesearch=churchlifejournal.nd.edu&entqr=3&q=%s")
+        
         Site("https://sports.ndtv.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.ndtv.com")
             .queryURL(path: "/search?searchtext=%s")
+        
+        
+        // #NE
         
         Site("https://needsupply.com")
             .queryURL(path: "/search?q=%s")
@@ -112,14 +130,26 @@ internal extension SiteIndex {
         Site("https://www.nexusmagazine.com")
             .queryURL(path: "/component/search/?searchword=%s")
         
+        
+        // #NF
+        
         Site("https://www.nflshop.com")
             .queryURL(path: "/?query=%s")
+        
+        
+        // #NG
         
         Site("https://www.nginx.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #NH
+        
         Site("https://www.nhl.com")
             .queryURL(path: "/search#q=%s")
+        
+        
+        // #NI
         
         Site("https://www.nicandzoe.com")
             .queryURL(path: "/search.html?term=%s")
@@ -163,8 +193,19 @@ internal extension SiteIndex {
         Site("https://www.nixon.com")
             .queryURL(path: "/us/en/search?q=%s")
         
+        
+        // #NJ
+        // #NK
+        // #NL
+        // #NM
+
+        
         Site("https://home-p.nmsu.edu")
             .queryURL(path: "/search_results.html?q=%s")
+        
+        
+        // #NN
+        // #NO
         
         Site("https://www.nolahmattress.com")
         
@@ -186,14 +227,26 @@ internal extension SiteIndex {
         Site("https://www.northstyle.com")
             .queryURL(path: "/ShopCategory.aspx?id=1,4123&GASearchTerm=%s")
         
+        
+        // #NP
+        
         Site("https://nphilanthropy.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.npr.org")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #NQ
+        // #NR
+        // #NS
+        // #NT
+        
         Site("https://www.ntsb.gov")
             .queryURL(path: "/pages/Results.aspx?k=%s")
+        
+        
+        // #NU
         
         Site("https://www.nudwear.com")
             .queryURL(path: "/search?type=product&q=%s*")
@@ -207,8 +260,16 @@ internal extension SiteIndex {
         Site("https://www.nutsvolts.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #NV
+        // #NW
+        
         Site("https://www.nwpc.org")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #NX
+        // #NY
         
         Site("https://www.nyakio.com")
         
@@ -240,6 +301,9 @@ internal extension SiteIndex {
         
         Site("https://www.nyxcosmetics.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #NZ
         
     }
 }

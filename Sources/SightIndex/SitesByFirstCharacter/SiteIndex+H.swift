@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var H = SiteSet {
+        
+        // #H1
+        // #HA
+        
         Site("https://www.haband.com")
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
@@ -91,11 +95,19 @@ internal extension SiteIndex {
         Site("https://www.hayneedle.com")
             .queryURL(path: "/search/index.cfm?Ntt=%s")
         
+        
+        // #HB
+        
         Site("https://www.hbo.com")
             .queryURL(path: "/searchresults?q=%s")
         
         Site("https://hbx.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #HC
+        // #HD
+        // #HE
                 
         Site("https://www.healthline.com")
             .queryURL(path: "/search?q1=%s")
@@ -142,11 +154,19 @@ internal extension SiteIndex {
         Site("https://heybooutdoors.com")
             .queryURL(path: "/search?q=%s*")
         
+        
+        // #HF
+        // #HG
+        
         Site("https://www.hglrc.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
         Site("https://www.hgtv.com")
             .queryURL(path: "/search/%s-")
+        
+        
+        // #HH
+        // #HI
                 
         Site("https://hiphopgoldenage.com")
             .queryURL(path: "/?s=%s")
@@ -157,8 +177,18 @@ internal extension SiteIndex {
         Site("https://www.history.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #HJ
+        // #HK
+        // #HL
+        
         Site("https://www2.hm.com")
             .queryURL(path: "/en_us/search-results.html?q=%s")
+        
+        
+        // #HM
+        // #HN
+        // #HO
         
         Site("https://www.hobbycraft.co.uk")
             .queryURL(path: "/advancedsearchresults.aspx?query=%s")
@@ -189,10 +219,7 @@ internal extension SiteIndex {
         
         Site("https://www.homage.com")
             .queryURL(path: "/search?q=%s")
-        
-        Site("https://home.tusculum.edu")
-            .queryURL(path: "/search/index.php?q=%s")
-        
+                
         Site("https://www.homedepot.com")
             .queryURL(path: "/s/%s")
         
@@ -241,11 +268,20 @@ internal extension SiteIndex {
         Site("https://www.howtogeek.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #HP
+        
         Site("https://www8.hp.com")
             .queryURL(path: "/us/en/search/search.html?nores=true&qt=%s")
         
+        // #HQ
+        // #HR
+        
         Site("https://www.hrw.org")
             .queryURL(path: "/sitesearch/%s")
+        
+        
+        // #HS
         
         Site("https://www.hsn.com")
             .queryURL(path: "/search?query=%s")
@@ -253,8 +289,14 @@ internal extension SiteIndex {
         Site("https://hsrmotors.com")
             .queryURL(path: "/search?s=%s")
         
+        
+        // #HT
+        
         Site("https://www.htc.com")
             .queryURL(path: "/us/search/?submit=&q=%s")
+        
+        
+        // #HU
         
         Site("https://www.hudsonjeans.com")
             .queryURL(path: "/search?type=product&q=%s")
@@ -271,6 +313,12 @@ internal extension SiteIndex {
         Site("https://www.hukgear.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        
+        // #HV
+        // #HW
+        // #HX
+        // #HY
+        
         Site("https://www.hylete.com")
             .queryURL(path: "/nsearch/?q=%s")
         
@@ -278,6 +326,9 @@ internal extension SiteIndex {
         
         Site("https://www.hypershop.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #HZ
         
     }
 }

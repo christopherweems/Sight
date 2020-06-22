@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var J = SiteSet {
+        
+        // #J1
+        // #JA
+        
         Site("https://www.jabra.com")
             .queryURL(path: "/search?q=%s")
         
@@ -49,11 +53,17 @@ internal extension SiteIndex {
         Site("https://www.jaysonhome.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #JB
+        
         Site("https://www.jbl.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.jbrandjeans.com")
             .queryURL(path: "/v2/search?q=%s")
+        
+        
+        // #JC
         
         Site("https://jcatbeauty.com")
             .queryURL(path: "/index.php?route=product/search&search=%s")
@@ -75,6 +85,10 @@ internal extension SiteIndex {
         
         Site("http://www.jcwhitney.com")
             .queryURL(path: "/results/?Ntt=%s")
+        
+        
+        // #JD
+        // #JE
         
         Site("https://www.jeep.com")
             .queryURL(path: "/find/searchresults.html?q=%s&proxystylesheet=prod_jeep")
@@ -100,11 +114,21 @@ internal extension SiteIndex {
         Site("https://www.jetpens.com")
             .queryURL(path: "/search?q=%s&v=2")
         
+        
+        // #JF
+        // #JG
+        
         Site("https://jg-tc.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #JH
+        
         Site("https://www.jhu.edu")
             .queryURL(path: "/search/?c=gsa&q=%s")
+        
+        
+        // #JI
         
         Site("https://www.jiffyshirts.com")
             .queryURL(path: "/?query=%s")
@@ -121,17 +145,33 @@ internal extension SiteIndex {
         Site("https://www.jinx.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #JJ
+        
         Site("https://www.jjill.com")
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
+        
+        
+        // #JK
+        // #JL
         
         Site("https://www.jlabaudio.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        
+        // #JM
+        
         Site("https://www.jmclaughlin.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #JN
+        
         Site("https://www.jny.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        
+        // #JO
         
         Site("https://www.joann.com")
             .queryURL(path: "/search?q=%s")
@@ -193,11 +233,23 @@ internal extension SiteIndex {
         Site("https://joythebaker.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #JP
+        
         Site("https://www.jpost.com")
             .queryURL(path: "/#/search;query=%s")
         
+        
+        // #JQ
+        // #JR
+        // #JS
+        // #JT
+        
         Site("https://www.jtv.com")
             .queryURL(path: "/search/no-results/?Ntt=%s")
+        
+        
+        // #JU
         
         Site("https://www.judithmarch.com")
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
@@ -218,5 +270,13 @@ internal extension SiteIndex {
         
         Site("https://www.justonecookbook.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #JV
+        // #JW
+        // #JX
+        // #JY
+        // #JZ
+        
     }
 }

@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var F = SiteSet {
+        
+        // #F1
+        // #FA
+        
         Site("https://fab.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -76,11 +80,21 @@ internal extension SiteIndex {
         Site("http://www.fau.edu")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #FB
+        
         Site("https://www.fbi.gov")
             .queryURL(path: "/@@search?SearchableText=%s")
         
+        
+        // #FC
+        
         Site("https://www.fcc.gov")
             .queryURL(path: "/search/#q=%s")
+        
+        
+        // #FD
+        // #FE
         
         Site("https://www.featureshoot.com")
             .queryURL(path: "/?s=%s")
@@ -105,8 +119,16 @@ internal extension SiteIndex {
         Site("https://fetco.com")
             .queryURL(path: "/pl,search.html?s=%s&search_type=off&ilosc=8")
         
+        
+        // #FF
+        // #FG
+        // #FH
+        
         Site("https://www.fhu.edu")
             .queryURL(path: "/search?indexCatalogue=general&searchQuery=%s")
+        
+        
+        // #FI
         
         Site("https://www.fiatusa.com")
             .queryURL(path: "/find/searchresults.html?q=%s&proxystylesheet=prod_fiatusa")
@@ -164,6 +186,11 @@ internal extension SiteIndex {
         Site("https://fivethirtyeight.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #FJ
+        // #FK
+        // #FL
+        
         Site("https://www.flare.com")
             .queryURL(path: "/?s=%s")
         
@@ -178,6 +205,11 @@ internal extension SiteIndex {
         
         Site("https://flyknoxville.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #FM
+        // #FN
+        // #FO
         
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
@@ -253,6 +285,11 @@ internal extension SiteIndex {
         
         Site("https://www.foxsports.com.au")
         
+        
+        // #FP
+        // #FQ
+        // #FR
+        
         Site("https://frame-store.com")
             .queryURL(path: "/pages/search-results?limit=24&q=%s")
         
@@ -295,14 +332,23 @@ internal extension SiteIndex {
         Site("https://www.frys.com")
             .queryURL(path: "/search?query_string=%s")
         
+        
+        // #FS
+        
         Site("https://fsastore.com")
             .queryURL(path: "/SearchProducts.aspx?q=%s")
         
         Site("https://fstoppers.com")
             .queryURL(path: "/search?t=articles&k=%s")
         
+        
+        // #FT
+        
         Site("https://www.ft.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #FU
         
         Site("https://fubu.com")
             .queryURL(path: "/search?q=%s")
@@ -310,14 +356,27 @@ internal extension SiteIndex {
         Site("https://ful.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #FV
+        
         Site("https://www.fvsu.edu")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #FW
+        // #FX
         
         Site("https://www.fxnetworks.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #FY
+        
         Site("https://www.fyi.tv")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #FZ
         
     }
 }

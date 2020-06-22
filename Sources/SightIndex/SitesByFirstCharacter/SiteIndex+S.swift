@@ -11,7 +11,8 @@ import SightBuilder
 internal extension SiteIndex {
     static var S = SiteSet {
         
-        // SA
+        // #S1
+        // #SA
         
         Site("https://www.sabonnyc.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -70,8 +71,14 @@ internal extension SiteIndex {
         Site("https://www.saxxunderwear.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SB
+        
         Site("https://www.sbnation.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #SC
         
         Site("https://www.schiphol.nl")
             .queryURL(path: "/en/search/?q=%s")
@@ -97,11 +104,14 @@ internal extension SiteIndex {
         Site("https://www.scu.edu")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #SD
+        
         Site("https://sdotbeauty.com")
             .queryURL(path: "/search?q=%s")
         
         
-        // SE
+        // #SE
         
         Site("https://sea-ny.com")
             .queryURL(path: "/search?q=%s*")
@@ -267,7 +277,14 @@ internal extension SiteIndex {
         Site("https://www.seventeen.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #SF
+        
         Site("https://sfist.com")
+        
+        
+        // #SG
+        // #SH
         
         Site("https://www.shacknews.com")
             .queryURL(path: "/editorial-search?q=%s")
@@ -422,8 +439,8 @@ internal extension SiteIndex {
             .queryURL(path: "/us/search?q=%s")
         
         
-        // SI
-        
+
+        // #SI
         Site("https://www.si.com")
             .queryURL(path: "/search?query=%s")
         
@@ -470,11 +487,17 @@ internal extension SiteIndex {
         Site("https://www.sixityauto.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SJ
+        
         Site("https://www.sjcdrums.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         Site("https://sjpbeauty.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #SK
         
         Site("https://www.sk-ii.com")
             .queryURL(path: "/on/demandware.store/Sites-SKII-Site/default/Search-Show?q=%s")
@@ -508,6 +531,9 @@ internal extension SiteIndex {
         Site("https://www.skylaryoo.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SL
+        
         Site("https://www.slamonline.com")
             .queryURL(path: "/?s=%s")
         
@@ -516,6 +542,9 @@ internal extension SiteIndex {
         
         Site("https://sleefs.com")
             .queryURL(path: "/pages/search-results?findify_q=%s")
+        
+        
+        // #SM
         
         Site("https://www.smartfood.com")
             .queryURL(path: "/search?query=%s")
@@ -550,8 +579,10 @@ internal extension SiteIndex {
         */
         
         
-        // SO
- 
+
+        // #SN
+        // #SO
+        
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
         
@@ -605,6 +636,9 @@ internal extension SiteIndex {
         Site("https://www.southmoonunder.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SP
+        
         Site("https://spaceexplored.com")
             .queryURL(path: "/?s=%s")
         
@@ -644,8 +678,16 @@ internal extension SiteIndex {
         Site("https://www.spyoptic.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SQ
+        // #SR
+        // #SS
+        
         Site("https://www.ssww.com")
             .queryURL(path: "/search/index.php?q=%s")
+        
+        
+        // #ST
         
         Site("https://stackexchange.com")
             .queryURL(path: "/search?q=%s")
@@ -737,7 +779,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search/site/%s")
         
         
-        // SU
+
+        // #SU
         
         Site("https://www.suave.com")
             .queryURL(path: "/us/en/search.html?q=%s")
@@ -772,8 +815,14 @@ internal extension SiteIndex {
         Site("https://www.suvabeauty.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #SV
+        
         Site("http://www.svo.aero")
             .queryURL(path: "/en/search/?text=%s")
+        
+        
+        // #SW
         
         Site("https://www.swap.com")
             .queryURL(path: "/shop/?q=%s")
@@ -806,14 +855,23 @@ internal extension SiteIndex {
         Site("https://www.swissdiamond.com")
             .queryURL(path: "/search?search=%s")
         
+        
+        // #SX
+        
         Site("https://www.sxsw.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #SY
         
         Site("https://library.sydneycatholic.org")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.sykes.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #SZ
         
     }
 }

@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var Misc = SiteSet {
+        
+        // #0
+        // #1
+        
         Site("https://www.1079nashicon.com")
             .queryURL(path: "/?s=%s")
         
@@ -22,11 +26,17 @@ internal extension SiteIndex {
         Site("https://1x.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #2
+        
         Site("https://2k.com")
             .queryURL(path: "/en-US/search/?q=%s")
         
         Site("https://2xist.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #3
         
         Site("https://34heritage.com")
             .queryURL(path: "/search?q=%s")
@@ -37,6 +47,9 @@ internal extension SiteIndex {
         Site("https://3x1denim.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #4
+        
         Site("https://www.420magazine.com")
             .queryURL(path: "/?s=%s")
         
@@ -45,6 +58,9 @@ internal extension SiteIndex {
         
         Site("https://www.4wheelparts.com")
             .queryURL(path: "/s/_/?Ntt=%s")
+        
+        
+        // #5
         
         Site("https://500px.com")
             .queryURL(path: "/search?q=%s&type=photos")
@@ -55,8 +71,14 @@ internal extension SiteIndex {
         Site("https://www.525america.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
+        
+        // #6
+        
         Site("https://www.6pm.com")
             .queryURL(path: "/%s")
+        
+        
+        // #7
         
         Site("https://www.7forallmankind.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -64,11 +86,17 @@ internal extension SiteIndex {
         Site("https://www.7up.com")
             .queryURL(path: "/en/search?search-term=%s")
         
+        
+        // #8
+        
         Site("https://news.8btc.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.8newsnow.com")
             .queryURL(path: "/?s=%s&submit=Search")
+        
+        
+        // #9
         
         Site("https://www.911tabs.com")
             .queryURL(path: "/search.php?search=%s")

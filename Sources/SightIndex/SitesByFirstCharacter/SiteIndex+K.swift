@@ -10,8 +10,14 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var K = SiteSet {
+        
+        // #K1
+        
         Site("https://www.k-deer.com")
             .queryURL(path: "/search?type=product&q=%s*")
+        
+        
+        // #KA
         
         Site("https://www.kansai-airport.or.jp")
             .queryURL(path: "/en/search?keywords=%s")
@@ -49,8 +55,16 @@ internal extension SiteIndex {
         Site("https://www.kazzclothing.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #KB
+        
         Site("https://www.kbellsocks.com")
             .queryURL(path: "/search.aspx?keyword=%s")
+        
+        
+        // #KC
+        // #KD
+        // #KE
         
         Site("https://www.keh.com")
             .queryURL(path: "/shop/search/?q=%s")
@@ -61,11 +75,21 @@ internal extension SiteIndex {
         Site("https://www.kenzoparfums.com")
             .queryURL(path: "/en/search?search=%s")
         
+        
+        // #KF
+        
         Site("https://kfor.com")
             .queryURL(path: "/?s=%s&submit=Search")
         
+        
+        // #KG
+        
         Site("http://www.kgi.edu")
             .queryURL(path: "/google-search-results?q=%s")
+        
+        
+        // #KH
+        // #KI
         
         Site("https://www.kia.com")
             .queryURL(path: "/us/en/search?q=%s")
@@ -112,14 +136,25 @@ internal extension SiteIndex {
         Site("https://www.kiyonna.com")
             .queryURL(path: "/SEARCH.html?q=%s")
         
+        
+        // #KJ
+        // #KK
+        // #KL
+        
         Site("https://www.kleintools.com")
             .queryURL(path: "/search/%s")
         
         Site("http://www.klia.com.my")
             .queryURL(path: "/index.php?m=search&query=%s")
         
+        
+        // #KM
+        
         Site("https://www.kmart.com")
             .queryURL(path: "/search=%s")
+        
+        
+        // #KN
         
         Site("https://knewz.com")
             .queryURL(path: "/search/%s")
@@ -132,6 +167,9 @@ internal extension SiteIndex {
         
         Site("https://knockknockstuff.com")
             .queryURL(path: "/?s=%s&searching=shop")
+        
+        
+        // #KO
         
         Site("https://koa.com")
             .queryURL(path: "/search/?txtLocation=%s")
@@ -156,17 +194,30 @@ internal extension SiteIndex {
         Site("https://kotlinlang.org")
             .queryURL(path: "/?q=%s")
         
+        
+        // #KP
+        // #KQ
+        // #KR
+        
         Site("http://www.kraftmaid.com")
             .queryURL(path: "/search.php?search_query=%s")
         
         Site("https://www.kroger.com")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #KS
+        
         Site("https://kswiss.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #KT
+        
         Site("https://ktc.tools")
             .queryURL(path: "/?s=%s")
+        
+        // #KU
         
         Site("https://www.kuhl.com")
             .queryURL(path: "/search/?q=%s")
@@ -179,6 +230,13 @@ internal extension SiteIndex {
         
         Site("https://kuow.org")
             .queryURL(path: "/search/results?term=%s&action=search")
+        
+        
+        // #KV
+        // #KW
+        // #KX
+        // #KY
+        // #KZ
         
     }
 }

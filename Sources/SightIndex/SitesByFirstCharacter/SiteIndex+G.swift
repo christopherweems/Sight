@@ -9,11 +9,17 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var G = SiteSet {
+        
+        // #G1
+        
         Site("https://www.g-star.com")
             .queryURL(path: "/en_us/search?q=%s")
         
         Site("https://www.g2a.com")
             .queryURL(path: "/search?query=%s")
+        
+        
+        // #GA
         
         Site("https://www.gaiam.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
@@ -69,14 +75,24 @@ internal extension SiteIndex {
         Site("https://www.gatwickairport.com")
             .queryURL(path: "/search/?type=site&query=%s")
         
+        
+        // #GB
+        
         Site("http://www.gbiac.net")
             .queryURL(path: "/global/search?p_p_id=77&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-3&p_p_col_count=1&_77_struts_action=%2Fjournal_content_search%2Fsearch&globalSearch=%s")
                 
+        
+        // #GC
+        // #GD
+        
         Site("https://gdfstudio.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
         Site("https://gdgts.org")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #GE
         
         Site("https://www.gearbest.com")
             .queryURL(path: "/%s-_gear/")
@@ -105,14 +121,24 @@ internal extension SiteIndex {
         Site("https://www.getzs.com")
             .queryURL(path: "/browse/products.html?search=&terms=%s")
         
+        
+        // #GF
+        
         Site("https://gfycat.com")
             .queryURL(path: "/gifs/search/%s")
+        
+        
+        // #GG
+        // #GH
         
         Site("https://www.ghacks.net")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.ghdhair.com")
             .queryURL(path: "/us/search?ghdsch=%s")
+        
+        
+        // #GI
         
         Site("https://www.giantbomb.com")
             .queryURL(path: "/search/?i=&q=%s")
@@ -154,6 +180,11 @@ internal extension SiteIndex {
         Site("https://gizmodo.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #GJ
+        // #GK
+        // #GL
+        
         Site("https://www.glasgowairport.com")
             .queryURL(path: "/search?searchTerm=%s")
         
@@ -162,6 +193,9 @@ internal extension SiteIndex {
         
         Site("https://global.rakuten.com")
             .queryURL(path: "/en/search/?k=%s")
+        
+        
+        // #GM
         
         Site("https://www.gm.com")
             .queryURL(path: "/search-results.html?q=%s")
@@ -175,8 +209,14 @@ internal extension SiteIndex {
         Site("https://www2.gmu.edu")
             .queryURL(path: "/search/test?scope#stq=%s&stp=1")
         
+        
+        // #GN
+        
         Site("https://www.gnc.com")
             .queryURL(path: "/search?q=%s&lang=default")
+        
+        
+        // #GO
         
         Site("https://www.gofundme.com")
             .queryURL(path: "/mvc.php?route=homepage_norma/search&term=%s")
@@ -237,8 +277,15 @@ internal extension SiteIndex {
         Site("https://gourmet.bunn.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #GP
+        // #GQ
+        
         Site("https://www.gq.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #GR
         
         Site("https://www.graceandlace.com")
             .queryURL(path: "/search?type=product&q=%s")
@@ -267,8 +314,15 @@ internal extension SiteIndex {
         Site("https://www.gruntstyle.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #GS
+        
         Site("https://www.gs1us.org")
             .queryURL(path: "/gs1-us-search?searchTerm=%s")
+        
+        
+        // #GT
+        // #GU
         
         Site("https://www.gucci.com")
             .queryURL(path: "/us/en/search?search-cat=header-search&text=%s")
@@ -285,8 +339,18 @@ internal extension SiteIndex {
         Site("https://gunnar.com")
             .queryURL(path: "/shop/?s=%s")
         
+        
+        // #GV
+        // #GW
+        
         Site("https://www.gwu.edu")
             .queryURL(path: "/gsearch/%s")
+        
+        
+        // #GX
+        // #GY
+        // #GZ
+        
         
     }
 }

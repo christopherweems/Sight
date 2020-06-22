@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var E = SiteSet {
+        
+        // #E1
+        // #EA
+        
         Site("https://www.eagleeyes.com")
             .queryURL(path: "/apps/omega-search/?type=product&q=%s")
         
@@ -31,6 +35,9 @@ internal extension SiteIndex {
         Site("https://www.eatright.org")
             .queryURL(path: "/search-results?keyword=%s")
         
+        
+        // #EB
+        
         Site("https://www.ebags.com")
             .queryURL(path: "/search?term=%s")
         
@@ -39,6 +46,9 @@ internal extension SiteIndex {
         
         Site("https://www.ebony.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #EC
         
         Site("https://eclecticlight.co")
             .queryURL(path: "/?s=%s")
@@ -55,11 +65,20 @@ internal extension SiteIndex {
         Site("https://www.ecu.edu")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #ED
+        
         Site("https://www.eddiebauer.com")
             .queryURL(path: "/s/%s?keyword=%s")
         
+        
+        // #EE
+        
         Site("https://www.eetimes.com")
             .queryURL(path: "/search.asp?q=%s")
+        
+        
+        // #EF
         
         Site("https://www.eff.org")
             .queryURL(path: "/search/site/%s")
@@ -67,8 +86,18 @@ internal extension SiteIndex {
         Site("https://www.effyjewelry.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #EG
+        // #EH
+        
         Site("https://www.ehow.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #EI
+        // #EJ
+        // #EK
+        // #EL
         
         Site("https://www.elago.com")
             .queryURL(path: "/search?q=%s")
@@ -100,6 +129,9 @@ internal extension SiteIndex {
         Site("https://elst.beer")
             .queryURL(path: "/?s=%s")
         
+        
+        // #EM
+        
         Site("https://www.emmago.com")
             .queryURL(path: "/search?q=%s")
         
@@ -108,6 +140,9 @@ internal extension SiteIndex {
         
         Site("https://www.ems.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #EN
         
         Site("https://www.enasco.com")
             .queryURL(path: "/search/?ea_q=%s&boxsearchBy=easyAskSearchTermSearchStrategy&boxea_path=All+Products%2F%2F%2F%2FNasco&boxea_rpp=16&boxea_cp=1&boxea_sort=")
@@ -120,17 +155,28 @@ internal extension SiteIndex {
         Site("https://www.enkiverywell.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #EO
+        // #EP
+        
         Site("https://www.epicgames.com")
             .queryURL(path: "/fortnite/en-US/search?q=%s")
         
         Site("https://www.epix.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #EQ
+        
         Site("https://eqmusicblog.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://equus.blackpepper.com.au")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        
+        // #ER
+        // #ES
         
         Site("https://eshop.macsales.com")
             .queryURL(path: "/search/?q=%s")
@@ -140,6 +186,9 @@ internal extension SiteIndex {
         
         Site("https://www.essentialapparel.com")
             .queryURL(path: "/search?terms=%s")
+        
+        
+        // #ET
         
         Site("https://eternitymodern.com")
             .queryURL(path: "/search?type=product&q=%s*")
@@ -162,8 +211,14 @@ internal extension SiteIndex {
         Site("https://www.ettitude.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        
+        // #EU
+        
         Site("https://www.eurogamer.net")
             .queryURL(path: "/search.php?q=%s")
+        
+        
+        // #EV
         
         Site("https://www.evcr.com")
             .queryURL(path: "/search?type=product&q=%s")
@@ -192,8 +247,14 @@ internal extension SiteIndex {
         Site("https://evolvefitwear.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #EW
+        
         Site("https://ew.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #EX
         
         Site("https://www.express.com")
             .queryURL(path: "/exp/search?q=%s")
@@ -204,8 +265,14 @@ internal extension SiteIndex {
         Site("https://www.extremetech.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #EY
+        
         Site("https://www.eyebuydirect.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #EZ
         
     }
 }

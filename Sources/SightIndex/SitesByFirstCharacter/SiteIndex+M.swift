@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var M = SiteSet {
+        
+        // #M1
+        // #MA
+        
         Site("https://www.maccosmetics.com")
             .queryURL(path: "/esearch?search=%s")
         
@@ -127,8 +131,14 @@ internal extension SiteIndex {
         Site("https://www.mayoclinic.org")
             .queryURL(path: "/search/search-results?q=%s")
         
+        
+        // #MB
+        
         Site("https://www.mbusa.com")
             .queryURL(path: "/mercedes/siteSearch?q=%s")
+        
+        
+        // #MC
         
         Site("https://www.mcdonalds.com")
             .queryURL(path: "/us/en-us/search-results.html?q=%s")
@@ -139,8 +149,14 @@ internal extension SiteIndex {
         Site("https://www.mcsweeneys.net")
             .queryURL(path: "/articles/search?q=%s")
         
+        
+        // #MD
+        
         Site("https://www.mda.org")
             .queryURL(path: "/search/site/%s")
+        
+        
+        // #ME
         
         Site("https://www.mead.com")
             .queryURL(path: "/mead/search?Ntt=%s")
@@ -201,8 +217,16 @@ internal extension SiteIndex {
         Site("https://mexx.com")
             .queryURL(path: "/en/catalogsearch/result/?q=%s")
         
+        
+        // #MF
+        // #MG
+        // #MH
+        
         Site("https://www.mhu.edu")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #MI
         
         Site("https://www.miaminewtimes.com")
             .queryURL(path: "/search?keyword=%s")
@@ -264,14 +288,24 @@ internal extension SiteIndex {
         Site("https://www.mizzenandmain.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        
+        // #MJ
+        
         Site("https://www.mjtrim.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #MK
+        // #ML
         
         Site("https://www.mlbshop.com")
             .queryURL(path: "/?query=%s")
         
         Site("https://www.mlg.com")
             .queryURL(path: "/search?query=%s")
+        
+        
+        // #MM
         
         Site("https://www.mma-core.com")
             .queryURL(path: "/search/%s")
@@ -284,6 +318,10 @@ internal extension SiteIndex {
         
         Site("https://www.mms.com")
             .queryURL(path: "/en-us/search?categoryId=101926&query=%s")
+        
+        
+        // #MN
+        // #MO
         
         Site("https://www.modanisa.com")
             .queryURL(path: "/en/search/?q=%s")
@@ -372,6 +410,9 @@ internal extension SiteIndex {
         Site("https://developer.mozilla.org")
             .queryURL(path: "/en-US/search?q=%s")
         
+        
+        // #MP
+        
         /*
          // Modern Ambition
         Site("https://mpgsport.com")
@@ -387,11 +428,19 @@ internal extension SiteIndex {
         Site("https://www.mrporter.com")
             .queryURL(path: "/en-us/mens/search/%s")
         
+        
+        // #MQ
+        // #MR
+        // #MS
+        
         Site("https://www.msf.org")
             .queryURL(path: "/search?keyword=%s")
         
         Site("http://www.msnbc.com")
             .queryURL(path: "/search/%s")
+        
+        
+        // #MT
         
         Site("https://mtonews.com")
             .queryURL(path: "/search?query=%s")
@@ -405,6 +454,9 @@ internal extension SiteIndex {
         Site("https://www.mumuuu.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #MU
+        
         Site("https://www.munich-airport.com")
             .queryURL(path: "/search-results-75585?search_form_presenter%5Bcommit%5D=1&search_form_presenter%5Bsearch_term%5D=%s")
         
@@ -414,14 +466,26 @@ internal extension SiteIndex {
         Site("https://www.musiciansfriend.com")
             .queryURL(path: "/search?Ntt=%s")
         
+        
+        // #MV
+        
         Site("https://www.mvmtwatches.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        
+        // #MW
         
         Site("https://www.mwave.com")
             .queryURL(path: "/mwave/deepsearch_v3.asp?scriteria=%s&FilterCatID=")
         
+        
+        // #MX
+        
         Site("https://www.mxdwn.com")
             .queryURL(path: "/?s=%s")
+        
+        
+        // #MY
                 
         Site("https://www.mybakingaddiction.com")
             .queryURL(path: "/?s=%s")
@@ -443,5 +507,9 @@ internal extension SiteIndex {
         
         Site("https://www.mytheresa.com")
             .queryURL(path: "/en-us/catalogsearch/result/?q=%s")
+        
+        
+        // #MZ
+    
     }
 }

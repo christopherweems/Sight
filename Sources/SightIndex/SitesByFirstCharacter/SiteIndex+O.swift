@@ -10,6 +10,10 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var O = SiteSet {
+        
+        // #O1
+        // #OA
+        
         Site("https://www.oakley.com")
             .queryURL(path: "/en-us/search?text=%s")
         
@@ -22,8 +26,14 @@ internal extension SiteIndex {
         Site("https://www.oasis-stores.com")
             .queryURL(path: "/us/search?q=%s")
         
+        
+        // #OB
+        
         Site("https://obeyclothing.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #OC
         
         Site("https://www.oclc.org")
             .queryURL(path: "/en/search-results.html#q=%s")
@@ -31,14 +41,25 @@ internal extension SiteIndex {
         Site("https://www.ocm.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #OD
+        // #OE
+        // #OF
+        
         Site("https://www.officedepot.com")
             .queryURL(path: "/catalog/search.do?Ntt=%s")
         
         Site("https://www.ofracosmetics.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        
+        // #OG
+        
         Site("https://www.ogio.com")
             .queryURL(path: "/on/demandware.store/Sites-OGIO-Site/en_US/Search-Show?q=%s&cgid=results")
+        
+        
+        // #OH
         
         Site("https://ohmyveggies.com")
             .queryURL(path: "/?s=%s")
@@ -52,8 +73,16 @@ internal extension SiteIndex {
         Site("https://www.ohuhu.com")
             .queryURL(path: "/search?word=%s")
         
+        
+        // #OI
+        // #OJ
+        // #OK
+        
         Site("https://www.okta.com")
             .queryURL(path: "/search/#q=%s")
+        
+        
+        // #OL
         
         Site("https://www.olay.com")
             .queryURL(path: "/search.php?search_query=%s")
@@ -66,6 +95,10 @@ internal extension SiteIndex {
         
         Site("https://www.olloclip.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #OM
+        // #ON
         
         Site("https://www.onehanesplace.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=89551&doorId=4&storeId=10705&catalogId=11054&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s")
@@ -88,8 +121,14 @@ internal extension SiteIndex {
         Site("https://www.onnit.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #OO
+        
         Site("https://www.ooly.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
+        
+        
+        // #OP
         
         Site("https://openbazaar.com")
             .queryURL(path: "/discover/results?q=%s")
@@ -118,6 +157,10 @@ internal extension SiteIndex {
         Site("https://opusartsupplies.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #OQ
+        // #OR
+        
         Site("https://orchardmile.com")
             .queryURL(path: "/search?term=%s")
         
@@ -142,6 +185,9 @@ internal extension SiteIndex {
         Site("https://www.orvis.com")
             .queryURL(path: "/store/product_search_promote.aspx?keyword=%s")
         
+        
+        // #OS
+        
         Site("https://www.oscardelarenta.com")
             .queryURL(path: "/search?q=%s")
         
@@ -151,8 +197,14 @@ internal extension SiteIndex {
         Site("https://www.osu.edu")
             .queryURL(path: "/search.html?query=%s")
         
+        
+        // #OT
+        
         Site("https://www.otterbox.com")
             .queryURL(path: "/en-us/search?q=%s")
+        
+        
+        // #OU
         
         Site("http://www.ou.edu")
             .queryURL(path: "/web/search?q=%s")
@@ -172,11 +224,22 @@ internal extension SiteIndex {
         Site("https://www.outerknown.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        
+        // #OV
+        
         Site("https://www.overstock.com")
             .queryURL(path: "/%s,/k,/results.html")
         
+        
+        // #OW
+        // #OX
+        
         Site("https://www.oxo.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        
+        // #OY
+        // #OZ
         
     }
 }
