@@ -49,6 +49,12 @@ internal extension SiteIndex {
         Site("https://www.ncsu.edu")
             .queryURL(path: "/search/global.php?q=%s")
         
+        Site("https://sports.ndtv.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.ndtv.com")
+            .queryURL(path: "/search?searchtext=%s")
+        
         Site("https://needsupply.com")
             .queryURL(path: "/search?q=%s")
         
@@ -135,6 +141,9 @@ internal extension SiteIndex {
         
         Site("https://www.ninacloak.com")
             .queryURL(path: "/search/?words=%s")
+        
+        Site("https://wwos.nine.com.au")
+            .queryURL("https://search.nine.com.au/?q=%s&site=wwos")
         
         Site("https://www.ninewest.com")
             .queryURL(path: "/search/?q=%s")

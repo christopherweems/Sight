@@ -43,6 +43,9 @@ internal extension SiteIndex {
         Site("https://www.lastcall.com")
             .queryURL(path: "/search.jsp?N=0&Ntt=%s")
         
+        Site("https://lastwordontennis.com")
+            .queryURL(path: "/search/%s")
+        
         Site("https://www.latimes.com")
             .queryURL(path: "/search?q=%s")
         
@@ -116,6 +119,8 @@ internal extension SiteIndex {
         
         Site("https://www.lightstalking.com")
             .queryURL(path: "/search_gcse/?q=%s")
+        
+        Site("https://www.lilienthal-berlin.com")
         
         Site("https://www.liligal.com")
             .queryURL(path: "/search.php?keywords=%s")

@@ -76,6 +76,9 @@ internal extension SiteIndex {
         Site("https://www.dereklam.com")
             .queryURL(path: "/us/shopping/?query=%s")
         
+        Site("https://www.deseret.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.designbyhumans.com")
             .queryURL(path: "/shop/?q=%s")
         
@@ -278,6 +281,9 @@ internal extension SiteIndex {
         
         Site("https://www.dxomark.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.dynatrace.com")
+            .queryURL("https://search.dynatrace.com/?q=%s")
         
         Site("https://www.dynamiteclothing.com")
             .queryURL(path: "/us/search?Ntt=%s")

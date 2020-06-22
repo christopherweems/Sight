@@ -47,9 +47,8 @@ internal extension SiteIndex {
         Site("https://www.americanapparel.com")
             .queryURL(path: "/s?Ntt=%s")
         
-        Site("https://www.art.com")
-            .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
-        
+        Site("https://www.ansa.it")
+                
         Site("https://search.aol.com")
             .queryURL(path: "/aol/search?q=%s")
         
@@ -58,13 +57,13 @@ internal extension SiteIndex {
             .queryURL(path: "/aol/image;?q=%s")
         */
         
+        Site("https://apnews.com")
+        
         Site("https://aopd.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://aphotoeditor.com")
             .queryURL(path: "/?s=%s")
-        
-        Site("https://apnews.com")
         
         Site("https://gcse.asu.edu")
             .queryURL(path: "/search/google/%s")
@@ -83,6 +82,9 @@ internal extension SiteIndex {
         
         Site("https://appleinsider.com")
             .queryURL(path: "/search/?query=%s")
+        
+        Site("https://www.art.com")
+            .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
         
         Site("https://www.artmaterialsonline.com")
             .queryURL(path: "/product_search/?q=%s")

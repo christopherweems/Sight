@@ -181,6 +181,9 @@ internal extension SiteIndex {
         Site("https://thehill.com")
             .queryURL(path: "/search/query/%s")
         
+        Site("https://thehockeynews.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.thehut.com")
             .queryURL(path: "/elysium.search?search=%s")
         
@@ -282,6 +285,9 @@ internal extension SiteIndex {
         
         Site("https://www.thredup.com")
             .queryURL(path: "/products/women?department_tags=women&text=%s")
+        
+        Site("https://thrivecausemetics.com")
+            .queryURL(path: "/pages/search-results?q=%s")
         
         Site("http://www.ti.com")
             .queryURL(path: "/sitesearch/docs/universalsearch.tsp?searchTerm=%s")
@@ -402,6 +408,9 @@ internal extension SiteIndex {
         
         Site("https://www.toro.com")
             .queryURL(path: "/en/search#q=%s")
+        
+        Site("https://torontosun.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.torrid.com")
             .queryURL(path: "/search?q=%s")

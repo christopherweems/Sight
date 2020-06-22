@@ -251,6 +251,8 @@ internal extension SiteIndex {
         Site("https://www.foxracing.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.foxsports.com.au")
+        
         Site("https://frame-store.com")
             .queryURL(path: "/pages/search-results?limit=24&q=%s")
         

@@ -10,6 +10,9 @@ import SightBuilder
 
 internal extension SiteIndex {
     static var S = SiteSet {
+        
+        // SA
+        
         Site("https://www.sabonnyc.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -96,6 +99,9 @@ internal extension SiteIndex {
         
         Site("https://sdotbeauty.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // SE
         
         Site("https://sea-ny.com")
             .queryURL(path: "/search?q=%s*")
@@ -415,6 +421,9 @@ internal extension SiteIndex {
         Site("https://www.showpo.com")
             .queryURL(path: "/us/search?q=%s")
         
+        
+        // SI
+        
         Site("https://www.si.com")
             .queryURL(path: "/search?query=%s")
         
@@ -539,6 +548,9 @@ internal extension SiteIndex {
         Site("https://so.csdn.net")
             .queryURL(path: "/so/search/s.do?q=%s")
         */
+        
+        
+        // SO
  
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
@@ -723,6 +735,9 @@ internal extension SiteIndex {
         
         Site("https://www.stuff.tv")
             .queryURL(path: "/search/site/%s")
+        
+        
+        // SU
         
         Site("https://www.suave.com")
             .queryURL(path: "/us/en/search.html?q=%s")

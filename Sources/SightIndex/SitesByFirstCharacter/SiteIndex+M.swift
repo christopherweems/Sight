@@ -243,6 +243,9 @@ internal extension SiteIndex {
         Site("https://www.miraclesuit.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.mirror.co.uk")
+            .queryURL("/search/?q=%s")
+        
         Site("https://www.misfit.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -272,6 +275,9 @@ internal extension SiteIndex {
         
         Site("https://www.mma-core.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://www.mmamania.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://mmlafleur.com")
             .queryURL(path: "/shop/catalogsearch/result?q=%s")
@@ -338,6 +344,9 @@ internal extension SiteIndex {
         
         Site("https://www.motorola.com")
             .queryURL(path: "/us/search?query=%s")
+        
+        Site("https://www.motorsportmagazine.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.motortrend.com")
             .queryURL(path: "/s/%s")

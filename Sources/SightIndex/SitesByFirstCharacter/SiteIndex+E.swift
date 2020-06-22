@@ -198,6 +198,9 @@ internal extension SiteIndex {
         Site("https://www.express.com")
             .queryURL(path: "/exp/search?q=%s")
         
+        Site("https://www.expressnews.com")
+            .queryURL(path: "/search/?action=search&query=%s&search=")
+        
         Site("https://www.extremetech.com")
             .queryURL(path: "/?s=%s")
         
