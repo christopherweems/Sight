@@ -86,6 +86,12 @@ internal extension SiteIndex {
         Site("https://www.art.com")
             .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
         
+        Site("https://www.artistcraftsman.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://www.artistsupplysource.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.artmaterialsonline.com")
             .queryURL(path: "/product_search/?q=%s")
         
@@ -94,12 +100,6 @@ internal extension SiteIndex {
         
         Site("https://www.artsupplywarehouse.com")
             .queryURL(path: "/inet/storefront/store.php?mode=searchstore&search%5Bsearchfor%5D=%s")
-        
-        Site("https://www.artistcraftsman.com")
-            .queryURL(path: "/catalogsearch/result/?q=%s")
-        
-        Site("https://www.artistsupplysource.com")
-            .queryURL(path: "/search?q=%s")
         
         Site("https://cse.appstate.edu")
             .queryURL(path: "/?q=%s")
@@ -130,11 +130,11 @@ internal extension SiteIndex {
         Site("http://www.axs.tv")
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.azpx.com")
-            .queryURL(path: "/?s=%s")
-        
         Site("https://azlyrics.com")
             .queryURL("https://search.azlyrics.com/search.php?q=%s")
         
+        Site("https://www.azpx.com")
+            .queryURL(path: "/?s=%s")
+                
     }
 }
