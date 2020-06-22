@@ -34,7 +34,7 @@ public extension Site {
 private extension Site {
     func queryURLPartsSplit(_ urlString: String) -> [String] {
         let pathParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
-        assert(2 <= pathParts.count, "query path must contain 1 or more `%s` query delimiters")
+        assert(2 <= pathParts.count, "query path for `\(root)` must contain 1 or more `%s` query delimiters")
         
         return pathParts
     }
