@@ -42,6 +42,9 @@ internal extension SiteIndex {
         Site("https://www.washingtontimes.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.wataugademocrat.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://www.watchmaxx.com")
             .queryURL(path: "/watches?query=%s")
         
@@ -188,6 +191,12 @@ internal extension SiteIndex {
         
         // #WI
         
+        Site("https://www.wibw.com")
+            .queryURL(path: "/search?searchKeywords=%s")
+        
+        Site("https://www.widerightnattylite.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.wigs.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
@@ -243,6 +252,9 @@ internal extension SiteIndex {
         
         
         // #WK
+        
+        Site("https://www.wkrn.com")
+            .queryURL(path: "/?s=%s&submit=Search")
         
         Site("https://www.wkyt.com")
             .queryURL(path: "/search?searchKeywords=%s")
@@ -348,6 +360,9 @@ internal extension SiteIndex {
         
         Site("https://www.wtfm.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.wtsp.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.wtva.com")
             .queryURL(path: "/search/?site_search=%s")

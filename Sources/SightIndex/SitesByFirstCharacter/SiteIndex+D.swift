@@ -30,6 +30,9 @@ internal extension SiteIndex {
         Site("https://dailycaller.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.djournal.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://www.dailykos.com")
             .queryURL(path: "/search?text=%s")
         
@@ -86,6 +89,9 @@ internal extension SiteIndex {
         Site("https://www.deliciouseveryday.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.desmoinesregister.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.denondj.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -112,6 +118,9 @@ internal extension SiteIndex {
         
         Site("https://detroit-electric-group.com")
             .queryURL(path: "/en/search.html?search=%s")
+        
+        Site("https://www.detroitnews.com")
+            .queryURL(path: "/search/water/%s")
         
         Site("https://www.deuxpardeux.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")

@@ -37,8 +37,14 @@ internal extension SiteIndex {
         Site("https://talkingpointsmemo.com")
             .queryURL(path: "/search/%s")
         
+        Site("https://www.tallahassee.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.tamaramellon.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.tampabay.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.tamu.edu")
             .queryURL(path: "/search/index.html?q=%s")
@@ -157,11 +163,23 @@ internal extension SiteIndex {
         Site("https://thakoon.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #THE1
+        
         Site("https://www.the-house.com")
             .queryURL(path: "/search.html?keywords=%s")
         
         Site("https://www.theartofshaving.com")
             .queryURL(path: "/on/demandware.store/Sites-TAOS-Site/default/Search-Show?q=%s")
+        
+        
+        // #THEA
+        
+        Site("https://theathletic.com")
+            .queryURL(path: "/search/?query=%s")
+        
+        
+        // #THEB
         
         Site("https://www.thebay.com")
             .queryURL(path: "/search/EndecaSearch.jsp?bmArch=bmForm&bmForm=endeca_search_form_one&bmArch=bmIsForm&bmIsForm=true&bmHidden=submit-search&submit-search=&bmArch=bmSingle&bmSingle=N_Dim&bmHidden=N_Dim&N_Dim=0&bmArch=bmHidden&bmHidden=Ntk&bmHidden=Ntk&Ntk=Entire+Site&bmArch=bmHidden&bmHidden=Ntx&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&bmHidden=PA&PA=TRUE&SearchString=%s")
@@ -172,6 +190,9 @@ internal extension SiteIndex {
         Site("https://www.theblaze.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #THEC
+        
         Site("https://www.thecheesecakefactory.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -181,14 +202,23 @@ internal extension SiteIndex {
         Site("https://theconversation.com")
             .queryURL(path: "/us/search?q=%s")
         
+        
+        // #THED
+        
         Site("https://www.thedailybeast.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.thedailymash.co.uk")
             .queryURL(path: "/?s=%s")
         
+        
+        // #THEE
+        
         Site("https://www.theenglishshavingcompany.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        
+        // #THEF
         
         Site("https://thefashioncamera.com")
             .queryURL(path: "/?s=%s")
@@ -196,7 +226,13 @@ internal extension SiteIndex {
         Site("https://www.thefreshmarket.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #THEG
+        
         Site("https://www.theguardian.com")
+        
+        
+        // #THEH
         
         Site("https://thehealthyfoodie.com")
             .queryURL(path: "/?s=%s")
@@ -210,6 +246,11 @@ internal extension SiteIndex {
         Site("https://www.thehut.com")
             .queryURL(path: "/elysium.search?search=%s")
         
+        
+        // #THEI
+        // #THEJ
+        // #THEK
+        
         Site("https://www.thekitchn.com")
             .queryURL(path: "/search?q=%s")
         
@@ -218,6 +259,9 @@ internal extension SiteIndex {
         Site("https://www.thekitchn.com")
             .queryURL(path: "/search?q=%s&page=1&filter=recipes")
         */
+        
+        
+        // #THEL
  
         Site("http://theladiesfinger.com")
             .queryURL(path: "/?s=%s")
@@ -225,14 +269,23 @@ internal extension SiteIndex {
         Site("https://www.thelines.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #THEM
+        
         Site("https://www.themountain.com")
             .queryURL(path: "/search?search_query=%s")
+        
+        
+        // #THEN
         
         Site("https://thenextweb.com")
             .queryURL(path: "/?q=%s")
         
         Site("https://www.thenorthface.com")
             .queryURL(path: "/shop/VFSearchDisplay?catalogId=20001&storeId=7001&langId=-1&searchTerm=%s")
+        
+        
+        // #THEO
         
         Site("https://www.theonion.com")
             .queryURL(path: "/search?blogId=1636079510&q=%s")
@@ -243,6 +296,9 @@ internal extension SiteIndex {
         Site("https://www.theoutnet.com")
             .queryURL(path: "/en-us/shop/search/%s")
         
+        
+        // #THEP
+        
         Site("https://www.thephoblographer.com")
             .queryURL(path: "/?s=%s")
         
@@ -251,6 +307,9 @@ internal extension SiteIndex {
         
         Site("https://thepioneerwoman.com")
             .queryURL(path: "/?s=%s")
+        
+        // #THEQ
+        // #THER
         
         Site("https://www.therams.com")
             .queryURL(path: "/search/?query=%s")
@@ -261,8 +320,14 @@ internal extension SiteIndex {
         Site("https://thegrapevine.theroot.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.therugbypaper.co.uk")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.therustedgarden.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        
+        // #THES
         
         Site("https://www.thesaurus.com")
             .queryURL(path: "/browse/%s")
@@ -276,6 +341,9 @@ internal extension SiteIndex {
         Site("https://www.thesun.co.uk")
             .queryURL(path: "/?s=%s")
         
+        
+        // #THET
+        
         Site("https://www.thetechie.de")
             .queryURL(path: "/search?q=%s")
         
@@ -285,17 +353,29 @@ internal extension SiteIndex {
         Site("https://thetylt.com")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #THEU
+        // #THEV
+        
         Site("http://www.thevanillabeanblog.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.theverge.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #THEW
+        
         Site("https://www.thewanderinglens.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.thewhitecompany.com")
             .queryURL(path: "/us/search?text=%s")
+        
+        
+        // #THEX
+        // #THEY
+        // #THEZ
         
         Site("https://www.thingsremembered.com")
             .queryURL(path: "/searchresults?Ntt=%s&Nty=1&No=0&Nrpp=12&Rdm=367&searchType=simple&type=search")
@@ -552,6 +632,9 @@ internal extension SiteIndex {
         
         // #TT
         // #TU
+        
+        Site("https://tulanegreenwave.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")
         
         Site("https://home.tusculum.edu")
             .queryURL(path: "/search/index.php?q=%s")

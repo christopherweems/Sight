@@ -214,6 +214,8 @@ internal extension SiteIndex {
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://footballfoundation.org")
+        
         /*
          // wavelength blog
         Site("https://www.focuscamera.com")

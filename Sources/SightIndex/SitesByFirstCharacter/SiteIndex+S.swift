@@ -113,6 +113,8 @@ internal extension SiteIndex {
         
         // #SE
         
+        Site("https://sea-conference.com")
+        
         Site("https://sea-ny.com")
             .queryURL(path: "/search?q=%s*")
         
@@ -444,6 +446,9 @@ internal extension SiteIndex {
         Site("https://www.si.com")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://sicem365.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.sierra.com")
             .queryURL(path: "/s~%s/")
         
@@ -496,6 +501,9 @@ internal extension SiteIndex {
         Site("https://sjpbeauty.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://sjsunews.com")
+            .queryURL(path: "/search/%s")
+        
         
         // #SK
         
@@ -529,6 +537,9 @@ internal extension SiteIndex {
             .queryURL(path: "/shop/catalogsearch/result/?q=%s")
         
         Site("https://www.skylaryoo.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.skysports.com")
             .queryURL(path: "/search?q=%s")
         
         
@@ -627,6 +638,9 @@ internal extension SiteIndex {
         Site("https://souq.com")
             .queryURL(path: "/ae-en/%s/s/?as=1")
         
+        Site("https://thesource.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://southbeachswimsuits.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -647,6 +661,9 @@ internal extension SiteIndex {
         
         Site("https://www.speckproducts.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://spectrumlocalnews.com")
+            .queryURL(path: "/tx/san-antonio/search#%s/1/")
         
         Site("https://speechless.com")
             .queryURL(path: "/search?q=%s")
@@ -772,6 +789,8 @@ internal extension SiteIndex {
         Site("https://stubbypencilstudio.com")
             .queryURL(path: "/?s=%s&post_type=product")
         
+        Site("https://www.stubhub.com")
+        
         Site("https://stuckincustoms.com")
             .queryURL(path: "/search-page/?q=%s")
         
@@ -808,6 +827,9 @@ internal extension SiteIndex {
         
         Site("https://www.superdry.com")
             .queryURL(path: "/us/search/%s")
+        
+        Site("https://www.superrugby.co.nz")
+            .queryURL(path: "/search-results?Keyword=%s#st")
         
         Site("https://www.surlatable.com")
             .queryURL(path: "/search/search.jsp?Ntt=%s")

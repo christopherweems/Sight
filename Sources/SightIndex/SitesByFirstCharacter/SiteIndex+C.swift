@@ -16,11 +16,17 @@ internal extension SiteIndex {
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
         
+        Site("https://calbears.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://camerajabber.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.campbells.com")
             .queryURL(path: "/v8/?s=%s")
+        
+        Site("https://www.capitalgazette.com")
+            .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
         Site("https://www.carhartt.com")
             .queryURL(path: "/query/%s")
@@ -55,17 +61,26 @@ internal extension SiteIndex {
         Site("https://www.chicagotribune.com")
         .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
+        Site("https://www.chron.com")
+            .queryURL(path: "/search/?action=search&query=%s")
+        
         Site("https://www.chrono24.com")
             .queryURL(path: "/search/index.htm?query=%s&dosearch=true")
         
         
         // #CI
         
+        Site("https://www.cincinnati.com")
+            .queryURL(path: "/search/%s/")
+        
         
         // #CL
         
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.cleveland.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://clickitupanotch.com")
             .queryURL(path: "/?s=%s")
@@ -91,7 +106,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         
-        // CO
+        // #CO
         
         Site("https://www.coach.com")
             .queryURL(path: "/staticcontent?q=%s")
@@ -128,6 +143,8 @@ internal extension SiteIndex {
         
         Site("https://www.craftsman.com")
             .queryURL(path: "/products?ukeywords=%s")
+        
+        Site("https://www.crash.net")
         
         Site("https://www.creativelive.com")
             .queryURL(path: "/blog/?s=%s")

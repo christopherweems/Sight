@@ -50,6 +50,15 @@ internal extension SiteIndex {
         Site("https://www.nbcnews.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://nascar.nbcsports.com")
+            .queryURL(path: "/search?search_api_views_fulltext=%s")
+        
+        Site("https://profootballtalk.nbcsports.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://www.nbcsports.com")
+            .queryURL(path: "/search?search_api_views_fulltext=%s")
+        
         
         // #NC
         
@@ -91,6 +100,9 @@ internal extension SiteIndex {
         Site("https://www.net10wireless.com")
             .queryURL(path: "/searchresults?key=%s")
         
+        Site("https://www.nevadaappeal.com")
+            .queryURL(path: "/search-results/?q=%s")
+        
         Site("https://www.newark.com")
             .queryURL(path: "/search?st=%s")
         
@@ -117,6 +129,8 @@ internal extension SiteIndex {
         
         Site("https://www.news24.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.newsbreak.com")
         
         Site("https://www.newsbtc.com")
             .queryURL(path: "/?s=%s")
@@ -195,6 +209,10 @@ internal extension SiteIndex {
         
         
         // #NJ
+        
+        Site("https://www.nj.com")
+            .queryURL(path: "/search/?q=%s")
+        
         // #NK
         // #NL
         // #NM

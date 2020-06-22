@@ -47,6 +47,9 @@ internal extension SiteIndex {
         Site("https://www.lastcall.com")
             .queryURL(path: "/search.jsp?N=0&Ntt=%s")
         
+        Site("https://lastwordonhockey.com")
+            .queryURL(path: "/search/%s")
+        
         Site("https://lastwordontennis.com")
             .queryURL(path: "/search/%s")
         
@@ -303,6 +306,10 @@ internal extension SiteIndex {
         // #LQ
         // #LR
         // #LS
+        
+        Site("https://lsusports.net")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         // #LT
         // #LU
         

@@ -17,6 +17,9 @@ internal extension SiteIndex {
         Site("https://www.abc.net.au")
             .queryURL("https://search-beta.abc.net.au/index.html?siteTitle=news#/?query=%s")
         
+        Site("https://www.abqjournal.com")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #AC
         
@@ -98,6 +101,9 @@ internal extension SiteIndex {
         Site("https://collegefootball.ap.org")
             .queryURL(path: "/search/%s")
         
+        Site("https://www.ap.org")
+            .queryURL(path: "/en-us/search?q=%s")
+        
         Site("https://apnews.com")
                 
         Site("https://aphotoeditor.com")
@@ -163,6 +169,9 @@ internal extension SiteIndex {
         Site("https://www.atheists.org")
             .queryURL(path: "/?s=%s&submit=")
         
+        Site("https://athlonsports.com")
+            .queryURL(path: "/search/site/%s")
+        
         Site("https://www.att.com")
             .queryURL(path: "/global-search/search?q=%s")
         
@@ -175,8 +184,13 @@ internal extension SiteIndex {
         Site("http://www.autoanything.com")
             .queryURL(path: "/shop/%s")
         
+        Site("https://www.autosport.com")
+        
         // #AV
         // #AW
+        Site("https://awfulannouncing.com")
+            .queryURL(path: "/?s=%s")
+        
         // #AX
         
         Site("https://www.axios.com")

@@ -243,6 +243,10 @@ internal extension SiteIndex {
         // #JQ
         // #JR
         // #JS
+        
+        Site("https://www.loveandlemons.com")
+            .queryURL(path: "/search/%s/")
+        
         // #JT
         
         Site("https://www.jtv.com")

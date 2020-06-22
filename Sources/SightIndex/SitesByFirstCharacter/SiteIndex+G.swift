@@ -72,6 +72,9 @@ internal extension SiteIndex {
         Site("https://www.gardeners.com")
             .queryURL(path: "/search?q=%ssimplesearch=submit")
         
+        Site("https://www.gatorsports.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.gatwickairport.com")
             .queryURL(path: "/search/?type=site&query=%s")
         

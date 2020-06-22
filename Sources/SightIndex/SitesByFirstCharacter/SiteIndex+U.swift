@@ -50,6 +50,9 @@ internal extension SiteIndex {
         
         // #UE
         // #UF
+        Site("https://ufl.edu")
+            .queryURL("https://search.ufl.edu/web/#gsc.tab=0&gsc.q=%s")
+        
         // #UG
         
         Site("https://www.uga.edu")
@@ -117,6 +120,9 @@ internal extension SiteIndex {
         
         Site("https://uncw.edu")
             .queryURL(path: "/results.html?cx=002044598884227321031%3An6s3wx0uhow&cof=FORID%3A10&ie=UTF-8&q=%s")
+        
+        Site("https://theundefeated.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.underarmour.com")
             .queryURL(path: "/en-us/search?q=%s")
@@ -293,6 +299,8 @@ internal extension SiteIndex {
         
         Site("https://usartsupply.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("https://touchdownwire.usatoday.com")
         
         Site("https://www.usatoday.com")
             .queryURL(path: "/search/?q=%s")

@@ -505,6 +505,9 @@ internal extension SiteIndex {
         Site("https://www.myob.com")
             .queryURL(path: "/nz/search?q=%s&engineName=global&page=1")
         
+        Site("https://www.mysanantonio.com")
+            .queryURL(path: "/search/?action=search&firstRequest=1&searchindex=solr&query=%s")
+        
         Site("https://www.mytheresa.com")
             .queryURL(path: "/en-us/catalogsearch/result/?q=%s")
         

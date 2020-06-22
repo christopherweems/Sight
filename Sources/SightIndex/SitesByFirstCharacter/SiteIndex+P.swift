@@ -90,6 +90,11 @@ internal extension SiteIndex {
         
         
         // #PB
+        
+        Site("https://www.pba.com")
+            .queryURL(path: "/home/search?q=%s")
+        
+        
         // #PC
         
         Site("https://www.pcgamer.com")
@@ -136,6 +141,8 @@ internal extension SiteIndex {
         
         Site("https://www.penningtons.com")
             .queryURL(path: "/on/demandware.store/Sites-Penningtons_CA-Site/default/Search-Show?q=%s%3B")
+        
+        Site("https://www.pennlive.com")
         
         Site("https://people.com")
             .queryURL(path: "/search/?q=%s")

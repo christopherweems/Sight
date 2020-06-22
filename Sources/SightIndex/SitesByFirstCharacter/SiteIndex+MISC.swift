@@ -29,6 +29,9 @@ internal extension SiteIndex {
         
         // #2
         
+        Site("https://247sports.com")
+            .queryURL(path: "/Site/?View=Search#gsc.tab=0&gsc.q=%s")
+        
         Site("https://2k.com")
             .queryURL(path: "/en-US/search/?q=%s")
         

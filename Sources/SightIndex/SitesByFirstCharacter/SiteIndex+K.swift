@@ -72,8 +72,14 @@ internal extension SiteIndex {
         Site("https://www.kennethcole.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://kentuckysportsradio.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.kenzoparfums.com")
             .queryURL(path: "/en/search?search=%s")
+        
+        Site("https://www.ketv.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #KF
@@ -207,6 +213,9 @@ internal extension SiteIndex {
         
         
         // #KS
+        
+        Site("https://www.ksn.com")
+            .queryURL(path: "/?s=%s&submit=Search")
         
         Site("https://kswiss.com")
             .queryURL(path: "/search?q=%s")

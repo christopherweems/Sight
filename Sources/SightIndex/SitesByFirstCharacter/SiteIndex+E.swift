@@ -123,6 +123,9 @@ internal extension SiteIndex {
         Site("https://www.elle.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.elmundo.es")
+            .queryURL("https://ariadna.elmundo.es/buscador/archivo.html?q=%s&b_avanzada=")
+        
         Site("https://www.eloquii.com")
             .queryURL(path: "/on/demandware.store/Sites-eloquii-Site/default/Search-Show?q=%s")
         
@@ -181,8 +184,14 @@ internal extension SiteIndex {
         Site("https://eshop.macsales.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.espn.co.uk")
+            .queryURL(path: "/search/_/q/%s")
+        
         Site("https://www.espn.com")
             .queryURL(path: "/search/results?q=%s")
+        
+        Site("https://www.espncricinfo.com")
+            .queryURL(path: "/search/_/q/%s")
         
         Site("https://www.essentialapparel.com")
             .queryURL(path: "/search?terms=%s")

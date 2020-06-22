@@ -32,6 +32,9 @@ internal extension SiteIndex {
         
         // #IC
         
+        Site("https://www.icc-cricket.com")
+            .queryURL(path: "/search?term=%s")
+        
         Site("https://www.ice.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
@@ -153,6 +156,9 @@ internal extension SiteIndex {
         Site("https://www.insideedition.com")
             .queryURL(path: "/search?keywords=%s")
         
+        Site("https://www.insightcrime.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://instantfigure.com")
             .queryURL(path: "/index.php?route=product/search&search=%s")
         
@@ -187,6 +193,8 @@ internal extension SiteIndex {
         // #IQ
         // #IR
 
+        Site("https://www.irishtimes.com")
+            .queryURL(path: "/search/search-7.4195619?q=%s")
         
         Site("https://www.irobot.com")
             .queryURL(path: "/search-results?query=%s")
