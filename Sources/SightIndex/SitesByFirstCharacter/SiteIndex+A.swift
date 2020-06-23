@@ -202,6 +202,9 @@ internal extension SiteIndex {
         Site("https://athlonsports.com")
             .queryURL(path: "/search/site/%s")
         
+        Site("https://www.atlassian.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.att.com")
             .queryURL(path: "/global-search/search?q=%s")
         
