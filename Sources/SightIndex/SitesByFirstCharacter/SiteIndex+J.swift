@@ -285,6 +285,10 @@ internal extension SiteIndex {
         
         
         // #JV
+        
+        Site("https://jvc.net")
+            .queryURL("http://search.jvc.net/jvc/search.x?q=%s&d=The+Americas%09U.S.A.", locale: .unitedStates())
+        
         // #JW
         // #JX
         // #JY

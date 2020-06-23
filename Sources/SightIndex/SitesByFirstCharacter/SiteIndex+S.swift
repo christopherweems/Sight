@@ -125,96 +125,6 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s*")
         
     /*
-        Site("https://search.bu.edu")
-            .queryURL(path: "/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
-        
-        Site("https://search.bu.edu")
-            .queryURL(path: "/?site=https%3A%2F%2Fwww.bumc.bu.edu%2Fbusm&context=site&q=%s&do_search=Search")
-        
-        Site("https://search.cdc.gov")
-            .queryURL(path: "/search/index.html?query=%s")
-        
-        Site("https://search.cisco.com")
-            .queryURL(path: "/search?query=%s")
-        
-        Site("https://search.creativecommons.org")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://search.disney.com")
-            .queryURL(path: "/search?o=home&q=%s")
-        
-        Site("https://search.engadget.com")
-            .queryURL(path: "/search;?p=%s")
-        
-        Site("https://search.epa.gov")
-            .queryURL(path: "/epasearch/?querytext=%s")
-        
-        Site("https://search.huffpost.com")
-            .queryURL(path: "/search?p=%s&fr=huffpost")
-        
-        Site("itms-apps://search.itunes.apple.com")
-            .queryURL(path: "/WebObjects/MZSearch.woa/wa/search?media=software&term=%s")
-                
-        Site("http://search.jvc.net")
-            .queryURL(path: "/jvc/search.x?q=%s&d=The+Americas%09U.S.A.")
-        
-        Site("https://search.lycos.com")
-            .queryURL(path: "/web/?q=%s")
-        
-        Site("https://search.mit.edu")
-            .queryURL(path: "/search?client=mithome&site=mit&output=xml_no_dtd&proxystylesheet=mithome&num=15&submit=Search&as_q=%s")
-        
-        Site("https://search.msu.edu")
-            .queryURL(path: "/index.php?q=%s")
-        
-        Site("https://search.narita-airport.jp")
-            .queryURL(path: "/search?query=%s")
-        
-        Site("https://search.ncat.edu")
-            .queryURL(path: "/s/search.html?ie=UTF-8&query=%s")
-        
-        Site("http://search.ncte.org")
-            .queryURL(path: "/default.aspx?q=%22%s%22")
-        
-        Site("https://search.nih.gov")
-            .queryURL(path: "/search?&affiliate=nih&query=%s")
-        
-        Site("https://search.northwestern.edu")
-            .queryURL(path: "/?q=%s")
-        
-        Site("https://search.pch.com")
-            .queryURL(path: "/pysearch?q=%s&cat=web")
-        
-        Site("https://search.tcu.edu")
-            .queryURL(path: "/search?q=%s&output=xml_no_dtd&oe=UTF-8&ie=UTF-8&client=default_frontend&proxystylesheet=default_frontend")
-        
-        Site("https://search.tdk.com")
-            .queryURL(path: "/search?site=FBNXDO0R&group=5&design=31&query=%s")
-        
-        Site("https://search.techcrunch.com")
-            .queryURL(path: "/search;?p=%s")
-        
-        Site("https://search.thefryecompany.com")
-            .queryURL(path: "/search?w=%s")
-        
-        Site("https://search.toyotires-global.com")
-            .queryURL(path: "/?kw=%s")
-        
-        Site("https://search.ucf.edu")
-            .queryURL(path: "/#?q=%s")
-        
-        Site("https://search.ufl.edu")
-            .queryURL(path: "/web/#gsc.tab=0&gsc.q=%s")
-        
-        Site("https://search.uncc.edu")
-            .queryURL(path: "/?q=%s")
-        
-        Site("https://search.uncg.edu")
-            .queryURL(path: "/s/search.html?query=%s&collection=uncg-search&scope=")
-        
-        Site("https://search.unimelb.edu.au")
-            .queryURL(path: "/?q=%s")
-        
         Site("https://search.unm.edu")
             .queryURL(path: "/search/?q=%s")
         
@@ -639,6 +549,9 @@ internal extension SiteIndex {
         
         
         // #SQ
+        
+        Site("https://squareup.com")
+        
         // #SR
         // #SS
         

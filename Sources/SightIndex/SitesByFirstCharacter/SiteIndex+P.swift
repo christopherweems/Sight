@@ -105,6 +105,9 @@ internal extension SiteIndex {
         Site("https://www.pcgamer.com")
             .queryURL(path: "/search/?searchTerm=%s")
         
+        Site("https://pch.com")
+            .queryURL("https://search.pch.com/pysearch?q=%s&cat=web")
+        
         Site("http://www.pcm.com")
             .queryURL(path: "/s?rch=&q=%s")
         

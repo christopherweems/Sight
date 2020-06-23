@@ -325,6 +325,9 @@ internal extension SiteIndex {
         Site("https://huel.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        Site("https://www.huffpost.com")
+            .queryURL("https://search.huffpost.com/search?p=%s&fr=huffpost")
+        
         Site("https://www.hufworldwide.com")
             .queryURL(path: "/shop?q=%s")
         

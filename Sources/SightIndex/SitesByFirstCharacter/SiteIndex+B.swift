@@ -126,6 +126,13 @@ internal extension SiteIndex {
         
         // #BU
         
+        Site("https://bu.edu")
+            .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
+        
+        Site("https://www.bumc.bu.edu")
+            .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bumc.bu.edu%2Fbusm&context=site&q=%s&do_search=Search")
+        
+        
         Site("https://www.buckeyextra.com")
             .queryURL(path: "/search?text=%s")
         

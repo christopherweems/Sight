@@ -92,11 +92,17 @@ internal extension SiteIndex {
         Site("https://tcrf.net")
             .queryURL(path: "/index.php?search=%s")
         
+        Site("https://tcu.edu")
+            .queryURL( "https://search.tcu.edu/search?q=%s&output=xml_no_dtd&oe=UTF-8&ie=UTF-8&client=default_frontend&proxystylesheet=default_frontend")
+        
         
         // #TD
         
         Site("http://dictionary.tdf.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://tdk.com")
+            .queryURL("https://search.tdk.com/search?site=FBNXDO0R&group=5&design=31&query=%s")
         
         
         // #TE
@@ -106,6 +112,9 @@ internal extension SiteIndex {
         
         Site("https://www.tech21.com")
             .queryURL(path: "/en_us/#q=%s")
+        
+        Site("https://techcrunch.com")
+            .queryURL("https://search.techcrunch.com/search;?p=%s")
         
         Site("https://www.techdirt.com")
             .queryURL(path: "/search-g.php?q=%s")
@@ -135,9 +144,6 @@ internal extension SiteIndex {
         
         Site("https://www.techtricksworld.com")
             .queryURL(path: "/?s=%s")
-        
-        Site("https://techcrunch.com")
-            .queryURL("https://search.techcrunch.com/search;?p=%s&fr=techcrunch")
         
         Site("https://www.techspot.com")
         
@@ -249,6 +255,9 @@ internal extension SiteIndex {
         
         Site("https://www.thefreshmarket.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://thefryecompany.com")
+            .queryURL("https://search.thefryecompany.com/search?w=%s")
         
         
         // #THEG
@@ -596,6 +605,9 @@ internal extension SiteIndex {
         
         Site("https://www.townandcountrymag.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://toyotires-global.com")
+            .queryURL("https://search.toyotires-global.com/?kw=%s")
         
         Site("https://toywiz.com")
             .queryURL(path: "/search.php?search_query=%s")

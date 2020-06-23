@@ -56,9 +56,15 @@ internal extension SiteIndex {
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         
+        // #CD
+        
+        
+        Site("https://www.cdc.gov")
+            .queryURL("https://search.cdc.gov/search/index.html?query=%s")
+        
+        
+        
         // #CE
-        
-        
         // #CH
         
         Site("https://www.cheapjoes.com")
@@ -78,6 +84,10 @@ internal extension SiteIndex {
         
         Site("https://www.cincinnati.com")
             .queryURL(path: "/search/%s/")
+        
+        Site("https://www.cisco.com")
+            .queryURL("https://search.cisco.com/search?query=%s")
+        
         
         
         // #CL
@@ -167,6 +177,9 @@ internal extension SiteIndex {
         
         Site("https://www.createroom.com")
             .queryURL(path: "/search?q=%s&type=product")
+        
+        Site("https://creativecommons.org")
+            .queryURL("https://search.creativecommons.org/search?q=%s")
         
         Site("https://www.creativelive.com")
             .queryURL(path: "/blog/?s=%s")

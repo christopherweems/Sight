@@ -32,6 +32,9 @@ internal extension SiteIndex {
         Site("https://www.uchicago.edu")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://ucf.edu")
+            .queryURL("https://search.ucf.edu/#?q=%s")
+        
         Site("http://www.ucla.edu")
             .queryURL(path: "/search?qa=%s")
         
@@ -111,8 +114,14 @@ internal extension SiteIndex {
         Site("https://www.unca.edu")
             .queryURL(path: "/search-results?search=%s")
         
+        Site("https://uncc.edu")
+            .queryURL("https://search.uncc.edu/?q=%s")
+        
         Site("https://www.uncfsu.edu")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://uncg.edu")
+            .queryURL("https://search.uncg.edu/s/search.html?query=%s&collection=uncg-search&scope=")
         
         Site("https://www.uncommongoods.com")
             .queryURL(path: "/search?q=%s")
@@ -140,6 +149,9 @@ internal extension SiteIndex {
         
         Site("https://www.uniformcity.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://unimelb.edu.au")
+            .queryURL("https://search.unimelb.edu.au/?q=%s")
         
         Site("https://www.unionbay.com")
             .queryURL(path: "/search?q=%s")

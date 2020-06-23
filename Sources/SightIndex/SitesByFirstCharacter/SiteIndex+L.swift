@@ -365,6 +365,9 @@ internal extension SiteIndex {
         // #LX
         // #LY
         
+        Site("https://lycos.com")
+            .queryURL("https://search.lycos.com/web/?q=%s")
+        
         Site("https://www.lysse.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         

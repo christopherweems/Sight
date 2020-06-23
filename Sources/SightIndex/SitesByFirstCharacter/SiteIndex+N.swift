@@ -32,6 +32,9 @@ internal extension SiteIndex {
         Site("https://www.napaonline.com")
             .queryURL(path: "/en/search?text=%s")
         
+        Site("https://narita-airport.jp")
+            .queryURL("https://search.narita-airport.jp/search?query=%s")
+        
         Site("https://www.narscosmetics.com")
             .queryURL(path: "/USA/search?q=%s", locale: .unitedStates())
         
@@ -76,11 +79,18 @@ internal extension SiteIndex {
         
         Site("https://www.ncaa.com")
         
+        Site("https://ncat.edu")
+            .queryURL("https://search.ncat.edu/s/search.html?ie=UTF-8&query=%s")
+        
         Site("http://www.nccu.edu")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.ncsu.edu")
             .queryURL(path: "/search/global.php?q=%s")
+        
+        Site("http://ncte.org")
+            .queryURL("http://search.ncte.org/default.aspx?q=%22%s%22")
+        
         
         // #ND
         
@@ -269,6 +279,9 @@ internal extension SiteIndex {
         
         Site("https://www.northstyle.com")
             .queryURL(path: "/ShopCategory.aspx?id=1,4123&GASearchTerm=%s")
+        
+        Site("https://northwestern.edu")
+            .queryURL("https://search.northwestern.edu/?q=%s")
         
         
         // #NP

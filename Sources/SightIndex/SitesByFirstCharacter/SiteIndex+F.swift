@@ -86,6 +86,8 @@ internal extension SiteIndex {
         Site("http://www.fau.edu")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://fazua.com")
+        
         
         // #FB
         

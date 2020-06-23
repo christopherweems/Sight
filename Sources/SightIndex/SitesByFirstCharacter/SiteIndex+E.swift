@@ -163,6 +163,9 @@ internal extension SiteIndex {
         
         Site("https://www.enekoalonso.com")
         
+        Site("https://www.engadget.com")
+            .queryURL("https://search.engadget.com/search;?p=%s")
+        
         Site("https://www.engagemedia.org")
             .queryURL(path: "/@@search?SearchableText=%s")
         
@@ -172,6 +175,9 @@ internal extension SiteIndex {
         
         // #EO
         // #EP
+        
+        Site("https://epa.gov")
+            .queryURL("https://search.epa.gov/epasearch/?querytext=%s")
         
         Site("https://www.epicgames.com")
             .queryURL(path: "/fortnite/en-US/search?q=%s")

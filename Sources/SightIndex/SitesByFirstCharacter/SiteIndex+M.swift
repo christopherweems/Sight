@@ -312,6 +312,9 @@ internal extension SiteIndex {
         Site("https://www.misterart.com")
             .queryURL(path: "/searchResult/query~%s~")
         
+        Site("https://mit.edu")
+            .queryURL( "https://search.mit.edu/search?client=mithome&site=mit&output=xml_no_dtd&proxystylesheet=mithome&num=15&submit=Search&as_q=%s")
+        
         Site("https://www.mitoaction.org")
             .queryURL(path: "/?s=%s")
         
@@ -474,6 +477,9 @@ internal extension SiteIndex {
         
         Site("http://www.msnbc.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://msu.edu")
+            .queryURL("https://search.msu.edu/index.php?q=%s")
         
         Site("https://msuspartans.com")
             .queryURL(path: "/searchresults.aspx?q=%s")

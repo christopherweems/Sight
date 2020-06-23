@@ -218,6 +218,9 @@ internal extension SiteIndex {
         Site("https://discovermagazine.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://disney.com")
+            .queryURL("https://search.disney.com/search?o=home&q=%s")
+        
         Site("https://shop.diesel.com")
             .queryURL(path: "/en/search-show?q=%s")
         
