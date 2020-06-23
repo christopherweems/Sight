@@ -80,6 +80,9 @@ internal extension SiteIndex {
         Site("https://www.manduka.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        Site("https://marca.com")
+            .queryURL(path: "https://cgi.marca.com/buscador/archivo_marca.html?q=%s", locale: .spain())
+        
         Site("https://www.marcjacobs.com")
             .queryURL(path: "/search?q=%s")
         
