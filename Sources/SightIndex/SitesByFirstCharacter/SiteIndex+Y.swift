@@ -22,8 +22,14 @@ internal extension SiteIndex {
         Site("https://images.search.yahoo.com")
             .queryURL(path: "/search/images?p=%s")
         
+        Site("https://yahoo.com")
+            .queryURL("https://search.yahoo.com/search?p=%s")
+        
         Site("https://www.yale.edu")
             .queryURL(path: "/search/google/%s")
+        
+        Site("https://yamaha-motor.co.jp")
+            .queryURL("https://search.yamaha-motor.co.jp/en/search.x?q=%s", language: .english)
         
         Site("https://yandex.com")
             .queryURL(path: "/search/?text=%s")

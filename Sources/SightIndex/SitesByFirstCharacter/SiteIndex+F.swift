@@ -378,6 +378,9 @@ internal extension SiteIndex {
         Site("https://shop.funko.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://futurism.com")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #FV
         

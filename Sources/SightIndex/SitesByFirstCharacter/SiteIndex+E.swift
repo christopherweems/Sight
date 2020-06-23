@@ -144,6 +144,8 @@ internal extension SiteIndex {
         
         // #EM
         
+        Site("https://emery510.com")
+        
         Site("https://www.emmago.com")
             .queryURL(path: "/search?q=%s")
         

@@ -272,6 +272,9 @@ internal extension SiteIndex {
         Site("https://www.rolex.com")
             .queryURL(path: "/search.html#%s")
         
+        Site("https://www.rollingstone.com")
+            .queryURL(path: "/results/#?q=%s")
+        
         Site("https://romwe.com")
             .queryURL("https://us.romwe.com/pdsearch/%s", locale: .unitedStates())
         

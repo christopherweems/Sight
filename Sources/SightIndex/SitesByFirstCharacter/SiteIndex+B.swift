@@ -61,6 +61,9 @@ internal extension SiteIndex {
         Site("https://www.bedbathandbeyond.com")
             .queryURL(path: "/store/s/%s")
         
+        Site("https://www.benjaminlcorey.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #BF
         // #BG

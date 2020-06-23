@@ -33,9 +33,10 @@ fileprivate extension Site {
         assert(method == .GET, "method `\(method)` is not supported")
         
         let parts = queryURLPartsSplit(path)
+        let key = queryPartsKey(forLocale: locale, language: language)
         
         var new = self
-        new.queryParts = .path(parts: parts)
+        new.queryParts[key] = .path(parts: parts)
         return new
     }
     
@@ -44,14 +45,28 @@ fileprivate extension Site {
         assert(method == .GET, "method `\(method)` is not supported")
         
         let parts = queryURLPartsSplit(urlString)
+        let key = queryPartsKey(forLocale: locale, language: language)
 
         var new = self
-        new.queryParts = .fullURLQuery(parts: parts)
+        new.queryParts[key] = .fullURLQuery(parts: parts)
         return new
     }
 }
 
 private extension Site {
+    func queryPartsKey(forLocale locale: Locale?, language: Locale.Language?) -> QueryPartsKey {
+        if let language = language {
+            return .language(language)
+            
+        } else if let locale = locale {
+            return .locale(locale)
+            
+        } else {
+            return .universal
+            
+        }
+    }
+    
     func queryURLPartsSplit(_ urlString: String) -> [String] {
         let pathParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
         assert(2 <= pathParts.count, "query path for `\(root)` must contain 1 or more `%s` query delimiter")

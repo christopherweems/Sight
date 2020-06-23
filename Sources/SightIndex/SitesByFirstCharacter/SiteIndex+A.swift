@@ -77,6 +77,9 @@ internal extension SiteIndex {
         Site("https://www.aliceandolivia.com")
             .queryURL(path: "/_1432941785433.html?term=%s")
         
+        Site("https://www.aljazeera.com")
+            .queryURL(path: "/Search/?q=%s")
+        
         Site("http://www.allardsart.com")
         
         Site("https://www.altpress.com")

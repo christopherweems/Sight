@@ -26,6 +26,9 @@ internal extension SiteIndex {
         Site("https://www.jacksonsart.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://jacobinmag.com")
+            .queryURL(path: "/search?query=%s")
+        
         Site("https://www.jaguars.com")
             .queryURL(path: "/search/?query=%s")
         

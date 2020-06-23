@@ -245,11 +245,6 @@ internal extension SiteIndex {
         Site("https://search.wvu.edu")
             .queryURL(path: "/wvutech/results/?q=%s")
         
-        Site("https://search.yahoo.com")
-            .queryURL(path: "/search?p=%s")
-        
-        Site("https://search.yamaha-motor.co.jp")
-            .queryURL(path: "/en/search.x?q=%s")
         */
         
         Site("https://www.searchenginejournal.com")
@@ -275,6 +270,8 @@ internal extension SiteIndex {
         
         Site("https://www.sema.org")
             .queryURL(path: "/search/google/%s")
+        
+        Site("https://sendusmasks.com")
         
         Site("https://www.sephora.com")
             .queryURL(path: "/search/search.jsp?keyword=%s")
