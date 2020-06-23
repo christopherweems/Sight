@@ -219,6 +219,7 @@ internal extension SiteIndex {
         
         Site("https://www.wikipedia.org")
             .queryURL("https://en.wikipedia.org/w/index.php?search=%s", language: .english)
+            .queryURL("https://fr.wikipedia.org/w/index.php?search=%s", language: .french)
         
         Site("https://www.wikiquote.org")
             .queryURL("https://en.wikiquote.org/w/index.php?search=%s", language: .english)
