@@ -188,6 +188,8 @@ internal extension SiteIndex {
         Site("https://www.kohls.com")
             .queryURL(path: "/search.jsp?search=%s")
         
+        Site("https://www.komaks.com")
+        
         Site("https://www.kooding.com")
             .queryURL(path: "/search?idCategory=&search=%s")
         

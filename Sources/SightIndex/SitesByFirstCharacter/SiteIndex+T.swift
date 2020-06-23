@@ -83,6 +83,9 @@ internal extension SiteIndex {
         // #TB
         // #TC
         
+        Site("https://www.tcelectronic.com")
+            .queryURL(path: "/search/Tcelectronic?text=%s")
+        
         Site("https://shop.tcm.com")
             .queryURL(path: "/search?q=%s")
         
@@ -528,6 +531,9 @@ internal extension SiteIndex {
         
         Site("https://www.tomtop.com")
             .queryURL(path: "/search/%s.html")
+        
+        Site("http://top10tech.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://topdogtool.com")
             .queryURL(path: "/?s=%s&post_type=product")

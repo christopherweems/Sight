@@ -17,6 +17,9 @@ internal extension SiteIndex {
         Site("https://www.naacp.org")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://nadelectronics.com")
+        .queryURL(path: "/?s=%s")
+        
         Site("https://naffco54.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -295,6 +298,10 @@ internal extension SiteIndex {
         
         
         // #NV
+        
+        Site("https://www.nvidia.com")
+            .queryURL(path: "/en-us/search/?q=%s", locale: .unitedStates())
+        
         // #NW
         
         Site("https://www.nwpc.org")

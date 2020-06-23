@@ -98,6 +98,9 @@ internal extension SiteIndex {
         Site("https://scriptingosx.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.scrubbingbubbles.com")
+            .queryURL(path: "/en-us/search-results?key=%s", locale: .unitedStates())
+        
         Site("https://www.scrubsandbeyond.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -335,6 +338,8 @@ internal extension SiteIndex {
         
         Site("https://shophorne.com")
             .queryURL(path: "/search?view=spring&q=%s")
+        
+        Site("https://www.shopify.com")
         
         Site("https://www.shopjura.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

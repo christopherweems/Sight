@@ -113,6 +113,9 @@ internal extension SiteIndex {
         
         Site("https://www.electronicexpress.com")
             .queryURL(path: "/searchrfk?q=%s")
+        
+        Site("https://www.electronicspoint.com")
+        .queryURL(path: "/search?q=%s")
                 
         Site("https://www.elfcosmetics.com")
             .queryURL(path: "/search?q=%s&lang=en_US")

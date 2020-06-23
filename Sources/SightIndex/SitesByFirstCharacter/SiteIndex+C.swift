@@ -147,6 +147,9 @@ internal extension SiteIndex {
         Site("https://www.cosabella.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
+        Site("https://www.costco.com")
+        .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")
+        
         
         // #CR
         

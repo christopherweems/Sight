@@ -20,6 +20,9 @@ internal extension SiteIndex {
         Site("https://www.abqjournal.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.abt.com")
+            .queryURL(path: "/resources/pages/search.php?keywords=%s")
+        
         
         // #AC
         
@@ -71,6 +74,9 @@ internal extension SiteIndex {
         
         Site("https://www.altpress.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.allaboutcircuits.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://allsaints.com")
             .queryURL("https://www.us.allsaints.com/not-found/?searchtext=%s", locale: .unitedStates())

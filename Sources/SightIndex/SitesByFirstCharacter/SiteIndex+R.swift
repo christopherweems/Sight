@@ -26,6 +26,9 @@ internal extension SiteIndex {
         Site("https://94wip.radio.com")
             .queryURL(path: "/search/node/%s")
         
+        Site("https://www.radioshack.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.radleylondon.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         

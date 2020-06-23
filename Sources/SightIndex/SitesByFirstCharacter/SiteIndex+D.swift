@@ -182,6 +182,9 @@ internal extension SiteIndex {
         Site("https://www.dior.com")
             .queryURL(path: "/search/en_us/results?q=%s")
         
+        Site("https://www.directbuy.com")
+            .queryURL(path: "/product-search/?s=%s")
+        
         Site("https://www.directv.com")
             .queryURL(path: "/search?keyword=%s")
         

@@ -111,7 +111,7 @@ internal extension SiteIndex {
         // #LG
         
         Site("http://www.lg.com")
-            .queryURL(path: "/us/search.lg?search=%s")
+            .queryURL(path: "/us/search.lg?search=%s", locale: .unitedStates())
         
         
         // #LH

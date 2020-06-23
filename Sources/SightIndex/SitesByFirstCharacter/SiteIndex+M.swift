@@ -261,6 +261,9 @@ internal extension SiteIndex {
         Site("https://www.michaels.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.microcenter.com")
+            .queryURL(path: "/search/search_results.aspx?N=&cat=&Ntt=%s&searchButton=search")
+        
         Site("https://www.microsoft.com")
             .queryURL(path: "/en-us/search/explore?q=%s")
         
@@ -537,6 +540,9 @@ internal extension SiteIndex {
         
         Site("https://www.mytheresa.com")
             .queryURL(path: "/en-us/catalogsearch/result/?q=%s")
+        
+        Site("https://www.myus.com")
+        .queryURL(path: "/search-results/?addsearch=%s")
         
         
         // #MZ
