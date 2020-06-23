@@ -577,6 +577,8 @@ internal extension SiteIndex {
         Site("https://www.toryburch.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://totalfilm.com")
+        
         Site("https://www.totalwine.com")
             .queryURL(path: "/search/all?text=%s")
         

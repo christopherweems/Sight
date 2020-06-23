@@ -540,6 +540,9 @@ internal extension SiteIndex {
         Site("https://www.mycentsofstyle.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        Site("https://www.myfavouritemagazines.co.uk")
+            .queryURL(path: "/index.php?lang=0&cl=search&searchparam=%s")
+        
         Site("https://www.myfoodandfamily.com")
             .queryURL(path: "/brands/kraft-jello/search?searchTerm=%s")
         
