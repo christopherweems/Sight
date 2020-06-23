@@ -53,6 +53,9 @@ internal extension SiteIndex {
         Site("https://www.samys.com")
             .queryURL(path: "/s/%s")
         
+        Site("https://www.sandiegouniontribune.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.sanuk.com")
             .queryURL(path: "/search?q=%s")
         
@@ -257,6 +260,9 @@ internal extension SiteIndex {
         
         Site("https://seatgeek.com")
             .queryURL(path: "/search?f=1&search=%s")
+        
+        Site("https://www.secsports.com")
+            .queryURL(path: "/search?q=%s")
                 
         Site("https://www.sees.com")
             .queryURL(path: "/search?q=%s")
@@ -386,6 +392,8 @@ internal extension SiteIndex {
         Site("https://sicem365.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.sidearmsports.com")
+        
         Site("https://www.sierra.com")
             .queryURL(path: "/s~%s/")
         
@@ -455,11 +463,9 @@ internal extension SiteIndex {
         
         Site("https://skims.com")
             .queryURL(path: "/search?type=product&q=%s")
-        
-        /*
-        Site("https://skincare.dhccare.com")
-            .queryURL(path: "/search?w=%s")
-        */
+                
+        Site("https://www.skinceuticals.com")
+            .queryURL(path: "/search?q=%s")
  
         Site("https://www.skinnytaste.com")
             .queryURL(path: "/?s=%s")
@@ -619,6 +625,8 @@ internal extension SiteIndex {
         
         Site("https://www.spoonforkbacon.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.sportingnews.com")
         
         Site("https://www.sportsmansguide.com")
             .queryURL(path: "/productlist?k=%s")

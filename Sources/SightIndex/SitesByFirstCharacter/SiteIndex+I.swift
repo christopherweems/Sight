@@ -49,6 +49,10 @@ internal extension SiteIndex {
         
         
         // #ID
+        
+        Site("https://www.idahostatesman.com")
+            .queryURL(path: "/search/?q=%s")
+        
         // #IE
         
         Site("https://www.ietf.org")
@@ -106,6 +110,8 @@ internal extension SiteIndex {
         
         Site("https://www.impomag.com")
             .queryURL(path: "/search/site/%s")
+        
+        Site("https://egg.impshum.co.uk")
         
         
         // #IN

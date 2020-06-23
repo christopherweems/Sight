@@ -26,6 +26,9 @@ internal extension SiteIndex {
         Site("https://bakingbites.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.bannersociety.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://bape.com")
             .queryURL("https://us.bape.com/search?q=%s")
         
@@ -33,6 +36,9 @@ internal extension SiteIndex {
         
         Site("https://www.bathandbodyworks.com")
             .queryURL(path: "/s?q=%s")
+        
+        Site("https://baylorbears.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         // #BB
         
@@ -65,6 +71,9 @@ internal extension SiteIndex {
         // #BH
         // #BI
         
+        Site("https://bigten.org")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
         
@@ -78,6 +87,9 @@ internal extension SiteIndex {
         // #BJ
         // #BK
         // #BL
+        
+        Site("https://www.blackheartgoldpants.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://blanknews.com")
             .queryURL(path: "/?s=%s")
@@ -111,8 +123,14 @@ internal extension SiteIndex {
         
         // #BU
         
+        Site("https://www.buckeyextra.com")
+            .queryURL(path: "/search?text=%s")
+        
         Site("https://www.budgetbytes.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.buckys5thquarter.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://retail.bunn.com")
             .queryURL(path: "/search?q=%s")

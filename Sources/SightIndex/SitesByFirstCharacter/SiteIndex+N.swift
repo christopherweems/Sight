@@ -23,6 +23,9 @@ internal extension SiteIndex {
         Site("https://naffco54.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://www.namecheap.com")
+            .queryURL(path: "/domains/registration/results/?domain=%s")
+        
         Site("https://www.nancymeyer.com")
             .queryURL(path: "/%s/Search")
         
@@ -70,6 +73,8 @@ internal extension SiteIndex {
         
         
         // #NC
+        
+        Site("https://www.ncaa.com")
         
         Site("http://www.nccu.edu")
             .queryURL(path: "/search?q=%s")
@@ -207,6 +212,8 @@ internal extension SiteIndex {
         Site("https://www.ninjakitchen.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://ninjarockstar.dev")
+        
         Site("https://www.nintendo.com")
             .queryURL(path: "/search/#category=all&page=1&query=%s")
         
@@ -292,6 +299,9 @@ internal extension SiteIndex {
         
         Site("https://www.nunnbush.com")
             .queryURL(path: "/shop/styleGridSearch.html?pageNumber=0&text=%s")
+        
+        Site("https://nusports.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://www.nutsvolts.com")
             .queryURL(path: "/search?q=%s")

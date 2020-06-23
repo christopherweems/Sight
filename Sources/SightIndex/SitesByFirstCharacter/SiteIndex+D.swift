@@ -16,6 +16,8 @@ internal extension SiteIndex {
         Site("https://d23.com")
             .queryURL(path: "/search/%s")
         
+        Site("https://www.d3sports.com")
+        
         Site("http://www.dailymirror.lk")
         
         
@@ -45,6 +47,9 @@ internal extension SiteIndex {
         Site("https://www.dailynews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.dallasnews.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://damndelicious.net")
             .queryURL(path: "/?s=%s")
         
@@ -65,6 +70,8 @@ internal extension SiteIndex {
         
         Site("https://www.davidsbridal.com")
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
+        
+        Site("https://www.dawgnation.com")
         
         
         // #DB
@@ -124,6 +131,9 @@ internal extension SiteIndex {
         
         Site("https://www.deuxpardeux.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
+        
+        Site("https://dev.to")
+            .queryURL(path: "/search?q=%s")
                 
         Site("https://www.dewalt.com")
             .queryURL(path: "/search-results?searchtext=%s")
@@ -143,6 +153,11 @@ internal extension SiteIndex {
         
         
         // #DH
+        
+        /*
+         Site("https://skincare.dhccare.com")
+         .queryURL(path: "/search?w=%s")
+         */
         
         Site("https://www.dhgate.com")
             .queryURL(path: "/wholesale/search.do?act=search&sus=&searchkey=%s")
@@ -319,6 +334,8 @@ internal extension SiteIndex {
         
         Site("https://www.drobo.com")
             .queryURL(path: "/?s=%s&submit=Search")
+        
+        Site("https://dronebase.com")
         
         Site("https://www.dronenerds.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

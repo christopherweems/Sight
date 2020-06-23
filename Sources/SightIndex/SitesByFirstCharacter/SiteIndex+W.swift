@@ -122,6 +122,9 @@ internal extension SiteIndex {
         Site("https://www-us.wera.de")
             .queryURL(path: "/nc/en/search/?tx_kesearch_pi1%5Bsword%5D=%s")
         
+        Site("https://www.wesh.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.westelm.com")
             .queryURL(path: "/search/results.html?words=%s")
         
@@ -265,6 +268,9 @@ internal extension SiteIndex {
         
         // #WL
         
+        Site("https://www.wlfi.com")
+            .queryURL(path: "/search/?site_search=%s")
+        
         Site("https://www.wlu.edu")
             .queryURL(path: "/search/#stq=%s&stp=1")
         
@@ -279,6 +285,10 @@ internal extension SiteIndex {
         
         
         // #WN
+        
+        Site("https://www.wndu.com")
+            .queryURL(path: "/search?searchKeywords=%s")
+        
         // #WO
         
         Site("https://www.wolfordshop.com")
@@ -372,6 +382,9 @@ internal extension SiteIndex {
         
         Site("https://www.wtvm.com")
             .queryURL(path: "/search/%s/1/")
+        
+        Site("https://www.wtvy.com")
+            .queryURL(path: "/search/?searchTerm=%s")
         
         
         // #WU

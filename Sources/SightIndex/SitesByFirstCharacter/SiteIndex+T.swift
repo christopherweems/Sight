@@ -159,6 +159,9 @@ internal extension SiteIndex {
         Site("https://www.teva.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.texasfootball.com")
+            .queryURL(path: "/search/?q=%s")
+        
         
         // #TF
         // #TG
@@ -178,11 +181,20 @@ internal extension SiteIndex {
         Site("https://www.the-house.com")
             .queryURL(path: "/search.html?keywords=%s")
         
+        Site("https://the8-bit.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.theartofshaving.com")
             .queryURL(path: "/on/demandware.store/Sites-TAOS-Site/default/Search-Show?q=%s")
         
         
         // #THEA
+        
+        Site("https://www.theadvertiser.com")
+            .queryURL(path: "/search/%s/")
+        
+        Site("http://theamerican.org")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://theathletic.com")
             .queryURL(path: "/search/?query=%s")
@@ -204,6 +216,9 @@ internal extension SiteIndex {
         
         Site("https://www.thecheesecakefactory.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://theclemsoninsider.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.theclymb.com")
             .queryURL(path: "/Search.aspx?k=%s")
@@ -347,6 +362,9 @@ internal extension SiteIndex {
         Site("https://thespun.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.thestate.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.thesun.co.uk")
             .queryURL(path: "/?s=%s")
         
@@ -418,6 +436,9 @@ internal extension SiteIndex {
         
         Site("http://www.tigerdirect.com")
             .queryURL(path: "/applications/SearchTools/search.asp?keywords=%s")
+        
+        Site("https://www.tigernet.com")
+            .queryURL(path: "/search/site.do?q=%s")
         
         Site("https://www.tikkun.org")
             .queryURL(path: "/nextgen/searchresults?cx=008208239971096824769%3Apj0ik8g7c5k&cof=FORID%3A11&ie=UTF-8&sa=Search&q=%s")
@@ -610,6 +631,9 @@ internal extension SiteIndex {
             .queryURL(path: "/Search?q=%s")
         
         Site("https://triplebyte.com")
+        
+        Site("https://troytrojans.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://www.truemfg.com")
             .queryURL(path: "/Search/%s")

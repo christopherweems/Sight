@@ -19,6 +19,11 @@ internal extension SiteIndex {
         
         // #KA
         
+        Site("https://www.kaia.com")
+        
+        Site("https://www.kait8.com")
+            .queryURL(path: "/search/%s/1/")
+        
         Site("https://www.kansai-airport.or.jp")
             .queryURL(path: "/en/search?keywords=%s")
         
@@ -30,6 +35,8 @@ internal extension SiteIndex {
         
         Site("https://www.karllagerfeldparis.com")
             .queryURL(path: "/search.do?query=%s")
+        
+        Site("https://www.karmaindustriesinc.com")
         
         Site("https://www.karmaloop.com")
             .queryURL(path: "/search/?q=%s")
@@ -70,6 +77,9 @@ internal extension SiteIndex {
             .queryURL(path: "/shop/search/?q=%s")
         
         Site("https://www.kennethcole.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.kens5.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://kentuckysportsradio.com")

@@ -47,6 +47,9 @@ internal extension SiteIndex {
         Site("https://www.ralphlauren.com")
             .queryURL(path: "/search?q=%s&lang=default")
         
+        Site("https://ramblinwreck.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.ramybrook.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -195,6 +198,9 @@ internal extension SiteIndex {
         
         Site("https://www.ringtv.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://n.rivals.com")
+            .queryURL(path: "/search#?query=%s&formValues=%7B%22sport%22:%22Football%22,%22page_number%22:1,%22page_size%22:50%7D")
 
         Site("https://riverisland.com")
             .queryURL("https://us.riverisland.com/search?keyword=%s", locale: .unitedStates())
@@ -207,6 +213,9 @@ internal extension SiteIndex {
         
         Site("https://www.rmsbeauty.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        Site("https://rmucolonials.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:ep6u2v_ctny&q=%s")
         
         
         // #RN

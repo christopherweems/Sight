@@ -95,11 +95,17 @@ internal extension SiteIndex {
         Site("https://www.hawesandcurtis.com")
             .queryURL(path: "/site/search?q=%s")
         
+        Site("https://www.hawkcentral.com")
+            .queryURL(path: "/search/%s/")
+        
         Site("https://www.hayneedle.com")
             .queryURL(path: "/search/index.cfm?Ntt=%s")
         
         
         // #HB
+        
+        Site("https://hbcugameday.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://shop.hbo.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
@@ -138,6 +144,9 @@ internal extension SiteIndex {
         
         Site("https://www.hellomolly.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
+        
+        Site("https://www.herald-dispatch.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         
         Site("https://www.herofruitspreads.com")
             .queryURL(path: "/home/search?keywords=%s")
@@ -225,6 +234,9 @@ internal extension SiteIndex {
         
         Site("https://www.holmesproducts.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.hookem.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.homage.com")
             .queryURL(path: "/search?q=%s")

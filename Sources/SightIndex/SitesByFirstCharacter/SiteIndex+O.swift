@@ -32,6 +32,8 @@ internal extension SiteIndex {
         Site("https://obeyclothing.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://observatory.mozilla.org")
+        
         
         // #OC
         
@@ -118,6 +120,8 @@ internal extension SiteIndex {
         Site("https://www.onlinefabricstore.net")
             .queryURL(path: "/hsearchresult.aspx?keyword=%s")
         
+        Site("https://onna.com")
+        
         Site("https://www.onmsft.com")
             .queryURL(path: "/?s=%s")
         
@@ -135,6 +139,9 @@ internal extension SiteIndex {
         
         
         // #OP
+        
+        Site("https://www.opb.org")
+            .queryURL(path: "/news/search/?q=%s")
         
         Site("https://openbazaar.com")
             .queryURL(path: "/discover/results?q=%s")

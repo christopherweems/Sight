@@ -78,6 +78,9 @@ internal extension SiteIndex {
         Site("https://www.gatwickairport.com")
             .queryURL(path: "/search/?type=site&query=%s")
         
+        Site("https://gazette.com")
+            .queryURL(path: "/search/?f=html&q=%s")
+        
         
         // #GB
         
@@ -221,11 +224,24 @@ internal extension SiteIndex {
         
         // #GO
         
+        Site("https://gobattlers.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
+        Site("https://www.godaddy.com")
+            .queryURL(path: "/domainsearch/find?checkAvail=1&domainToCheck=%s")
+        
         Site("https://www.gofundme.com")
             .queryURL(path: "/mvc.php?route=homepage_norma/search&term=%s")
         
+        Site("https://www.gog.com")
+        
         Site("https://www.goodamerican.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.goodbullhunting.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://goodguydaniel.com")
         
         Site("https://www.goodreads.com")
             .queryURL(path: "/search?query=%s")
@@ -270,6 +286,9 @@ internal extension SiteIndex {
         
         Site("https://shop.goop.com")
             .queryURL(path: "/search/products?query=%s&country=USA", locale: .unitedStates())
+        
+        Site("https://gopsusports.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://gopro.com")
             .queryURL(path: "/en/us/shop/search?q=%s")

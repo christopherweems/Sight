@@ -80,6 +80,9 @@ internal extension SiteIndex {
         Site("https://www.fashiontofigure.com")
             .queryURL(path: "/search/?Dy=1&Nty=1&Ntp=1&Ntt=%s")
         
+        Site("https://www.fatherhood.gov")
+            .queryURL(path: "/search?search_api_fulltext=%s")
+        
         Site("http://www.fau.edu")
             .queryURL(path: "/search/?q=%s")
         
@@ -211,6 +214,8 @@ internal extension SiteIndex {
         
         Site("https://flos.com")
             .queryURL("https://usa.flos.com/search-results-page?q=%s", locale: .unitedStates())
+        
+        Site("http://fluxmath.com")
         
         Site("https://flyknoxville.com")
             .queryURL(path: "/?s=%s")

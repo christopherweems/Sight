@@ -68,6 +68,8 @@ internal extension SiteIndex {
         // #UH
         // #UI
         
+        Site("https://uidesigndaily.com")
+        
         Site("https://uiowa.edu")
             .queryURL(path: "/google-search?search=%s")
         
@@ -94,6 +96,9 @@ internal extension SiteIndex {
         Site("https://www.umich.edu")
             .queryURL(path: "/search/?keywords=%s")
         
+        Site("https://umterps.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.umwestern.edu")
             .queryURL(path: "/search.html?q=%s")
         
@@ -111,6 +116,9 @@ internal extension SiteIndex {
         
         Site("https://www.uncommongoods.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://und.com")
+            .queryURL(path: "/search/%s/")
         
         Site("https://www.uncp.edu")
             .queryURL(path: "/search/cse?keys=%s")
@@ -184,12 +192,17 @@ internal extension SiteIndex {
         Site("https://www.urbanoutfitters.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://urbint.com")
+        
         
         // #US
         
         Site("https://usartsupply.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://buckeyeswire.usatoday.com")
+        Site("https://spartanswire.usatoday.com")
+        Site("https://theramswire.usatoday.com")
         Site("https://touchdownwire.usatoday.com")
         
         Site("https://www.usatoday.com")
@@ -203,6 +216,8 @@ internal extension SiteIndex {
         
         Site("https://www.uslsoccer.com")
             .queryURL(path: "/search-results.html?q=%s")
+        
+        Site("https://usports.ca")
         
         Site("https://www.usu.edu")
             .queryURL(path: "/search/?q=%s")
@@ -238,6 +253,10 @@ internal extension SiteIndex {
         
         
         // #UV
+        
+        Site("https://uvahealth.com")
+            .queryURL(path: "/site-search?search_text=%s")
+        
         // #UW
         // #UX
         // #UY

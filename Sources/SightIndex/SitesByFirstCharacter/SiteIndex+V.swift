@@ -129,6 +129,9 @@ internal extension SiteIndex {
         Site("http://www.virginia.edu")
             .queryURL(path: "/search/site/%s")
         
+        Site("https://virginiasports.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.vitamix.com")
             .queryURL(path: "/us/en_us/browse/s_%s/")
         

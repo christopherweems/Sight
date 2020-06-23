@@ -85,6 +85,11 @@ internal extension SiteIndex {
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://newsstand.clemson.edu")
+        
+        Site("https://www.clemson.edu")
+            .queryURL(path: "/search/index.html?q=%s&cx=017503627494391313024%3Asbh0fawlf20")
+        
         Site("https://www.cleveland.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -148,7 +153,9 @@ internal extension SiteIndex {
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
         Site("https://www.costco.com")
-        .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")
+            .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")
+        
+        Site("https://covidcfb.com")
         
         
         // #CR
@@ -158,11 +165,16 @@ internal extension SiteIndex {
         
         Site("https://www.crash.net")
         
+        Site("https://www.createroom.com")
+            .queryURL(path: "/search?q=%s&type=product")
+        
         Site("https://www.creativelive.com")
             .queryURL(path: "/blog/?s=%s")
         
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://crunchk.com")
         
         
         // #CS

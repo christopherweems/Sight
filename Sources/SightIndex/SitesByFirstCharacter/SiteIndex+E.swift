@@ -254,6 +254,9 @@ internal extension SiteIndex {
         Site("https://www.everythingbutwater.com")
             .queryURL(path: "/products/search/%s/")
         
+        Site("https://www.everythinglubbock.com")
+            .queryURL(path: "/?s=%s&submit=Search")
+        
         Site("https://www.evesaddiction.com")
             .queryURL(path: "/search?q=%s")
         

@@ -38,6 +38,9 @@ internal extension SiteIndex {
         Site("https://www.lanebryant.com")
             .queryURL(path: "/lanebryant/search?Ntt=%s")
         
+        Site("https://www.lansingstatejournal.com")
+            .queryURL(path: "/search/%s/")
+        
         Site("https://larkadventurewear.com")
             .queryURL(path: "/search?type=product&q=%s*")
         

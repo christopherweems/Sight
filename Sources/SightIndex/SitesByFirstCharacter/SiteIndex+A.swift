@@ -17,6 +17,9 @@ internal extension SiteIndex {
         Site("https://www.abc.net.au")
             .queryURL("https://search-beta.abc.net.au/index.html?siteTitle=news#/?query=%s")
         
+        Site("https://abc13.com")
+            .queryURL(path: "/search/?query=%s")
+        
         Site("https://www.abqjournal.com")
             .queryURL(path: "/search?q=%s")
         
@@ -34,6 +37,8 @@ internal extension SiteIndex {
         
         
         // #AD
+        
+        Site("https://www.admix.com")
         
         Site("https://www.adobe.com")
         
@@ -67,6 +72,8 @@ internal extension SiteIndex {
         
         // #AL
         
+        Site("https://www.al.com")
+        
         Site("https://www.aliceandolivia.com")
             .queryURL(path: "/_1432941785433.html?term=%s")
         
@@ -81,6 +88,7 @@ internal extension SiteIndex {
         Site("https://allsaints.com")
             .queryURL("https://www.us.allsaints.com/not-found/?searchtext=%s", locale: .unitedStates())
         
+        Site("https://altcampus.io")
         
         
         // #AM
@@ -93,6 +101,8 @@ internal extension SiteIndex {
         
         
         // #AN
+        
+        Site("https://andrewingram.net")
         
         Site("https://www.ansa.it")
         

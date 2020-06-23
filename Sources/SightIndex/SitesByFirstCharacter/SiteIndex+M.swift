@@ -12,6 +12,9 @@ internal extension SiteIndex {
     static var M = SiteSet {
         
         // #M1
+        
+        Site("https://m-v-t.com")
+        
         // #MA
         
         Site("https://www.maccosmetics.com")
@@ -179,6 +182,8 @@ internal extension SiteIndex {
         Site("https://www.medicalnewstoday.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://onezero.medium.com")
+        
         Site("https://www.meijer.com")
             .queryURL(path: "/catalog/search_command.cmd?keyword=%s")
         
@@ -238,6 +243,10 @@ internal extension SiteIndex {
         
         // #MF
         // #MG
+        
+        Site("https://mgoblue.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156%3Agagrzaukcu8&q=%s&sa=Search")
+        
         // #MH
         
         Site("https://www.mhu.edu")
@@ -466,6 +475,9 @@ internal extension SiteIndex {
         Site("http://www.msnbc.com")
             .queryURL(path: "/search/%s")
         
+        Site("https://msuspartans.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         
         // #MT
         
@@ -487,6 +499,9 @@ internal extension SiteIndex {
         Site("https://www.munich-airport.com")
             .queryURL(path: "/search-results-75585?search_form_presenter%5Bcommit%5D=1&search_form_presenter%5Bsearch_term%5D=%s")
         
+        Site("https://www.mercurynews.com")
+            .queryURL(path: "/?s=%s&orderby=date&order=desc")
+        
         Site("https://www.musicarts.com")
             .queryURL(path: "/search?q=%s")
         
@@ -507,6 +522,8 @@ internal extension SiteIndex {
         
         
         // #MX
+        
+        Site("https://mxb.dev")
         
         Site("https://www.mxdwn.com")
             .queryURL(path: "/?s=%s")

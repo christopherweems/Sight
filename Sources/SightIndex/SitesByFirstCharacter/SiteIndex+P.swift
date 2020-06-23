@@ -88,6 +88,8 @@ internal extension SiteIndex {
         Site("https://www.paulsmith.com")
             .queryURL(path: "/uk/catalogsearch/result/?q=%s")
         
+        Site("https://www.payfone.com")
+        
         
         // #PB
         
@@ -183,6 +185,9 @@ internal extension SiteIndex {
         
         // #PF
         
+        Site("https://www.pff.com")
+            .queryURL(path: "/search?search=%s")
+        
         Site("https://www.pfflyers.com")
             .queryURL(path: "/search?q=%s")
         
@@ -236,6 +241,9 @@ internal extension SiteIndex {
         
         Site("https://pitchfork.com")
             .queryURL(path: "/search/?query=%s")
+        
+        Site("https://pittsburghsportsnow.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.pixibeauty.com")
             .queryURL(path: "/search?q=%s")
@@ -321,6 +329,9 @@ internal extension SiteIndex {
         Site("https://www.prana.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.pressherald.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.pressofatlanticcity.com")
             .queryURL(path: "/search/?l=25&sd=desc&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&q=%s")
         
@@ -335,6 +346,8 @@ internal extension SiteIndex {
         
         Site("https://princesspolly.com")
             .queryURL("https://us.princesspolly.com/search?q=%s", locale: .unitedStates())
+        
+        Site("https://www.printavo.com")
         
         Site("https://www.pro-football-reference.com")
             .queryURL(path: "/search/search.fcgi?hsearch=%s")
