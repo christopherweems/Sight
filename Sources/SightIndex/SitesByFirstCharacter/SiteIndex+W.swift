@@ -203,25 +203,25 @@ internal extension SiteIndex {
         Site("https://www.wigs.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://en.wiki2.org")
-            .queryURL(path: "/w/index.php?search=%s")
+        Site("https://wiki2.org")
+            .queryURL("https://en.wiki2.org/w/index.php?search=%s", language: .english)
                 
         Site("https://www.wikihow.com")
             .queryURL(path: "/wikiHowTo?search=%s")
         
         Site("https://www.wikimedia.org")
         
-        Site("https://en.wikinews.org")
-            .queryURL(path: "/w/index.php?search=%s")
+        Site("https://www.wikinews.org")
+            .queryURL("https://en.wikinews.org/w/index.php?search=%s", language: .english)
         
-        Site("https://en.wikipedia.org")
-            .queryURL(path: "/w/index.php?search=%s")
+        Site("https://www.wikipedia.org")
+            .queryURL("https://en.wikipedia.org/w/index.php?search=%s", language: .english)
         
-        Site("https://en.wikiquote.org")
-            .queryURL(path: "/w/index.php?search=%s")
+        Site("https://www.wikiquote.org")
+            .queryURL("https://en.wikiquote.org/w/index.php?search=%s", language: .english)
         
-        Site("https://en.wiktionary.org")
-            .queryURL(path: "/w/index.php?search=%s")
+        Site("https://www.wiktionary.org")
+            .queryURL("https://en.wiktionary.org/w/index.php?search=%s", language: .english)
         
         Site("https://www.wildfox.com")
             .queryURL(path: "/search?q=%s")
