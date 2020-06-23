@@ -332,6 +332,8 @@ internal extension SiteIndex {
         Site("https://www.nydj.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.nylas.com")
+        
         Site("https://nymag.com")
             .queryURL(path: "/search.html?q=%s")
         
