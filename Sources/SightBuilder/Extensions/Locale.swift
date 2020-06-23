@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Locale+Extensions.swift
 //  
 //
 //  Created by Christopher Weems on 6/22/20.
@@ -18,19 +18,19 @@ public extension Locale {
     }
     
     static func france(language: Language = .french) -> Locale {
-        .init(identifier: "\(language)_FR")
+        .init(identifier: "\(language.rawValue)_FR")
     }
     
     static func germany(language: Language = .german) -> Locale {
-        .init(identifier: "\(language)_DE")
+        .init(identifier: "\(language.rawValue)_DE")
     }
     
     static func spain(language: Language = .spanish) -> Locale {
-        .init(identifier: "\(language)_ES")
+        .init(identifier: "\(language.rawValue)_ES")
     }
     
     static func unitedStates(language: Language = .english) -> Locale {
-        .init(identifier: "\(language)_US")
+        .init(identifier: "\(language.rawValue)_US")
     }
         
 }
