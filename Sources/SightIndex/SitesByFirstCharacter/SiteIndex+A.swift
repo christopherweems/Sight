@@ -51,6 +51,7 @@ internal extension SiteIndex {
         Site("https://www.ae.com")
             .queryURL(path: "/us/en/s/%s")
         
+        
         // #AF
         // #AG
         // #AH
@@ -58,6 +59,7 @@ internal extension SiteIndex {
         
         Site("https://www.airbnb.com")
             .queryURL(path: "/s/all?query=%s")
+        
         
         // #AJ
         // #AK
@@ -109,6 +111,7 @@ internal extension SiteIndex {
         
         Site("https://www.ansa.it")
         
+        
         // #AO
                 
         Site("https://search.aol.com")
@@ -154,6 +157,7 @@ internal extension SiteIndex {
         
         Site("https://appleinsider.com")
             .queryURL(path: "/search/?query=%s")
+        
         
         // #AR
         
@@ -221,6 +225,7 @@ internal extension SiteIndex {
         
         // #AV
         // #AW
+        
         Site("https://awfulannouncing.com")
             .queryURL(path: "/?s=%s")
         
