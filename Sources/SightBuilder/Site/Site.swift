@@ -26,7 +26,7 @@ public struct Site {
     public init(_ rootURLString: String) {
         self.root = rootURLString
         assert(rootURLString.contains(schemeSeparator), "root url must contain scheme")
-        assert(!rootURLString.hasSuffix("/"), "root url cannot contain path components")
+        assert(!rootURLString.hasSuffix("/"), "root url `\(rootURLString)` cannot contain path components")
     }
 }
 
