@@ -10,7 +10,7 @@ import unstandard
 
 public extension Site {
     func queryURL(path: String, method: HTTPMethod = .GET, locale: Locale? = nil) -> Self {
-        assert(path.first == "/", "query path must start with `/`")
+        assert(path.first == "/", "query path for `\(root)` must start with `/`")
         assert(method == .GET, "method `\(method)` is not supported")
         
         let parts = queryURLPartsSplit(path)
