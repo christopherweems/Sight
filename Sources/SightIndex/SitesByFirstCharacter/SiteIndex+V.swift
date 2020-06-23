@@ -65,6 +65,9 @@ internal extension SiteIndex {
         Site("https://www.verywellmind.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://vestiairecollective.com")
+            .queryURL("https://us.vestiairecollective.com/search/?q=%s", locale: .unitedStates())
+        
         
         // #VF
         // #VG

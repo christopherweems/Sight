@@ -64,6 +64,9 @@ internal extension SiteIndex {
         Site("https://www.target.com")
             .queryURL(path: "/s?searchTerm=%s")
         
+        Site("https://targus.com")
+            .queryURL("https://us.targus.com/pages/search-results?q=%s", locale: .unitedStates())
+        
         Site("https://tartecosmetics.com")
             .queryURL(path: "/en_US/search?q=%s")
         
@@ -449,6 +452,9 @@ internal extension SiteIndex {
         Site("https://tirerack.com")
             .queryURL("https://tires.tirerack.com/search?asug=&view=list&w=%s")
         
+        Site("https://tissotshop.com")
+            .queryURL("https://us.tissotshop.com/catalogsearch/result/?q=%s", locale: .unitedStates())
+        
         Site("https://www.titansonline.com")
             .queryURL(path: "/search/?query=%s")
         
@@ -508,6 +514,9 @@ internal extension SiteIndex {
         Site("http://www.tokyo-airport-bldg.co.jp")
             .queryURL(path: "/en/search/?q=%s")
         
+        Site("https://tommy.com")
+            .queryURL("https://usa.tommy.com/SearchDisplay?categoryId=&storeId=10151&catalogId=10551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&searchTerm=%s", locale: .unitedStates())
+        
         Site("https://www.tommybahama.com")
             .queryURL(path: "/en/search/?text=%s")
         
@@ -522,6 +531,9 @@ internal extension SiteIndex {
         
         Site("https://topdogtool.com")
             .queryURL(path: "/?s=%s&post_type=product")
+        
+        Site("https://topman.com")
+            .queryURL("https://us.topman.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId=13051&catalogId=33059&Ntt=%s", locale: .unitedStates())
         
         Site("https://www.toririchard.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")

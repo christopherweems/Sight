@@ -19,6 +19,9 @@ internal extension SiteIndex {
         Site("https://calbears.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
+        Site("https://calzedonia.com")
+            .queryURL("https://us.calzedonia.com/catalog/rest_search.cmd?form_state=searchForm&keyword=%s", locale: .unitedStates())
+        
         Site("https://camerajabber.com")
             .queryURL(path: "/?s=%s")
         
@@ -134,6 +137,9 @@ internal extension SiteIndex {
         
         Site("https://cookmagazine.ph")
             .queryURL(path: "/?s=%s")
+        
+        Site("http://coopertire.com")
+            .queryURL("http://us.coopertire.com/utility/search-results?searchtext=%s", locale: .unitedStates())
         
         Site("https://copykat.com")
             .queryURL(path: "/?s=%s")

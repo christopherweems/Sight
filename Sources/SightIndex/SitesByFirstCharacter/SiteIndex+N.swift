@@ -234,6 +234,9 @@ internal extension SiteIndex {
         // #NN
         // #NO
         
+        Site("https://no7beauty.com")
+            .queryURL("https://us.no7beauty.com/elysium.search?search=%s", locale: .unitedStates())
+        
         Site("https://www.nolahmattress.com")
         
         Site("https://www.nolo.com")

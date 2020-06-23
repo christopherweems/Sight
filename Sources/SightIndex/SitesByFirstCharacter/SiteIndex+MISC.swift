@@ -23,6 +23,9 @@ internal extension SiteIndex {
         Site("https://www.13deals.com")
             .queryURL(path: "/store/search.php?search_expression=%s")
         
+        Site("https://1more.com")
+            .queryURL("https://usa.1more.com/search?type=product&q=%s", locale: .unitedStates())
+        
         Site("https://1x.com")
             .queryURL(path: "/search?q=%s")
         

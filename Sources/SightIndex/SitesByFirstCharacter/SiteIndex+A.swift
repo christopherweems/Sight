@@ -57,6 +57,10 @@ internal extension SiteIndex {
         Site("https://www.akc.org")
             .queryURL(path: "/?s=%s")
         
+        Site("https://akris.com")
+            .queryURL("https://us.akris.com/pages/find/?text=%s", locale: .unitedStates())
+        
+        
         
         // #AL
         
@@ -67,6 +71,10 @@ internal extension SiteIndex {
         
         Site("https://www.altpress.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://allsaints.com")
+            .queryURL("https://www.us.allsaints.com/not-found/?searchtext=%s", locale: .unitedStates())
+        
         
         
         // #AM
@@ -86,6 +94,9 @@ internal extension SiteIndex {
                 
         Site("https://search.aol.com")
             .queryURL(path: "/aol/search?q=%s")
+        
+        Site("http://aoc.com")
+            .queryURL("http://us.aoc.com/product_catalog.php?k=%s")
         
         /*
         Site("https://search.aol.com")

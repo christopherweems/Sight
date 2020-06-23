@@ -103,6 +103,9 @@ internal extension SiteIndex {
         Site("https://www.onehanesplace.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=89551&doorId=4&storeId=10705&catalogId=11054&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s")
         
+        Site("https://oneill.com")
+            .queryURL("https://us.oneill.com/search?type=product&q=%s", locale: .unitedStates())
+        
         Site("https://www.onelovedbabe.com")
             .queryURL(path: "/search?q=%s")
         
@@ -135,6 +138,9 @@ internal extension SiteIndex {
         
         Site("https://openbazaar.com")
             .queryURL(path: "/discover/results?q=%s")
+        
+        Site("https://openfoodfacts.org")
+            .queryURL("https://us.openfoodfacts.org/cgi/search.pl?search_terms=%s", locale: .unitedStates())
         
         Site("https://www.openingceremony.com")
             .queryURL(path: "/search.html?q=%s")

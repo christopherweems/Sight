@@ -297,6 +297,9 @@ internal extension SiteIndex {
         Site("https://www.sharkclean.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://shein.com")
+            .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
+        
         Site("https://www.shiekh.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         

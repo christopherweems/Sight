@@ -53,6 +53,9 @@ internal extension SiteIndex {
         
         // #EC
         
+        Site("https://ecco.com")
+            .queryURL("https://us.ecco.com/search?q=%s", locale: .unitedStates())
+        
         Site("https://eclecticlight.co")
             .queryURL(path: "/?s=%s")
         
@@ -184,8 +187,9 @@ internal extension SiteIndex {
         // #ER
         // #ES
         
-        Site("https://eshop.macsales.com")
-            .queryURL(path: "/search/?q=%s")
+        
+        Site("https://espaskincare.com")
+            .queryURL("https://us.espaskincare.com/elysium.search?search=%s", locale: .unitedStates())
         
         Site("https://www.espn.co.uk")
             .queryURL(path: "/search/_/q/%s")

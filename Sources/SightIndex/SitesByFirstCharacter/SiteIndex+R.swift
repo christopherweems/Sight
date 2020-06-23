@@ -35,6 +35,9 @@ internal extension SiteIndex {
         Site("https://www.rag-bone.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://global.rakuten.com")
+            .queryURL(path: "/en/search/?k=%s")
+        
         Site("https://www.rainbowshops.com")
             .queryURL(path: "/search?q=%s")
         
@@ -189,6 +192,9 @@ internal extension SiteIndex {
         
         Site("https://www.ringtv.com")
             .queryURL(path: "/?s=%s")
+
+        Site("https://riverisland.com")
+            .queryURL("https://us.riverisland.com/search?keyword=%s", locale: .unitedStates())
         
         
         // #RJ
@@ -253,6 +259,9 @@ internal extension SiteIndex {
         
         Site("https://www.rolex.com")
             .queryURL(path: "/search.html#%s")
+        
+        Site("https://romwe.com")
+            .queryURL("https://us.romwe.com/pdsearch/%s", locale: .unitedStates())
         
         Site("https://www.roomstogo.com")
             .queryURL(path: "/search/keywords/%s")

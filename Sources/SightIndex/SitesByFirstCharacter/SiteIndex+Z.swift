@@ -14,6 +14,9 @@ internal extension SiteIndex {
         // #Z1
         // #ZA
         
+        Site("https://zadig-et-voltaire.com")
+            .queryURL("https://us.zadig-et-voltaire.com/catalogsearch/result/?q=%s", locale: .unitedStates())
+        
         Site("https://www.zaful.com")
             .queryURL(path: "/s/%s/")
         

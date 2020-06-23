@@ -217,6 +217,11 @@ internal extension SiteIndex {
         
         // #DK
         // #DL
+        
+        Site("https://dlink.com")
+            .queryURL("https://us.dlink.com/en/search?query=%s", locale: .unitedStates())
+        
+        
         // #DM
         // #DN
         // #DO
@@ -238,6 +243,9 @@ internal extension SiteIndex {
         
         Site("https://doiydesign.com")
             .queryURL(path: "/shop?s=%s&x=0&y=0")
+        
+        Site("https://dolcegabbana.com")
+            .queryURL("https://us.dolcegabbana.com/en/search-results?q=%s#anchorBack", locale: .unitedStates())
         
         Site("https://www.dolcevita.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -265,6 +273,9 @@ internal extension SiteIndex {
         
         Site("https://www.dooney.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://dorothyperkins.com")
+            .queryURL("https://us.dorothyperkins.com/search/?q=%s", locale: .unitedStates())
         
         Site("https://www.dove.com")
             .queryURL(path: "/us/en/search.html?q=%s")

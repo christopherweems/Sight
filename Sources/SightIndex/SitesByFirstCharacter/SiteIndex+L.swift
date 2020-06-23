@@ -281,6 +281,9 @@ internal extension SiteIndex {
         Site("https://www.louandgrey.com")
             .queryURL(path: "/search/searchResults.jsp?question=%s")
         
+        Site("https://louisvuitton.com")
+            .queryURL("https://us.louisvuitton.com/eng-us/search/%s", locale: .unitedStates())
+        
         Site("https://www.loveandlemons.com")
             .queryURL(path: "/?s=%s")
         

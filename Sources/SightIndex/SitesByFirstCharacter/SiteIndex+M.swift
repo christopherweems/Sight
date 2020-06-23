@@ -38,6 +38,9 @@ internal extension SiteIndex {
         Site("https://www.macrumors.com")
             .queryURL(path: "/search/?s=%s")
         
+        Site("https://eshop.macsales.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.macstories.net")
             .queryURL(path: "/?s=%s")
         
@@ -130,6 +133,9 @@ internal extension SiteIndex {
         
         Site("https://www.maurices.com")
             .queryURL(path: "/maurices/search?Ntt=%s")
+        
+        Site("https://mavi.com")
+            .queryURL("https://us.mavi.com/search?q=%s", locale: .unitedStates())
         
         Site("http://www.maxboostpower.com")
             .queryURL(path: "/?s=%s&post_type=product")
@@ -504,7 +510,10 @@ internal extension SiteIndex {
         
         
         // #MY
-                
+
+        Site("https://my1styears.com")
+            .queryURL("https://us.my1styears.com/catalogsearch/result/?q=%s", locale: .unitedStates())
+        
         Site("https://www.mybakingaddiction.com")
             .queryURL(path: "/?s=%s")
         

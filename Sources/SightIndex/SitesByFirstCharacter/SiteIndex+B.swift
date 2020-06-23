@@ -26,6 +26,9 @@ internal extension SiteIndex {
         Site("https://bakingbites.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://bape.com")
+            .queryURL("https://us.bape.com/search?q=%s")
+        
         Site("https://basecamp.com")
         
         Site("https://www.bathandbodyworks.com")
@@ -86,6 +89,10 @@ internal extension SiteIndex {
         
         Site("https://www.bona.co.za")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://boohoo.com")
+            .queryURL("https://us.boohoo.com/search?q=%s", locale: .unitedStates())
+        
         
         // #BR
         

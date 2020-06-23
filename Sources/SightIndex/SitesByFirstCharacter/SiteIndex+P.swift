@@ -188,6 +188,11 @@ internal extension SiteIndex {
         
         
         // #PG
+        
+        Site("https://pg.com")
+            .queryURL("https://us.pg.com/search-results/?query=%s", locale: .unitedStates())
+        
+        
         // #PH
         
         Site("https://www.phoenixnewtimes.com")
@@ -328,6 +333,9 @@ internal extension SiteIndex {
         Site("https://www.prettylittlething.us")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://princesspolly.com")
+            .queryURL("https://us.princesspolly.com/search?q=%s", locale: .unitedStates())
+        
         Site("https://www.pro-football-reference.com")
             .queryURL(path: "/search/search.fcgi?hsearch=%s")
         
@@ -359,8 +367,14 @@ internal extension SiteIndex {
         Site("https://www.publix.com")
             .queryURL(path: "/search?searchTerm=%s")
         
+        Site("https://puma.com")
+            .queryURL("https://us.puma.com/en/us/search?q=%s", locale: .unitedStates())
+        
         Site("https://www.purcosmetics.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://www.purecollection.com")
+            .queryURL("https://www.us.purecollection.com/search/%s", locale: .unitedStates())
         
         Site("https://www.purplebricks.com")
             .queryURL(path: "/search?query=%s")

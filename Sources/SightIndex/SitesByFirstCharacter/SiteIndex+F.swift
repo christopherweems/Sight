@@ -23,6 +23,9 @@ internal extension SiteIndex {
         Site("https://factrepublic.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://falconeri.com")
+            .queryURL("https://us.falconeri.com/catalog/rest_search.cmd?form_state=searchForm&keyword=%s", locale: .unitedStates())
+        
         Site("https://www.fameandpartners.com")
             .queryURL(path: "/search?q=%s")
         
@@ -206,6 +209,9 @@ internal extension SiteIndex {
         Site("https://www.flooranddecor.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://flos.com")
+            .queryURL("https://usa.flos.com/search-results-page?q=%s", locale: .unitedStates())
+        
         Site("https://flyknoxville.com")
             .queryURL(path: "/?s=%s")
         
@@ -318,6 +324,9 @@ internal extension SiteIndex {
         
         Site("https://www.freepeople.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://frenchconnection.com")
+            .queryURL("https://usa.frenchconnection.com/search/keywords-are-%s/%s.htm", locale: .unitedStates())
         
         Site("https://www.frenchtoast.com")
             .queryURL(path: "/search?categoryId=1&query=%s")
