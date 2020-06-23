@@ -69,6 +69,7 @@ public extension Site {
         }
         
         if let locale = locale {
+            /* match first by exact match to locale, then by language */
             if let lo = self.queryParts.first(whereKey: { $0.locale == locale }) {
                 return string(fromParts: lo.value)
                 
@@ -81,6 +82,7 @@ public extension Site {
             }
             
         } else if let universalParts = self.queryParts[.universal] {
+            /* find universal match */
             return string(fromParts: universalParts)
             
         }
