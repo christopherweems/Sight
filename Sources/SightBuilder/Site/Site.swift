@@ -40,21 +40,21 @@ public extension Site {
         
     }
     
-    func queryURL(for query: Query) -> URL? {
+    func queryURL(for query: Query, locale: Locale? = nil) -> URL? {
         switch query {
         case .root:
             return URL(string: root)
             
         case let .unencodedQuery(unencoded):
             guard let encoded = unencoded.withQueryPercentEncoding else { break }
-            guard let urlString = self.queryURLString(encoded) else { break }
+            guard let urlString = self.queryURLString(encoded, locale: locale) else { break }
             return URL(string: urlString)
         }
         
         return nil
     }
     
-    internal func queryURLString(_ encodedQuery: String) -> String? {
+    internal func queryURLString(_ encodedQuery: String, locale: Locale?) -> String? {
         switch self.queryParts {
         case let .fullURLQuery(parts):
             return parts.joined(separator: encodedQuery)
