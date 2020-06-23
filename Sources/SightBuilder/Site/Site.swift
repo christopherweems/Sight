@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Site {
+public struct Site: Hashable {
     private let schemeSeparator = "://"
     
     internal let root: String // scheme + authority
@@ -34,7 +34,7 @@ public struct Site {
 // MARK: - Query URLs
 
 public extension Site {
-    enum Query {
+    enum Query: Hashable {
         case root
         case unencodedQuery(_ query: String)
         
@@ -94,7 +94,7 @@ public extension Site {
 // MARK: - Query Parts
 
 internal extension Site {
-    enum QueryParts {
+    enum QueryParts: Hashable {
         /** site path, starting after authority. begins with `/`.
             the percent-encoded query appears between each part
          */
