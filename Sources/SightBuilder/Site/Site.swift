@@ -70,18 +70,17 @@ public extension Site {
         
         if let locale = locale {
             /* match first by exact match to locale, then by language */
-            if let lo = self.queryParts.first(whereKey: { $0.locale == locale }) {
-                return string(fromParts: lo.value)
+            if let matchingLocale = self.queryParts.first(whereKey: { $0.locale == locale })?.value {
+                return string(fromParts: matchingLocale)
                 
-            } else if let la = self.queryParts.first(whereKey: { $0.language?.rawValue == locale.languageCode }) {
-                return string(fromParts: la.value)
-                
-            } else {
-                return nil
+            } else if let matchingLanguage = self.queryParts.first(whereKey: { $0.language?.rawValue == locale.languageCode })?.value {
+                return string(fromParts: matchingLanguage)
                 
             }
             
-        } else if let universalParts = self.queryParts[.universal] {
+        }
+        
+        if let universalParts = self.queryParts[.universal] {
             /* find universal match */
             return string(fromParts: universalParts)
             
