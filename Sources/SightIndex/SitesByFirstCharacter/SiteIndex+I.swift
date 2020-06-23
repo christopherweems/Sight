@@ -168,6 +168,8 @@ internal extension SiteIndex {
         Site("https://instantfigure.com")
             .queryURL(path: "/index.php?route=product/search&search=%s")
         
+        Site("https://instax.com")
+        
         Site("https://www.intel.com")
             .queryURL(path: "/content/www/us/en/search.html?ws=text#q=%s&t=All")
         

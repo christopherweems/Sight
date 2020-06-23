@@ -561,6 +561,9 @@ internal extension SiteIndex {
         Site("https://www.myob.com")
             .queryURL(path: "/nz/search?q=%s&engineName=global&page=1")
         
+        Site("https://myprotein.com")
+            .queryURL("https://us.myprotein.com/elysium.search?search=%s", locale: .unitedStates())
+        
         Site("https://www.mysanantonio.com")
             .queryURL(path: "/search/?action=search&firstRequest=1&searchindex=solr&query=%s")
         

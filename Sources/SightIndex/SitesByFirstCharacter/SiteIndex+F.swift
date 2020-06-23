@@ -374,6 +374,9 @@ internal extension SiteIndex {
         Site("https://fubu.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.fujifilm.com")
+            .queryURL("https://site-search.fujifilm.com/?kw=%s&ie=u&site=global&temp=global")
+        
         Site("https://ful.com")
             .queryURL(path: "/search?q=%s")
         

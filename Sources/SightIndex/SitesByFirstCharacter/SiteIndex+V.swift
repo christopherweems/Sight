@@ -185,6 +185,10 @@ internal extension SiteIndex {
         
         // #VS
         // #VT
+        
+        Site("https://vt.edu")
+            .queryURL("https://search.vt.edu/search/pages.html?q=%s")
+        
         // #VU
         
         Site("https://www.vulture.com")

@@ -213,6 +213,9 @@ internal extension SiteIndex {
         Site("https://www.osu.edu")
             .queryURL(path: "/search.html?query=%s")
         
+        Site("https://osxdaily.com")
+            .queryURL(path: "/gsearch/?q=%s")
+        
         
         // #OT
         

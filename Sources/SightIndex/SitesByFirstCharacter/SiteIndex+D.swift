@@ -90,6 +90,9 @@ internal extension SiteIndex {
         Site("https://www.decibullz.com")
             .queryURL(path: "/search.php?search_query=%s")
         
+        Site("https://www.decogear.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://defensebrand.com")
             .queryURL(path: "/search?q=%s")
         

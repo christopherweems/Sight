@@ -72,6 +72,10 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         // #BH
+        
+        Site("https://www.bhphotovideo.com")
+            .queryURL(path: "/c/search?Ntt=%s")
+        
         // #BI
         
         Site("https://bigten.org")
@@ -79,6 +83,8 @@ internal extension SiteIndex {
         
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.biprousa.com")
         
         Site("https://news.bitcoin.com")
             .queryURL(path: "/?s=%s")

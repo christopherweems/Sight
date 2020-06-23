@@ -64,6 +64,11 @@ internal extension SiteIndex {
         // #AJ
         // #AK
         
+        Site("http://akaionline.co")
+        
+        Site("https://www.akaipro.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         Site("https://www.akc.org")
             .queryURL(path: "/?s=%s")
         

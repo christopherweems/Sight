@@ -125,9 +125,6 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s*")
         
     /*
-        Site("https://search.unm.edu")
-            .queryURL(path: "/search/?q=%s")
-        
         Site("https://search.us-cert.gov")
             .queryURL(path: "/search?affiliate=cisa&query=%s")
         
@@ -145,10 +142,7 @@ internal extension SiteIndex {
         
         Site("https://search.verizonwireless.com")
             .queryURL(path: "/onesearch/search?q=%s")
-        
-        Site("https://search.vt.edu")
-            .queryURL(path: "/search/pages.html?q=%s")
-        
+                
         Site("https://search.wvu.edu")
             .queryURL(path: "/results/?q=%s&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&ie=UTF-8&oe=UTF-8&proxystylesheet=default_frontend&client=default_frontend&btnG=Search&as_sitesearch=wvu.edu")
         
@@ -512,6 +506,12 @@ internal extension SiteIndex {
         Site("https://www.speckproducts.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://enterprise.spectrum.com")
+            .queryURL(path: "/support/search.html?search-q=%s")
+        
+        Site("https://www.spectrum.net")
+            .queryURL(path: "/search-results/?k=%s")
+        
         Site("https://spectrumlocalnews.com")
             .queryURL(path: "/tx/san-antonio/search#%s/1/")
         
@@ -550,6 +550,7 @@ internal extension SiteIndex {
         
         // #SQ
         
+        Site("https://www.squarespace.com")
         Site("https://squareup.com")
         
         // #SR
@@ -692,6 +693,9 @@ internal extension SiteIndex {
         
         Site("https://www.sweatybetty.com")
             .queryURL(path: "/us/search?q=%s")
+        
+        Site("https://www.sweetwater.com")
+            .queryURL(path: "/store/search.php?s=%s")
         
         Site("https://forums.swift.org")
             .queryURL(path: "/search?q=%s")
