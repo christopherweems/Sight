@@ -322,6 +322,9 @@ internal extension SiteIndex {
         Site("https://www.luluandgeorgia.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://shop.lululemon.com")
+            .queryURL(path: "/search?Ntt=%s")
+        
         Site("https://www.lulus.com")
             .queryURL(path: "/searchresults?search_in_description=1&q=%s")
         

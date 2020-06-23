@@ -49,6 +49,9 @@ internal extension SiteIndex {
         Site("https://www.ccn.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://shop.ccs.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         
         // #CE
         

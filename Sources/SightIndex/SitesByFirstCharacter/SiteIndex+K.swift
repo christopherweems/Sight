@@ -109,6 +109,9 @@ internal extension SiteIndex {
         Site("https://www.kidney.org")
             .queryURL(path: "/search-results?solr-keywords=%s")
         
+        Site("https://shop.kidpik.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.kidsfootlocker.com")
             .queryURL(path: "/search?query=%s")
         

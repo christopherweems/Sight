@@ -80,6 +80,9 @@ internal extension SiteIndex {
         // #TB
         // #TC
         
+        Site("https://shop.tcm.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://tcrf.net")
             .queryURL(path: "/index.php?search=%s")
         

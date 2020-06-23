@@ -29,6 +29,9 @@ internal extension SiteIndex {
         Site("https://www.jaguars.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://shop.jamesperse.com")
+            .queryURL(path: "/search#w=%s")
+        
         Site("https://www.jamf.com")
             .queryURL(path: "/search/?keywords=%s")
         

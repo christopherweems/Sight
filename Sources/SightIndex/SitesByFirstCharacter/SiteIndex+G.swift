@@ -267,7 +267,10 @@ internal extension SiteIndex {
         Site("https://www.google.com/maps")
             .queryURL(path: "?q=%s")
         */
- 
+        
+        Site("https://shop.goop.com")
+            .queryURL(path: "/search/products?query=%s&country=USA", locale: .unitedStates())
+        
         Site("https://gopro.com")
             .queryURL(path: "/en/us/shop/search?q=%s")
         
@@ -331,6 +334,9 @@ internal extension SiteIndex {
             .queryURL(path: "/us/en/search?search-cat=header-search&text=%s")
         
         Site("https://guessbymarciano.guess.com")
+            .queryURL(path: "/en/?rrq=%s")
+        
+        Site("https://shop.guess.com")
             .queryURL(path: "/en/?rrq=%s")
         
         Site("https://www.guirys.com")

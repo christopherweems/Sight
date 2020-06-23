@@ -67,7 +67,7 @@ internal extension SiteIndex {
         
         Site("https://www.maidenform.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=277157&doorId=7&storeId=14301&catalogId=14551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s#facet:&productBeginIndex:0&orderBy:&pageView:&minPrice:&maxPrice:&pageSize:20&")
-                
+        
         Site("https://www.makeupforever.com")
             .queryURL(path: "/us/en/search?q=%s")
         
@@ -79,6 +79,9 @@ internal extension SiteIndex {
         
         Site("https://www.manduka.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        Site("https://shop.mango.com")
+            .queryURL(path: "/us/search?kw=%s")
         
         Site("https://marca.com")
             .queryURL("https://cgi.marca.com/buscador/archivo_marca.html?q=%s", locale: .spain())
@@ -106,6 +109,9 @@ internal extension SiteIndex {
         
         Site("https://www.marshmallowpeeps.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://shop.marvel.com")
+            .queryURL(path: "/marvel/store/DSISearch?Searchstr=%s")
         
         Site("https://www.marylandsquare.com")
             .queryURL(path: "/?Ntt=%s")
@@ -214,6 +220,9 @@ internal extension SiteIndex {
         Site("https://www.metacritic.com")
             .queryURL(path: "/search/all/%s/results")
         
+        Site("https://store.metmuseum.org")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         Site("https://metro.co.uk")
             .queryURL(path: "/search/#gsc.tab=0&gsc.q=%s&gsc.sort=")
         
@@ -287,6 +296,9 @@ internal extension SiteIndex {
         
         Site("https://www.mitoaction.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://shop.mizunousa.com")
+            .queryURL(path: "/search?w=%s")
         
         Site("https://www.mizzenandmain.com")
             .queryURL(path: "/pages/search-results-page?q=%s")

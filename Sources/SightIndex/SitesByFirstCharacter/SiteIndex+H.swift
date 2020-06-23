@@ -68,6 +68,9 @@ internal extension SiteIndex {
         Site("https://www.harmankardon.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://shop.harpersbazaar.com")
+            .queryURL(path: "/search.html?term=%s")
+        
         Site("https://www.harristeeter.com")
             .queryURL(path: "/search?query=%s")
         
@@ -97,6 +100,9 @@ internal extension SiteIndex {
         
         
         // #HB
+        
+        Site("https://shop.hbo.com")
+            .queryURL(path: "/pages/search-results-page?q=%s")
         
         Site("https://www.hbo.com")
             .queryURL(path: "/searchresults?q=%s")
@@ -170,6 +176,9 @@ internal extension SiteIndex {
                 
         Site("https://hiphopgoldenage.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://shop.highsierra.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.hisroom.com")
             .queryURL(path: "/search2.aspx?terms=%s")

@@ -17,6 +17,9 @@ internal extension SiteIndex {
         Site("https://www.eagleeyes.com")
             .queryURL(path: "/apps/omega-search/?type=product&q=%s")
         
+        Site("https://shop.eaglemoss.com")
+            .queryURL(path: "/usa/search.aspx?id=%s", locale: .unitedStates())
+        
         Site("https://www.eastbay.com")
             .queryURL(path: "/search?query=%s")
         

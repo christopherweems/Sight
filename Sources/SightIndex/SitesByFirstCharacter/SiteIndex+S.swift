@@ -314,78 +314,7 @@ internal extension SiteIndex {
         
         Site("https://www.shootproof.com")
             .queryURL(path: "/blog/?s=%s")
-        
-        /*
-        Site("https://shop.ccs.com")
-            .queryURL(path: "/catalogsearch/result/?q=%s")
-        
-        Site("https://shop.diesel.com")
-            .queryURL(path: "/en/search-show?q=%s")
-        
-        Site("https://shop.eaglemoss.com")
-            .queryURL(path: "/usa/search.aspx?id=%s", locale: .unitedStates())
-        
-        Site("https://shop.fender.com")
-            .queryURL(path: "/en-US/search?q=%s")
-        
-        Site("https://shop.funko.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://shop.goop.com")
-            .queryURL(path: "/search/products?query=%s&country=USA", locale: .unitedStates())
-        
-        Site("https://shop.guess.com")
-            .queryURL(path: "/en/?rrq=%s")
-        
-        Site("https://shop.harpersbazaar.com")
-            .queryURL(path: "/search.html?term=%s")
-        
-        Site("https://shop.hbo.com")
-            .queryURL(path: "/pages/search-results-page?q=%s")
-        
-        Site("https://shop.highsierra.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://shop.jamesperse.com")
-            .queryURL(path: "/search#w=%s")
-        
-        Site("https://shop.kidpik.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://shop.lululemon.com")
-            .queryURL(path: "/search?Ntt=%s")
-        
-        Site("https://shop.mango.com")
-            .queryURL(path: "/us/search?kw=%s")
-        
-        Site("https://shop.marvel.com")
-            .queryURL(path: "/marvel/store/DSISearch?Searchstr=%s")
-        
-        Site("https://shop.mizunousa.com")
-            .queryURL(path: "/search?w=%s")
-        
-        Site("https://shop.nhl.com")
-            .queryURL(path: "/?query=%s")
-        
-        Site("https://shop.nordstrom.com")
-            .queryURL(path: "/sr?keyword=%s")
-        
-        Site("https://shop.pbs.org")
-            .queryURL(path: "/noSearchResults?searchTerm=%s")
-        
-        Site("https://shop.ring.com")
-            .queryURL(path: "/search?type=product&q=%s")
-        
-        Site("https://shop.tcm.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://shop.westerndigital.com")
-            .queryURL(path: "/search?q=%s")
-        
-        Site("https://shop.wwe.com")
-            .queryURL(path: "/search?q=%s")
-        */
- 
+
         Site("https://www.shopakira.com")
             .queryURL(path: "/nsearch/?q=%s")
         
@@ -733,6 +662,9 @@ internal extension SiteIndex {
         Site("https://statecashmere.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://store.steampowered.com")
+            .queryURL(path: "/search/?term=%s")
+        
         Site("https://www.steepandcheap.com")
             .queryURL(path: "/Store/catalog/search.jsp?q=%s")
         
@@ -756,24 +688,7 @@ internal extension SiteIndex {
         
         Site("https://stockmfgco.com")
             .queryURL(path: "/search?q=%s")
-        
-        /*
-        Site("https://store.dji.com")
-            .queryURL(path: "/product-search?q=%s")
-        
-        Site("https://store.metmuseum.org")
-            .queryURL(path: "/catalogsearch/result/?q=%s")
-        
-        Site("https://store.nascar.com")
-            .queryURL(path: "/?query=%s")
-        
-        Site("https://store.nba.com")
-            .queryURL(path: "/?query=%s")
-        
-        Site("https://store.steampowered.com")
-            .queryURL(path: "/search/?term=%s")
-        */
- 
+
         Site("https://www.storets.com")
             .queryURL(path: "/search?type=product&q=%s")
         

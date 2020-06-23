@@ -184,6 +184,9 @@ internal extension SiteIndex {
         Site("https://www.rileystreet.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://shop.ring.com")
+            .queryURL(path: "/search?type=product&q=%s")
+        
         Site("https://www.ringtv.com")
             .queryURL(path: "/?s=%s")
         

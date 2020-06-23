@@ -200,6 +200,9 @@ internal extension SiteIndex {
         Site("https://discovermagazine.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://shop.diesel.com")
+            .queryURL(path: "/en/search-show?q=%s")
+        
         Site("https://www.dish.com")
             .queryURL(path: "/site-search/?q=%s")
         
@@ -208,6 +211,10 @@ internal extension SiteIndex {
         
         
         // #DJ
+        
+        Site("https://store.dji.com")
+            .queryURL(path: "/product-search?q=%s")
+        
         // #DK
         // #DL
         // #DM

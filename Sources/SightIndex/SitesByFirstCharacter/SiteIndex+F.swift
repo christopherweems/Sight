@@ -110,6 +110,9 @@ internal extension SiteIndex {
         Site("https://www.felina.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        Site("https://shop.fender.com")
+            .queryURL(path: "/en-US/search?q=%s")
+        
         Site("https://www.fendi.com")
             .queryURL(path: "/us/search-results?async=false&q=%s")
         
@@ -356,6 +359,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://ful.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://shop.funko.com")
             .queryURL(path: "/search?q=%s")
         
         

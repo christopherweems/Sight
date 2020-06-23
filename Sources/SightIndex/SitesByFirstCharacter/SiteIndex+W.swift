@@ -125,6 +125,9 @@ internal extension SiteIndex {
         Site("https://www.westelm.com")
             .queryURL(path: "/search/results.html?words=%s")
         
+        Site("https://shop.westerndigital.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.westerndigital.com")
             .queryURL(path: "/search?q=%s")
         
@@ -393,6 +396,10 @@ internal extension SiteIndex {
         
         
         // #WW
+        
+        Site("https://shop.wwe.com")
+            .queryURL(path: "/search?q=%s")
+        
         // #WX
                                 
         Site("http://www.wxbq.com")

@@ -29,6 +29,9 @@ internal extension SiteIndex {
         Site("https://www.narscosmetics.com")
             .queryURL(path: "/USA/search?q=%s", locale: .unitedStates())
         
+        Site("https://store.nascar.com")
+            .queryURL(path: "/?query=%s")
+        
         Site("https://www.nasdaq.com")
             .queryURL(path: "/search?q=%s&page=1&sort_by=relevant")
         
@@ -46,6 +49,9 @@ internal extension SiteIndex {
         
         
         // #NB
+        
+        Site("https://store.nba.com")
+            .queryURL(path: "/?query=%s")
         
         Site("https://www.nbcnews.com")
             .queryURL(path: "/search?q=%s")
@@ -159,6 +165,9 @@ internal extension SiteIndex {
         
         // #NH
         
+        Site("https://shop.nhl.com")
+            .queryURL(path: "/?query=%s")
+        
         Site("https://www.nhl.com")
             .queryURL(path: "/search#q=%s")
         
@@ -235,6 +244,9 @@ internal extension SiteIndex {
         
         Site("https://www.noodles.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://shop.nordstrom.com")
+            .queryURL(path: "/sr?keyword=%s")
         
         Site("https://www.nordstromrack.com")
             .queryURL(path: "/shop/search?query=%s")
