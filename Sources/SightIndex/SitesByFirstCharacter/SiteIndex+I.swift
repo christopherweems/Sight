@@ -24,7 +24,7 @@ internal extension SiteIndex {
         // #IB
         
         Site("https://www.ibanez.com")
-            .queryURL(path: "/usa/products/search/electric_guitars/list/?cf_search_product_code=%s")
+            .queryURL(path: "/usa/products/search/electric_guitars/list/?cf_search_product_code=%s", locale: .unitedStates())
         
         Site("https://www.ibm.com")
             .queryURL(path: "/search?q=%s")

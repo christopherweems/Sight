@@ -27,7 +27,7 @@ internal extension SiteIndex {
             .queryURL(path: "/en/search?text=%s")
         
         Site("https://www.narscosmetics.com")
-            .queryURL(path: "/USA/search?q=%s")
+            .queryURL(path: "/USA/search?q=%s", locale: .unitedStates())
         
         Site("https://www.nasdaq.com")
             .queryURL(path: "/search?q=%s&page=1&sort_by=relevant")

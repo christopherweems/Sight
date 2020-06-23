@@ -323,7 +323,7 @@ internal extension SiteIndex {
             .queryURL(path: "/en/search-show?q=%s")
         
         Site("https://shop.eaglemoss.com")
-            .queryURL(path: "/usa/search.aspx?id=%s")
+            .queryURL(path: "/usa/search.aspx?id=%s", locale: .unitedStates())
         
         Site("https://shop.fender.com")
             .queryURL(path: "/en-US/search?q=%s")
@@ -332,7 +332,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://shop.goop.com")
-            .queryURL(path: "/search/products?query=%s&country=USA")
+            .queryURL(path: "/search/products?query=%s&country=USA", locale: .unitedStates())
         
         Site("https://shop.guess.com")
             .queryURL(path: "/en/?rrq=%s")

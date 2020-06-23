@@ -58,7 +58,7 @@ internal extension SiteIndex {
         // #RC
         
         Site("https://www.rca.com")
-            .queryURL(path: "/us_en/search?q=%s")
+            .queryURL(path: "/us_en/search?q=%s", locale: .unitedStates())
         
         Site("https://www.rcmamakeup.net")
             .queryURL(path: "/catalogsearch/result/?q=%s")

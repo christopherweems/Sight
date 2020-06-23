@@ -189,7 +189,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?idCategory=&search=%s")
         
         Site("https://www.kora.net")
-            .queryURL(path: "/usa/catalogsearch/result/?q=%s")
+            .queryURL(path: "/usa/catalogsearch/result/?q=%s", locale: .unitedStates())
         
         Site("https://koral.com")
             .queryURL(path: "/search?q=%s")

@@ -93,7 +93,7 @@ internal extension SiteIndex {
             .queryURL(path: "/pages/search-results?q=%s")
         
         Site("https://www.marimekko.com")
-            .queryURL(path: "/us_en/search/?q=%s")
+            .queryURL(path: "/us_en/search/?q=%s", locale: .unitedStates())
         
         Site("https://www.marinelayer.com")
             .queryURL(path: "/search?type=product&q=%s")
@@ -265,7 +265,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://www.miniusa.com")
-            .queryURL(path: "/content/miniusa/en/search-results.html?q=%s")
+            .queryURL(path: "/content/miniusa/en/search-results.html?q=%s", locale: .unitedStates())
         
         Site("https://www.miraclesuit.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -372,7 +372,7 @@ internal extension SiteIndex {
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         Site("https://www.moschino.com")
-            .queryURL(path: "/us_en/moschino.html#q=%s")
+            .queryURL(path: "/us_en/moschino.html#q=%s", locale: .unitedStates())
         
         Site("https://www.motherhood.com")
             .queryURL(path: "/search/?q=%s")

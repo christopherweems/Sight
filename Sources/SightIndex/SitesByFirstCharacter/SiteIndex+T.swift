@@ -414,7 +414,7 @@ internal extension SiteIndex {
             .queryURL(path: "/nextgen/searchresults?cx=008208239971096824769%3Apj0ik8g7c5k&cof=FORID%3A11&ie=UTF-8&sa=Search&q=%s")
         
         Site("https://www.tilley.com")
-            .queryURL(path: "/us_en/catalogsearch/result/?q=%s")
+            .queryURL(path: "/us_en/catalogsearch/result/?q=%s", locale: .unitedStates())
         
         Site("https://www.tillys.com")
             .queryURL(path: "/find/?q=%s")
