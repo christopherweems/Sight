@@ -28,7 +28,7 @@ public extension Site {
 
 fileprivate extension Site {
     func queryURL(path: String, method: HTTPMethod = .GET, locale: Locale?, language: Locale.Language?) -> Self {
-        assert(locale == nil || language == nil)
+        assert(locale == nil || language == nil, "both locale and language cannot be set")
         assert(path.first == "/", "query path for `\(root)` must start with `/`")
         assert(method == .GET, "method `\(method)` is not supported")
         
@@ -54,7 +54,7 @@ fileprivate extension Site {
 private extension Site {
     func queryURLPartsSplit(_ urlString: String) -> [String] {
         let pathParts = urlString.split(separator: "%s", omittingEmptySubsequences: false)
-        assert(2 <= pathParts.count, "query path for `\(root)` must contain 1 or more `%s` query delimiters")
+        assert(2 <= pathParts.count, "query path for `\(root)` must contain 1 or more `%s` query delimiter")
         
         return pathParts
     }
