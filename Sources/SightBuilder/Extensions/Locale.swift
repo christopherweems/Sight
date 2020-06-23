@@ -9,17 +9,28 @@ import Foundation
 
 public extension Locale {
     enum Language: String {
+        case chinese = "zh"
         case english = "en"
+        case french = "fr"
+        case german = "de"
         case spanish = "es"
         
     }
     
-    static func unitedStates(_ language: Language = .english) -> Locale {
-        .init(identifier: "\(language)_US")
+    static func france(language: Language = .french) -> Locale {
+        .init(identifier: "\(language)_FR")
     }
     
-    static func spain(_ language: Language = .spanish) -> Locale {
+    static func germany(language: Language = .german) -> Locale {
+        .init(identifier: "\(language)_DE")
+    }
+    
+    static func spain(language: Language = .spanish) -> Locale {
         .init(identifier: "\(language)_ES")
     }
     
+    static func unitedStates(language: Language = .english) -> Locale {
+        .init(identifier: "\(language)_US")
+    }
+        
 }
