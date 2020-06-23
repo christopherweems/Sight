@@ -9,7 +9,7 @@ import Foundation
 import unstandard
 
 public extension Site {
-    func queryURL(path: String, method: HTTPMethod = .GET) -> Self {
+    func queryURL(path: String, method: HTTPMethod = .GET, locale: Locale? = nil) -> Self {
         assert(path.first == "/", "query path must start with `/`")
         assert(method == .GET, "method `\(method)` is not supported")
         
@@ -20,7 +20,7 @@ public extension Site {
         return new
     }
     
-    func queryURL(_ urlString: String, method: HTTPMethod = .GET) -> Self {
+    func queryURL(_ urlString: String, method: HTTPMethod = .GET, locale: Locale? = nil) -> Self {
         assert(method == .GET, "method `\(method)` is not supported")
         
         let parts = queryURLPartsSplit(urlString)
