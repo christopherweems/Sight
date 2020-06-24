@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import unstandard
 
 public struct Site: Hashable {
     private let schemeSeparator = "://"
@@ -86,7 +87,7 @@ public extension Site {
             
         }
         
-        return nil
+        return queryParts.first?.value.wrap(string(fromParts:))
     }
 }
 
@@ -94,7 +95,7 @@ public extension Site {
 // MARK: - Query Parts
 
 internal extension Site {
-    enum QueryParts: Hashable {
+    enum QueryParts: Hashable, Wrappable {
         /** site path, starting after authority. begins with `/`.
             the percent-encoded query appears between each part
          */
