@@ -162,6 +162,8 @@ internal extension SiteIndex {
         Site("https://tenor.com")
             .queryURL(path: "/search/%s-gifs")
         
+        Site("https://www.tesla.com")
+        
         Site("https://www.teva.com")
             .queryURL(path: "/search?q=%s")
         

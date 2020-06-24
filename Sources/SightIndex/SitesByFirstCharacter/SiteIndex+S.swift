@@ -32,6 +32,8 @@ internal extension SiteIndex {
         Site("https://sagepub.com")
             .queryURL("https://us.sagepub.com/en-us/nam/product/%s", locale: .unitedStates())
         
+        Site("https://www.saicmotor.com")
+        
         Site("https://www.saint-james.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         

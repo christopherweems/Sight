@@ -152,6 +152,8 @@ internal extension SiteIndex {
         Site("https://www.mayoclinic.org")
             .queryURL(path: "/search/search-results?q=%s")
         
+        Site("https://www.mazdausa.com")
+        
         
         // #MB
         

@@ -326,6 +326,8 @@ internal extension SiteIndex {
         // #LT
         // #LU
         
+        Site("https://lucidmotors.com")
+        
         Site("https://www.luckybrand.com")
             .queryURL(path: "/search?q=%s")
         

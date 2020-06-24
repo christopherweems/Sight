@@ -133,6 +133,8 @@ internal extension SiteIndex {
         Site("https://www.nevadaappeal.com")
             .queryURL(path: "/search-results/?q=%s")
         
+        Site("https://www.nevs.com")
+        
         Site("https://www.newark.com")
             .queryURL(path: "/search?st=%s")
         
