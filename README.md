@@ -51,6 +51,9 @@ Where `n` is the count of `Site`s in directory (~`n/27`), due to splitting of do
 Generate site query urls from the command line:
 `swift run SightInspector wikipedia.org "Dig Dug"`
 
+Search sites from the command line, opening in your default browser (macOS only):
+`swift run SightInspector -o wikipedia.org Khruangbin`
+
 ## Related Links
 
 [Smart bookmark](https://en.wikipedia.org/wiki/Smart_bookmark) 
