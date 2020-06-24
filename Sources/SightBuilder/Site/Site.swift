@@ -43,7 +43,7 @@ public extension Site {
     func queryURL(for query: Query, locale: Locale? = nil) -> URL? {
         switch query {
         case .root:
-            return URL(string: root)
+            return URL(string: root + "/")
             
         case let .unencodedQuery(unencoded):
             guard let encoded = unencoded.withQueryPercentEncoding else { break }
