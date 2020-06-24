@@ -84,6 +84,9 @@ internal extension SiteIndex {
         // #DD
         // #DE
         
+        Site("https://deadline.com")
+            .queryURL(path: "/results/#?q=%s")
+        
         Site("https://deadspin.com")
             .queryURL(path: "/search?q=%s")
         
@@ -98,6 +101,9 @@ internal extension SiteIndex {
         
         Site("https://www.deliciouseveryday.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.democracynow.org")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://www.desmoinesregister.com")
             .queryURL(path: "/search/?q=%s")
@@ -300,6 +306,9 @@ internal extension SiteIndex {
         
         Site("https://dorothyperkins.com")
             .queryURL("https://us.dorothyperkins.com/search/?q=%s", locale: .unitedStates())
+        
+        Site("https://dotesports.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.dove.com")
             .queryURL(path: "/us/en/search.html?q=%s")

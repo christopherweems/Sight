@@ -107,6 +107,9 @@ internal extension SiteIndex {
         Site("https://www.marinelayer.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://www.marketwatch.com")
+            .queryURL(path: "/tools/quotes/lookup.asp?lookup=%s")
+        
         Site("https://www.marksandspencer.com")
             .queryURL(path: "/us/search?q=%s")
         
@@ -285,6 +288,8 @@ internal extension SiteIndex {
         Site("https://www.mindbodygreen.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.minecraft.net")
+        
         Site("https://www.mingwangknits.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
@@ -339,6 +344,8 @@ internal extension SiteIndex {
         
         Site("https://www.mlg.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.mlive.com")
         
         
         // #MM
@@ -445,6 +452,8 @@ internal extension SiteIndex {
         
         Site("https://developer.mozilla.org")
             .queryURL(path: "/en-US/search?q=%s")
+        
+        Site("https://observatory.mozilla.org")
         
         
         // #MP

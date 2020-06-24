@@ -20,8 +20,17 @@ internal extension SiteIndex {
         Site("https://www.sachinandbabi.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.sacbee.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.sagefinds.com")
             .queryURL(path: "/Search.aspx?txtSearch=%s")
+        
+        Site("https://journals.sagepub.com")
+            .queryURL(path: "/action/doSearch?filterOption=allJournal&AllField=%s")
+        
+        Site("https://sagepub.com")
+            .queryURL("https://us.sagepub.com/en-us/nam/product/%s", locale: .unitedStates())
         
         Site("https://www.saint-james.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
@@ -398,6 +407,9 @@ internal extension SiteIndex {
         Site("https://sleefs.com")
             .queryURL(path: "/pages/search-results?findify_q=%s")
         
+        Site("https://www.sltrib.com")
+            .queryURL(path: "/search/%s/?q=%s")
+        
         
         // #SM
         
@@ -472,6 +484,9 @@ internal extension SiteIndex {
         
         Site("https://www.sony.com")
             .queryURL(path: "/search?query=%s&locale=en_US")
+        
+        Site("https://soonersports.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://soundcloud.com")
             .queryURL(path: "/search?q=%s")
@@ -589,6 +604,9 @@ internal extension SiteIndex {
         Site("https://statecashmere.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.statecollege.com")
+            .queryURL(path: "/search/results.php?SearchString=%s")
+        
         Site("https://store.steampowered.com")
             .queryURL(path: "/search/?term=%s")
         
@@ -635,6 +653,9 @@ internal extension SiteIndex {
         
         Site("https://stuckincustoms.com")
             .queryURL(path: "/search-page/?q=%s")
+        
+        Site("https://www.stuff.co.nz")
+            .queryURL(path: "/searchresults?Search+Site=Search+Site&cof=FORID%3A9&cx=006730714154542492986%3Aoh6vl0ybuqy&q=%s&siteurl=www.stuff.co.nz")
         
         Site("https://www.stuff.tv")
             .queryURL(path: "/search/site/%s")

@@ -114,6 +114,7 @@ internal extension SiteIndex {
         Site("https://boohoo.com")
             .queryURL("https://us.boohoo.com/search?q=%s", locale: .unitedStates())
         
+        Site("https://www.boston.com")
         
         // #BR
         

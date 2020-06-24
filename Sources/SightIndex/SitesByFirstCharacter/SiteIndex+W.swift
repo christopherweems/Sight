@@ -48,6 +48,9 @@ internal extension SiteIndex {
         Site("https://www.watchmaxx.com")
             .queryURL(path: "/watches?query=%s")
         
+        Site("https://watchstadium.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("http://www.watchstation.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/SearchDisplayCmd?URL=SearchResultsView&storeId=34054&catalogId=23503&langId=-1&Ntt=%s")
         
@@ -89,6 +92,9 @@ internal extension SiteIndex {
         
         Site("https://wdef.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.wdrb.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         
         Site("https://wdvx.com")
             .queryURL(path: "/?s=%s")
@@ -342,6 +348,10 @@ internal extension SiteIndex {
         
         
         // #WP
+        
+        Site("https://www.wpsdlocal6.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         // #WQ
         // #WR
         

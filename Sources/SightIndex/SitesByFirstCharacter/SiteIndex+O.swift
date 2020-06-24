@@ -32,7 +32,8 @@ internal extension SiteIndex {
         Site("https://obeyclothing.com")
             .queryURL(path: "/search?q=%s")
         
-        Site("https://observatory.mozilla.org")
+        Site("https://observer.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #OC

@@ -53,6 +53,9 @@ internal extension SiteIndex {
         Site("https://www.nationalgrocers.org")
             .queryURL(path: "/?s=%s&submit=Search")
         
+        Site("https://www.nature.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.nautica.com")
             .queryURL(path: "/search?q=%s")
         
@@ -61,6 +64,9 @@ internal extension SiteIndex {
         
         Site("https://store.nba.com")
             .queryURL(path: "/?query=%s")
+        
+        Site("https://www.nbcbayarea.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.nbcnews.com")
             .queryURL(path: "/search?q=%s")
@@ -182,6 +188,8 @@ internal extension SiteIndex {
         
         
         // #NH
+        
+        Site("https://www.nhk.or.jp")
         
         Site("https://shop.nhl.com")
             .queryURL(path: "/?query=%s")

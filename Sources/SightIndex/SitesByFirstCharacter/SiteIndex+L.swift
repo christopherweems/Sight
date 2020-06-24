@@ -167,6 +167,8 @@ internal extension SiteIndex {
         
         Site("https://line.me")
         
+        Site("https://www.lines.com")
+        
         Site("https://www.linex.com")
             .queryURL(path: "/search?q=%s")
         
@@ -238,6 +240,9 @@ internal extension SiteIndex {
         
         Site("https://www.localdvm.com")
             .queryURL(path: "/?s=%s&submit=Search")
+        
+        Site("https://www.localmemphis.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.lodgemfg.com")
             .queryURL(path: "/search?search_api_fulltext=%s")

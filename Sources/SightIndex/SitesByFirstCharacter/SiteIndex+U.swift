@@ -232,6 +232,9 @@ internal extension SiteIndex {
         Site("https://www.uslsoccer.com")
             .queryURL(path: "/search-results.html?q=%s")
         
+        Site("https://www.usnews.com")
+            .queryURL(path: "/search/news?q=%s#gsc.tab=0&gsc.q=%s&gsc.page=1")
+        
         Site("https://usports.ca")
         
         Site("https://www.usu.edu")

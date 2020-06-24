@@ -223,6 +223,9 @@ internal extension SiteIndex {
         Site("https://www.thecheesecakefactory.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.thecinemaspot.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://theclemsoninsider.com")
             .queryURL(path: "/?s=%s")
         
@@ -299,6 +302,9 @@ internal extension SiteIndex {
         Site("http://theladiesfinger.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.thelancet.com")
+            .queryURL(path: "/action/doSearch?searchType=quick&searchText=%s&searchScope=series&journalCode=landia&seriesISSNFltraddfilter=2213-8587&occurrences=all&code=lancet-site&journalCode=landia")
+        
         Site("https://www.thelines.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -310,6 +316,9 @@ internal extension SiteIndex {
         
         
         // #THEN
+        
+        Site("https://www.thenewstribune.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://thenextweb.com")
             .queryURL(path: "/?q=%s")
@@ -353,6 +362,9 @@ internal extension SiteIndex {
         Site("https://thegrapevine.theroot.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.theroot.com")
+            .queryURL(path: "/search?blogId=1635821517&q=%s")
+        
         Site("https://www.therugbypaper.co.uk")
             .queryURL(path: "/?s=%s")
         
@@ -365,6 +377,8 @@ internal extension SiteIndex {
         Site("https://www.thesaurus.com")
             .queryURL(path: "/browse/%s")
         
+        Site("https://www.thescore.com")
+                
         Site("https://theshaderoom.com")
             .queryURL(path: "/?s=%s")
         
@@ -407,6 +421,8 @@ internal extension SiteIndex {
         
         Site("https://www.thewhitecompany.com")
             .queryURL(path: "/us/search?text=%s")
+        
+        Site("https://www.thewrap.com")
         
         
         // #THEX
@@ -664,6 +680,9 @@ internal extension SiteIndex {
         Site("https://www.trustedreviews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://truthout.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.trwaftermarket.com")
             .queryURL(path: "/us/site-search-results/?query=%s")
         
@@ -702,6 +721,9 @@ internal extension SiteIndex {
         
         Site("https://www.tva.gov")
             .queryURL(path: "/Search-Results?vgnextkeyword=%s")
+        
+        Site("https://tvline.com")
+            .queryURL(path: "/results/#?q=%s")
         
         
         // #TW

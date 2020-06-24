@@ -47,6 +47,9 @@ internal extension SiteIndex {
         Site("http://www.icovetthee.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://icu-project.org")
+            .queryURL("http://site.icu-project.org/system/app/pages/search?scope=search-site&q=%s")
+        
         
         // #ID
         
@@ -138,6 +141,9 @@ internal extension SiteIndex {
         Site("https://www.industrywest.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.indystar.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://influencermarketinghub.com")
             .queryURL(path: "/?s=%s")
         
@@ -172,6 +178,9 @@ internal extension SiteIndex {
         
         Site("https://www.intel.com")
             .queryURL(path: "/content/www/us/en/search.html?ws=text#q=%s&t=All")
+        
+        Site("https://interestingengineering.com")
+            .queryURL(path: "/s/search?q=%s")
         
         Site("https://www.intermixonline.com")
             .queryURL(path: "/search?q=%s&lang=en_US")

@@ -197,6 +197,9 @@ internal extension SiteIndex {
         Site("https://www.glenville.edu")
             .queryURL(path: "/search?keywords=%s")
         
+        Site("https://globalnews.ca")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://globebrand.com")
             .queryURL("https://us.globebrand.com/search?q=%s&type=product", locale: .unitedStates())
         

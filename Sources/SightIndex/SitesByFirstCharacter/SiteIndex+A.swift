@@ -20,6 +20,12 @@ internal extension SiteIndex {
         Site("https://abc13.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://www.abc15.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://abovethelaw.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.abqjournal.com")
             .queryURL(path: "/search?q=%s")
         
@@ -45,6 +51,9 @@ internal extension SiteIndex {
         Site("https://www.advanceautoparts.com")
             .queryURL("https://shop.advanceautoparts.com/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
         
+        Site("https://www.advancedsciencenews.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #AE
         
@@ -53,6 +62,10 @@ internal extension SiteIndex {
         
         
         // #AF
+        
+        Site("https://afkgaming.com")
+            .queryURL(path: "/search/name=%s&includeArticleBody=0")
+        
         // #AG
         // #AH
         // #AI
@@ -163,8 +176,14 @@ internal extension SiteIndex {
         Site("https://appleinsider.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://cse.appstate.edu")
+            .queryURL(path: "/?q=%s")
+        
         
         // #AR
+        
+        Site("https://www.arm.com")
+            .queryURL(path: "/Search?q=%s")
         
         Site("https://www.art.com")
             .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
@@ -183,10 +202,7 @@ internal extension SiteIndex {
         
         Site("https://www.artsupplywarehouse.com")
             .queryURL(path: "/inet/storefront/store.php?mode=searchstore&search%5Bsearchfor%5D=%s")
-        
-        Site("https://cse.appstate.edu")
-            .queryURL(path: "/?q=%s")
-        
+                
         
         // #AS
         
@@ -229,6 +245,10 @@ internal extension SiteIndex {
         Site("https://www.autosport.com")
         
         // #AV
+        
+        Site("https://news.avclub.com")
+            .queryURL(path: "/search?blogId=1636027099&q=%s")
+        
         // #AW
         
         Site("https://awfulannouncing.com")

@@ -332,6 +332,9 @@ internal extension SiteIndex {
         Site("https://www.prana.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://press-start.com.au")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.pressherald.com")
             .queryURL(path: "/search/?q=%s")
         

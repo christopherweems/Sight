@@ -277,6 +277,9 @@ internal extension SiteIndex {
         
         Site("https://www.justfashionnow.com")
         
+        Site("https://www.justice.gov")
+            .queryURL( "https://search.justice.gov/search?query=%s&op=Search&affiliate=justice-usao-aln")
+        
         Site("https://www.justmysize.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         

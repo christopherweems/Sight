@@ -274,6 +274,9 @@ internal extension SiteIndex {
         Site("https://www.forever21.com")
             .queryURL(path: "/us/shop/Search/#brm-search?request_type=search&search_type=keyword&q=%s")
         
+        Site("https://forward.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.fossil.com")
             .queryURL(path: "/us/en/search.%s.html")
         

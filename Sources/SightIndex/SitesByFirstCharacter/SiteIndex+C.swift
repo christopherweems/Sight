@@ -165,6 +165,9 @@ internal extension SiteIndex {
         Site("https://www.costco.com")
             .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")
         
+        Site("https://www.courier-journal.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://covidcfb.com")
         
         

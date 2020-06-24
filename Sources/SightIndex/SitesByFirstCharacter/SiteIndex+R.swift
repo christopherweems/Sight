@@ -53,8 +53,14 @@ internal extension SiteIndex {
         Site("https://www.ramybrook.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://www.rand.org")
+            .queryURL(path: "/search.html?query=%s")
+        
         Site("https://www.ratchetandwrench.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.rawstory.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.ray-ban.com")
             .queryURL(path: "/SearchDisplay?storeId=10151&catalogId=22552&langId=-1&pageSize=9&beginIndex=0&searchSource=Q&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchType=1000&viewMode=Rayban&searchTerm=%s")
@@ -145,6 +151,9 @@ internal extension SiteIndex {
         
         Site("http://www.repel.com")
             .queryURL(path: "/Search-Results.aspx?s=%s")
+        
+        Site("https://www.rescue.org")
+            .queryURL(path: "/search/site/%s")
         
         Site("http://resourcemagonline.com")
             .queryURL(path: "/?s=%s")
