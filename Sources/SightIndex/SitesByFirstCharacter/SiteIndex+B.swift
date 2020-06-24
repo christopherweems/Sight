@@ -32,6 +32,9 @@ internal extension SiteIndex {
         Site("https://bape.com")
             .queryURL("https://us.bape.com/search?q=%s")
         
+        Site("https://www.barnesandnoble.com")
+            .queryURL(path: "/s/%s")
+        
         Site("https://basecamp.com")
         
         Site("https://www.bathandbodyworks.com")

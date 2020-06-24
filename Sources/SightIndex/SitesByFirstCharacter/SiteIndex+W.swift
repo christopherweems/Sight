@@ -234,6 +234,9 @@ internal extension SiteIndex {
         Site("https://www.wiktionary.org")
             .queryURL("https://en.wiktionary.org/w/index.php?search=%s", language: .english)
         
+        Site("https://www.wiley.com")
+            .queryURL(path: "/en-us/content-search?pq=%s", locale: .unitedStates())
+        
         Site("https://www.wildfox.com")
             .queryURL(path: "/search?q=%s")
         

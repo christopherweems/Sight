@@ -195,6 +195,9 @@ internal extension SiteIndex {
         Site("https://www.history.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.hive.co.uk")
+            .queryURL(path: "/Search/Keyword?keyword=%s")
+        
         
         // #HJ
         // #HK

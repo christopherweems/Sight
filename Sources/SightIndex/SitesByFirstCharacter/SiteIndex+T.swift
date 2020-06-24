@@ -443,6 +443,10 @@ internal extension SiteIndex {
         Site("https://thrivecausemetics.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        // #THF
+        
+        Site("https://www.thriftbooks.com")
+            .queryURL(path: "/browse/?b.search=%s")
         
         // #TI
         
