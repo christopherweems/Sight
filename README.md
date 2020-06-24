@@ -29,7 +29,14 @@ Sites are defined by their root url (scheme & authority), and optionally the pat
 `    .queryURL(path: "/search?q=%s", method: .get)`
 
 
+Describe query urls for sites with language or locale variations:
+
+`Site("https://www.wikipedia.org")`
+`    .queryURL("https://en.wikipedia.org/w/index.php?search=%s", language: .english)`
+`    .queryURL("https://fr.wikipedia.org/w/index.php?search=%s", language: .french)`
+
 Sites without a `.queryURL(..)` return false for `Site.isQueryable`.
+
 
 ### SightIndex
 
