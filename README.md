@@ -17,7 +17,7 @@ Spaces in .unencodedQuery(..) are automatically percent encoded.
 
 
 Create a fully qualified root url, using https where available:
-`let homepage = try? URL(site: "github.com") // https://github.com`
+`let homepage = try? URL(site: "github.com") // https://github.com/`
 
 
 ### SightBuilder
