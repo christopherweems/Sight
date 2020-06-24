@@ -212,6 +212,9 @@ internal extension SiteIndex {
         Site("https://www.ask.com")
             .queryURL(path: "/web?q=%s")
         
+        Site("https://www.astrobrights.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://asweetspoonful.com")
             .queryURL(path: "/?s=%s")
         
