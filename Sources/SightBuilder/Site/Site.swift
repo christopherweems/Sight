@@ -8,11 +8,13 @@
 import Foundation
 import unstandard
 
-public struct Site: Hashable {
+public struct Site: Hashable, Identifiable {
     private let schemeSeparator = "://"
     
     internal let root: String // scheme + authority
     internal var queryParts = [QueryPartsKey: QueryParts]()
+    
+    public var id: String { root }
     
     public var authority: Authority {
         let startIndex = root.range(of: schemeSeparator)!.upperBound
