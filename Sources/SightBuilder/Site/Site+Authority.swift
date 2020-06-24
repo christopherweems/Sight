@@ -8,11 +8,13 @@
 import Foundation
 
 public extension Site {
-    struct Authority: Hashable, Equatable, ExpressibleByStringLiteral {
+    struct Authority: Hashable, Identifiable, Equatable, ExpressibleByStringLiteral {
         public let subdomainPrefix: String? // www.
         public let secondLevel: String // duckduckgo.com
         
         public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3
+        
+        public var id: String { subdomainPrefix ?? "" + secondLevel }
         
         public init(stringLiteral value: StringLiteralType) {
             self.init(value)
