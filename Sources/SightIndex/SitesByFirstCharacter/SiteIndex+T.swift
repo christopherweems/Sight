@@ -622,6 +622,9 @@ internal extension SiteIndex {
         Site("https://www.townandcountrymag.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://toyota.com")
+            .queryURL("https://site-search.toyota-global.com/en_all/search.x?q=%s")
+        
         Site("https://toyotires-global.com")
             .queryURL("https://search.toyotires-global.com/?kw=%s")
         

@@ -341,11 +341,6 @@ internal extension SiteIndex {
         Site("https://www.siobeauty.com")
             .queryURL(path: "/search?q=%s")
         
-        /*
-        Site("https://site-search.toyota-global.com")
-            .queryURL(path: "/en_all/search.x?q=%s")
-        */
- 
         Site("https://www.sixityauto.com")
             .queryURL(path: "/search?q=%s")
         
