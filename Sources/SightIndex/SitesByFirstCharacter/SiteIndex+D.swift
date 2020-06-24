@@ -62,6 +62,8 @@ internal extension SiteIndex {
         Site("https://danskin.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
+        Site("https://www.dareboost.com")
+        
         Site("https://www.darice.com")
             .queryURL(path: "/store/search?s=%s")
         

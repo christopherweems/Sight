@@ -189,6 +189,8 @@ internal extension SiteIndex {
         Site("https://en.uptodown.com")
             .queryURL(path: "/mac/search/%s")
         
+        Site("https://www.uptrends.com")
+        
         
         // #UQ
         

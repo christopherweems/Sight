@@ -252,8 +252,8 @@ internal extension SiteIndex {
         // #JR
         // #JS
         
-        Site("https://www.loveandlemons.com")
-            .queryURL(path: "/search/%s/")
+        Site("https://jsonld.com")
+        
         
         // #JT
         

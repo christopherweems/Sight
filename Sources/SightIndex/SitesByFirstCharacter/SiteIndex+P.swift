@@ -230,6 +230,9 @@ internal extension SiteIndex {
         Site("https://www.pier1.com")
             .queryURL(path: "/on/demandware.store/Sites-pier1_us-Site/default/Search-Show?q=%s")
         
+        Site("https://tools.pingdom.com")
+        Site("https://www.pingdom.com")
+        
         Site("https://pinklily.com")
             .queryURL(path: "/search?search_query=%s")
         

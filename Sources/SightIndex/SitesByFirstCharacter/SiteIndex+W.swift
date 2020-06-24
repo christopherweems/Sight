@@ -13,6 +13,7 @@ internal extension SiteIndex {
         
         // #W1
         
+        Site("https://validator.w3.org")
         Site("https://www.w3.org")
         
         Site("https://www.w7makeup.co.uk")

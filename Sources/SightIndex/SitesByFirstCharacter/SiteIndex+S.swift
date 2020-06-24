@@ -316,6 +316,8 @@ internal extension SiteIndex {
         Site("https://siliconangle.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://nibbler.silktide.com")
+        
         Site("https://www.silverjeans.com")
             .queryURL(path: "/us/search?q=%s")
         
@@ -642,6 +644,8 @@ internal extension SiteIndex {
         
         Site("https://stratechery.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("http://linter.structured-data.org")
         
         Site("https://www.stuartweitzman.com")
             .queryURL(path: "/search/?keyword=%s")

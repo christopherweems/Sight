@@ -142,6 +142,8 @@ internal extension SiteIndex {
         Site("https://www.lifestride.com")
             .queryURL(path: "/en-US/_/_/_/_/Srch0+%s/Products.aspx")
         
+        Site("https://lighthouse-metrics.com")
+        
         Site("https://www.lightingnewyork.com")
             .queryURL(path: "/search.cfm?q=%s")
         

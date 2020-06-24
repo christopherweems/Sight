@@ -104,6 +104,8 @@ internal extension SiteIndex {
         Site("https://www.red.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://redbot.org")
+        
         Site("https://www.redbubble.com")
             .queryURL(path: "/shop/%s")
         
