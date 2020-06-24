@@ -105,6 +105,9 @@ internal extension SiteIndex {
         
         
         // #KH
+        
+        Site("https://www.khruangbin.com")
+        
         // #KI
         
         Site("https://www.kia.com")
