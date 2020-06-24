@@ -7,6 +7,7 @@ import XCTest
 final class SightTests: XCTestCase {
     static var allTests = [
         ("testSiteProperties", testSiteProperties),
+        ("testRootURLIsFullyQualified", testRootURLIsFullyQualified),
         ("testURLFromSite", testURLFromSite),
         ("testSitesWithSubdomains", testSitesWithSubdomains),
         ("testCount", testCount),
@@ -25,6 +26,15 @@ extension SightTests {
         XCTAssertTrue(github?.isQueryable == true)
         XCTAssert(github?.root == "https://github.com")
         XCTAssert(github?.authority == "github.com")
+        
+    }
+    
+    func testRootURLIsFullyQualified() {
+        guard let khruangbin = Site(authority: "khruangbin.com") else { XCTAssertNotNil(nil); return }
+        let urlString = try? URL(site: khruangbin).absoluteString
+        
+        XCTAssert(urlString?.hasPrefix("http") == true)
+        XCTAssert(urlString?.hasSuffix("/") == true)
         
     }
     
