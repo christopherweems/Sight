@@ -13,6 +13,9 @@ internal extension SiteIndex {
         
         // #CA
         
+        Site("https://www.cadillac.com")
+            .queryURL(path: "/navigation/navigation-flyouts/search-flyout/search-results.html?q=%s")
+        
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
         
@@ -69,6 +72,9 @@ internal extension SiteIndex {
         
         Site("https://www.cheapjoes.com")
             .queryURL(path: "/nsearch/?q=%s")
+        
+        Site("https://www.chevrolet.com")
+            .queryURL(path: "/site-search?q=%s")
         
         Site("https://www.chicagotribune.com")
         .queryURL(path: "/search/%s/100-y/ALL/score/1/?")

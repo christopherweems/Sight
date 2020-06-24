@@ -105,6 +105,11 @@ internal extension SiteIndex {
         
         Site("https://www.blogger.com")
         
+        // #BM
+        Site("https://www.bmw.com")
+            .queryURL("/en/search.pwa.html?q=%s", language: .english)
+        
+        // #BN
         
         // #BO
         
@@ -135,6 +140,8 @@ internal extension SiteIndex {
         
         Site("https://bu.edu")
             .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
+        
+        Site("https://www.buick.com")
         
         Site("https://www.bumc.bu.edu")
             .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bumc.bu.edu%2Fbusm&context=site&q=%s&do_search=Search")

@@ -216,6 +216,8 @@ internal extension SiteIndex {
         Site("https://riverisland.com")
             .queryURL("https://us.riverisland.com/search?keyword=%s", locale: .unitedStates())
         
+        Site("https://rivian.com")
+        
         
         // #RJ
         // #RK

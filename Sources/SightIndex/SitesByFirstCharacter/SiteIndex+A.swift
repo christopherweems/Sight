@@ -41,6 +41,9 @@ internal extension SiteIndex {
         Site("https://www.acouplecooks.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.acura.com")
+            .queryURL(path: "/search-results?q=%s")
+        
         
         // #AD
         
@@ -212,6 +215,8 @@ internal extension SiteIndex {
         Site("https://www.ask.com")
             .queryURL(path: "/web?q=%s")
         
+        Site("https://www.astonmartin.com")
+        
         Site("https://www.astrobrights.com")
             .queryURL(path: "/search?q=%s")
         
@@ -241,6 +246,8 @@ internal extension SiteIndex {
         
         Site("https://auburn.edu")
             .queryURL("https://search.auburn.edu/?q=%s")
+        
+        Site("https://www.audiusa.com")
                 
         Site("http://www.autoanything.com")
             .queryURL(path: "/shop/%s")

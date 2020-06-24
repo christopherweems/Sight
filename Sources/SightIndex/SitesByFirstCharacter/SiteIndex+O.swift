@@ -144,6 +144,8 @@ internal extension SiteIndex {
         Site("https://www.opb.org")
             .queryURL(path: "/news/search/?q=%s")
         
+        Site("https://www.opel.com")
+        
         Site("https://openbazaar.com")
             .queryURL(path: "/discover/results?q=%s")
         
