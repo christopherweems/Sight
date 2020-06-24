@@ -173,6 +173,9 @@ internal extension SiteIndex {
         
         // #CR
         
+        Site("https://crafthtv.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.craftsman.com")
             .queryURL(path: "/products?ukeywords=%s")
         
