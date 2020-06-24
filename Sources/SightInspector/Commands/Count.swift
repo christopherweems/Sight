@@ -12,10 +12,10 @@ import SightIndex
 
 struct Count: ParsableCommand {
     @Flag(name: .shortAndLong, help: "Only count queryable sites")
-    var queryable: Bool
+    var queryable = false
     
     @Flag(help: "Only count non-queryable sites")
-    var nonQueryable: Bool
+    var nonQueryable = false
     
     enum Error: Swift.Error {
         case invalidArgumentCombination

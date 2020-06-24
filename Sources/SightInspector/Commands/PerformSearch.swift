@@ -23,7 +23,7 @@ struct PerformSearch: ParsableCommand {
     
     #if canImport(AppKit)
     @Flag(name: .shortAndLong, help: "Open site for specified query.")
-    var open: Bool
+    var open = false
     #else
     private let open = false
     #endif

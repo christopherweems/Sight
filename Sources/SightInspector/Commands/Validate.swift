@@ -13,10 +13,10 @@ import unstandard
 
 struct Validate: ParsableCommand {
     @Flag(name: [.customLong("ordering"), .customShort("o")], help: "Validate ordering of site elements.")
-    var shouldValidateOrdering: Bool
+    var shouldValidateOrdering = false
     
     @Flag(name: .shortAndLong, help: "Print all failing elements.")
-    var verbose: Bool
+    var verbose = false
     
     func run() throws {
         if shouldValidateOrdering {
