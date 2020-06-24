@@ -9,7 +9,7 @@ import Foundation
 import SightBuilder
 
 internal class SiteSet {
-    fileprivate var sites: [Site.Authority: Site]
+    internal var sites: [Site.Authority: Site]
     
     func site(forAuthority authority: Site.Authority) -> Site? {
         if let exactMatch = sites[authority] {

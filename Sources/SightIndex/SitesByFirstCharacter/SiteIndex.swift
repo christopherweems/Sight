@@ -12,6 +12,10 @@ public class SiteIndex {
         [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,misc]
     }
     
+    internal var _allSites: [Site] {
+        allSets.flatMap { $0.sites.values }
+    }
+    
     lazy fileprivate var a = SiteIndex.A
     lazy fileprivate var b = SiteIndex.B
     lazy fileprivate var c = SiteIndex.C
