@@ -234,6 +234,8 @@ internal extension SiteIndex {
         Site("https://ourbestbites.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://global.oup.com")
+        
         Site("https://www.outdoorphotographer.com")
             .queryURL(path: "/?s=%s")
         
