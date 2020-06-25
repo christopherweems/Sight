@@ -19,6 +19,9 @@ internal extension SiteIndex {
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
         
+        Site("https://www.cajungrocer.com")
+            .queryURL(path: "/index.php?route=product/search&search=%s")
+        
         Site("https://calbears.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
