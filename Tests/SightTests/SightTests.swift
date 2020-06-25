@@ -14,6 +14,8 @@ final class SightTests: XCTestCase {
         
         ("testSiteLocaleVariations", testSiteLocaleVariations),
         
+        ("testSiteIDs", testSiteIDs),
+        
     ]
     
     let sites = SiteIndex()
@@ -83,9 +85,20 @@ extension SightTests {
         let frenchQueryURL = wikipedia.queryURL(for: query, locale: .france())
         let americanQueryURL = wikipedia.queryURL(for: query, locale: .unitedStates())
         
-        assert(frenchQueryURL?.absoluteString.contains("fr.wikipedia.org") == true)
-        assert(americanQueryURL?.absoluteString.contains("en.wikipedia.org") == true)
+        XCTAssert(frenchQueryURL?.absoluteString.contains("fr.wikipedia.org") == true)
+        XCTAssert(americanQueryURL?.absoluteString.contains("en.wikipedia.org") == true)
         
     }
 
+}
+
+
+extension SightTests {
+    func testSiteIDs() {
+        sites._allSites.forEach {
+            XCTAssertNotEqual($0.id, "www.")
+            XCTAssertFalse($0.id.isEmpty)
+            
+        }
+    }
 }
