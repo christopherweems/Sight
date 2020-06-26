@@ -61,6 +61,8 @@ internal extension SiteIndex {
         Site("https://www.wateroutfitters.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://waveformpodcast.com")
+        
         Site("https://www.wayfair.com")
             .queryURL(path: "/keyword.php?keyword=%s")
         

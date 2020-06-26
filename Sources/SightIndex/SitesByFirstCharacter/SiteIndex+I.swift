@@ -216,8 +216,10 @@ internal extension SiteIndex {
         Site("https://www.irobot.com")
             .queryURL(path: "/search-results?query=%s")
         
+        Site("https://ironmic.fm")
+        
         Site("https://www.iroparis.com")
-            .queryURL(path: "/us/search?q=%s&lang=en_US")
+            .queryURL(path: "/us/search?q=%s&lang=en_US", locale: .unitedStates())
         
         
         // #IS
