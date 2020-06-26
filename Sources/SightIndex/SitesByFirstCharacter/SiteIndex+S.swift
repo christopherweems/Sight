@@ -716,6 +716,8 @@ internal extension SiteIndex {
         Site("https://www.sweatybetty.com")
             .queryURL(path: "/us/search?q=%s")
         
+        Site("https://sweetandsavory.co")
+        
         Site("https://www.sweetwater.com")
             .queryURL(path: "/store/search.php?s=%s")
         
