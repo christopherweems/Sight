@@ -66,6 +66,8 @@ internal extension SiteIndex {
         Site("https://www.wayfair.com")
             .queryURL(path: "/keyword.php?keyword=%s")
         
+        Site("https://waymo.com")
+        
         
         // #WB
         
