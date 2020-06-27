@@ -138,6 +138,9 @@ internal extension SiteIndex {
         Site("https://www.ooly.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        Site("https://ooni.com")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #OP
         
