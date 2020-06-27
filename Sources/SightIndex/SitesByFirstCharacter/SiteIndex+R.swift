@@ -183,6 +183,8 @@ internal extension SiteIndex {
         // #RG
         // #RH
         
+        Site("https://rheo.tv")
+        
         Site("https://www.rhmodern.com")
             .queryURL(path: "/search/results.jsp?Ntt=%s")
         

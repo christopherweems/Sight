@@ -135,6 +135,8 @@ internal extension SiteIndex {
         Site("https://www.elmundo.es")
             .queryURL("https://ariadna.elmundo.es/buscador/archivo.html?q=%s&b_avanzada=")
         
+        Site("https://eloquentjavascript.net")
+        
         Site("https://www.eloquii.com")
             .queryURL(path: "/on/demandware.store/Sites-eloquii-Site/default/Search-Show?q=%s")
         

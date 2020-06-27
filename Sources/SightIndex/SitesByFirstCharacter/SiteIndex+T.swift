@@ -272,6 +272,9 @@ internal extension SiteIndex {
         
         // #THEH
         
+        Site("https://thehackernews.com")
+        .queryURL("https://cse.google.com/cse?q=%s&cx=partner-pub-7983783048239650%3A3179771210#gsc.tab=0&gsc.q=%s&gsc.page=1")
+        
         Site("https://thehealthyfoodie.com")
             .queryURL(path: "/?s=%s")
         

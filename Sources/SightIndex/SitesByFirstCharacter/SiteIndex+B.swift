@@ -126,6 +126,9 @@ internal extension SiteIndex {
         
         // #BR
         
+        Site("https://break.com")
+        .queryURL(path: "/search?q=%s")
+        
         Site("https://bricstore.com")
             .queryURL(path: "/?s=%s&post_type=product")
         

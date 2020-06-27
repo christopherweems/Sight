@@ -391,6 +391,9 @@ internal extension SiteIndex {
         Site("https://futurism.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.fuzzfind.com")
+        .queryURL("https://cse.google.com/cse?cx=partner-pub-2476251727991664:3499967540&ie=UTF-8&q=%s&sa=Search&ref=")
+        
         
         // #FV
         

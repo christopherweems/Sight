@@ -34,11 +34,17 @@ internal extension SiteIndex {
         Site("https://www.campbells.com")
             .queryURL(path: "/v8/?s=%s")
         
+        Site("https://caniuse.com")
+        .queryURL(path: "/#search=%s")
+        
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
         Site("https://www.carhartt.com")
             .queryURL(path: "/query/%s")
+        
+        Site("https://www.carparts.com")
+        .queryURL(path: "/search?q=%s")
         
         Site("https://www.catofashions.com")
             .queryURL(path: "/all-products/browse/keyword/%s")
@@ -72,6 +78,9 @@ internal extension SiteIndex {
         
         // #CE
         // #CH
+        
+        Site("https://www.cheaperhondaparts.com")
+            .queryURL(path: "/search?search_str=%s")
         
         Site("https://www.cheapjoes.com")
             .queryURL(path: "/nsearch/?q=%s")

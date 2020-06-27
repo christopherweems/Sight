@@ -392,6 +392,9 @@ internal extension SiteIndex {
         Site("https://www.moo.com")
             .queryURL(path: "/us/search?query=%s")
         
+        Site("https://www.moogparts.com")
+            .queryURL(path: "/find-my-part/part-number-results.html?part=%s")
+        
         Site("https://www.moosejaw.com")
             .queryURL(path: "/moosejaw/shop/SearchDisplay?searchTerm=%s")
         

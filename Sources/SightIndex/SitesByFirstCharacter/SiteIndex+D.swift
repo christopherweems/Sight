@@ -67,6 +67,9 @@ internal extension SiteIndex {
         Site("https://www.darice.com")
             .queryURL(path: "/store/search?s=%s")
         
+        Site("https://daringfireball.net")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.davidlebovitz.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -138,7 +141,7 @@ internal extension SiteIndex {
             .queryURL(path: "/en/search.html?search=%s")
         
         Site("https://www.detroitnews.com")
-            .queryURL(path: "/search/water/%s")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.deuxpardeux.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")

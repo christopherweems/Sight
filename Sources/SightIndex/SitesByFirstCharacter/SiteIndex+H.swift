@@ -277,6 +277,9 @@ internal extension SiteIndex {
         Site("https://www.hottopic.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.hover.com")
+        .queryURL(path: "/domains/results?q=%s")
+        
         Site("https://howard.edu")
             .queryURL("https://www2.howard.edu/search-results?as_q=%s")
         

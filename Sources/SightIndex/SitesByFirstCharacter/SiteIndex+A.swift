@@ -119,6 +119,9 @@ internal extension SiteIndex {
         
         // #AM
         
+        Site("https://aws.amazon.com")
+        .queryURL(path: "/search/?searchQuery=%s")
+        
         Site("https://ambcrypto.com")
             .queryURL(path: "/?s=%s")
         
@@ -127,6 +130,8 @@ internal extension SiteIndex {
         
         
         // #AN
+        
+        Site("https://www.anchorbooks.com")
         
         Site("https://andrewingram.net")
         
@@ -163,6 +168,7 @@ internal extension SiteIndex {
         Site("https://aphotoeditor.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://apollotyres.com")
                 
         Site("https://forums.developer.apple.com")
             .queryURL(path: "/search.jspa?q=%s")
@@ -187,6 +193,9 @@ internal extension SiteIndex {
         
         Site("https://www.arm.com")
             .queryURL(path: "/Search?q=%s")
+        
+        Site("https://arstechnica.com")
+        .queryURL(path: "/search/?ie=UTF-8&q=%s")
         
         Site("https://www.art.com")
             .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
@@ -214,6 +223,9 @@ internal extension SiteIndex {
         
         Site("https://www.ask.com")
             .queryURL(path: "/web?q=%s")
+        
+        Site("https://www.askmen.com")
+        .queryURL(path: "/search?q=%s")
         
         Site("https://www.astonmartin.com")
         
@@ -252,7 +264,13 @@ internal extension SiteIndex {
         Site("http://www.autoanything.com")
             .queryURL(path: "/shop/%s")
         
+        Site("https://autobarn.net")
+            .queryURL("https://autobarn.ecomm-search.com/search?query=%s&vwcatalog=rodi")
+        
         Site("https://www.autosport.com")
+        
+        Site("https://www.autozone.com")
+            .queryURL(path: "/searchresult?searchText=%s")
         
         // #AV
         

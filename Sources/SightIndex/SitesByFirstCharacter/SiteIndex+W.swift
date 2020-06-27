@@ -118,6 +118,8 @@ internal extension SiteIndex {
         
         Site("https://forecast.weather.gov")
             .queryURL(path: "/zipcity.php?inputstring=%s")
+        
+        Site("https://www.weathertech.com")
                 
         Site("https://www.webmd.com")
             .queryURL(path: "/search/search_results/default.aspx?query=%s")
@@ -216,6 +218,9 @@ internal extension SiteIndex {
         
         Site("https://www.wigs.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
+        
+        Site("http://www.wiki.com")
+        .queryURL(path: "/results1.htm?cx=009420061493499222400%3Ae8sof1xaq-u&as_q=on&q=%s&btnG=Wiki+Search&cof=GIMP%3A009900%3BT%3A000000%3BBIMG%3Ahttp%3A%2F%2Fwww.wiki.com%2Fimages%2Fwikilogosm.gif%3BALC%3AFF9900%3BGFNT%3AB0B0B0%3BLC%3A003F7D%3BBGC%3AFFFFFF%3BVLC%3A666666%3BGALT%3A36A200%3BFORID%3A9%3B")
         
         Site("https://wiki2.org")
             .queryURL("https://en.wiki2.org/w/index.php?search=%s", language: .english)

@@ -26,6 +26,9 @@ internal extension SiteIndex {
         Site("https://www.ubergizmo.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://wiki.ubuntu.com")
+        .queryURL(path: "/Home?action=fullsearch&context=180&value=%s&titlesearch=Titles")
+        
         
         // #UC
         
@@ -278,6 +281,10 @@ internal extension SiteIndex {
             .queryURL(path: "/site-search?search_text=%s")
         
         // #UW
+        
+        Site("https://www.uwsta.com")
+        .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         // #UX
         // #UY
         // #UZ

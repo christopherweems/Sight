@@ -118,6 +118,8 @@ internal extension SiteIndex {
         Site("https://www.gerberchildrenswear.com")
             .queryURL(path: "/collections/search-results?q=%s")
         
+        Site("https://getjeda.com")
+        
         Site("https://gethyperskin.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -366,6 +368,8 @@ internal extension SiteIndex {
         
         Site("https://www.guitarcenter.com")
             .queryURL(path: "/search?Ntt=%s")
+        
+        Site("https://www.guniwheel.com")
         
         Site("https://gunnar.com")
             .queryURL(path: "/shop/?s=%s")
