@@ -452,6 +452,8 @@ internal extension SiteIndex {
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
         
+        Site("https://www.sofapps.it")
+        
         Site("https://www.sofi.com")
         
         Site("https://www.soffe.com")
