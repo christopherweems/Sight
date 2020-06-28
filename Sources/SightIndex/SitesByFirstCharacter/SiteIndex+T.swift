@@ -732,6 +732,8 @@ internal extension SiteIndex {
         // #TT
         // #TU
         
+        Site("https://www.tucksbrand.com")
+        
         Site("https://tulanegreenwave.com")
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")
         
