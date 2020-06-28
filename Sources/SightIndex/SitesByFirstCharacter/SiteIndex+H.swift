@@ -35,6 +35,9 @@ internal extension SiteIndex {
         Site("https://hampdenclothing.com")
             .queryURL(path: "/search?q=%s&type=product")
         
+        Site("https://www.hamptonthink.org")
+            .queryURL("/search?q=%s")
+        
         Site("https://hanaemoriparfums.com")
             .queryURL(path: "/search?controller=search&orderby=position&orderway=desc&search_query=%s")
         

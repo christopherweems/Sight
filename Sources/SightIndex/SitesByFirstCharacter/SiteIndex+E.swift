@@ -77,6 +77,9 @@ internal extension SiteIndex {
         Site("https://www.eddiebauer.com")
             .queryURL(path: "/s/%s?keyword=%s")
         
+        Site("https://www.edx.org")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #EE
         
@@ -242,6 +245,9 @@ internal extension SiteIndex {
         
         
         // #EU
+        
+        Site("https://eurasiantimes.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.eurogamer.net")
             .queryURL(path: "/search.php?q=%s")

@@ -236,6 +236,9 @@ internal extension SiteIndex {
         Site("https://www.metacritic.com")
             .queryURL(path: "/search/all/%s/results")
         
+        Site("https://www.metafilter.com")
+            .queryURL(path: "/search.mefi?site=mefi&q=%s")
+        
         Site("https://store.metmuseum.org")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -397,6 +400,9 @@ internal extension SiteIndex {
         
         Site("https://www.moosejaw.com")
             .queryURL(path: "/moosejaw/shop/SearchDisplay?searchTerm=%s")
+        
+        Site("https://moot.us")
+            .queryURL(path: "/search/post?searchQuery=%s")
         
         Site("https://www.mopar.com")
             .queryURL(path: "/en-us/search/results.html?search=%s")

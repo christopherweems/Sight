@@ -289,6 +289,10 @@ internal extension SiteIndex {
         
         
         // #THEI
+        
+        Site("https://theintercept.com")
+            .queryURL(path: "/search/?s=%s")
+        
         // #THEJ
         // #THEK
         
@@ -407,6 +411,9 @@ internal extension SiteIndex {
         
         Site("https://thetylt.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://theturfsports.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #THEU
@@ -698,6 +705,8 @@ internal extension SiteIndex {
         Site("https://www.trwaftermarket.com")
             .queryURL(path: "/us/site-search-results/?query=%s")
         
+        Site("https://tryhards.com")
+        
         
         // #TS
         
@@ -754,6 +763,9 @@ internal extension SiteIndex {
         
         Site("https://www.twillory.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://twistedvoxel.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.twitch.tv")
             .queryURL(path: "/search?term=%s")

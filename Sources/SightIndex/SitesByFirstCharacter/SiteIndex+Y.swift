@@ -60,6 +60,8 @@ internal extension SiteIndex {
         Site("http://yesto.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://yetanotherdevblog.com")
+        
         Site("https://www.yeti.com")
             .queryURL(path: "/en_US/search?q=%s&lang=en_US")
         

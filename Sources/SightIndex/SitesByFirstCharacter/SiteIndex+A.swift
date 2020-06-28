@@ -57,6 +57,9 @@ internal extension SiteIndex {
         Site("https://www.advancedsciencenews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://advanced-television.com")
+            .queryURL(path: "/?s=%s&sitesearch=https%3A%2F%2Fadvanced-television.com%2F")
+        
         
         // #AE
         

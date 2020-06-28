@@ -150,6 +150,9 @@ internal extension SiteIndex {
         // #VN
         // #VO
         
+        Site("https://vocal.media")
+            .queryURL(path: "/explore?s=%s&f=posts")
+        
         Site("https://wiki.voidlinux.org")
             .queryURL(path: "/w/index.php?search=%s")
         

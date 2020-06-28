@@ -365,6 +365,9 @@ internal extension SiteIndex {
         Site("https://www.wpsdlocal6.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         
+        Site("https://www.wpxi.com")
+            .queryURL(path: "/search/%s/1/")
+        
         // #WQ
         // #WR
         

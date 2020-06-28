@@ -111,6 +111,9 @@ internal extension SiteIndex {
         
         // #UN
         
+        Site("http://unb.com.bd")
+            .queryURL(path: "/search?search=%s")
+        
         Site("https://www.unc.edu")
             .queryURL(path: "/search/?term=%s")
         

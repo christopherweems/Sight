@@ -350,6 +350,9 @@ internal extension SiteIndex {
         Site("https://www.gs1us.org")
             .queryURL(path: "/gs1-us-search?searchTerm=%s")
         
+        Site("https://www.gsmarena.com")
+            .queryURL(path: "/res.php3?sSearch=%s")
+        
         
         // #GT
         // #GU

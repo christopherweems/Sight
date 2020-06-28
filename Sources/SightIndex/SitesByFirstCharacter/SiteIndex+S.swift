@@ -106,8 +106,14 @@ internal extension SiteIndex {
         Site("https://www.scmp.com")
             .queryURL(path: "/search/%s")
         
+        Site("https://www.scoopnashville.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.scotchporter.com")
             .queryURL(path: "/search?q=%s&type=product")
+        
+        Site("https://www.screenbinge.com")
+            .queryURL(path: "/?s=%se")
         
         Site("https://scriptingosx.com")
             .queryURL(path: "/?s=%s")
@@ -619,6 +625,8 @@ internal extension SiteIndex {
         
         Site("https://www.stevemadden.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        Site("https://stitcher.io")
         
         Site("https://www.stihlusa.com")
             .queryURL(path: "/search/#stq=%s")
