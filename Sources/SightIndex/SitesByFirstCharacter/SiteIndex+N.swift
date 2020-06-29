@@ -68,6 +68,9 @@ internal extension SiteIndex {
         Site("https://www.nbcbayarea.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.nbclosangeles.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.nbcnews.com")
             .queryURL(path: "/search?q=%s")
         
@@ -137,6 +140,9 @@ internal extension SiteIndex {
         
         Site("https://www.newark.com")
             .queryURL(path: "/search?st=%s")
+        
+        Site("https://newatlas.com")
+            .queryURL(path: "/search/?q=%s#nt=navsearch")
         
         Site("https://www.newbalance.com")
             .queryURL(path: "/search?q=%s")
@@ -310,6 +316,10 @@ internal extension SiteIndex {
         // #NQ
         // #NR
         // #NS
+        
+        Site("https://www.nssf.org")
+            .queryURL(path: "/?s=%s")
+        
         // #NT
         
         Site("https://www.ntsb.gov")

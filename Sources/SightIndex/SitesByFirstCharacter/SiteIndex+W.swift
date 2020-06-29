@@ -28,6 +28,8 @@ internal extension SiteIndex {
         Site("https://www.walmart.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://www.wandb.com")
+        
         Site("https://www.wards.com")
             .queryURL(path: "/search/results/?q=%s")
         
@@ -70,6 +72,8 @@ internal extension SiteIndex {
         
         
         // #WB
+        
+        Site("https://www.wbez.org")
         
         Site("https://wbhm.org")
             .queryURL(path: "/?s=%s")

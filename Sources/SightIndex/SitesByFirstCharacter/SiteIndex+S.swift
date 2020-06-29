@@ -226,6 +226,8 @@ internal extension SiteIndex {
         Site("https://www.sharkclean.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.shawacademy.com")
+        
         Site("https://shein.com")
             .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
         
@@ -350,6 +352,9 @@ internal extension SiteIndex {
         Site("https://www.singer22.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://singularityhub.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.siobeauty.com")
             .queryURL(path: "/search?q=%s")
         
@@ -457,6 +462,10 @@ internal extension SiteIndex {
         
 
         // #SN
+        
+        Site("https://www.snippetscience.com")
+        
+        
         // #SO
         
         Site("https://society6.com")
@@ -623,6 +632,9 @@ internal extension SiteIndex {
         Site("https://www.statecollege.com")
             .queryURL(path: "/search/results.php?SearchString=%s")
         
+        Site("https://www.statesmanjournal.com")
+            .queryURL(path: "/search/%s/")
+        
         Site("https://store.steampowered.com")
             .queryURL(path: "/search/?term=%s")
         
@@ -662,6 +674,8 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("http://linter.structured-data.org")
+        
+        Site("https://stryve.com")
         
         Site("https://www.stuartweitzman.com")
             .queryURL(path: "/search/?keyword=%s")

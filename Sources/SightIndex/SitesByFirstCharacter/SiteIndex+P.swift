@@ -58,6 +58,9 @@ internal extension SiteIndex {
         Site("https://www.paragonsports.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.pardot.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("http://www.parisaeroport.fr")
             .queryURL(path: "/en/search_result?%s")
         
@@ -75,6 +78,9 @@ internal extension SiteIndex {
         
         Site("https://www.patagonia.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.patarashoes.com")
+            .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.patmcgrath.com")
             .queryURL(path: "/search?q=%s&type=product")
@@ -202,6 +208,8 @@ internal extension SiteIndex {
         
         
         // #PH
+        
+        Site("https://phillinley.com")
         
         Site("https://www.phoenixnewtimes.com")
             .queryURL(path: "/search?keyword=%s")

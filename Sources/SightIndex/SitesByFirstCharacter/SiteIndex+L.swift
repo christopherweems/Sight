@@ -89,6 +89,9 @@ internal extension SiteIndex {
         Site("https://www.lee.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/VFSearchDisplay?storeId=7301&langId=-1&beginIndex=0&searchTerm=%s")
         
+        Site("https://www.leeds.ac.uk")
+            .queryURL(path: "/site/scripts/search_results.php?q=%s&cid=6002&cname=Environment&searchOption=searchSite")
+        
         Site("https://www.lego.com")
             .queryURL(path: "/en-us/search?q=%s")
         
@@ -99,6 +102,8 @@ internal extension SiteIndex {
             .queryURL(path: "/en/search-190.html?q=%s")
         
         Site("https://www.lemonaidhealth.com")
+        
+        Site("https://www.lemonde.fr")
         
         Site("https://www.lenox.com")
             .queryURL(path: "/search?q=%s")

@@ -146,6 +146,9 @@ internal extension SiteIndex {
         Site("https://www.brownsfashion.com")
             .queryURL(path: "/shopping/woman?query=%s")
         
+        Site("https://www.brusselstimes.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #BS
         // #BT

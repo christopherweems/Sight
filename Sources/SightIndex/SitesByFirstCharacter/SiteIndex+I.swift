@@ -20,6 +20,8 @@ internal extension SiteIndex {
         Site("https://www.iapmo.org")
             .queryURL(path: "/group/search?query=%s")
         
+        Site("https://iapp.org")
+        
         
         // #IB
         
@@ -57,6 +59,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?q=%s")
         
         // #IE
+        
+        Site("https://spectrum.ieee.org")
+            .queryURL(path: "/searchContent?q=%s")
         
         Site("https://www.ietf.org")
             .queryURL(path: "/search/?query=%s")
@@ -134,6 +139,9 @@ internal extension SiteIndex {
         
         Site("https://www.indiegogo.com")
             .queryURL(path: "/explore/all?project_type=campaign&project_timing=all&sort=trending&q=%s")
+        
+        Site("https://www.indiewire.com")
+            .queryURL(path: "/results/#?q=%s")
         
         Site("https://industrialhempfarms.com")
             .queryURL(path: "/?post_type=product&s=%s")
@@ -229,6 +237,9 @@ internal extension SiteIndex {
         
         Site("https://www.isabellaoliver.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.ishares.com")
+            .queryURL(path: "/us/search/summary-results?searchText=%s&doTickerSearch=true", locale: .unitedStates())
         
         Site("https://www.iso1200.com")
             .queryURL(path: "/search?q=%s")

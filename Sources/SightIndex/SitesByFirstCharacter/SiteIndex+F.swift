@@ -65,6 +65,9 @@ internal extension SiteIndex {
         Site("https://walkingdead.fandom.com")
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
+        Site("https://www.fandom.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.fansedge.com")
             .queryURL(path: "/?query=%s")
         

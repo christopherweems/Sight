@@ -249,6 +249,9 @@ internal extension SiteIndex {
         Site("https://eurasiantimes.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.eurekalert.org")
+            .queryURL("https://srch.eurekalert.org/e3/query.html?qt=%s&pw=100.101%25")
+        
         Site("https://www.eurogamer.net")
             .queryURL(path: "/search.php?q=%s")
         

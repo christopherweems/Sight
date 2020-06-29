@@ -55,6 +55,9 @@ internal extension SiteIndex {
         Site("https://www.cbc.ca")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.cbr.com")
+            .queryURL(path: "/search/%s/")
+        
         
         // #CC
         
@@ -78,6 +81,9 @@ internal extension SiteIndex {
         
         // #CE
         // #CH
+        
+        Site("https://www.charlotteobserver.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.cheaperhondaparts.com")
             .queryURL(path: "/search?search_str=%s")
@@ -123,6 +129,9 @@ internal extension SiteIndex {
         
         Site("https://clickitupanotch.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.clocksandcolours.com")
+            .queryURL(path: "/search?q=%s&type=product")
         
         Site("https://www.cloudflare.com")
         

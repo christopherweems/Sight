@@ -32,6 +32,9 @@ internal extension SiteIndex {
         
         Site("https://www.gameinformer.com")
             .queryURL(path: "/search?keyword=%s")
+        
+        Site("https://www.gamelife.com")
+            .queryURL(path: "/?s=%s")
 
         Site("https://www.gamepedia.com")
             .queryURL(path: "/search?search=%s")
@@ -105,6 +108,9 @@ internal extension SiteIndex {
         
         Site("https://www.gearhungry.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://gearpatrol.com")
+            .queryURL(path: "/search-results/?q=%s")
         
         Site("https://www.geek.com")
             .queryURL(path: "/?s=%s")
@@ -225,6 +231,9 @@ internal extension SiteIndex {
         
         Site("https://www.gnc.com")
             .queryURL(path: "/search?q=%s&lang=default")
+        
+        Site("https://www.gnomonwatches.com")
+            .queryURL(path: "/search?q=%s&type=product")
         
         
         // #GO

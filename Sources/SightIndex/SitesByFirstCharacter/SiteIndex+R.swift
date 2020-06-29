@@ -248,6 +248,8 @@ internal extension SiteIndex {
         Site("https://roarkrevival.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://roasted.email")
+        
         Site("https://robbreport.com")
             .queryURL(path: "/?s=%s")
         

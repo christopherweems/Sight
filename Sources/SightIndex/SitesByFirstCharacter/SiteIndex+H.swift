@@ -106,6 +106,9 @@ internal extension SiteIndex {
         Site("https://www.hayneedle.com")
             .queryURL(path: "/search/index.cfm?Ntt=%s")
         
+        Site("https://www.hayvine.com")
+            .queryURL(path: "/search?search=%s")
+        
         
         // #HB
         

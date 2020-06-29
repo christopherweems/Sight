@@ -82,6 +82,8 @@ internal extension SiteIndex {
         Site("https://www.makeuseof.com")
             .queryURL(path: "/?s=%s")
         
+        Site("http://makingthemadness.com")
+        
         Site("http://www.manchesterairport.co.uk")
             .queryURL(path: "/search?searchTerm=%s")
         
@@ -526,6 +528,8 @@ internal extension SiteIndex {
         
         
         // #MU
+        
+        Site("https://mudwtr.com")
         
         Site("https://www.munich-airport.com")
             .queryURL(path: "/search-results-75585?search_form_presenter%5Bcommit%5D=1&search_form_presenter%5Bsearch_term%5D=%s")

@@ -639,6 +639,9 @@ internal extension SiteIndex {
         Site("https://www.tous.com")
             .queryURL(path: "/us-en/?q=%s")
         
+        Site("https://www.towleroad.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.townandcountrymag.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -778,6 +781,9 @@ internal extension SiteIndex {
         
         Site("https://twitter.com")
             .queryURL(path: "/search?f=tweets&q=%s&src=typed_query")
+        
+        Site("https://twobrokewatchsnobs.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.twopeasandtheirpod.com")
             .queryURL(path: "/?s=%s")

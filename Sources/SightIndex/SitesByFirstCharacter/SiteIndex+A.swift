@@ -119,6 +119,9 @@ internal extension SiteIndex {
         
         Site("https://altcampus.io")
         
+        Site("https://alz.org")
+            .queryURL(path: "/search?searchtext=%s")
+        
         
         // #AM
         
@@ -229,6 +232,9 @@ internal extension SiteIndex {
         
         Site("https://www.askmen.com")
         .queryURL(path: "/search?q=%s")
+        
+        Site("https://mbio.asm.org")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.astonmartin.com")
         

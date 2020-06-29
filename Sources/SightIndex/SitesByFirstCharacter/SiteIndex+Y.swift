@@ -54,6 +54,8 @@ internal extension SiteIndex {
         Site("https://www.yelp.com")
             .queryURL(path: "/search?find_desc=%s")
         
+        Site("https://yema.com")
+        
         Site("https://yesah.com")
             .queryURL(path: "/search?type=product&q=%s")
         

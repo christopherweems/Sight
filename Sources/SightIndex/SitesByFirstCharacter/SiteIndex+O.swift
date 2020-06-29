@@ -38,6 +38,8 @@ internal extension SiteIndex {
         
         // #OC
         
+        Site("https://www.oceanvoyagesinstitute.org")
+        
         Site("https://www.oclc.org")
             .queryURL(path: "/en/search-results.html#q=%s")
         
@@ -46,6 +48,10 @@ internal extension SiteIndex {
         
         
         // #OD
+        
+        Site("https://www.odeon.co.uk")
+        
+        
         // #OE
         // #OF
         
