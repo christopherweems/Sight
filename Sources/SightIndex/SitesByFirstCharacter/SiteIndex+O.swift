@@ -196,6 +196,9 @@ internal extension SiteIndex {
         Site("https://www.oreillyauto.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.orientaltrading.com")
+            .queryURL(path: "/web/search/searchMain?keyword=%s")
+        
         Site("https://www.originalpenguin.com")
             .queryURL(path: "/search?type=product&q=%s")
         

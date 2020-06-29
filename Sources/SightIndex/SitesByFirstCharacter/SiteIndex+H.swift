@@ -165,6 +165,11 @@ internal extension SiteIndex {
         Site("https://www.hersheys.com")
             .queryURL(path: "/york/en_us/search.html?q=%s")
         
+        Site("https://www.hertz.com")
+        
+        Site("https://www.hertzcarsales.com")
+            .queryURL(path: "/all-inventory/no-results.htm?category=AUTO&search=%s&geoRadius=100")
+        
         Site("https://www.herveleger.com")
             .queryURL(path: "/on/demandware.store/Sites-HerveLeger-Site/default/Search-Show?q=%s")
         
