@@ -234,6 +234,9 @@ internal extension SiteIndex {
         
         // #KS
         
+        Site("https://www.ksdk.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.ksn.com")
             .queryURL(path: "/?s=%s&submit=Search")
         
