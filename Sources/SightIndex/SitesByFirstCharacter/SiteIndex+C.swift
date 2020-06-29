@@ -95,7 +95,9 @@ internal extension SiteIndex {
             .queryURL(path: "/site-search?q=%s")
         
         Site("https://www.chicagotribune.com")
-        .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+            .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+        
+        Site("https://www.chick-fil-a.com")
         
         Site("https://www.chron.com")
             .queryURL(path: "/search/?action=search&query=%s")
@@ -105,6 +107,9 @@ internal extension SiteIndex {
         
         
         // #CI
+        
+        Site("https://www.cicis.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.cincinnati.com")
             .queryURL(path: "/search/%s/")
@@ -159,6 +164,8 @@ internal extension SiteIndex {
         Site("https://www.coach.com")
             .queryURL(path: "/staticcontent?q=%s")
         
+        Site("https://www.coca-cola.com")
+        
         Site("https://codegiant.io")
         
         Site("https://collegefootballnews.com")
@@ -168,6 +175,9 @@ internal extension SiteIndex {
         
         Site("https://colorofchange.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://colortheworldlipsticks.com")
+            .queryURL(path: "/search?q=%s*")
         
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")
@@ -183,6 +193,9 @@ internal extension SiteIndex {
         
         Site("https://www.containerstore.com")
             .queryURL(path: "/s?q=%s")
+        
+        Site("https://cookieandkate.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://cookmagazine.ph")
             .queryURL(path: "/?s=%s")
@@ -201,6 +214,8 @@ internal extension SiteIndex {
         
         Site("https://www.courier-journal.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.coverfx.com")
         
         Site("https://covidcfb.com")
         
@@ -224,6 +239,9 @@ internal extension SiteIndex {
         Site("https://www.creativelive.com")
             .queryURL(path: "/blog/?s=%s")
         
+        Site("https://credobeauty.com")
+            .queryURL(path: "/pages/search-results-page?q=%s")
+        
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")
         
@@ -231,6 +249,9 @@ internal extension SiteIndex {
         
         
         // #CS
+        
+        Site("https://www.csdn.net")
+            .queryURL("https://so.csdn.net/so/search/s.do?q=%s&t=&u=")
         
         Site("https://css-tricks.com")
             .queryURL(path: "/?s=%s")

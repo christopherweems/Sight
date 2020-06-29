@@ -47,6 +47,8 @@ internal extension SiteIndex {
         Site("https://www.dailynews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.dairyqueen.com")
+        
         Site("https://www.dallasnews.com")
             .queryURL(path: "/search/?q=%s")
         

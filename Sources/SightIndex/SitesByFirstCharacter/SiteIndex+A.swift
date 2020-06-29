@@ -14,6 +14,8 @@ internal extension SiteIndex {
         // #A1
         // #AB
         
+        Site("https://www.abaloveapothecary.com")
+        
         Site("https://www.abc.net.au")
             .queryURL("https://search-beta.abc.net.au/index.html?siteTitle=news#/?query=%s")
         
@@ -35,6 +37,9 @@ internal extension SiteIndex {
         
         // #AC
         
+        Site("https://www.accuweather.com")
+            .queryURL(path: "/en/search-locations?query=%s", language: .english)
+        
         Site("https://www.acnestudios.com")
             .queryURL(path: "/us/en/home#q=%s*")
         
@@ -50,6 +55,9 @@ internal extension SiteIndex {
         Site("https://www.admix.com")
         
         Site("https://www.adobe.com")
+        
+        Site("https://www.adorncosmetics.com.au")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         Site("https://www.advanceautoparts.com")
             .queryURL("https://shop.advanceautoparts.com/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
@@ -106,25 +114,36 @@ internal extension SiteIndex {
         Site("https://www.aljazeera.com")
             .queryURL(path: "/Search/?q=%s")
         
-        Site("http://www.allardsart.com")
-        
-        Site("https://www.altpress.com")
-            .queryURL(path: "/?s=%s")
-        
         Site("https://www.allaboutcircuits.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://www.allardsart.com")
+        
+        Site("https://www.allbeauty.com")
+            .queryURL(path: "/us/en/search/?q=%s", locale: .unitedStates())
+        
+        Site("https://www.allrecipes.com")
+            .queryURL(path: "/search/results/?wt=%s&sort=re")
         
         Site("https://allsaints.com")
             .queryURL("https://www.us.allsaints.com/not-found/?searchtext=%s", locale: .unitedStates())
         
+        Site("https://www.almay.com")
+            .queryURL(path: "/search-results-page?search=%s")
+        
+        Site("https://www.altpress.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://altcampus.io")
+        
+        Site("https://altonbrown.com")
         
         Site("https://alz.org")
             .queryURL(path: "/search?searchtext=%s")
         
         
         // #AM
-        
+                
         Site("https://aws.amazon.com")
         .queryURL(path: "/search/?searchQuery=%s")
         
@@ -134,12 +153,17 @@ internal extension SiteIndex {
         Site("https://www.americanapparel.com")
             .queryURL(path: "/s?Ntt=%s")
         
+        Site("https://amp.dev")
+        
         
         // #AN
         
         Site("https://www.anchorbooks.com")
         
         Site("https://andrewingram.net")
+        
+        Site("https://anitagrant.com")
+            .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.ansa.it")
         
@@ -196,6 +220,13 @@ internal extension SiteIndex {
         
         
         // #AR
+        
+        Site("https://www.arbonne.com")
+        
+        Site("https://arbys.com")
+        
+        Site("https://www.argotea.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.arm.com")
             .queryURL(path: "/Search?q=%s")
@@ -288,10 +319,18 @@ internal extension SiteIndex {
         Site("https://news.avclub.com")
             .queryURL(path: "/search?blogId=1636027099&q=%s")
         
+        Site("https://www.avon.com")
+            .queryURL(path: "/search/%s")
+        
+        Site("https://www.avril-organic.com")
+            .queryURL(path: "/search?controller=search&orderby=position&orderway=desc&search_query=%s")
+        
         // #AW
         
         Site("https://awfulannouncing.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://awrestaurants.com")
         
         // #AX
         

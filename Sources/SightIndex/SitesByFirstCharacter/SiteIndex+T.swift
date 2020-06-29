@@ -186,6 +186,8 @@ internal extension SiteIndex {
         Site("https://thakoon.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("http://thanuka.com")
+        
         
         // #THE1
         
