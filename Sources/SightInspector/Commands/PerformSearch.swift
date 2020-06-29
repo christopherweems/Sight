@@ -44,15 +44,20 @@ struct PerformSearch: ParsableCommand {
             
         }
         
-        if open, let url = site.queryURL(for: query) {
-            #if canImport(AppKit)
-            NSWorkspace.shared.open(url)
-            #else
-            fatalError()
-            #endif
+        if let url = site.queryURL(for: query) {
+            if open {
+                #if canImport(AppKit)
+                NSWorkspace.shared.open(url)
+                #else
+                fatalError()
+                #endif
+            
+            } else {
+                
+            }
             
         } else {
-            print("\(site.queryURL(for: query)!)")
+            print("Cannot query `\(site.authority.secondLevel)`")
             
         }
         
