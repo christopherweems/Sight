@@ -47,6 +47,8 @@ internal extension SiteIndex {
         Site("https://www.hanes.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=21062&doorId=2&storeId=10702&catalogId=11051&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s")
         
+        Site("https://hankooktire.com")
+        
         Site("https://www.hankypanky.com")
             .queryURL(path: "/searchresults?q=%s")
         
@@ -243,6 +245,8 @@ internal extension SiteIndex {
         
         Site("https://www.hookem.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.hoosiertire.com")
         
         Site("https://www.homage.com")
             .queryURL(path: "/search?q=%s")

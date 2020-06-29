@@ -244,6 +244,8 @@ internal extension SiteIndex {
         Site("https://www.atari.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://atdonline.com")
+        
         Site("https://www.atheists.org")
             .queryURL(path: "/?s=%s&submit=")
         

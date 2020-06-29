@@ -67,6 +67,9 @@ internal extension SiteIndex {
         Site("https://www.benjaminlcorey.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.bestusedtires.com")
+            .queryURL(path: "/shop?search_query=%s")
+        
         
         // #BF
         // #BG
@@ -98,6 +101,11 @@ internal extension SiteIndex {
         
         // #BJ
         // #BK
+        
+        Site("https://www.bkt-tires.com")
+            .queryURL(path: "/us/en/site-search?q=%s", locale: .unitedStates())
+        
+        
         // #BL
         
         Site("https://www.blackheartgoldpants.com")

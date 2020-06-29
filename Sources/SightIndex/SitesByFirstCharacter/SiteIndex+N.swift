@@ -170,6 +170,8 @@ internal extension SiteIndex {
         Site("https://newschannel9.com")
             .queryURL(path: "/search?find=%s")
         
+        Site("http://nexentireusa.com")
+        
         Site("http://www.nextgenplayer.com")
             .queryURL(path: "/search?q=%s")
         

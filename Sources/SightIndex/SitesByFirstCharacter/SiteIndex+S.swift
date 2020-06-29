@@ -12,6 +12,8 @@ internal extension SiteIndex {
     static var S = SiteSet {
         
         // #S1
+        
+        
         // #SA
         
         Site("https://www.sabonnyc.com")
@@ -302,8 +304,8 @@ internal extension SiteIndex {
             .queryURL(path: "/us/search?q=%s")
         
         
-
         // #SI
+        
         Site("https://www.si.com")
             .queryURL(path: "/search?query=%s")
         
@@ -331,6 +333,8 @@ internal extension SiteIndex {
         
         Site("https://www.simonsaysstamp.com")
             .queryURL(path: "/search?currency=USD&q=%s")
+        
+        Site("https://simpletire.com")
         
         Site("https://www.simplybe.com")
             .queryURL(path: "/en-us/search/?text=%s")
@@ -513,6 +517,9 @@ internal extension SiteIndex {
         Site("https://www.southernstates.com")
             .queryURL(path: "/catalog/search?q=%s")
         
+        Site("https://southmill.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.southmoonunder.com")
             .queryURL(path: "/search?q=%s")
         
@@ -577,6 +584,8 @@ internal extension SiteIndex {
         
         // #SR
         // #SS
+        
+        Site("https://www.sstire.com")
         
         Site("https://www.ssww.com")
             .queryURL(path: "/search/index.php?q=%s")

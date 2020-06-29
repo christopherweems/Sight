@@ -511,11 +511,15 @@ internal extension SiteIndex {
         Site("https://www.timex.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.tirebarn.com")
+        
         Site("https://www.tirebuyer.com")
             .queryURL(path: "/searchpage?text=%s")
         
         Site("https://tirerack.com")
             .queryURL("https://tires.tirerack.com/search?asug=&view=list&w=%s")
+        
+        Site("https://tirescanner.com")
         
         Site("https://tissotshop.com")
             .queryURL("https://us.tissotshop.com/catalogsearch/result/?q=%s", locale: .unitedStates())

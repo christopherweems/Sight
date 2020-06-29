@@ -251,6 +251,8 @@ internal extension SiteIndex {
         Site("https://www.goodreads.com")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://www.goodyear.com")
+        
         Site("https://developers.google.com")
             .queryURL(path: "/s/results?q=%s")
         
