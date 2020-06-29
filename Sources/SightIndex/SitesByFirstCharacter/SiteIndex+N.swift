@@ -280,6 +280,8 @@ internal extension SiteIndex {
         Site("https://www.noodles.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.nordkeyboards.com")
+        
         Site("https://shop.nordstrom.com")
             .queryURL(path: "/sr?keyword=%s")
         
