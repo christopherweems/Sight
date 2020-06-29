@@ -150,6 +150,8 @@ internal extension SiteIndex {
         Site("https://www.coach.com")
             .queryURL(path: "/staticcontent?q=%s")
         
+        Site("https://codegiant.io")
+        
         Site("https://collegefootballnews.com")
             .queryURL(path: "/?s=%s")
         

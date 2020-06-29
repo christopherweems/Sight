@@ -23,6 +23,8 @@ internal extension SiteIndex {
         Site("https://macdailynews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.machmetrics.com")
+        
         Site("https://www.mackage.com")
             .queryURL(path: "/us/en/search?q=%s")
         
@@ -280,6 +282,9 @@ internal extension SiteIndex {
         
         Site("https://www.microcenter.com")
             .queryURL(path: "/search/search_results.aspx?N=&cat=&Ntt=%s&searchButton=search")
+        
+        Site("https://news.microsoft.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.microsoft.com")
             .queryURL(path: "/en-us/search/explore?q=%s")

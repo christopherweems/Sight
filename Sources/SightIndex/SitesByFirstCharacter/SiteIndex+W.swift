@@ -120,6 +120,9 @@ internal extension SiteIndex {
             .queryURL(path: "/zipcity.php?inputstring=%s")
         
         Site("https://www.weathertech.com")
+        
+        Site("https://products.weaverleathersupply.com")
+            .queryURL(path: "/search?ts=custom&w=%s")
                 
         Site("https://www.webmd.com")
             .queryURL(path: "/search/search_results/default.aspx?query=%s")
@@ -192,8 +195,7 @@ internal extension SiteIndex {
         Site("https://map.what3words.com")
             .queryURL(path: "/%s")
         
-        Site("https://products.weaverleathersupply.com")
-            .queryURL(path: "/search?ts=custom&w=%s")
+        Site("https://wherearetheblackdesigners.com")
         
         Site("https://www.whiteandwarren.com")
             .queryURL(path: "/search?q=%s")

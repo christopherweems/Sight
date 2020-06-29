@@ -54,12 +54,12 @@ internal extension SiteIndex {
         Site("https://www.advanceautoparts.com")
             .queryURL("https://shop.advanceautoparts.com/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
         
-        Site("https://www.advancedsciencenews.com")
-            .queryURL(path: "/?s=%s")
-        
         Site("https://advanced-television.com")
             .queryURL(path: "/?s=%s&sitesearch=https%3A%2F%2Fadvanced-television.com%2F")
         
+        Site("https://www.advancedsciencenews.com")
+            .queryURL(path: "/?s=%s")
+                
         
         // #AE
         

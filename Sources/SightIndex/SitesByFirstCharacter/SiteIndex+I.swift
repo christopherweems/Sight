@@ -194,6 +194,9 @@ internal extension SiteIndex {
         Site("https://www.intimissimi.com")
             .queryURL(path: "/us/search/?q=%s&lang=en_US")
         
+        Site("https://www.inverse.com")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #IO
         
