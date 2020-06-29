@@ -72,6 +72,9 @@ internal extension SiteIndex {
         
         Site("https://watch.tastemade.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.tatamotors.com")
+            .queryURL(path: "/?s=%s")
  
         Site("https://www.taylorstitch.com")
             .queryURL(path: "/search?type=product&Submit+Query=&q=%s")
