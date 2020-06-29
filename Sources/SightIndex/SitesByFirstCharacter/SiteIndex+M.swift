@@ -64,6 +64,9 @@ internal extension SiteIndex {
         Site("https://www.madewell.com")
             .queryURL(path: "/search2/index.jsp?Ntrm=%s")
         
+        Site("https://madison.com")
+            .queryURL(path: "/search/?sd=desc&l=25&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://www.madisonartshop.com")
             .queryURL(path: "/nsearch.html?catalog=madisonartshop&query=%s&x=0&y=0")
         

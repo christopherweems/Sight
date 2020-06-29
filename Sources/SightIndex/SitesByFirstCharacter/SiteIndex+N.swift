@@ -165,6 +165,9 @@ internal extension SiteIndex {
         Site("https://www.neweracap.com")
             .queryURL(path: "/search/?text=%s")
         
+        Site("https://newrepublic.com")
+            .queryURL(path: "/search?search=%s")
+        
         Site("https://www.news24.com")
             .queryURL(path: "/search?q=%s")
         
@@ -175,6 +178,9 @@ internal extension SiteIndex {
         
         Site("https://newschannel9.com")
             .queryURL(path: "/search?find=%s")
+        
+        Site("https://www.newsweek.com")
+            .queryURL(path: "/search/site/%s")
         
         Site("http://nexentireusa.com")
         
