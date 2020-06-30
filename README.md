@@ -11,6 +11,7 @@ Also acts as a local index of thousands of websites.
 Create a url for the site's query results page:
 ```
 import Sight
+
 let searchURL = try? URL(site: "imdb.com", .unencodedQuery("Titanic II"))
 ```
 Spaces in .unencodedQuery(..) are automatically percent encoded.
