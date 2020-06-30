@@ -267,6 +267,9 @@ internal extension SiteIndex {
         Site("https://www.outerknown.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        Site("https://www.outsideonline.com")
+            .queryURL(path: "/bcse/search/%s?keys=")
+        
         
         // #OV
         

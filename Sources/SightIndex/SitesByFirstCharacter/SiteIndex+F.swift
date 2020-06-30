@@ -273,6 +273,9 @@ internal extension SiteIndex {
         Site("https://www.foodlion.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.foodmayhem.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.foodnetwork.com")
             .queryURL(path: "/search/%s-")
         

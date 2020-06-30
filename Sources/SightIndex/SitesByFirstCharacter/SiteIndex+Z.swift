@@ -54,6 +54,8 @@ internal extension SiteIndex {
         Site("https://www.zenith-watches.com")
             .queryURL(path: "/en_en/catalogsearch/result/?q=%s")
         
+        Site("https://www.zeromotorcycles.com")
+        
         
         // #ZF
         // #ZG
