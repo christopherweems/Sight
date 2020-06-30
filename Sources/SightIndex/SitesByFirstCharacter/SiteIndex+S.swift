@@ -593,7 +593,11 @@ internal extension SiteIndex {
         // #SQ
         
         Site("https://www.squarespace.com")
+        
         Site("https://squareup.com")
+        
+        Site("https://www.sqlite.org")
+            .queryURL(path: "/search?s=d&q=%s")
         
         // #SR
         // #SS
