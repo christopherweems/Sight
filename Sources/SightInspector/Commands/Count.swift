@@ -11,10 +11,10 @@ import SightBuilder
 import SightIndex
 
 struct Count: ParsableCommand {
-    @Flag(name: .shortAndLong, help: "Only count queryable sites")
+    @Flag(name: .shortAndLong, help: "Count only queryable sites")
     var queryable = false
     
-    @Flag(help: "Only count non-queryable sites")
+    @Flag(help: "Count only non-queryable sites")
     var nonQueryable = false
     
     enum Error: Swift.Error {
