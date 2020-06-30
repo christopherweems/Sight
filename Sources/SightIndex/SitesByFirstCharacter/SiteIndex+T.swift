@@ -170,6 +170,9 @@ internal extension SiteIndex {
         Site("https://www.teva.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.tceq.texas.gov")
+            .queryURL(path: "/searchpage?q=%s&btnG=TCEQ+Search")
+        
         Site("https://www.texasfootball.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -220,6 +223,11 @@ internal extension SiteIndex {
         
         Site("https://thebeardclub.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://thebestvpn.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://thebigorangepress.com")
         
         Site("https://www.theblaze.com")
             .queryURL(path: "/search/?q=%s")
@@ -304,6 +312,9 @@ internal extension SiteIndex {
         Site("https://www.thekitchn.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://theknoxvilleblog.com")
+            .queryURL(path: "/?s=%s")
+        
         /*
          // `thekitchn` recipes seaerch
         Site("https://www.thekitchn.com")
@@ -324,6 +335,8 @@ internal extension SiteIndex {
         
         
         // #THEM
+        
+        Site("https://themyersfirm.com")
         
         Site("https://www.themountain.com")
             .queryURL(path: "/search?search_query=%s")

@@ -20,6 +20,8 @@ internal extension SiteIndex {
         Site("https://shop.eaglemoss.com")
             .queryURL(path: "/usa/search.aspx?id=%s", locale: .unitedStates())
         
+        Site("https://www.earny.co")
+        
         Site("https://www.eastbay.com")
             .queryURL(path: "/search?query=%s")
         
@@ -201,6 +203,10 @@ internal extension SiteIndex {
         
         
         // #ER
+        
+        Site("http://www.ericamintu.com")
+            .queryURL(path: "/?s=%s")
+        
         // #ES
         
         
@@ -272,6 +278,9 @@ internal extension SiteIndex {
         
         Site("https://www.everythingbutwater.com")
             .queryURL(path: "/products/search/%s/")
+        
+        Site("http://www.everythingknoxville.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.everythinglubbock.com")
             .queryURL(path: "/?s=%s&submit=Search")

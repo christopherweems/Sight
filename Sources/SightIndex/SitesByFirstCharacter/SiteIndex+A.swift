@@ -96,6 +96,9 @@ internal extension SiteIndex {
         Site("https://www.akaipro.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.akamai.com")
+            .queryURL(path: "/us/en/search.jsp#stq=%s&stp=1", locale: .unitedStates())
+        
         Site("https://www.akc.org")
             .queryURL(path: "/?s=%s")
         
@@ -107,6 +110,9 @@ internal extension SiteIndex {
         // #AL
         
         Site("https://www.al.com")
+        
+        Site("http://www.ala.org")
+            .queryURL("https://cse.google.com/cse?cx=001695639812020286035%3Arukhncex72e&q=%s&gs_l=partner-generic.3...14532.14899.0.15003.5.5.0.0.0.0.121.164.3j1.4.0.csems%2Cnrl%3D13...0.296j29632j5...1.34.partner-generic..4.1.15.soIOG4XSMYk")
         
         Site("https://www.aliceandolivia.com")
             .queryURL(path: "/_1432941785433.html?term=%s")
@@ -144,8 +150,10 @@ internal extension SiteIndex {
         
         // #AM
                 
+        Site("http://amandamayphotosblog.com")
+        
         Site("https://aws.amazon.com")
-        .queryURL(path: "/search/?searchQuery=%s")
+            .queryURL(path: "/search/?searchQuery=%s")
         
         Site("https://ambcrypto.com")
             .queryURL(path: "/?s=%s")
@@ -308,6 +316,8 @@ internal extension SiteIndex {
         
         Site("https://autobarn.net")
             .queryURL("https://autobarn.ecomm-search.com/search?query=%s&vwcatalog=rodi")
+        
+        Site("https://automattic.com")
         
         Site("https://www.autosport.com")
         

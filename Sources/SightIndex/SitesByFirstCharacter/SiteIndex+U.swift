@@ -165,6 +165,8 @@ internal extension SiteIndex {
         Site("https://www.uniqlo.com")
             .queryURL(path: "/us/en/search/?q=%s")
         
+        Site("https://www.universalsuffragechurch.org")
+        
         Site("https://unm.edu")
             .queryURL("https://search.unm.edu/search/?q=%s")
         

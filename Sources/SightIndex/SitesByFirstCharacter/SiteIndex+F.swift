@@ -83,6 +83,9 @@ internal extension SiteIndex {
         Site("https://www.fashiontofigure.com")
             .queryURL(path: "/search/?Dy=1&Nty=1&Ntp=1&Ntt=%s")
         
+        Site("https://www.fastly.com")
+            .queryURL(path: "/#stq=%s&stp=1")
+        
         Site("https://www.fatherhood.gov")
             .queryURL(path: "/search?search_api_fulltext=%s")
         
@@ -105,6 +108,9 @@ internal extension SiteIndex {
         
         
         // #FD
+        
+        Site("https://www.fdcservers.net")
+        
         // #FE
         
         Site("https://www.featureshoot.com")
@@ -234,6 +240,12 @@ internal extension SiteIndex {
         
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.fontinlogo.com")
+            .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.fordfound.org")
+            .queryURL(path: "/search/?q=%s&p=0")
         
         Site("https://footballfoundation.org")
         

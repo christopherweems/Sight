@@ -144,6 +144,8 @@ internal extension SiteIndex {
         Site("https://www.jildorshoes.com")
             .queryURL(path: "/search.php?search_query=%s")
         
+        Site("https://www.jimdo.com")
+            
         Site("https://www.jimmyjazz.com")
             .queryURL(path: "/search?keywords=%s")
         

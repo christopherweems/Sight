@@ -35,7 +35,9 @@ internal extension SiteIndex {
             .queryURL(path: "/v8/?s=%s")
         
         Site("https://caniuse.com")
-        .queryURL(path: "/#search=%s")
+            .queryURL(path: "/#search=%s")
+        
+        Site("https://www.cannabisvoter.info")
         
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
@@ -117,9 +119,17 @@ internal extension SiteIndex {
         Site("https://www.cisco.com")
             .queryURL("https://search.cisco.com/search?query=%s")
         
+        Site("https://citylifestyle.com")
+            .queryURL(path: "/search-results?term=%s")
+        
+        Site("https://cityviewmag.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #CL
+        
+        Site("https://clarencebrowntheatre.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
@@ -244,6 +254,8 @@ internal extension SiteIndex {
         
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://crossfitknoxville.com")
         
         Site("https://crunchk.com")
         

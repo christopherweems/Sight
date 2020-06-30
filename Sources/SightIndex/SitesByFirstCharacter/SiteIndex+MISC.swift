@@ -47,6 +47,9 @@ internal extension SiteIndex {
         Site("https://34heritage.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.3cx.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.3m.com")
             .queryURL(path: "/3M/en_US/company-us/search/?Ntt=%s")
         

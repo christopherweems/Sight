@@ -192,6 +192,16 @@ internal extension SiteIndex {
         Site("https://knockknockstuff.com")
             .queryURL(path: "/?s=%s&searching=shop")
         
+        Site("http://knoxvilledowntownrealty.com")
+        
+        Site("http://knoxfocus.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://knoxvillesymphony.com")
+        
+        Site("https://knoxvillemoms.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #KO
         

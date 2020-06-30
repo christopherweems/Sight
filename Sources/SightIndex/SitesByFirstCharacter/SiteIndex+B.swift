@@ -80,6 +80,9 @@ internal extension SiteIndex {
         Site("https://www.bedbathandbeyond.com")
             .queryURL(path: "/store/s/%s")
         
+        Site("https://blog.beezwax.net")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://beneathyourmask.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -140,6 +143,9 @@ internal extension SiteIndex {
         
         Site("https://www.blogger.com")
         
+        Site("https://bluestreak.moxleycarmichael.com")
+            .queryURL(path: "/?s=%s")
+        
         // #BM
         Site("https://www.bmw.com")
             .queryURL("/en/search.pwa.html?q=%s", language: .english)
@@ -156,6 +162,8 @@ internal extension SiteIndex {
         
         Site("https://www.boredpanda.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.bornandraisedknox.com")
         
         Site("https://www.boston.com")
         

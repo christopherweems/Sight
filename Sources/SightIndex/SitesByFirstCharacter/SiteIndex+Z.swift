@@ -46,6 +46,8 @@ internal extension SiteIndex {
         Site("https://www.zenartsupplies.co")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.zendesk.com")
+        
         Site("https://zenevochocolate.com")
             .queryURL(path: "/?s=%s&post_type=product")
         

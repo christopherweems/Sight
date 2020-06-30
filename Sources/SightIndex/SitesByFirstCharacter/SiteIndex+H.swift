@@ -280,6 +280,8 @@ internal extension SiteIndex {
         Site("https://www.hongkongfp.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.hostpoint.ch")
+        
         Site("https://www.hot1045.net")
             .queryURL(path: "/?s=%s")
         

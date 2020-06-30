@@ -25,6 +25,8 @@ internal extension SiteIndex {
         Site("https://www.sacbee.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.saddlebrookproperties.com")
+        
         Site("https://www.sagefinds.com")
             .queryURL(path: "/Search.aspx?txtSearch=%s")
         
@@ -318,6 +320,8 @@ internal extension SiteIndex {
         
         Site("https://www.sierra.com")
             .queryURL(path: "/s~%s/")
+        
+        Site("https://www.siteground.com")
         
         Site("https://www.sigmaphoto.com")
             .queryURL(path: "/search/?q=%s")

@@ -176,6 +176,8 @@ internal extension SiteIndex {
         Site("https://www.insideedition.com")
             .queryURL(path: "/search?keywords=%s")
         
+        Site("https://insideofknoxville.com")
+        
         Site("https://www.insightcrime.org")
             .queryURL(path: "/?s=%s")
         
@@ -186,6 +188,9 @@ internal extension SiteIndex {
         
         Site("https://www.intel.com")
             .queryURL(path: "/content/www/us/en/search.html?ws=text#q=%s&t=All")
+        
+        Site("https://www.internetsociety.org")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://interestingengineering.com")
             .queryURL(path: "/s/search?q=%s")

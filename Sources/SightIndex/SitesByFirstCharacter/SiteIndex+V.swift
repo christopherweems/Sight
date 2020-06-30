@@ -132,6 +132,9 @@ internal extension SiteIndex {
         Site("https://virginiasports.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
+        Site("https://www.visitknoxville.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.vitamix.com")
             .queryURL(path: "/us/en_us/browse/s_%s/")
         
@@ -192,7 +195,12 @@ internal extension SiteIndex {
         Site("https://vt.edu")
             .queryURL("https://search.vt.edu/search/pages.html?q=%s")
         
+        Site("https://vtex.com")
+        
+        
         // #VU
+        
+        Site("https://www.vultr.com")
         
         Site("https://www.vulture.com")
             .queryURL(path: "/search.html?q=%s")

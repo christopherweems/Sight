@@ -267,6 +267,9 @@ internal extension SiteIndex {
         // #PK
         // #PL
         
+        Site("https://www.planethoster.com")
+            .queryURL(path: "/fr/Recherche?search=%s", language: .french)
+        
         Site("https://plantapothecary.com")
             .queryURL(path: "/search?q=%s")
         

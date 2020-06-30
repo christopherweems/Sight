@@ -252,6 +252,9 @@ internal extension SiteIndex {
         
         Site("https://global.oup.com")
         
+        Site("http://www.outdoorknoxville.com")
+            .queryURL(path: "/component/search/?searchword=%s")
+        
         Site("https://www.outdoorphotographer.com")
             .queryURL(path: "/?s=%s")
         
@@ -269,6 +272,8 @@ internal extension SiteIndex {
         
         Site("https://www.overstock.com")
             .queryURL(path: "/%s,/k,/results.html")
+        
+        Site("https://www.ovh.com")
         
         
         // #OW
