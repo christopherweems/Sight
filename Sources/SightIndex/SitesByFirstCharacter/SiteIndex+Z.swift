@@ -77,6 +77,8 @@ internal extension SiteIndex {
         Site("https://www.zobha.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.zoleo.com")
+        
         Site("https://www.zomei.com")
             .queryURL(path: "/search/?Keyword=%s")
         

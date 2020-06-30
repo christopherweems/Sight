@@ -196,6 +196,8 @@ internal extension SiteIndex {
         Site("https://whatthefuckshouldilistentorightnow.com")
             .queryURL(path: "/artist.php?artist=%s")
         
+        Site("https://whatwg.org")
+        
         Site("https://map.what3words.com")
             .queryURL(path: "/%s")
         

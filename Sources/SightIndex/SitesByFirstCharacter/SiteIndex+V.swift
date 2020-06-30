@@ -14,6 +14,9 @@ internal extension SiteIndex {
         // #V1
         // #VA
         
+        Site("https://vanguard.com")
+            .queryURL("https://investor.vanguard.com/search/?query=%s")
+        
         Site("https://vanheusen.com")
             .queryURL( "https://vanheusen.partnerbrands.com/SearchDisplay?advancedSearch=&originalSearchTerm=%s&pageView=grid&searchTermScope=&orderBy=&beginIndex=0&pageSize=&maxPrice=&resultCatEntryType=2&searchSource=Q&sType=SimpleSearch&manufacturer=&catalogId=15802")
         
