@@ -210,6 +210,9 @@ internal extension SiteIndex {
         Site("https://www.johnnyjet.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.johnsoncitypress.com")
+            .queryURL(path: "/search?contenttypes=STORY%2CGALLERY&query=%s")
+        
         Site("https://johnsonu.edu")
             .queryURL(path: "/?s=%s")
         
