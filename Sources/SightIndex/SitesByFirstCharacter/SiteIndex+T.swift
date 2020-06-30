@@ -150,6 +150,9 @@ internal extension SiteIndex {
         
         Site("https://www.techspot.com")
         
+        Site("https://www.techwalla.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.ted.com")
             .queryURL(path: "/search?q=%s")
         
