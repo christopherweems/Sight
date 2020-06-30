@@ -272,6 +272,8 @@ internal extension SiteIndex {
         
         // #IV
         
+        Site("https://www.ivansmith.com")
+        
         Site("https://www.ivoryella.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
