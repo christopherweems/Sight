@@ -16,6 +16,8 @@ final class SightTests: XCTestCase {
         
         ("testSiteIDs", testSiteIDs),
         
+        ("testPublicSecondLevelDomainAuthority", testPublicSecondLevelDomainAuthority),
+        
     ]
     
     let sites = SiteIndex()
@@ -100,5 +102,15 @@ extension SightTests {
             XCTAssertFalse($0.id.isEmpty)
             
         }
+    }
+}
+
+extension SightTests {
+    func testPublicSecondLevelDomainAuthority() {
+        let _ebay = Site.Authority("www.ebay.co.uk")
+        XCTAssertEqual(_ebay.firstPrivateDomain, "ebay.co.uk")
+        
+        let ebay = Site(authority: _ebay)
+        XCTAssertNotNil(ebay)
     }
 }
