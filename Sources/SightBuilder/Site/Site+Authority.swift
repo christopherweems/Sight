@@ -53,8 +53,8 @@ fileprivate extension String {
         var parts = split(separator: ".")
         guard 2 < parts.count else { return parts }
         
-        let commonPublicSecondLevelDomains = Set("co", "com")
-        let countryTopLevelDomains = Set("uk", "au")
+        let commonPublicSecondLevelDomains = Set("co", "com", "org")
+        let countryTopLevelDomains = Set("au", "nz", "uk", "za")
         
         if commonPublicSecondLevelDomains.contains(parts.penultimate),
            countryTopLevelDomains.contains(parts.last!) {
