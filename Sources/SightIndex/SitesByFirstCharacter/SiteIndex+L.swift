@@ -122,6 +122,9 @@ internal extension SiteIndex {
         
         // #LG
         
+        Site("https://www.lgbtqnation.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("http://www.lg.com")
             .queryURL(path: "/us/search.lg?search=%s", locale: .unitedStates())
         

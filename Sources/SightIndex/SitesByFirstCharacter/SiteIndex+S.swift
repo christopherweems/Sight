@@ -98,6 +98,12 @@ internal extension SiteIndex {
         
         // #SC
         
+        Site("https://www.sciencemag.org")
+            .queryURL("https://search.sciencemag.org/?searchTerm=%s")
+        
+        Site("https://www.sciencenews.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.schiphol.nl")
             .queryURL(path: "/en/search/?q=%s")
         

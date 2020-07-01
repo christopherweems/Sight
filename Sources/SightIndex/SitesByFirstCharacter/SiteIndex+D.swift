@@ -205,7 +205,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://www.digitaltrends.com")
-        .queryURL(path: "/?s=%s")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://www.digitimes.com")
         
         Site("https://www.dillards.com")
             .queryURL(path: "/search-term/%s?")

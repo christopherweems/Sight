@@ -282,6 +282,9 @@ internal extension SiteIndex {
         Site("https://www.plazaart.com")
             .queryURL(path: "/ssearch?q=%s")
         
+        Site("https://plos.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.plowhearth.com")
             .queryURL(path: "/site-search?text=&phw-text-search=%s")
         

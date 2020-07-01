@@ -25,6 +25,9 @@ internal extension SiteIndex {
         Site("https://www.abc15.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://abc7ny.com")
+            .queryURL(path: "/search/?query=%s")
+        
         Site("https://abovethelaw.com")
             .queryURL(path: "/?s=%s")
         
@@ -79,6 +82,7 @@ internal extension SiteIndex {
         
         Site("https://afkgaming.com")
             .queryURL(path: "/search/name=%s&includeArticleBody=0")
+        
         
         // #AG
         // #AH
@@ -324,6 +328,7 @@ internal extension SiteIndex {
         Site("https://www.autozone.com")
             .queryURL(path: "/searchresult?searchText=%s")
         
+        
         // #AV
         
         Site("https://news.avclub.com")
@@ -335,12 +340,14 @@ internal extension SiteIndex {
         Site("https://www.avril-organic.com")
             .queryURL(path: "/search?controller=search&orderby=position&orderway=desc&search_query=%s")
         
+        
         // #AW
         
         Site("https://awfulannouncing.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://awrestaurants.com")
+        
         
         // #AX
         
@@ -349,8 +356,12 @@ internal extension SiteIndex {
         Site("http://www.axs.tv")
             .queryURL(path: "/?s=%s")
         
+        
         // #AY
         // #AZ
+        
+        Site("https://www.azcentral.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://azlyrics.com")
             .queryURL("https://search.azlyrics.com/search.php?q=%s")

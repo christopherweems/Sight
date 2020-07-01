@@ -202,6 +202,9 @@ internal extension SiteIndex {
         Site("https://shop.highsierra.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.hindustantimes.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.hisroom.com")
             .queryURL(path: "/search2.aspx?terms=%s")
         

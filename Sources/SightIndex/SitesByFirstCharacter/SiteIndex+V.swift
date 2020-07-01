@@ -123,6 +123,9 @@ internal extension SiteIndex {
         Site("https://www.vineyardvines.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.vintagedetroit.com")
+            .queryURL(path: "/blog/?s=%s")
+        
         Site("https://www.vipon.com")
             .queryURL(path: "/promotion/index?search=%s&group=")
         
@@ -155,6 +158,9 @@ internal extension SiteIndex {
         // #VM
         // #VN
         // #VO
+        
+        Site("https://www.voanews.com")
+            .queryURL(path: "/search?search_api_fulltext=%s")
         
         Site("https://vocal.media")
             .queryURL(path: "/explore?s=%s&f=posts")

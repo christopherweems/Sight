@@ -194,6 +194,9 @@ internal extension SiteIndex {
         
         // #RI
         
+        Site("https://www.richmond.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.ridgewallet.com")
             .queryURL(path: "/search?q=%s")
         

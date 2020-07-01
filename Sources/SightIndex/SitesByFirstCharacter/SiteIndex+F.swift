@@ -113,6 +113,8 @@ internal extension SiteIndex {
         
         // #FE
         
+        Site("https://feals.com")
+        
         Site("https://www.featureshoot.com")
             .queryURL(path: "/?s=%s")
         
@@ -315,6 +317,9 @@ internal extension SiteIndex {
         Site("https://www.foxcroftcollection.com")
             .queryURL(path: "/search/?terms=%s")
         
+        Site("https://www.fox26houston.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://foxiecosmetics.com")
             .queryURL(path: "/search?q=%s")
         
@@ -354,6 +359,8 @@ internal extension SiteIndex {
         
         Site("https://www.freepeople.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://freepn.com")
         
         Site("https://frenchconnection.com")
             .queryURL("https://usa.frenchconnection.com/search/keywords-are-%s/%s.htm", locale: .unitedStates())

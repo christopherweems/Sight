@@ -404,6 +404,9 @@ internal extension SiteIndex {
         
         // #THES
         
+        Site("https://www.the-sun.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.thesaurus.com")
             .queryURL(path: "/browse/%s")
         
@@ -451,6 +454,8 @@ internal extension SiteIndex {
         
         Site("https://www.thewanderinglens.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://theweek.com")
         
         Site("https://www.thewhitecompany.com")
             .queryURL(path: "/us/search?text=%s")
@@ -699,6 +704,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://trendygadgetreview.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://trekmovie.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.trinaturk.com")

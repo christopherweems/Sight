@@ -58,6 +58,8 @@ internal extension SiteIndex {
         // #XS
         // #XT
         
+        Site("https://www.xtabbas.com")
+        
         Site("https://www.xtrema.com")
             .queryURL(path: "/search?type=product&q=%s")
         

@@ -194,6 +194,9 @@ internal extension SiteIndex {
         Site("https://www.upenn.edu")
             .queryURL(path: "/searchdir?as_q=%s")
         
+        Site("https://www.upi.com")
+            .queryURL(path: "/search?ss=%s")
+        
         Site("https://en.uptodown.com")
             .queryURL(path: "/mac/search/%s")
         

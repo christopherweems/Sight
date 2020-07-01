@@ -28,6 +28,9 @@ internal extension SiteIndex {
         
         Site("https://www.bannersociety.com")
             .queryURL(path: "/search?q=%s")
+
+        Site("https://bangordailynews.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://bape.com")
             .queryURL("https://us.bape.com/search?q=%s")
