@@ -36,8 +36,10 @@ internal extension SiteIndex {
         Site("https://yandex.com")
             .queryURL(path: "/search/?text=%s")
         
+        /*
         Site("https://yandex.com/weather")
             .queryURL(path: "/search?request=%s")
+        */
         
         Site("https://www.yandy.com")
             .queryURL(path: "/search.php?q=%s")
