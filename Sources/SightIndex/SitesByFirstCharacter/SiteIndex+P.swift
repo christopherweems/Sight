@@ -19,6 +19,8 @@ internal extension SiteIndex {
         
         // #PA
         
+        Site("https://pabstblueribbon.com")
+        
         Site("https://www.pacificcoast.com")
             .queryURL(path: "/search?q=%s")
         
@@ -160,6 +162,8 @@ internal extension SiteIndex {
         
         Site("https://people.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.peopleofcolorbeauty.com")
         
         Site("https://www.pepboys.com")
             .queryURL(path: "/search/?term=%s")

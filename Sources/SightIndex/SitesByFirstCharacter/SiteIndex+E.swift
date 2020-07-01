@@ -306,6 +306,8 @@ internal extension SiteIndex {
         
         // #EX
         
+        Site("https://ex1cosmetics.com")
+        
         Site("https://www.express.com")
             .queryURL(path: "/exp/search?q=%s")
         

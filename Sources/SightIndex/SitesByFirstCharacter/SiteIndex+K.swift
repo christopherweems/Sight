@@ -27,6 +27,8 @@ internal extension SiteIndex {
         Site("https://www.kansai-airport.or.jp")
             .queryURL(path: "/en/search?keywords=%s")
         
+        Site("https://kapeli.com")
+        
         Site("https://kappa-usa.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -170,6 +172,8 @@ internal extension SiteIndex {
         
         Site("http://www.klia.com.my")
             .queryURL(path: "/index.php?m=search&query=%s")
+        
+        Site("https://klur.co")
         
         
         // #KM

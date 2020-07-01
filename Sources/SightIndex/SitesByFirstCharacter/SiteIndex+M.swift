@@ -545,6 +545,8 @@ internal extension SiteIndex {
         Site("https://www.mercurynews.com")
             .queryURL(path: "/?s=%s&orderby=date&order=desc")
         
+        Site("https://www.musclemilk.com")
+        
         Site("https://www.musicarts.com")
             .queryURL(path: "/search?q=%s")
         

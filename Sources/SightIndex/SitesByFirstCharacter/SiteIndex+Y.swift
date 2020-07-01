@@ -31,6 +31,8 @@ internal extension SiteIndex {
         Site("https://yamaha-motor.co.jp")
             .queryURL("https://search.yamaha-motor.co.jp/en/search.x?q=%s", language: .english)
         
+        Site("https://yamaha-motor.com")
+        
         Site("https://yandex.com")
             .queryURL(path: "/search/?text=%s")
         

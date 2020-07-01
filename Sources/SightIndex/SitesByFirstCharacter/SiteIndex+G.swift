@@ -33,6 +33,9 @@ internal extension SiteIndex {
         Site("https://www.gameinformer.com")
             .queryURL(path: "/search?keyword=%s")
         
+        Site("https://www.gamekult.com")
+            .queryURL(path: "/rechercher-jeu.html?q=%s", language: .french)
+        
         Site("https://www.gamelife.com")
             .queryURL(path: "/?s=%s")
 
@@ -248,6 +251,8 @@ internal extension SiteIndex {
             .queryURL(path: "/mvc.php?route=homepage_norma/search&term=%s")
         
         Site("https://www.gog.com")
+        
+        Site("https://golde.co")
         
         Site("https://www.goodamerican.com")
             .queryURL(path: "/search?q=%s")

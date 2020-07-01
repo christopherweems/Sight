@@ -70,6 +70,9 @@ internal extension SiteIndex {
         
         Site("https://www.advancedsciencenews.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://adventuregamers.com")
+            .queryURL(path: "/games/search?keywords=%s")
                 
         
         // #AE
@@ -82,6 +85,9 @@ internal extension SiteIndex {
         
         Site("https://afkgaming.com")
             .queryURL(path: "/search/name=%s&includeArticleBody=0")
+        
+        Site("https://www.afw.com")
+            .queryURL(path: "/filterSearch?q=%s")
         
         
         // #AG
@@ -266,9 +272,9 @@ internal extension SiteIndex {
                 
         
         // #AS
-        
-        Site("https://gcse.asu.edu")
-            .queryURL(path: "/search/google/%s")
+                
+        Site("https://www.ashleyfurniture.com")
+            .queryURL(path: "/unxsearch/?q=%s")
         
         Site("https://www.ask.com")
             .queryURL(path: "/web?q=%s")
@@ -283,6 +289,9 @@ internal extension SiteIndex {
         
         Site("https://www.astrobrights.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://gcse.asu.edu")
+            .queryURL(path: "/search/google/%s")
         
         Site("https://asweetspoonful.com")
             .queryURL(path: "/?s=%s")
@@ -314,6 +323,9 @@ internal extension SiteIndex {
             .queryURL("https://search.auburn.edu/?q=%s")
         
         Site("https://www.audiusa.com")
+        
+        Site("https://www.augustsage.com")
+            .queryURL(path: "/search?q=%s")
                 
         Site("http://www.autoanything.com")
             .queryURL(path: "/shop/%s")

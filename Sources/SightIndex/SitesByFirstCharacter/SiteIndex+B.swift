@@ -86,11 +86,19 @@ internal extension SiteIndex {
         Site("https://blog.beezwax.net")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.behr.com")
+            .queryURL(path: "/consumer/search?s=%s")
+        
         Site("https://beneathyourmask.com")
             .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.benjaminlcorey.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.benjaminmoore.com")
+        
+        Site("https://berghoffworldwide.com")
+            .queryURL(path: "/bgh_en_int/catalogsearch/result/?q=%s")
         
         Site("https://www.bestusedtires.com")
             .queryURL(path: "/shop?search_query=%s")
@@ -239,6 +247,10 @@ internal extension SiteIndex {
         
         // #BV
         // #BW
+        
+        Site("https://www.bwtc.com")
+        
+        
         // #BX
         // #BY
         

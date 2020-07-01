@@ -32,6 +32,8 @@ internal extension SiteIndex {
         Site("https://www.lakeside.com")
             .queryURL(path: "/browse/?Ntt=%s")
         
+        Site("https://www.lance.com")
+        
         Site("https://www.landroverusa.com")
         
         Site("https://www.landsend.com")

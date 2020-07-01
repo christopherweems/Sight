@@ -35,6 +35,8 @@ internal extension SiteIndex {
         Site("https://www.rado.com")
             .queryURL(path: "/search/%s")
         
+        Site("https://www.radpowerbikes.com")
+        
         Site("https://www.rag-bone.com")
             .queryURL(path: "/search?q=%s")
         
@@ -282,6 +284,9 @@ internal extension SiteIndex {
         
         Site("https://www.rockytopinsider.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.rodanandfields.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.roddandgunn.com")
             .queryURL(path: "/on/demandware.store/Sites-rodd-us-Site/en_US/Search-Show?q=%s")

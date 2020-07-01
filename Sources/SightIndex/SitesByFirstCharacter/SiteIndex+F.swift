@@ -173,6 +173,8 @@ internal extension SiteIndex {
         Site("https://www.final-score.com")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://final.co")
+        
         Site("https://www.fingerhut.com")
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
@@ -217,6 +219,9 @@ internal extension SiteIndex {
         
         Site("https://www.flare.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.flawlessbeauty.com")
+            .queryURL(path: "/IDVFTFBS/9.0000/SearchResults?query=%s")
         
         Site("https://www.flickr.com")
             .queryURL(path: "/search/?text=%s")

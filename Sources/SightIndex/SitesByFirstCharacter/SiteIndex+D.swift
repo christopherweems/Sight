@@ -175,6 +175,9 @@ internal extension SiteIndex {
          .queryURL(path: "/search?w=%s")
          */
         
+        Site("https://www.dhccare.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         Site("https://www.dhgate.com")
             .queryURL(path: "/wholesale/search.do?act=search&sus=&searchkey=%s")
         

@@ -216,6 +216,8 @@ internal extension SiteIndex {
         Site("https://www.iona.edu")
             .queryURL(path: "/search.aspx?searchtext=%s&searchmode=anyword")
         
+        Site("https://www.ionos.com")
+        
         
         // #IP
         
@@ -279,6 +281,10 @@ internal extension SiteIndex {
         
         
         // #IW
+        
+        Site("https://www.iwawine.com")
+        
+        
         // #IX
         // #IY
         // #IZ

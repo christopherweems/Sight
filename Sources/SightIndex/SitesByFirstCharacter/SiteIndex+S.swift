@@ -74,6 +74,9 @@ internal extension SiteIndex {
         Site("https://www.sanuk.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://videos.sapo.pt")
+            .queryURL(path: "/search.html?word=%s")
+        
         Site("https://www.saturdaydownsouth.com")
             .queryURL(path: "/?s=%s")
         
@@ -238,6 +241,8 @@ internal extension SiteIndex {
         
         Site("https://shein.com")
             .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
+        
+        Site("https://www.sherwin-williams.com")
         
         Site("https://www.shiekh.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -701,6 +706,8 @@ internal extension SiteIndex {
         
         Site("https://stuckincustoms.com")
             .queryURL(path: "/search-page/?q=%s")
+        
+        Site("https://studiomdhr.com")
         
         Site("https://www.stuff.co.nz")
             .queryURL(path: "/searchresults?Search+Site=Search+Site&cof=FORID%3A9&cx=006730714154542492986%3Aoh6vl0ybuqy&q=%s&siteurl=www.stuff.co.nz")

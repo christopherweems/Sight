@@ -38,6 +38,8 @@ internal extension SiteIndex {
         Site("https://www.hamptonthink.org")
             .queryURL("/search?q=%s")
         
+        Site("https://www.hanahanabeauty.com")
+        
         Site("https://hanaemoriparfums.com")
             .queryURL(path: "/search?controller=search&orderby=position&orderway=desc&search_query=%s")
         

@@ -170,6 +170,8 @@ internal extension SiteIndex {
         
         Site("https://www.tesla.com")
         
+        Site("https://tequilaavion.com")
+        
         Site("https://www.teva.com")
             .queryURL(path: "/search?q=%s")
         
@@ -193,6 +195,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("http://thanuka.com")
+        
+        Site("https://www.theluvscrub.com")
         
         
         // #THE1
@@ -632,6 +636,9 @@ internal extension SiteIndex {
         
         Site("https://topman.com")
             .queryURL("https://us.topman.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId=13051&catalogId=33059&Ntt=%s", locale: .unitedStates())
+        
+        Site("https://www.topshop.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.toririchard.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")

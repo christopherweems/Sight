@@ -125,6 +125,8 @@ internal extension SiteIndex {
         
         Site("https://www.weathertech.com")
         
+        Site("https://www.wunderground.com")
+        
         Site("https://products.weaverleathersupply.com")
             .queryURL(path: "/search?ts=custom&w=%s")
                 
@@ -165,6 +167,9 @@ internal extension SiteIndex {
         
         Site("https://westonbrands.com")
             .queryURL(path: "/search-results?search=%s")
+        
+        Site("https://www.wetnwildbeauty.com")
+            .queryURL(path: "/instantsearchplus/result/?q=%s")
         
         Site("https://wetshavingclub.com")
             .queryURL(path: "/?s=%s")
@@ -405,6 +410,8 @@ internal extension SiteIndex {
         
         
         // #WT
+        
+        Site("https://wtc.com")
         
         Site("https://www.wtcitv.org")
             .queryURL(path: "/search/?q=%s")
