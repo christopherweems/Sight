@@ -196,6 +196,9 @@ internal extension SiteIndex {
         Site("https://www.mead.com")
             .queryURL(path: "/mead/search?Ntt=%s")
         
+        Site("https://www.mecca.com.au")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.medicalnewstoday.com")
             .queryURL(path: "/search?q=%s")
         

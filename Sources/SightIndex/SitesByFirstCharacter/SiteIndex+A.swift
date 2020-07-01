@@ -109,6 +109,10 @@ internal extension SiteIndex {
         
         
         // #AG
+        
+        Site("https://www.aga.org")
+            .queryURL("/search/?q=%s")
+        
         // #AH
         // #AI
         
@@ -211,6 +215,8 @@ internal extension SiteIndex {
         
         Site("https://anitagrant.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("http://ankc.org.au")
         
         Site("https://www.ansa.it")
         

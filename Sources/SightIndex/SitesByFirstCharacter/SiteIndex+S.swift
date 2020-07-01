@@ -239,6 +239,9 @@ internal extension SiteIndex {
         
         Site("https://www.shawacademy.com")
         
+        Site("https://www.sheba.com")
+            .queryURL(path: "/search-results?indexCatalogue=custom-search&searchQuery=%s&wordsMode=AllWords")
+        
         Site("https://shein.com")
             .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
         
