@@ -58,6 +58,8 @@ internal extension SiteIndex {
         
         // #BB
         
+        Site("https://www.bbb.org")
+        
         Site("https://www.bbc.com")
             .queryURL("https://www.bbc.co.uk/search?q=%s")
         
@@ -151,6 +153,9 @@ internal extension SiteIndex {
         
         Site("https://www.blackheartgoldpants.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://blacklivesmatter.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://blanknews.com")
             .queryURL(path: "/?s=%s")

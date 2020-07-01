@@ -12,6 +12,24 @@ internal extension SiteIndex {
     static var A = SiteSet {
         
         // #A1
+        // #AA
+        
+        Site("http://www.aabb.org")
+            .queryURL(path: "/Search/Pages/results.aspx?k=%s")
+        
+        Site("https://www.aacn.org")
+            .queryURL(path: "/search?searchtext=%s")
+        
+        Site("https://www.aaf.org")
+            .queryURL(path: "/Search?SearchTerms=%s")
+        
+        Site("https://www.aafaglobal.org")
+            .queryURL(path: "/Search?SearchTerms=%s")
+        
+        Site("https://aaos.org")
+            .queryURL(path: "/search/?q=%s")
+        
+        
         // #AB
         
         Site("https://www.abaloveapothecary.com")
@@ -94,6 +112,9 @@ internal extension SiteIndex {
         // #AH
         // #AI
         
+        Site("https://www.aia.org")
+            .queryURL(path: "/search?query=%s")
+        
         Site("https://www.airbnb.com")
             .queryURL(path: "/s/all?query=%s")
         
@@ -173,6 +194,12 @@ internal extension SiteIndex {
         Site("https://www.americanapparel.com")
             .queryURL(path: "/s?Ntt=%s")
         
+        Site("https://www.americanbar.org")
+            .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.americangemsociety.org")
+            .queryURL(path: "/search/all.asp?bst=%s")
+        
         Site("https://amp.dev")
         
         
@@ -212,6 +239,9 @@ internal extension SiteIndex {
         
         Site("https://www.ap.org")
             .queryURL(path: "/en-us/search?q=%s")
+        
+        Site("https://www.apa.org")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://apnews.com")
                 

@@ -304,6 +304,9 @@ internal extension SiteIndex {
         Site("https://www.nordstromrack.com")
             .queryURL(path: "/shop/search?query=%s")
         
+        Site("https://norml.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.northerntool.com")
             .queryURL(path: "/shop/tools/NTESearch?Ntt=%s")
         

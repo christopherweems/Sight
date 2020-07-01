@@ -196,6 +196,9 @@ internal extension SiteIndex {
         
         // #RI
         
+        Site("https://www.riaa.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.richmond.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -204,6 +207,8 @@ internal extension SiteIndex {
         
         Site("https://www.ridgid.com")
             .queryURL(path: "/us/en/search?BaseQuery=%s")
+        
+        Site("https://www.rif.org")
         
         Site("https://riflepaperco.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

@@ -322,6 +322,8 @@ internal extension SiteIndex {
         
         // #WN
         
+        Site("https://www.wnba.com")
+        
         Site("https://www.wndu.com")
             .queryURL(path: "/search?searchKeywords=%s")
         

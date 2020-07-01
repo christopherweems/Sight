@@ -34,6 +34,15 @@ internal extension SiteIndex {
         Site("https://www.campbells.com")
             .queryURL(path: "/v8/?s=%s")
         
+        Site("https://www.cancer.com")
+            .queryURL(path: "/search/solr/%s")
+        
+        Site("https://www.cancer.org")
+            .queryURL(path: "/search.html?q=%s")
+        
+        Site("https://www.ckc.ca")
+            .queryURL(path: "/en/Templates/Special-Pages/Search-Results?searchtext=%s", language: .english)
+        
         Site("https://caniuse.com")
             .queryURL(path: "/#search=%s")
         
@@ -102,6 +111,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
         Site("https://www.chick-fil-a.com")
+        
+        Site("https://www.christmastreeassociation.org")
         
         Site("https://www.chron.com")
             .queryURL(path: "/search/?action=search&query=%s")

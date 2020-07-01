@@ -191,12 +191,16 @@ internal extension SiteIndex {
         
         // #TH
         
+        Site("https://tha.com")
+        
         Site("https://thakoon.com")
             .queryURL(path: "/search?q=%s")
         
         Site("http://thanuka.com")
         
         Site("https://www.theluvscrub.com")
+        
+        Site("https://www.tnhia.org")
         
         
         // #THE1

@@ -139,6 +139,8 @@ internal extension SiteIndex {
         Site("https://www.onnit.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("http://onsfoundation.org")
+        
         Site("https://onwardstate.com")
             .queryURL(path: "/?s=%s")
         
