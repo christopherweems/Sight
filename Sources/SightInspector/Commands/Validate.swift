@@ -31,7 +31,7 @@ struct Validate: ParsableCommand {
                 
                 if verbose {
                     failedSites.forEach {
-                        print("\($0.authority.secondLevel) is out of order.")
+                        print("\($0.authority.firstPrivateDomain) is out of order.")
                         
                     }
                 }
@@ -57,7 +57,7 @@ fileprivate extension Validate {
         /*
         SiteIndex().allSites.adjacentPairs
             .filter {
-                $0.authority.secondLevel.compare($1.authority.secondLevel) != .orderedAscending
+                $0.authority.firstPrivateDomain.compare($1.authority.firstPrivateDomain) != .orderedAscending
             }
             .map { $0.0 }
        */

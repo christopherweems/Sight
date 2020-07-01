@@ -6,13 +6,15 @@
 //
 
 import Foundation
+import unstandard
 
 public extension Site {
     struct Authority: Hashable, Equatable, ExpressibleByStringLiteral {
         public let subdomainPrefix: String? // www.
-        public let secondLevel: String // duckduckgo.com
+        public let firstPrivateDomain: String // `duckduckgo.com` or `ebay.co.uk`
         
-        public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3
+        // `co.uk` or `com.au` counts as one domain part
+        public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3 `ebay.co.uk` == 2
         
         public init(stringLiteral value: StringLiteralType) {
             self.init(value)
@@ -20,18 +22,18 @@ public extension Site {
         
         public init<SP>(_ stringValue: SP) where SP : StringProtocol {
             assert(!stringValue.contains("/"), "\(stringValue)")
-            let components = stringValue.split(separator: ".")
+            let components = stringValue.asString().domainPartSeparated()
             
             domainPartCount = components.count
             
             switch domainPartCount {
             case 3...:
                 subdomainPrefix = components.dropLast(2).joined(separator: ".") + "."
-                secondLevel = components.suffix(2).joined(separator: ".")
+                firstPrivateDomain = components.suffix(2).joined(separator: ".")
                 
             default:
                 subdomainPrefix = nil
-                secondLevel = String(stringValue)
+                firstPrivateDomain = String(stringValue)
                 
             }
         }
@@ -39,9 +41,42 @@ public extension Site {
 }
 
 public extension Site.Authority {
-    var isEmpty: Bool { secondLevel.isEmpty }
+    var isEmpty: Bool { firstPrivateDomain.isEmpty }
     
     func contains<SP>(_ substring: SP) -> Bool where SP : StringProtocol {
-        [subdomainPrefix, secondLevel].contains { $0?.contains(substring) == true }
+        [subdomainPrefix, firstPrivateDomain].contains { $0?.contains(substring) == true }
+    }
+}
+
+fileprivate extension String {
+    func domainPartSeparated() -> [String] {
+        var parts = split(separator: ".")
+        guard 2 < parts.count else { return parts }
+        
+        let commonPublicSecondLevelDomains = Set("co", "com")
+        let countryTopLevelDomains = Set("uk", "au")
+        
+        if commonPublicSecondLevelDomains.contains(parts.penultimate),
+           countryTopLevelDomains.contains(parts.last!) {
+            let newLast = parts.suffix(2).joined(separator: ".")
+            parts.removeLast(2)
+            parts.append(newLast)
+            
+        }
+        
+        return parts
+    }
+}
+
+fileprivate extension Array {
+    var penultimate: Element! {
+        let penultimateIndex = index(endIndex, offsetBy: -2)
+        return self[penultimateIndex]
+    }
+}
+
+fileprivate extension Set {
+    init(_ elements: Element...) {
+        self = .init(elements)
     }
 }

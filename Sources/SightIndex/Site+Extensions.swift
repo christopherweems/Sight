@@ -39,12 +39,12 @@ internal extension Site.Authority {
     func subdomainPart(for level: Int) -> String? {
         switch level {
         case 0:
-            assert(secondLevel.count == 2)
-            return secondLevel.split(separator: ".").last
+            assert(firstPrivateDomain.count == 2)
+            return firstPrivateDomain.split(separator: ".").last
             
         case 1:
-            assert(secondLevel.count == 2)
-            return secondLevel.split(separator: ".").first
+            assert(firstPrivateDomain.count == 2)
+            return firstPrivateDomain.split(separator: ".").first
             
         case 2...:
             guard let subdomainParts = subdomainPrefix?.split(separator: ".") else { return nil }

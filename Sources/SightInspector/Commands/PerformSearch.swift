@@ -57,7 +57,7 @@ struct PerformSearch: ParsableCommand {
             }
             
         } else {
-            print("Cannot query `\(site.authority.secondLevel)`")
+            print("Cannot query `\(site.authority.firstPrivateDomain)`")
             
         }
         

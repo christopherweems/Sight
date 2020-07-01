@@ -56,7 +56,7 @@ internal extension SiteIndex {
     func site(forAuthority authority: Site.Authority) -> Site? {
         assert(!authority.isEmpty, "Site authority must not be empty")
         
-        let key = authority.secondLevel.first
+        let key = authority.firstPrivateDomain.first
         let siteSet: SiteSet
         
         switch key {
