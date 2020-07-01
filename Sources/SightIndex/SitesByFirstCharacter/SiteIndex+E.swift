@@ -46,6 +46,9 @@ internal extension SiteIndex {
         Site("https://www.ebags.com")
             .queryURL(path: "/search?term=%s")
         
+        Site("https://www.ebay.co.uk")
+            .queryURL(path: "/sch/i.html?_nkw=%s")
+        
         Site("https://www.ebay.com")
             .queryURL(path: "/sch/i.html?_nkw=%s")
         
