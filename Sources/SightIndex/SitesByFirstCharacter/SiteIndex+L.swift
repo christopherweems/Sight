@@ -32,6 +32,8 @@ internal extension SiteIndex {
         Site("https://www.lakeside.com")
             .queryURL(path: "/browse/?Ntt=%s")
         
+        Site("https://www.laliga.com")
+        
         Site("https://www.lance.com")
         
         Site("https://www.landroverusa.com")
@@ -210,6 +212,8 @@ internal extension SiteIndex {
         
         Site("https://liverpooljeans.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
+        
+        Site("https://www.livescore.com")
         
         // #LJ
         // #LK

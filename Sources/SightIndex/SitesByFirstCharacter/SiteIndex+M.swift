@@ -359,6 +359,8 @@ internal extension SiteIndex {
         // #MK
         // #ML
         
+        Site("https://www.mlb.com")
+        
         Site("https://www.mlbshop.com")
             .queryURL(path: "/?query=%s")
         

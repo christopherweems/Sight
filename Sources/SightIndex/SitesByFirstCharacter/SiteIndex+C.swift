@@ -60,6 +60,8 @@ internal extension SiteIndex {
         Site("https://www.cbr.com")
             .queryURL(path: "/search/%s/")
         
+        Site("https://www.cbssports.com")
+        
         
         // #CC
         
@@ -188,6 +190,9 @@ internal extension SiteIndex {
         
         Site("https://colortheworldlipsticks.com")
             .queryURL(path: "/search?q=%s*")
+        
+        Site("https://www.colts.com")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")

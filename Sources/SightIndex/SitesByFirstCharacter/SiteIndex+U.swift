@@ -55,7 +55,14 @@ internal extension SiteIndex {
         
         
         // #UE
+        
+        Site("https://www.uefa.com")
+        
+        
         // #UF
+        
+        Site("https://www.ufc.com")
+        
         Site("https://ufl.edu")
             .queryURL("https://search.ufl.edu/web/#gsc.tab=0&gsc.q=%s")
         
@@ -172,6 +179,8 @@ internal extension SiteIndex {
         
         Site("https://unrealfur.com.au")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.unsuncosmetics.com")
         
         Site("https://www.unsw.edu.au")
             .queryURL(path: "/search/unsw?kw=%s")

@@ -23,6 +23,8 @@ internal extension SiteIndex {
         Site("https://naffco54.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("http://www.naircare.com")
+        
         Site("https://www.namecheap.com")
             .queryURL(path: "/domains/registration/results/?domain=%s")
         
@@ -192,6 +194,8 @@ internal extension SiteIndex {
         
         
         // #NF
+        
+        Site("https://www.nfl.com")
         
         Site("https://www.nflshop.com")
             .queryURL(path: "/?query=%s")

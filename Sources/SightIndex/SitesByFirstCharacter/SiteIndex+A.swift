@@ -127,6 +127,8 @@ internal extension SiteIndex {
         Site("https://www.aliceandolivia.com")
             .queryURL(path: "/_1432941785433.html?term=%s")
         
+        Site("https://www.allelitewrestling.com")
+        
         Site("https://www.aljazeera.com")
             .queryURL(path: "/Search/?q=%s")
         

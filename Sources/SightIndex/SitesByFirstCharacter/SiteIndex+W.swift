@@ -354,6 +354,9 @@ internal extension SiteIndex {
         Site("https://www.worldcat.org")
             .queryURL(path: "/search?qt=worldcat_org_all&q=%s")
         
+        Site("https://www.worldsurfleague.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.worldwidestereo.com")
             .queryURL(path: "/search?q=%s")
         

@@ -41,6 +41,9 @@ internal extension SiteIndex {
         Site("https://www.barnesandnoble.com")
             .queryURL(path: "/s/%s")
         
+        Site("https://www.barstoolsports.com")
+            .queryURL(path: "/search?page=1&query=%s")
+        
         Site("https://www.basebutter.com")
         
         Site("https://basecamp.com")
@@ -151,6 +154,8 @@ internal extension SiteIndex {
         
         Site("https://blanknews.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://bleacherreport.com")
         
         Site("https://www.blogger.com")
         
