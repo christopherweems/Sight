@@ -19,6 +19,7 @@ public extension Site {
         }
         
         public init<SP>(_ stringValue: SP) where SP : StringProtocol {
+            assert(!stringValue.contains("/"), "\(stringValue)")
             let components = stringValue.split(separator: ".")
             
             domainPartCount = components.count
