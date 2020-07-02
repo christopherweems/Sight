@@ -406,6 +406,9 @@ internal extension SiteIndex {
         Site("https://www.moen.com")
             .queryURL(path: "/search?search_terms=%s")
         
+        Site("https://www.mojomarketplace.com")
+            .queryURL(path: "/search?keywords[]=%s")
+        
         Site("https://mojospa.com")
             .queryURL(path: "/search?q=%s")
         
@@ -586,6 +589,8 @@ internal extension SiteIndex {
         
         Site("https://www.mybakingaddiction.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://mybillie.com")
         
         Site("https://www.mycentsofstyle.com")
             .queryURL(path: "/pages/search-results?q=%s")

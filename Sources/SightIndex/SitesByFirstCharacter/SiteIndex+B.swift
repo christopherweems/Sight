@@ -132,9 +132,7 @@ internal extension SiteIndex {
         
         Site("https://bigten.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
-        
-        Site("https://mybillie.com")
-        
+                
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
         
@@ -234,6 +232,8 @@ internal extension SiteIndex {
         
         Site("https://bu.edu")
             .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
+        
+        Site("https://www.budget.com")
         
         Site("https://www.buick.com")
         

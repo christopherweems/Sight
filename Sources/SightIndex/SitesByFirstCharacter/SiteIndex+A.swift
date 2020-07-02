@@ -391,6 +391,8 @@ internal extension SiteIndex {
         Site("https://news.avclub.com")
             .queryURL(path: "/search?blogId=1636027099&q=%s")
         
+        Site("https://www.avis.com")
+        
         Site("https://www.avon.com")
             .queryURL(path: "/search/%s")
         

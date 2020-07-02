@@ -109,6 +109,9 @@ internal extension SiteIndex {
         
         // #FD
         
+        Site("https://fda.gov")
+            .queryURL("https://search.usa.gov/search?query=%s&affiliate=fda1")
+        
         Site("https://www.fdcservers.net")
         
         // #FE

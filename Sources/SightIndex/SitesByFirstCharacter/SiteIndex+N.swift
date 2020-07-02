@@ -319,6 +319,8 @@ internal extension SiteIndex {
         
         // #NP
         
+        Site("https://www.npcinternational.com")
+        
         Site("https://nphilanthropy.com")
             .queryURL(path: "/search?q=%s")
         

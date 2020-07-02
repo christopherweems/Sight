@@ -40,6 +40,9 @@ internal extension SiteIndex {
         Site("https://www.cancer.org")
             .queryURL(path: "/search.html?q=%s")
         
+        Site("https://shop.usa.canon.com")
+            .queryURL(path: "/shop/SearchDisplay?categoryId=&storeId=10051&catalogId=10051&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=18&searchTerm=%s")
+        
         Site("https://www.ckc.ca")
             .queryURL(path: "/en/Templates/Special-Pages/Search-Results?searchtext=%s", language: .english)
         

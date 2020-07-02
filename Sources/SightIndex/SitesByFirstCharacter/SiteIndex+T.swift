@@ -787,6 +787,8 @@ internal extension SiteIndex {
         Site("https://tulanegreenwave.com")
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")
         
+        Site("https://turo.com")
+        
         Site("https://home.tusculum.edu")
             .queryURL(path: "/search/index.php?q=%s")
         
