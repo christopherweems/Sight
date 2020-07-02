@@ -296,6 +296,10 @@ internal extension SiteIndex {
         Site("https://css-tricks.com")
             .queryURL(path: "/?s=%s")
         
+        // #CT
+        
+        Site("https://www.ctshirts.com")
+            .queryURL(path: "/us/search?q=%s&searchtype=text", locale: .unitedStates())
         
         // #CU
         
