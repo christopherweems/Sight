@@ -149,11 +149,16 @@ internal extension SiteIndex {
         Site("https://heebmagazine.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #HEL
+        
         Site("https://www.hellomerch.com")
             .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.hellomolly.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
+        
+        Site("https://www.helmm.com")
         
         Site("https://www.herald-dispatch.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")

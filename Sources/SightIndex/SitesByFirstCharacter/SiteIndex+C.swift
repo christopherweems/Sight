@@ -267,6 +267,9 @@ internal extension SiteIndex {
         
         Site("https://credobeauty.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
+
+        Site("https://crest.com")
+            .queryURL(path: "/en-us/search?term=%s", locale: .unitedStates())
         
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")

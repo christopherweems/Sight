@@ -127,10 +127,17 @@ internal extension SiteIndex {
         Site("https://www.gerberchildrenswear.com")
             .queryURL(path: "/collections/search-results?q=%s")
         
+        
+        // #GET
+        
+        Site("https://getbevel.com")
+        
         Site("https://getjeda.com")
         
         Site("https://gethyperskin.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("https://www.getquip.com")
         
         Site("https://www.gettyimages.com")
             .queryURL(path: "/photos/%s")

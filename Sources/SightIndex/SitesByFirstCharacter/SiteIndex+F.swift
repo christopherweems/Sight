@@ -248,14 +248,6 @@ internal extension SiteIndex {
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fontinlogo.com")
-            .queryURL(path: "/search?query=%s")
-        
-        Site("https://www.fordfound.org")
-            .queryURL(path: "/search/?q=%s&p=0")
-        
-        Site("https://footballfoundation.org")
-        
         /*
          // wavelength blog
         Site("https://www.focuscamera.com")
@@ -267,6 +259,9 @@ internal extension SiteIndex {
         
         Site("https://focushempco.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.fontinlogo.com")
+            .queryURL(path: "/search?query=%s")
                 
         Site("https://food52.com")
             .queryURL(path: "/recipes/search?q=%s")
@@ -289,6 +284,8 @@ internal extension SiteIndex {
         Site("https://www.footaction.com")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://footballfoundation.org")
+        
         Site("https://www.footlocker.com")
             .queryURL(path: "/search?query=%s")
         
@@ -297,9 +294,14 @@ internal extension SiteIndex {
         
         Site("https://www.ford.com")
             .queryURL(path: "/search/?f%3AsearchInputString=%s")
+        
+        Site("https://www.fordfound.org")
+            .queryURL(path: "/search/?q=%s&p=0")
                 
         Site("https://www.forever21.com")
             .queryURL(path: "/us/shop/Search/#brm-search?request_type=search&search_type=keyword&q=%s")
+        
+        Site("https://www.forhims.com")
         
         Site("https://forward.com")
             .queryURL(path: "/search/?q=%s")

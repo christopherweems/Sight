@@ -114,6 +114,10 @@ internal extension SiteIndex {
             .queryURL("/search/?q=%s")
         
         // #AH
+        
+        Site("https://www.ahava.com")
+            .queryURL(path: "/search/?q=%s")
+        
         // #AI
         
         Site("https://www.aia.org")
@@ -323,6 +327,9 @@ internal extension SiteIndex {
         Site("https://mbio.asm.org")
             .queryURL(path: "/search/%s")
         
+        Site("https://asphair.com")
+            .queryURL(path: "/us/?s=%s&post_type=product", locale: .unitedStates())
+        
         Site("https://www.astonmartin.com")
         
         Site("https://www.astrobrights.com")
@@ -400,6 +407,9 @@ internal extension SiteIndex {
         
         
         // #AX
+        
+        Site("https://www.axe.com")
+            .queryURL(path: "/us/en/search.html?q=%s&fq=&Locale=en_us&BrandName=axe", locale: .unitedStates())
         
         Site("https://www.axios.com")
         

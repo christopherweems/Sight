@@ -14,6 +14,9 @@ internal extension SiteIndex {
         // #B1
         // #BA
         
+        Site("https://www.babobotanicals.com")
+            .queryURL(path: "/search?type=product&q=%s")
+        
         Site("https://www.baidu.com")
             .queryURL(path: "/s?wd=%s")
         
@@ -108,6 +111,8 @@ internal extension SiteIndex {
         Site("https://www.bestusedtires.com")
             .queryURL(path: "/shop?search_query=%s")
         
+        Site("https://getbevel.com")
+        
         
         // #BF
         // #BG
@@ -127,6 +132,8 @@ internal extension SiteIndex {
         
         Site("https://bigten.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
+        
+        Site("https://mybillie.com")
         
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
@@ -151,6 +158,8 @@ internal extension SiteIndex {
         
         // #BL
         
+        Site("https://www.blackgirlsunscreen.com")
+        
         Site("https://www.blackheartgoldpants.com")
             .queryURL(path: "/search?q=%s")
         
@@ -161,6 +170,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://bleacherreport.com")
+
+        Site("https://www.blissworld.com")
+            .queryURL(path: "/search.php?search_query=%s")
         
         Site("https://www.blogger.com")
         

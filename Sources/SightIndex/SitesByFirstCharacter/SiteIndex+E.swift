@@ -140,6 +140,9 @@ internal extension SiteIndex {
         Site("https://www.elle.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.ellenlange.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.elmundo.es")
             .queryURL("https://ariadna.elmundo.es/buscador/archivo.html?q=%s&b_avanzada=")
         
