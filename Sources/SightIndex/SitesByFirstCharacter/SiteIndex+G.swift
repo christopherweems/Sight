@@ -196,6 +196,8 @@ internal extension SiteIndex {
         Site("https://git-scm.com")
             .queryURL(path: "/search/results?search=%s")
         
+        Site("https://www.git-tower.com")
+        
         Site("https://github.com")
             .queryURL(path: "/search?q=%s")
         
