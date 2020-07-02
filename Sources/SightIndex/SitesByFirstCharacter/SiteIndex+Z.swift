@@ -64,9 +64,7 @@ internal extension SiteIndex {
         
         Site("https://www.zillow.com")
             .queryURL(path: "/homes/%s_rb/")
-        
-        Site("https://shopzimba.com")
-        
+                
         Site("https://www.zinus.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         

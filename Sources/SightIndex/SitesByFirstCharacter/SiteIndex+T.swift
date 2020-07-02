@@ -308,6 +308,9 @@ internal extension SiteIndex {
         Site("https://thehockeynews.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://thehoneypot.co")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.thehut.com")
             .queryURL(path: "/elysium.search?search=%s")
         

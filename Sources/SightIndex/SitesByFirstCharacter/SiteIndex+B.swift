@@ -255,6 +255,8 @@ internal extension SiteIndex {
         Site("https://retail.bunn.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.burstoralcare.com")
+        
         Site("https://www.businessinsider.com")
             .queryURL(path: "/s?q=%s")
         

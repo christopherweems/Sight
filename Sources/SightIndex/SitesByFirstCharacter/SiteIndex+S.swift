@@ -312,6 +312,8 @@ internal extension SiteIndex {
         Site("https://shopvida.com")
             .queryURL(path: "/search?x=0&y=0&q=%s")
         
+        Site("https://shopzimba.com")
+        
         Site("https://www.shoutmeloud.com")
             .queryURL(path: "/?s=%s")
         
