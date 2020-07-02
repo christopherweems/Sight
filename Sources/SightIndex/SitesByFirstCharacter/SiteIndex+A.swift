@@ -77,6 +77,9 @@ internal extension SiteIndex {
         
         Site("https://www.adobe.com")
         
+        Site("https://www.adorama.com")
+            .queryURL(path: "/l/?searchinfo=%s")
+        
         Site("https://www.adorncosmetics.com.au")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -152,6 +155,9 @@ internal extension SiteIndex {
         
         Site("http://www.ala.org")
             .queryURL("https://cse.google.com/cse?cx=001695639812020286035%3Arukhncex72e&q=%s&gs_l=partner-generic.3...14532.14899.0.15003.5.5.0.0.0.0.121.164.3j1.4.0.csems%2Cnrl%3D13...0.296j29632j5...1.34.partner-generic..4.1.15.soIOG4XSMYk")
+        
+        Site("https://www.algolia.com")
+            .queryURL(path: "/search/?page=1&query=%s")
         
         Site("https://www.aliceandolivia.com")
             .queryURL(path: "/_1432941785433.html?term=%s")
