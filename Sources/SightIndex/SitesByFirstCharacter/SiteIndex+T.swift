@@ -84,6 +84,10 @@ internal extension SiteIndex {
         
         
         // #TB
+        
+        Site("https://www.tbr.edu")
+            .queryURL(path: "/search/google/%s")
+        
         // #TC
         
         Site("https://www.tcelectronic.com")

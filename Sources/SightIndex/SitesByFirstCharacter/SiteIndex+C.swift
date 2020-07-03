@@ -110,6 +110,9 @@ internal extension SiteIndex {
         Site("http://chattanoogacw.com")
             .queryURL(path: "/search?find=%s")
         
+        Site("https://www.chattanoogastate.edu")
+            .queryURL(path: "/search?search_api_views_fulltext=%s")
+        
         Site("https://www.cheaperhondaparts.com")
             .queryURL(path: "/search?search_str=%s")
         
@@ -167,6 +170,9 @@ internal extension SiteIndex {
         Site("https://www.cleveland.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.clevelandstatecc.edu")
+            .queryURL(path: "/search-results.html?q=%s")
+        
         Site("https://clickitupanotch.com")
             .queryURL(path: "/?s=%s")
         
@@ -216,6 +222,9 @@ internal extension SiteIndex {
         
         Site("https://www.colts.com")
             .queryURL(path: "/search/?query=%s")
+        
+        Site("https://www.columbiastate.edu")
+            .queryURL(path: "/search/index.html?q=%s#search/0/%s")
         
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")

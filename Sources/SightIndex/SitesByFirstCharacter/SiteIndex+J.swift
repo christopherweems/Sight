@@ -257,6 +257,9 @@ internal extension SiteIndex {
         // #JR
         // #JS
         
+        Site("https://www.jscc.edu")
+            .queryURL(path: "/search.html?cx=017141718176239819747%3A0cyu5nbk65g&cof=FORID%3A11&q=%s")
+        
         Site("https://jsonld.com")
         
         

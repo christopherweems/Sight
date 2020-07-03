@@ -307,6 +307,8 @@ internal extension SiteIndex {
         Site("https://norml.org")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.northeaststate.edu")
+        
         Site("https://www.northerntool.com")
             .queryURL(path: "/shop/tools/NTESearch?Ntt=%s")
         
@@ -331,6 +333,9 @@ internal extension SiteIndex {
         // #NQ
         // #NR
         // #NS
+        
+        Site("https://www.nscc.edu")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.nssf.org")
             .queryURL(path: "/?s=%s")

@@ -421,6 +421,9 @@ internal extension SiteIndex {
         
         // #WS
         
+        Site("https://ws.edu")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.wsj.com")
             .queryURL(path: "/search/term.html?KEYWORDS=%s")
         

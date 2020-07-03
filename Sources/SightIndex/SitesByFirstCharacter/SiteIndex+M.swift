@@ -512,6 +512,8 @@ internal extension SiteIndex {
         // #MR
         // #MS
         
+        Site("https://www.mscc.edu")
+        
         Site("https://msi.com")
             .queryURL("https://us.msi.com/search/%s")
         

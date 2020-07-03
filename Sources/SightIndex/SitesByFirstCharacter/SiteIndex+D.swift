@@ -376,6 +376,9 @@ internal extension SiteIndex {
         Site("https://ds18.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        Site("https://www.dscc.edu")
+            .queryURL(path: "/search/node/%s")
+        
         
         // #DT
         

@@ -174,6 +174,9 @@ internal extension SiteIndex {
         Site("https://www.volcom.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.volstate.edu")
+            .queryURL(path: "/search/node?keys=%s")
+        
         Site("https://www.vonage.com")
             .queryURL(path: "/search/?q=%s")
         

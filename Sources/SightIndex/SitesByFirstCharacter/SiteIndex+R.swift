@@ -255,6 +255,9 @@ internal extension SiteIndex {
         Site("https://www.roamans.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.roanestate.edu")
+            .queryURL(path: "/search/?for=%sf&x=0&y=0")
+        
         Site("https://roarkrevival.com")
             .queryURL(path: "/search?type=product&q=%s")
         

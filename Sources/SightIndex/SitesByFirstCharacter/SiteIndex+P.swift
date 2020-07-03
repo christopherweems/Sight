@@ -155,6 +155,9 @@ internal extension SiteIndex {
         Site("https://www.pei.org")
             .queryURL(path: "/search/google/%s")
         
+        Site("https://www.pstcc.edu")
+            .queryURL("https://cse.google.com/cse?cx=005148804205452695835:ws8nhplfodq&q=%s&gs_l=partner-generic.3...60123.60538.0.61043.0.0.0.0.0.0.0.0..0.0.csems%2Cnrl%3D13...0.289j28819j5...1.34.partner-generic..0.0.0.")
+        
         Site("https://www.penningtons.com")
             .queryURL(path: "/on/demandware.store/Sites-Penningtons_CA-Site/default/Search-Show?q=%s%3B")
         
