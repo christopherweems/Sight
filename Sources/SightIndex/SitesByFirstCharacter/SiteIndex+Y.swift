@@ -63,6 +63,8 @@ internal extension SiteIndex {
         Site("https://yesah.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://www.yesplz.coffee")
+        
         Site("http://yesto.com")
             .queryURL(path: "/?s=%s")
         
