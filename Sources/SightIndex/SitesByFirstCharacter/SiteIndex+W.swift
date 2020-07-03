@@ -310,6 +310,9 @@ internal extension SiteIndex {
         Site("https://www.wlu.edu")
             .queryURL(path: "/search/#stq=%s&stp=1")
         
+        Site("https://www.wlwt.com")
+            .queryURL(path: "/search?q=%s")
+        
         
         // #WM
         
