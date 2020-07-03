@@ -54,6 +54,12 @@ internal extension SiteIndex {
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
+        
+        // #CAR
+        
+        Site("https://careerkarma.com")
+            .queryURL(path: "/blog/?s=%s")
+        
         Site("https://www.carhartt.com")
             .queryURL(path: "/query/%s")
         
@@ -293,6 +299,10 @@ internal extension SiteIndex {
         Site("https://css-tricks.com")
             .queryURL(path: "/?s=%s")
         
+        // #CT
+        
+        Site("https://www.ctshirts.com")
+            .queryURL(path: "/us/search?q=%s&searchtype=text", locale: .unitedStates())
         
         // #CU
         

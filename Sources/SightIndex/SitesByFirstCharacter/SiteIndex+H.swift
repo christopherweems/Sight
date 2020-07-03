@@ -243,6 +243,9 @@ internal extension SiteIndex {
         Site("https://www.hockeymonkey.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.hodinkee.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://holdyourhaunches.com")
             .queryURL(path: "/search.php?search_query_adv=%s")
         

@@ -14,7 +14,7 @@ import SightIndex
 import class AppKit.NSWorkspace
 #endif
 
-struct PerformSearch: ParsableCommand {
+struct Describe: ParsableCommand {
     @Argument(help: "The site's authority (ex. apple.com).")
     var authority: String
     
@@ -64,7 +64,7 @@ struct PerformSearch: ParsableCommand {
     }
 }
 
-fileprivate extension PerformSearch {
+fileprivate extension Describe {
     var site: Site? { Site(authority: .init(stringLiteral: authority)) }
     
 }

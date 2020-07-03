@@ -91,6 +91,9 @@ internal extension SiteIndex {
         Site("https://www.bedbathandbeyond.com")
             .queryURL(path: "/store/s/%s")
         
+        Site("https://beebom.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://blog.beezwax.net")
             .queryURL(path: "/?s=%s")
         
