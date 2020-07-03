@@ -54,6 +54,9 @@ internal extension SiteIndex {
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
+        Site("https://www.casetify.com")
+            .queryURL(path: "/search/%s")
+        
         
         // #CAR
         
