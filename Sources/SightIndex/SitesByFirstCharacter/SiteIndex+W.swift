@@ -73,6 +73,9 @@ internal extension SiteIndex {
         
         // #WB
         
+        Site("https://www.wbbjtv.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.wbez.org")
         
         Site("https://wbhm.org")
@@ -167,6 +170,9 @@ internal extension SiteIndex {
         
         Site("https://westonbrands.com")
             .queryURL(path: "/search-results?search=%s")
+        
+        Site("https://www.westtnpbs.org")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.wetnwildbeauty.com")
             .queryURL(path: "/instantsearchplus/result/?q=%s")
@@ -294,6 +300,11 @@ internal extension SiteIndex {
         
         
         // #WK
+        
+        Site("https://www.wkno.org")
+            .queryURL(path: "/search/?q=%s")
+        
+        Site("https://wkpttv.com")
         
         Site("https://www.wkrn.com")
             .queryURL(path: "/?s=%s&submit=Search")

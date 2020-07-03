@@ -92,6 +92,9 @@ internal extension SiteIndex {
         Site("https://shop.tcm.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.tbn.org")
+            .queryURL(path: "/search?s=%s")
+        
         Site("https://tcrf.net")
             .queryURL(path: "/index.php?search=%s")
         

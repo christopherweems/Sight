@@ -111,6 +111,10 @@ internal extension SiteIndex {
         // #EI
         // #EJ
         // #EK
+        
+        Site("https://www.eku.edu")
+            .queryURL(path: "/search?as_q=%s")
+        
         // #EL
         
         Site("https://www.elago.com")

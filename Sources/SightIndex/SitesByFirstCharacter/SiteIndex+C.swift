@@ -101,6 +101,9 @@ internal extension SiteIndex {
         Site("https://www.charlotteobserver.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("http://chattanoogacw.com")
+            .queryURL(path: "/search?find=%s")
+        
         Site("https://www.cheaperhondaparts.com")
             .queryURL(path: "/search?search_str=%s")
         
@@ -307,6 +310,15 @@ internal extension SiteIndex {
         
         Site("https://www.cvs.com")
             .queryURL(path: "/search/?searchTerm=%s")
+        
+        // #CW
+        
+        Site("http://cw58.tv")
+            .queryURL(path: "/search?find=%s")
+        
+        // #CX
+        // #CY
+        // #CZ
         
     }
 }
