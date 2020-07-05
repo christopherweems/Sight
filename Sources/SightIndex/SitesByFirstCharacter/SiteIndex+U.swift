@@ -209,10 +209,15 @@ internal extension SiteIndex {
         Site("https://www.upi.com")
             .queryURL(path: "/search?ss=%s")
         
+        Site("https://upfaithandfamily.com")
+        
         Site("https://en.uptodown.com")
             .queryURL(path: "/mac/search/%s")
         
         Site("https://www.uptrends.com")
+        
+        Site("https://www.uptv.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #UQ

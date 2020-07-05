@@ -353,6 +353,9 @@ internal extension SiteIndex {
         Site("https://asphair.com")
             .queryURL(path: "/us/?s=%s&post_type=product", locale: .unitedStates())
         
+        Site("https://www.aspire.tv")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.astonmartin.com")
         
         Site("https://www.astrobrights.com")

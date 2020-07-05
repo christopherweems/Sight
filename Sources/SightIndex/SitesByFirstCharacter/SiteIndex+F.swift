@@ -333,6 +333,9 @@ internal extension SiteIndex {
         Site("https://www.fox26houston.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.fox5dc.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://foxiecosmetics.com")
             .queryURL(path: "/search?q=%s")
         

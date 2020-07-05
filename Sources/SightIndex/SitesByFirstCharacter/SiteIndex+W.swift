@@ -185,6 +185,9 @@ internal extension SiteIndex {
         Site("https://www.westtnpbs.org")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.weta.org")
+            .queryURL(path: "/search/google/%s")
+        
         Site("https://www.wetnwildbeauty.com")
             .queryURL(path: "/instantsearchplus/result/?q=%s")
         
@@ -239,6 +242,9 @@ internal extension SiteIndex {
         
         Site("https://www.whowhatwear.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.whut.org")
+            .queryURL(path: "/search-results/q-%s")
         
         
         // #WI
@@ -310,6 +316,9 @@ internal extension SiteIndex {
         
         Site("https://www.wjhl.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://wjla.com")
+            .queryURL(path: "/search?find=%s")
         
         
         // #WK
@@ -471,6 +480,9 @@ internal extension SiteIndex {
         
         Site("https://www.wuot.org")
             .queryURL(path: "/search/google/%s")
+        
+        Site("https://www.wusa9.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.wutc.org")
             .queryURL(path: "/search/google/%s")

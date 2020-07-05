@@ -67,6 +67,9 @@ internal extension SiteIndex {
         Site("https://www.47brand.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.4imprint.com")
+            .queryURL(path: "/search/%s")
+        
         Site("https://www.4wheelparts.com")
             .queryURL(path: "/s/_/?Ntt=%s")
         

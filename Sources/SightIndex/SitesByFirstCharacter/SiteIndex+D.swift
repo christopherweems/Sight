@@ -87,6 +87,9 @@ internal extension SiteIndex {
         Site("https://www.dcshoes.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://dcw50.com")
+            .queryURL(path: "/?s=%s&submit=")
+        
         
         // #DD
         // #DE

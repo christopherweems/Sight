@@ -88,6 +88,9 @@ internal extension SiteIndex {
         Site("https://www.nbcsports.com")
             .queryURL(path: "/search?search_api_views_fulltext=%s")
         
+        Site("https://www.nbcwashington.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #NC
         

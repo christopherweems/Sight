@@ -225,6 +225,8 @@ internal extension SiteIndex {
         
         Site("https://www.ionos.com")
         
+        Site("https://iontelevision.com")
+        
         
         // #IP
         

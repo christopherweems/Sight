@@ -169,6 +169,9 @@ internal extension SiteIndex {
         Site("https://www.tedbaker.com")
             .queryURL(path: "/us/search?text=%s")
         
+        Site("https://www.telemundowashingtondc.com")
+            .queryURL(path: "/?s=%s", locale: .unitedStates(language: .spanish))
+        
         Site("https://www.telescope.com")
             .queryURL(path: "/catalog/search.cmd?form_state=searchForm&siteCode=US&keyword=%s")
         
@@ -289,6 +292,8 @@ internal extension SiteIndex {
         
         
         // #THEE
+        
+        Site("http://www.theemptycup.org")
         
         Site("https://www.theenglishshavingcompany.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -822,6 +827,9 @@ internal extension SiteIndex {
         
         Site("https://www.tva.gov")
             .queryURL(path: "/Search-Results?vgnextkeyword=%s")
+        
+        Site("https://www.tvguide.com")
+            .queryURL(path: "/search/?keyword=%s")
         
         Site("https://tvline.com")
             .queryURL(path: "/results/#?q=%s")
