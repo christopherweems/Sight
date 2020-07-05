@@ -709,6 +709,8 @@ internal extension SiteIndex {
         Site("https://stratechery.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://streamable.com")
+        
         Site("http://linter.structured-data.org")
         
         Site("https://stryve.com")

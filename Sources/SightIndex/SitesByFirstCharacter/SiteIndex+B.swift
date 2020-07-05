@@ -285,6 +285,9 @@ internal extension SiteIndex {
         Site("https://www.businessinsider.com")
             .queryURL(path: "/s?q=%s")
         
+        Site("https://www.bustle.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.buxomcosmetics.com")
             .queryURL(path: "/search?q=%s")
         
