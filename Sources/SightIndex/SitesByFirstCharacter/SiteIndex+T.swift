@@ -70,6 +70,9 @@ internal extension SiteIndex {
         Site("https://tartecosmetics.com")
             .queryURL(path: "/en_US/search?q=%s")
         
+        Site("https://taskandpurpose.com")
+            .queryURL(path: "/search?query=%s")
+        
         Site("https://watch.tastemade.com")
             .queryURL(path: "/search?q=%s")
         
@@ -188,6 +191,9 @@ internal extension SiteIndex {
         Site("https://www.texasfootball.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.texastribune.org")
+            .queryURL(path: "/search/?q=%s")
+        
         
         // #TF
         // #TG
@@ -215,6 +221,8 @@ internal extension SiteIndex {
         Site("https://www.the-house.com")
             .queryURL(path: "/search.html?keywords=%s")
         
+        Site("https://the-ux-mini-course.com")
+        
         Site("https://the8-bit.com")
             .queryURL(path: "/?s=%s")
         
@@ -229,6 +237,8 @@ internal extension SiteIndex {
         
         Site("http://theamerican.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
+        
+        Site("https://theathleteshub.org")
         
         Site("https://theathletic.com")
             .queryURL(path: "/search/?query=%s")
@@ -282,6 +292,9 @@ internal extension SiteIndex {
         
         Site("https://www.theenglishshavingcompany.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://www.theepochtimes.com")
+            .queryURL(path: "/search/?q=%s")
         
         
         // #THEF
@@ -398,6 +411,9 @@ internal extension SiteIndex {
         Site("https://thepioneerwoman.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.theplanetarypress.com")
+            .queryURL(path: "/?s=%s")
+        
         // #THEQ
         // #THER
         
@@ -406,6 +422,9 @@ internal extension SiteIndex {
         
         Site("https://www.theringer.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://therising.co")
+            .queryURL(path: "/?s=%s")
         
         Site("https://thegrapevine.theroot.com")
             .queryURL(path: "/search?q=%s")
@@ -846,6 +865,8 @@ internal extension SiteIndex {
         
         Site("https://www.tymestyle.com")
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
+        
+        Site("https://www.typeform.com")
         
         Site("https://www.tysonfoods.com")
             .queryURL(path: "/search?search=%s")

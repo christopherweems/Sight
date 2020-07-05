@@ -49,6 +49,9 @@ internal extension SiteIndex {
         Site("https://www.nastygal.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://nativenewsonline.net")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.nationalgeographic.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -138,6 +141,9 @@ internal extension SiteIndex {
         Site("https://www.nevadaappeal.com")
             .queryURL(path: "/search-results/?q=%s")
         
+        Site("https://nevalleynews.org")
+            .queryURL(path: "/?s=%s&submit=Search")
+        
         Site("https://www.nevs.com")
         
         Site("https://www.newark.com")
@@ -180,6 +186,12 @@ internal extension SiteIndex {
         
         Site("https://newschannel9.com")
             .queryURL(path: "/search?find=%s")
+        
+        Site("https://newslit.org")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://www.newsmax.com")
+            .queryURL(path: "/search/#gsc.tab=0&gsc.q=%s&gsc.sort=date")
         
         Site("https://www.newsweek.com")
             .queryURL(path: "/search/site/%s")
@@ -289,6 +301,9 @@ internal extension SiteIndex {
         
         Site("https://www.nolo.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://nomadgoods.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://nomnompaleo.com")
             .queryURL(path: "/?s=%s")

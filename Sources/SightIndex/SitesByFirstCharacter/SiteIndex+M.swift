@@ -81,6 +81,8 @@ internal extension SiteIndex {
         Site("https://www.maidenform.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=277157&doorId=7&storeId=14301&catalogId=14551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s#facet:&productBeginIndex:0&orderBy:&pageView:&minPrice:&maxPrice:&pageSize:20&")
         
+        Site("https://mailchimp.com")
+        
         Site("https://www.makeupforever.com")
             .queryURL(path: "/us/en/search?q=%s")
         
@@ -175,6 +177,9 @@ internal extension SiteIndex {
         Site("https://mccallaaroundknoxville.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.mcclatchydc.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.mcdonalds.com")
             .queryURL(path: "/us/en-us/search-results.html?q=%s")
         
@@ -195,6 +200,8 @@ internal extension SiteIndex {
         
         Site("https://www.mead.com")
             .queryURL(path: "/mead/search?Ntt=%s")
+        
+        Site("https://meaww.com")
         
         Site("https://www.mecca.com.au")
             .queryURL(path: "/search?q=%s")
@@ -230,6 +237,9 @@ internal extension SiteIndex {
         
         Site("https://www.mentedcosmetics.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://meidastouch.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.merrell.com")
             .queryURL(path: "/US/en/search?q=%s")
@@ -454,6 +464,8 @@ internal extension SiteIndex {
         Site("https://www.motherjones.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.mothmaps.com")
+        
         Site("https://www.motor1.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -617,6 +629,9 @@ internal extension SiteIndex {
         
         Site("https://www.mysanantonio.com")
             .queryURL(path: "/search/?action=search&firstRequest=1&searchindex=solr&query=%s")
+        
+        Site("https://www.mystateline.com")
+            .queryURL(path: "/?s=%s&submit=")
         
         Site("https://www.mytheresa.com")
             .queryURL(path: "/en-us/catalogsearch/result/?q=%s")

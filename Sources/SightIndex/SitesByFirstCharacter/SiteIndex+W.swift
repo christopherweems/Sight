@@ -30,14 +30,22 @@ internal extension SiteIndex {
         
         Site("https://www.wandb.com")
         
+        Site("https://www.wantedinrome.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.wards.com")
             .queryURL(path: "/search/results/?q=%s")
+        
+        Site("https://wasabi.com")
         
         Site("http://www.washington.edu")
             .queryURL(path: "/search/?q=%s")
         
         Site("https://www.washingtonexaminer.com")
             .queryURL(path: "/search-result?q=%s")
+        
+        Site("https://washingtonmonthly.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.washingtonpost.com")
             .queryURL(path: "/newssearch/?query=%s")
@@ -62,6 +70,9 @@ internal extension SiteIndex {
         
         Site("https://www.wateroutfitters.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.watoday.com.au")
+            .queryURL(path: "/search?text=%s")
         
         Site("https://waveformpodcast.com")
         
@@ -277,6 +288,8 @@ internal extension SiteIndex {
         Site("https://www.wilsonsleather.com")
             .queryURL(path: "/search.do?query=%s")
         
+        Site("https://www.wingstop.com")
+        
         Site("https://www.wired.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -479,6 +492,9 @@ internal extension SiteIndex {
         
         Site("https://shop.wwe.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://www.wweek.com")
+            .queryURL(path: "/search/%s/?q=%s")
         
         // #WX
                                 

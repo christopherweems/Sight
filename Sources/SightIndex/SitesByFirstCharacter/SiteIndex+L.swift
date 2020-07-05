@@ -199,6 +199,8 @@ internal extension SiteIndex {
             .queryURL(path: "/jobs/search?keywords=%s")
         */
         
+        Site("https://www.linuxfoundation.org")
+        
         Site("https://www.lisacollinswerner.com")
         
         Site("https://www.literacyworldwide.org")
@@ -319,6 +321,8 @@ internal extension SiteIndex {
         
         Site("https://www.loveandoliveoil.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://lovehasnolabels.com")
         
         Site("https://www.lovemae.com.au")
             .queryURL(path: "/search?type=product&q=*%s*")

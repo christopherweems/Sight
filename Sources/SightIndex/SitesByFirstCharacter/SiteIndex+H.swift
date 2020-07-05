@@ -14,6 +14,8 @@ internal extension SiteIndex {
         // #H1
         // #HA
         
+        Site("https://haaalp.me")
+        
         Site("https://www.haband.com")
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
@@ -130,6 +132,9 @@ internal extension SiteIndex {
         // #HC
         // #HD
         // #HE
+        
+        Site("http://www.healthdata.org")
+            .queryURL(path: "/search?search_terms=%s")
                 
         Site("https://www.healthline.com")
             .queryURL(path: "/search?q1=%s")

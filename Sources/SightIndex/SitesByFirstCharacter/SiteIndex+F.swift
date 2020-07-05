@@ -251,6 +251,9 @@ internal extension SiteIndex {
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.followthemoney.org")
+            .queryURL(path: "/search-results/SearchForm?Search=%s")
+        
         /*
          // wavelength blog
         Site("https://www.focuscamera.com")

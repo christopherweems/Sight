@@ -37,6 +37,9 @@ internal extension SiteIndex {
         Site("https://www.abc.net.au")
             .queryURL("https://search-beta.abc.net.au/index.html?siteTitle=news#/?query=%s")
         
+        Site("https://www.abc10.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://abc13.com")
             .queryURL(path: "/search/?query=%s")
         
@@ -66,6 +69,9 @@ internal extension SiteIndex {
         
         Site("https://www.acouplecooks.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://actblue.com")
+            .queryURL("https://secure.actblue.com/directory?query=%s")
         
         Site("https://www.acura.com")
             .queryURL(path: "/search-results?q=%s")
@@ -126,11 +132,18 @@ internal extension SiteIndex {
         Site("https://www.aia.org")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://publishing.aip.org")
+            .queryURL(path: "/?s=%s&c=")
+        
         Site("https://www.airbnb.com")
             .queryURL(path: "/s/all?query=%s")
         
         
         // #AJ
+        
+        Site("https://www.ajc.com")
+            .queryURL(path: "/google-search/?q=%s")
+        
         // #AK
         
         Site("http://akaionline.co")
@@ -259,6 +272,8 @@ internal extension SiteIndex {
         Site("https://www.apa.org")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://apiscp.com")
+        
         Site("https://apnews.com")
                 
         Site("https://aphotoeditor.com")
@@ -302,6 +317,8 @@ internal extension SiteIndex {
         
         Site("https://www.art.com")
             .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")
+        
+        Site("https://www.artiba.org")
         
         Site("https://www.artistcraftsman.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

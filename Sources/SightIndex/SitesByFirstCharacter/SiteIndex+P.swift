@@ -391,6 +391,9 @@ internal extension SiteIndex {
         Site("https://www.proozy.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.propublica.org")
+            .queryURL(path: "/search?qss=%s")
+        
         
         // #PS
         

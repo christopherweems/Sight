@@ -213,6 +213,9 @@ internal extension SiteIndex {
         Site("https://orionmagazine.org")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.orlandosentinel.com")
+            .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+        
         Site("https://orlybeauty.com")
             .queryURL(path: "/search?q=%s")
         
@@ -268,6 +271,8 @@ internal extension SiteIndex {
         
         Site("https://www.outerknown.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        Site("https://www.outlookindia.com")
         
         Site("https://www.outsideonline.com")
             .queryURL(path: "/bcse/search/%s?keys=")

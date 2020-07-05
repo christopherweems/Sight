@@ -20,6 +20,9 @@ internal extension SiteIndex {
         Site("https://shop.eaglemoss.com")
             .queryURL(path: "/usa/search.aspx?id=%s", locale: .unitedStates())
         
+        Site("https://www.earlygame.com")
+            .queryURL(path: "/search?q=%s&page=1")
+        
         Site("https://www.earny.co")
         
         Site("https://www.eastbay.com")
@@ -191,6 +194,10 @@ internal extension SiteIndex {
         
         
         // #EO
+        
+        Site("https://www.eonline.com")
+        
+        
         // #EP
         
         Site("https://epa.gov")
@@ -323,6 +330,9 @@ internal extension SiteIndex {
         
         Site("https://www.expressnews.com")
             .queryURL(path: "/search/?action=search&query=%s&search=")
+        
+        Site("https://extractmag.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.extremetech.com")
             .queryURL(path: "/?s=%s")

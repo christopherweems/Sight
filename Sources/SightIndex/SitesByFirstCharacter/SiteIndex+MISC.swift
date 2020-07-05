@@ -47,6 +47,8 @@ internal extension SiteIndex {
         Site("https://34heritage.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://350colorado.org")
+        
         Site("https://www.3cx.com")
             .queryURL(path: "/?s=%s")
         

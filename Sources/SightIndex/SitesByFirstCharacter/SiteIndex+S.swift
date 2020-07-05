@@ -342,6 +342,9 @@ internal extension SiteIndex {
         Site("https://www.sigmaphoto.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.signiant.com")
+            .queryURL(path: "/search/#stq=%s&stp=1")
+        
         Site("https://www.signaturehardware.com")
             .queryURL(path: "/search/result/?q=%s")
         
@@ -462,6 +465,9 @@ internal extension SiteIndex {
         Site("https://www.smashingmagazine.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.smh.com.au")
+            .queryURL(path: "/search?text=%s")
+        
         Site("https://smile.amazon.com")
             .queryURL(path: "/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=%s")
         
@@ -484,6 +490,9 @@ internal extension SiteIndex {
         // #SN
         
         Site("https://www.snippetscience.com")
+        
+        Site("https://www.snowjoe.com")
+            .queryURL(path: "/pages/search-results?q=%s")
         
         
         // #SO
@@ -523,7 +532,10 @@ internal extension SiteIndex {
             .queryURL(path: "/en-us/search?q=%s")
         
         Site("https://www.sony.com")
-            .queryURL(path: "/search?query=%s&locale=en_US")
+            .queryURL(path: "/search?query=%s&locale=en_US", locale: .unitedStates())
+        
+        Site("https://www.soompi.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://soonersports.com")
             .queryURL(path: "/searchresults.aspx?q=%s")

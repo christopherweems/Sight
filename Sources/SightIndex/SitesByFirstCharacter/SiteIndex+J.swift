@@ -32,6 +32,9 @@ internal extension SiteIndex {
         Site("https://www.jaguars.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://jamanetwork.com")
+            .queryURL(path: "/searchresults?q=%s")
+        
         Site("https://shop.jamesperse.com")
             .queryURL(path: "/search#w=%s")
         
@@ -282,6 +285,9 @@ internal extension SiteIndex {
         
         Site("https://junoactive.com")
             .queryURL(path: "/search?type=product&q=%s*")
+        
+        Site("https://www.jurist.org")
+            .queryURL(path: "/site-search/?phrase=%s")
         
         Site("https://www.justfashionnow.com")
         

@@ -73,6 +73,10 @@ internal extension SiteIndex {
         // #ZK
         // #ZL
         // #ZM
+        
+        Site("https://www.zmescience.com")
+            .queryURL(path: "/?s=%s")
+        
         // #ZN
         // #ZO
         

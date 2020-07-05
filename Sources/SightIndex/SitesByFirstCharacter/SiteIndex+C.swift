@@ -105,6 +105,12 @@ internal extension SiteIndex {
         
         
         // #CE
+        // #CF
+        // #CG
+        
+        Site("https://www.cgtn.com")
+            .queryURL(path: "/search?keyword=%s")
+        
         // #CH
         
         Site("https://www.charlotteobserver.com")
@@ -197,7 +203,13 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?query=%s")
         
         Site("https://www.cnet.com")
-        .queryURL(path: "/search/?query=%s")
+            .queryURL(path: "/search/?query=%s")
+        
+        Site("https://cnn.com")
+            .queryURL("/search?q=%s")
+        
+        Site("https://cnnphilippines.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://cnz.to")
             .queryURL(path: "/?s=%s")
@@ -211,6 +223,9 @@ internal extension SiteIndex {
         Site("https://www.coca-cola.com")
         
         Site("https://codegiant.io")
+        
+        Site("https://www.colorado.edu")
+            .queryURL(path: "/today/search?cse=%s&op=Search")
         
         Site("https://collegefootballnews.com")
             .queryURL(path: "/?s=%s")
@@ -228,6 +243,9 @@ internal extension SiteIndex {
         
         Site("https://www.columbiastate.edu")
             .queryURL(path: "/search/index.html?q=%s#search/0/%s")
+        
+        Site("https://comicbook.com")
+            .queryURL(path: "/site/search/?View=Search&q=%s")
         
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")
@@ -318,6 +336,8 @@ internal extension SiteIndex {
         
         // #CU
         
+        Site("https://cubicle6.com")
+        
         Site("https://www.cultofmac.com")
             .queryURL(path: "/?s=%s")
         
@@ -340,6 +360,10 @@ internal extension SiteIndex {
         
         // #CX
         // #CY
+        
+        Site("https://cybernews.com")
+            .queryURL(path: "/?s=%s")
+        
         // #CZ
         
     }

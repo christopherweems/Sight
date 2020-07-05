@@ -12,6 +12,10 @@ internal extension SiteIndex {
     static var I = SiteSet {
         
         // #I1
+        
+        Site("https://www.i-programmer.info")
+            .queryURL(path: "/component/search/%s.html?ordering=&searchphrase=all")
+        
         // #IA
         
         Site("https://www.iabmfg.com")
@@ -157,6 +161,9 @@ internal extension SiteIndex {
         
         Site("https://www.info.com")
             .queryURL(path: "/serp?q=%s")
+        
+        Site("https://www.infoq.com")
+            .queryURL(path: "/search.action?queryString=%s&page=1&searchOrder=")
         
         Site("https://informationisbeautiful.net")
             .queryURL(path: "/beautifulnews/q/search:%s/")

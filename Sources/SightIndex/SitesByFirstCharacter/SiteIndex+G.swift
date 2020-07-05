@@ -30,6 +30,9 @@ internal extension SiteIndex {
         Site("https://gamefaqs.gamespot.com")
             .queryURL(path: "/search?game=%s")
         
+        Site("https://www.gamesindustry.biz")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.gameinformer.com")
             .queryURL(path: "/search?keyword=%s")
         
@@ -47,6 +50,9 @@ internal extension SiteIndex {
         
         Site("https://www.gamerankings.com")
             .queryURL(path: "/search.html?search=%s")
+        
+        Site("https://gamerant.com")
+            .queryURL(path: "/search/%s/")
         
         Site("https://www.gamerevolution.com")
             .queryURL(path: "/search-2?q=%s")
@@ -77,6 +83,9 @@ internal extension SiteIndex {
         
         Site("https://www.gardeners.com")
             .queryURL(path: "/search?q=%ssimplesearch=submit")
+        
+        Site("https://gardenmoz.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.gatorsports.com")
             .queryURL(path: "/?s=%s")
@@ -323,6 +332,8 @@ internal extension SiteIndex {
         Site("https://gopro.com")
             .queryURL(path: "/en/us/shop/search?q=%s")
         
+        Site("https://gosink.in")
+        
         Site("https://goumikids.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -330,6 +341,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://gourmet.bunn.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.govtrack.us")
             .queryURL(path: "/search?q=%s")
         
         

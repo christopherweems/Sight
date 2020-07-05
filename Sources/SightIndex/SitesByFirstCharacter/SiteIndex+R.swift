@@ -58,6 +58,9 @@ internal extension SiteIndex {
         Site("https://www.rand.org")
             .queryURL(path: "/search.html?query=%s")
         
+        Site("https://rapidcityjournal.com")
+            .queryURL(path: "/search/?sd=desc&l=25&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://www.ratchetandwrench.com")
             .queryURL(path: "/search?q=%s")
         
@@ -158,6 +161,9 @@ internal extension SiteIndex {
         
         Site("https://www.rescue.org")
             .queryURL(path: "/search/site/%s")
+        
+        Site("https://www.researchgate.net")
+            .queryURL(path: "/search/publication?q=%s")
         
         Site("http://resourcemagonline.com")
             .queryURL(path: "/?s=%s")
@@ -277,6 +283,8 @@ internal extension SiteIndex {
         
         Site("https://www.rockbottomgolf.com")
             .queryURL(path: "/search.php?search_query=%s")
+        
+        Site("https://www.rocketlabusa.com")
         
         Site("https://www.rockpapershotgun.com")
             .queryURL(path: "/search?q=%s")

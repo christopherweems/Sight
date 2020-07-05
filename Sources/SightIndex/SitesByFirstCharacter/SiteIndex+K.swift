@@ -90,6 +90,8 @@ internal extension SiteIndex {
         Site("https://www.kenzoparfums.com")
             .queryURL(path: "/en/search?search=%s")
         
+        Site("https://ketanbhatt.com")
+        
         Site("https://www.ketv.com")
             .queryURL(path: "/search?q=%s")
         
@@ -217,7 +219,12 @@ internal extension SiteIndex {
         Site("https://www.kohls.com")
             .queryURL(path: "/search.jsp?search=%s")
         
+        Site("https://www.kolotv.com")
+            .queryURL(path: "/search/?searchTerm=%s")
+        
         Site("https://www.komaks.com")
+        
+        Site("https://konghq.com")
         
         Site("https://www.kooding.com")
             .queryURL(path: "/search?idCategory=&search=%s")
@@ -248,6 +255,9 @@ internal extension SiteIndex {
         
         // #KS
         
+        Site("https://www.ksat.com")
+            .queryURL(path: "/search/?searchTerm=%s")
+        
         Site("https://www.ksdk.com")
             .queryURL(path: "/search?q=%s")
         
@@ -264,6 +274,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         // #KU
+        
+        Site("https://kuathletics.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.kuhl.com")
             .queryURL(path: "/search/?q=%s")

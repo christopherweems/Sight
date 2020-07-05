@@ -103,6 +103,9 @@ internal extension SiteIndex {
         Site("https://www.ultimate-guitar.com")
             .queryURL(path: "/search.php?search_type=title&value=%s")
         
+        Site("https://www.ultrasourceusa.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         
         // #UM
         
@@ -250,6 +253,9 @@ internal extension SiteIndex {
         
         Site("https://usedphotopro.com")
             .queryURL(path: "/catalogsearch/result/?cat=0&q=%s")
+        
+        Site("https://www.ushistory.org")
+            .queryURL(path: "/search.htm?cx=partner-pub-5172756923302683%3Ahh1axq5h51t&cof=FORID%3A10&ie=ISO-8859-1&q=%s&sa=Search")
         
         Site("https://www.uslsoccer.com")
             .queryURL(path: "/search-results.html?q=%s")

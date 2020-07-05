@@ -106,14 +106,13 @@ internal extension SiteIndex {
         Site("https://defensebrand.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://deliciousbrains.com")
+        
         Site("https://www.deliciouseveryday.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.democracynow.org")
             .queryURL(path: "/search?query=%s")
-        
-        Site("https://www.desmoinesregister.com")
-            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.denondj.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -129,6 +128,9 @@ internal extension SiteIndex {
         
         Site("https://www.desigual.com")
             .queryURL(path: "/en_US/search/?q=%s&lang=en_US")
+        
+        Site("https://www.desmoinesregister.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://dessy.com")
             .queryURL(path: "/textsearch.aspx?text=%s")
@@ -147,6 +149,9 @@ internal extension SiteIndex {
         
         Site("https://www.deuxpardeux.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
+        
+        Site("https://www.deviantart.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://dev.to")
             .queryURL(path: "/search?q=%s")
@@ -197,6 +202,9 @@ internal extension SiteIndex {
                 
         Site("https://digg.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://digit.fyi")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.digit.in")
         .queryURL(path: "/search/?keyword=%s")
@@ -258,6 +266,10 @@ internal extension SiteIndex {
             .queryURL(path: "/product-search?q=%s")
         
         // #DK
+        
+        Site("https://www.dkngstudios.com")
+            .queryURL(path: "/search?q=%s")
+        
         // #DL
         
         Site("https://dlink.com")

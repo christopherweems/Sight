@@ -41,8 +41,14 @@ internal extension SiteIndex {
         Site("https://www.bareminerals.com")
             .queryURL(path: "/on/demandware.store/Sites-BareMinerals_US_CA-Site/en_US/Search-Show?q=%s&lang=en_US", locale: .unitedStates())
         
+        Site("https://www.barnebys.com")
+            .queryURL(path: "/auctions/%s.html")
+        
         Site("https://www.barnesandnoble.com")
             .queryURL(path: "/s/%s")
+        
+        Site("https://www.barrons.com")
+            .queryURL(path: "/search?keyword=%s")
         
         Site("https://www.barstoolsports.com")
             .queryURL(path: "/search?page=1&query=%s")
@@ -65,6 +71,9 @@ internal extension SiteIndex {
         
         Site("https://www.bbc.com")
             .queryURL("https://www.bbc.co.uk/search?q=%s")
+        
+        Site("https://www.bbcnewsalerts.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.bbcgoodfood.com")
             .queryURL(path: "/search/recipes?query=%s")
@@ -97,6 +106,9 @@ internal extension SiteIndex {
         Site("https://blog.beezwax.net")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.behance.net")
+            .queryURL(path: "/search?search=%s")
+        
         Site("https://www.behr.com")
             .queryURL(path: "/consumer/search?s=%s")
         
@@ -124,6 +136,8 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         // #BH
+        
+        Site("https://bhave.sh")
         
         Site("https://www.bhcosmetics.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -201,7 +215,12 @@ internal extension SiteIndex {
         
         Site("https://www.boston.com")
         
+        Site("http://www.bostonsdeals.com")
+        
         Site("https://www.botabox.com")
+        
+        Site("https://www.boxofficepro.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #BR
