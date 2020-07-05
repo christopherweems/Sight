@@ -87,6 +87,8 @@ internal extension SiteIndex {
 
         // #LE
         
+        Site("https://learnappmaking.com")
+        
         Site("https://www.ledbury.com")
             .queryURL(path: "/search?type=product&q=%s*")
         

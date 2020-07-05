@@ -374,6 +374,8 @@ internal extension SiteIndex {
         Site("https://www.drinkhint.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://driveswiftreefer.com")
+        
         Site("https://www.drobo.com")
             .queryURL(path: "/?s=%s&submit=Search")
         

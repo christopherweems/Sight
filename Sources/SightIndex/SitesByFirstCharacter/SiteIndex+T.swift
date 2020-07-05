@@ -786,7 +786,13 @@ internal extension SiteIndex {
         Site("https://www.trwaftermarket.com")
             .queryURL(path: "/us/site-search-results/?query=%s")
         
+        Site("https://tryfi.com")
+        
         Site("https://tryhards.com")
+        
+        Site("https://tryshift.com")
+        
+        Site("https://www.tryswift.co")
         
         
         // #TS

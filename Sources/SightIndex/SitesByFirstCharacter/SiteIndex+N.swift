@@ -49,6 +49,8 @@ internal extension SiteIndex {
         Site("https://www.nastygal.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.natashatherobot.com")
+        
         Site("https://nativenewsonline.net")
             .queryURL(path: "/?s=%s")
         

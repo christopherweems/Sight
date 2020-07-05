@@ -243,6 +243,9 @@ internal extension SiteIndex {
         Site("https://www.joulesusa.com")
             .queryURL(path: "/search/?text=%s")
         
+        Site("https://www.journaldev.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.journeys.com")
             .queryURL(path: "/search?keywords=%s")
         

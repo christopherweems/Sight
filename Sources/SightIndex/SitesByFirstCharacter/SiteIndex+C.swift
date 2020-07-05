@@ -222,7 +222,11 @@ internal extension SiteIndex {
         
         Site("https://www.coca-cola.com")
         
+        Site("https://cocoacasts.com")
+        
         Site("https://codegiant.io")
+        
+        Site("https://codewithchris.com")
         
         Site("https://www.colorado.edu")
             .queryURL(path: "/today/search?cse=%s&op=Search")
