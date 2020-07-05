@@ -27,6 +27,9 @@ internal extension SiteIndex {
         
         Site("https://www.saddlebrookproperties.com")
         
+        Site("https://safelifedefense.com")
+            .queryURL(path: "/?s=%s&post_type=product")
+        
         Site("https://www.sagefinds.com")
             .queryURL(path: "/Search.aspx?txtSearch=%s")
         

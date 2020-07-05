@@ -329,6 +329,9 @@ internal extension SiteIndex {
         
         Site("https://www.northeaststate.edu")
         
+        Site("https://www.northernsafety.com")
+            .queryURL(path: "/Search?q=%s")
+        
         Site("https://www.northerntool.com")
             .queryURL(path: "/shop/tools/NTESearch?Ntt=%s")
         

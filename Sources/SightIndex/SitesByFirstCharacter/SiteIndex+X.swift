@@ -29,6 +29,8 @@ internal extension SiteIndex {
         // #XE
         // #XF
         
+        Site("https://www.xfinity.com")
+        
         Site("https://www.xfl.com")
             .queryURL(path: "/en-US/search?search=%s")
         
