@@ -44,6 +44,12 @@ internal struct ImportFile {
         let lines = _stringValue
             .split(separator: "\n", omittingEmptySubsequences: false)
             .prefix { !$0.hasPrefix("#") }
+            .map { line -> (url: String, language: String?) in
+                guard let commaIndex = line.firstIndex(of: ",") else { return (line, nil) }
+                return (line[..<commaIndex].asString(),
+                        line[commaIndex...].trimmingCharacters(in: .whitespaces + ","))
+            }
+            .map { $0.0 } // temporary, removes the language string we split in last map
         
         let sections = lines
             .split(separator: "", maxSplits: 1)
