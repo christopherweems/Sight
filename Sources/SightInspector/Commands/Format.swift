@@ -9,6 +9,7 @@ import ArgumentParser
 import Foundation
 import SightBuilder
 import SightIndex
+import unstandard
 
 struct Format: ParsableCommand {
     enum Error: Swift.Error {
@@ -32,11 +33,45 @@ struct Format: ParsableCommand {
         let importFileURL = URL(fileURLWithPath: importPath!)
         guard let importFile = ImportFile(contentsOf: importFileURL) else {
             throw Error.couldNotOpenImportFile
+            
         }
         
         // open non-prefixed urls
-        importFile.openSchemelessURLs()
-    
-    }
+        if importFile.hasSchemelessURLs {
+            importFile.openSchemelessURLs()
+            print("Fix schemeless urls first")
         
+        } else {
+            // print formatted strings
+            importFile.importReadySplitURLs(replacingTestQuery: replacementQuery)
+                .map { (root, queryPath) in
+                    var parts = [String]()
+                    
+                    parts += ["Site(\"\(root)\")"]
+                    
+                    if !queryPath.isEmpty {
+                        parts += ["    .queryURL(path: \"\(queryPath)\")"]
+                        
+                    }
+                    
+                    return parts.joined(separator: .newLine)
+                }
+                .printEach { $0 + "\n" }
+                
+        }
+    }
+}
+
+
+// MARK: - Helper Extensions
+
+extension String {
+    static var newLine: String { "\n" }
+    
+}
+
+extension Array {
+    func printEach(_ closure: (Element) -> String) {
+        self.forEach { print(closure($0)) }
+    }
 }
