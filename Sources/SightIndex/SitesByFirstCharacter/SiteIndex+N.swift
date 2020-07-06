@@ -243,6 +243,8 @@ internal extension SiteIndex {
         Site("https://www.nicandzoe.com")
             .queryURL(path: "/search.html?term=%s")
         
+        Site("https://nickpunt.com")
+        
         Site("https://www.nicolemiller.com")
             .queryURL(path: "/search?type=product&q=%s")
         

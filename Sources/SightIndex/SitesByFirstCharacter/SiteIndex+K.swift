@@ -16,6 +16,9 @@ internal extension SiteIndex {
         Site("https://www.k-deer.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
+        Site("https://www.k12.com")
+            .queryURL(path: "/search.html?query=%s")
+        
         
         // #KA
         

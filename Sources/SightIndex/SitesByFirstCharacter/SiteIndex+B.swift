@@ -147,6 +147,8 @@ internal extension SiteIndex {
         
         // #BI
         
+        Site("http://bible-api.com")
+        
         Site("https://bigten.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
                 
@@ -188,6 +190,12 @@ internal extension SiteIndex {
 
         Site("https://www.blissworld.com")
             .queryURL(path: "/search.php?search_query=%s")
+        
+        
+        // #BLOG
+        
+        Site("https://www.blog.google")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://www.blogger.com")
         
@@ -233,6 +241,9 @@ internal extension SiteIndex {
         
         Site("https://www.bristolmotorspeedway.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.brown.edu")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.browneyedbaker.com")
             .queryURL(path: "/search-results/?q=%s")

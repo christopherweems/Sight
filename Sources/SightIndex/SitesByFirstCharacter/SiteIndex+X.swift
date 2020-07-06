@@ -13,6 +13,9 @@ internal extension SiteIndex {
         
         // #X1
         // #XA
+        
+        Site("https://www.xataka.com.mx")
+        
         // #XB
         
         Site("https://www.xbox.com")

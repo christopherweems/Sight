@@ -429,6 +429,12 @@ internal extension SiteIndex {
         Site("https://ful.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #FUN
+        
+        Site("http://www.fundinguniverse.com")
+            .queryURL(path: "/company-histories/search/?q=%s")
+        
         Site("https://shop.funko.com")
             .queryURL(path: "/search?q=%s")
         

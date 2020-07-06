@@ -29,6 +29,9 @@ internal extension SiteIndex {
         Site("https://wiki.ubuntu.com")
         .queryURL(path: "/Home?action=fullsearch&context=180&value=%s&titlesearch=Titles")
         
+        Site("https://www.ubyssey.ca")
+            .queryURL(path: "/archive/?q=%s")
+        
         
         // #UC
         
@@ -94,6 +97,11 @@ internal extension SiteIndex {
         Site("https://www.ullapopken.com")
             .queryURL(path: "/search/%s/")
         
+        
+        // #ULI
+        
+        Site("http://www.ulisp.com")
+        
         Site("https://www.uloft.com")
             .queryURL(path: "/?s=%s&post_type=product")
         
@@ -142,6 +150,9 @@ internal extension SiteIndex {
         Site("https://www.uncommongoods.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #UND
+        
         Site("https://und.com")
             .queryURL(path: "/search/%s/")
         
@@ -157,11 +168,16 @@ internal extension SiteIndex {
         Site("https://theundefeated.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #UNDE
+        
         Site("https://www.underarmour.com")
             .queryURL(path: "/en-us/search?q=%s")
         
         Site("https://undercovermama.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://understandlegacycode.com")
         
         Site("https://www.uniformcity.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

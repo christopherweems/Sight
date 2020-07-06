@@ -207,6 +207,8 @@ internal extension SiteIndex {
         
         Site("https://www.lisacollinswerner.com")
         
+        Site("https://literaryreview.co.uk")
+        
         Site("https://www.literacyworldwide.org")
             .queryURL(path: "/search-results?indexCatalogue=fullsitesearch&searchQuery=%s")
         

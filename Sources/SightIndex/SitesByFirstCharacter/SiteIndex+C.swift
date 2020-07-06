@@ -53,10 +53,7 @@ internal extension SiteIndex {
         
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
-        
-        Site("https://www.casetify.com")
-            .queryURL(path: "/search/%s")
-        
+                
         
         // #CAR
         
@@ -66,8 +63,16 @@ internal extension SiteIndex {
         Site("https://www.carhartt.com")
             .queryURL(path: "/query/%s")
         
+        Site("https://carolchen.me")
+        
         Site("https://www.carparts.com")
         .queryURL(path: "/search?q=%s")
+        
+        
+        // #CASE
+        
+        Site("https://www.casetify.com")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.catofashions.com")
             .queryURL(path: "/all-products/browse/keyword/%s")
@@ -198,6 +203,8 @@ internal extension SiteIndex {
         
         // #CM
         
+        Site("https://www.cmgresearch.com")
+        
         Site("https://web-search.andrew.cmu.edu")
             .queryURL(path: "/search?entqr=3&entsp=a&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&client=default_frontend&ud=1&oe=UTF-8&ie=UTF-8&proxystylesheet=default_frontend&q=%s&site=")
         
@@ -234,6 +241,12 @@ internal extension SiteIndex {
         Site("https://codemirror.net")
         
         Site("https://codewithchris.com")
+        
+        
+        // #COL
+        
+        Site("https://colinkeeley.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.colorado.edu")
             .queryURL(path: "/today/search?cse=%s&op=Search")

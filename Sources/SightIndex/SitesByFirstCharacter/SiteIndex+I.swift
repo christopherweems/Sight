@@ -110,6 +110,9 @@ internal extension SiteIndex {
         
         
         // #IM
+        
+        Site("https://imaginary.org")
+            .queryURL(path: "/search/node/%s")
                 
         Site("https://www.imdb.com")
             .queryURL(path: "/find?q=%s")

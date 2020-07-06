@@ -19,6 +19,8 @@ internal extension SiteIndex {
         
         // #TA
         
+        Site("https://taaalk.co")
+        
         Site("https://www.tacobell.com")
             .queryURL(path: "/search?text=%s")
         
@@ -663,6 +665,8 @@ internal extension SiteIndex {
         
         Site("https://www.toddsnyder.com")
             .queryURL(path: "/search?type=product&q=%s*")
+        
+        Site("https://toffelblog.xyz")
         
         Site("http://www.tokyo-airport-bldg.co.jp")
             .queryURL(path: "/en/search/?q=%s")

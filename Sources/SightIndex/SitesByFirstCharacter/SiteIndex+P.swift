@@ -183,6 +183,8 @@ internal extension SiteIndex {
         Site("https://www.perryellis.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.persuasion.community")
+        
         Site("https://www.personalizationmall.com")
             .queryURL(path: "/search.aspx?sf=1&searchString=%s")
         
@@ -308,6 +310,11 @@ internal extension SiteIndex {
         
         Site("https://www.polygon.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #POK
+        
+        Site("https://www.pokerapi.dev")
         
         Site("https://pony.com")
             .queryURL(path: "/search?q=%s")

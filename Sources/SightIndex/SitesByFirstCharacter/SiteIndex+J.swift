@@ -32,6 +32,12 @@ internal extension SiteIndex {
         Site("https://www.jaguars.com")
             .queryURL(path: "/search/?query=%s")
         
+        
+        // #JAL
+        
+        Site("https://jalopnik.com")
+            .queryURL(path: "/search?blogId=12&q=%s")
+        
         Site("https://jamanetwork.com")
             .queryURL(path: "/searchresults?q=%s")
         
@@ -102,6 +108,9 @@ internal extension SiteIndex {
         Site("https://www.jeep.com")
             .queryURL(path: "/find/searchresults.html?q=%s&proxystylesheet=prod_jeep")
         
+        Site("https://www.jeffgeerling.com")
+            .queryURL(path: "/search?search_api_fulltext=%s")
+        
         Site("http://www.jegs.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/SearchResultsPageCmd?Ntt=%s")
         
@@ -113,6 +122,8 @@ internal extension SiteIndex {
         
         Site("https://www.jesrestaurantequipment.com")
             .queryURL(path: "/search.asp?keyword=%s")
+        
+        Site("http://jesseduffield.com")
         
         Site("https://www.jessicalondon.com")
             .queryURL(path: "/search?q=%s")

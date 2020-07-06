@@ -74,6 +74,8 @@ internal extension SiteIndex {
         Site("https://www.sandiegouniontribune.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.sandimetz.com")
+        
         Site("https://www.sanuk.com")
             .queryURL(path: "/search?q=%s")
         
@@ -150,7 +152,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         
-        // #SE
+        // #SEA
         
         Site("https://sea-conference.com")
         
@@ -192,6 +194,9 @@ internal extension SiteIndex {
         
         Site("https://seatgeek.com")
             .queryURL(path: "/search?f=1&search=%s")
+        
+        Site("https://www.seattletimes.com")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://www.secsports.com")
             .queryURL(path: "/search?q=%s")
@@ -236,6 +241,9 @@ internal extension SiteIndex {
         
         Site("https://www.shape.com")
             .queryURL(path: "/search/site/%s")
+        
+        Site("https://www.sharperimage.com")
+            .queryURL(path: "/si/view/category/Search/100209?trail=SRCH%3A%s")
         
         Site("https://www.sharkclean.com")
             .queryURL(path: "/search/?q=%s")
@@ -351,6 +359,9 @@ internal extension SiteIndex {
         Site("https://www.signaturehardware.com")
             .queryURL(path: "/search/result/?q=%s")
         
+        
+        // #SIL
+        
         Site("https://siliconangle.com")
             .queryURL(path: "/?s=%s")
         
@@ -358,6 +369,8 @@ internal extension SiteIndex {
         
         Site("https://www.silverjeans.com")
             .queryURL(path: "/us/search?q=%s")
+        
+        Site("https://simone.computer")
         
         Site("https://www.simonsaysstamp.com")
             .queryURL(path: "/search?currency=USD&q=%s")
@@ -446,6 +459,8 @@ internal extension SiteIndex {
         
         Site("https://sleefs.com")
             .queryURL(path: "/pages/search-results?findify_q=%s")
+        
+        Site("https://slidegame.io")
         
         Site("https://www.sltrib.com")
             .queryURL(path: "/search/%s/?q=%s")
@@ -616,8 +631,13 @@ internal extension SiteIndex {
         Site("https://www.sportsmansguide.com")
             .queryURL(path: "/productlist?k=%s")
         
+        
+        // #SPR
+        
         Site("https://www.sprinklebakes.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://spritesmods.com")
         
         Site("https://www.spyder.com")
             .queryURL(path: "/search?q=%s")
@@ -755,6 +775,9 @@ internal extension SiteIndex {
         Site("https://www.suave.com")
             .queryURL(path: "/us/en/search.html?q=%s")
         
+        Site("https://substack.com")
+            .queryURL(path: "/discover/%s")
+        
         Site("https://www.suck.uk.com")
             .queryURL(path: "/search/%s/")
         
@@ -832,6 +855,11 @@ internal extension SiteIndex {
         
         Site("https://www.swissdiamond.com")
             .queryURL(path: "/search?search=%s")
+        
+        
+        // #SWT
+        
+        Site("https://swtch.com")
         
         
         // #SX

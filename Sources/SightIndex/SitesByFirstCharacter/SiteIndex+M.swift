@@ -17,6 +17,8 @@ internal extension SiteIndex {
         
         // #MA
         
+        Site("https://mabez.dev")
+        
         Site("https://www.maccosmetics.com")
             .queryURL(path: "/esearch?search=%s")
         
@@ -430,6 +432,11 @@ internal extension SiteIndex {
         Site("https://mojospa.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #MON
+        
+        Site("https://mondaynote.com")
+        
         Site("https://www.monoprice.com")
             .queryURL(path: "/search/index?keyword=%s")
         
@@ -526,6 +533,9 @@ internal extension SiteIndex {
         
         Site("https://www.mrporter.com")
             .queryURL(path: "/en-us/mens/search/%s")
+        
+        Site("https://mprove.de")
+            .queryURL(path: "/about/search/index.html#gsc.tab=0&gsc.q=%s")
         
         
         // #MQ

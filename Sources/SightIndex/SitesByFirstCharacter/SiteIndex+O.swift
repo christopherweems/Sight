@@ -113,6 +113,9 @@ internal extension SiteIndex {
         
         Site("https://www.omen.com")
         
+        Site("https://www.omgubuntu.co.uk")
+            .queryURL(path: "/?s=%s")
+        
         
         // #ON
         
@@ -175,6 +178,8 @@ internal extension SiteIndex {
         
         Site("https://www.opensky.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://opensourc.es")
         
         Site("https://opensource.org")
             .queryURL(path: "/search/node/%s")

@@ -30,9 +30,12 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?q=%s")
         
         
-        // #AB
+        // #ABA
         
         Site("https://www.abaloveapothecary.com")
+        
+        
+        // #ABC
         
         Site("https://www.abc.net.au")
             .queryURL("https://search-beta.abc.net.au/index.html?siteTitle=news#/?query=%s")
@@ -291,6 +294,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://apollotyres.com")
+        
+        
+        // #APP
                 
         Site("https://forums.developer.apple.com")
             .queryURL(path: "/search.jspa?q=%s")
@@ -306,6 +312,8 @@ internal extension SiteIndex {
         
         Site("https://appleinsider.com")
             .queryURL(path: "/search/?query=%s")
+        
+        Site("https://applypixels.com")
         
         Site("https://cse.appstate.edu")
             .queryURL(path: "/?q=%s")
@@ -398,7 +406,13 @@ internal extension SiteIndex {
         Site("https://athlonsports.com")
             .queryURL(path: "/search/site/%s")
         
+        
+        // #ATL
+        
         Site("https://www.atlassian.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.atlasobscura.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.att.com")

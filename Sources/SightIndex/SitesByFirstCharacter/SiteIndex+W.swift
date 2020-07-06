@@ -150,6 +150,8 @@ internal extension SiteIndex {
         Site("https://www.webstaurantstore.com")
             .queryURL(path: "/search/%s.html")
         
+        Site("https://wedesoft.de")
+        
         Site("https://www.wedgwood.com")
             .queryURL(path: "/en-us/search-results-page?searchterm=%s", locale: .unitedStates())
         

@@ -37,10 +37,7 @@ internal extension SiteIndex {
         
         Site("https://www.dailystar.co.uk")
             .queryURL(path: "/search/?q=%s")
-        
-        Site("https://www.djournal.com")
-            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
-        
+                
         Site("https://www.dailykos.com")
             .queryURL(path: "/search?text=%s")
         
@@ -78,6 +75,11 @@ internal extension SiteIndex {
         Site("https://daringfireball.net")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #DATA
+        
+        Site("https://www.datarevenue.com")
+        
         Site("https://www.davidlebovitz.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -105,6 +107,8 @@ internal extension SiteIndex {
         
         Site("https://deadspin.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://debubble.me")
         
         Site("https://www.decibullz.com")
             .queryURL(path: "/search.php?search_query=%s")
@@ -274,6 +278,10 @@ internal extension SiteIndex {
         Site("https://store.dji.com")
             .queryURL(path: "/product-search?q=%s")
         
+        Site("https://www.djournal.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
+        
         // #DK
         
         Site("https://www.dkngstudios.com")
@@ -307,6 +315,10 @@ internal extension SiteIndex {
         Site("https://doiydesign.com")
             .queryURL(path: "/shop?s=%s&x=0&y=0")
         
+        
+        // #DL
+        
+        
         Site("https://dolcegabbana.com")
             .queryURL("https://us.dolcegabbana.com/en/search-results?q=%s#anchorBack", locale: .unitedStates())
         
@@ -321,6 +333,9 @@ internal extension SiteIndex {
         
         Site("https://www.dollywood.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://dolphin-emu.org")
+            .queryURL(path: "/blog/search/?pattern=%s")
         
         Site("https://www.don.com")
             .queryURL(path: "/search?criteria=%s")

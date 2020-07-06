@@ -72,6 +72,9 @@ internal extension SiteIndex {
         Site("https://www.ecmweb.com")
             .queryURL(path: "/search/node/%s")
         
+        Site("https://www.economist.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.ecosia.org")
             .queryURL(path: "/search?q=%s")
         
@@ -340,6 +343,12 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://www.extremetech.com")
+            .queryURL(path: "/?s=%s")
+        
+        
+        // #EXU
+        
+        Site("https://www.exurbe.com")
             .queryURL(path: "/?s=%s")
         
         

@@ -104,6 +104,11 @@ internal extension SiteIndex {
                 
         
         // #GC
+        
+        Site("https://www.gcu.edu")
+            .queryURL(path: "/search?q=%s")
+        
+        
         // #GD
         
         Site("https://gdfstudio.com")
@@ -351,6 +356,10 @@ internal extension SiteIndex {
         
         
         // #GP
+        
+        Site("https://www.gpbnews.org")
+            .queryURL(path: "/search/google/%s")
+        
         // #GQ
         
         Site("https://www.gq.com")
