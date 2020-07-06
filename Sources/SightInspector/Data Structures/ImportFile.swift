@@ -81,7 +81,7 @@ private extension ImportFile {
         let root = urlString[..<pathStartIndex].asString()
         let path = urlString[pathStartIndex...].asString()
         
-        return (root, path)
+        return (root, path == "/" ? "" : path)
     }
     
     func importURLStrings(replacingTestQuery query: String?) -> [String] {
