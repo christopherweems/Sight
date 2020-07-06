@@ -13,8 +13,20 @@ import AppKit
 
 
 internal struct ImportFile {
-    let searchURLStrings: [String]
-    let rootURLStrings: [String]
+    enum LineType: Hashable {
+        // all entries in first section (until first blank line)
+        // are considered ready for import
+        case importReady
+        
+        // all entries after first blank line will only be validated
+        case validateOnly
+        
+    }
+    
+    private(set) var urlStrings = [LineType: [String]]()
+    
+    
+    // MARK: - Initializers
     
     init?(contentsOf url: URL) {
         let _lines = try? String(contentsOf: url)
@@ -26,28 +38,35 @@ internal struct ImportFile {
         let sections = lines
             .split(separator: "", maxSplits: 1)
         
-        searchURLStrings = Array(sections[0])
-        rootURLStrings = (2 <= sections.count) ? Array(sections[1].filter { !$0.isEmpty }) : []
+        urlStrings[.importReady] = Array(sections[0])
+        
+        if 2 <= sections.count {
+            urlStrings[.validateOnly] = Array(sections[1].filter { !$0.isEmpty })
+            
+        } else {
+            urlStrings[.validateOnly] = []
+            
+        }
         
     }
 }
 
 extension ImportFile {
-    func searchURLStrings(replacingTestQuery query: String) -> [String] {
+    func importURLStrings(replacingTestQuery query: String) -> [String] {
         assert(!query.isEmpty)
         
-        return searchURLStrings
+        return urlStrings[.importReady, default: []]
             .map { $0.replacingOccurrences(of: query, with: "%s") }
     }
 }
 
 extension ImportFile {
     var hasSchemelessURLs: Bool {
-        rootURLStrings.contains { !$0.hasPrefix("http") }
+        urlStrings[.validateOnly]!.contains { !$0.hasPrefix("http") }
     }
     
     func openSchemelessURLs() {
-        rootURLStrings
+        urlStrings[.validateOnly]!
             .nonHTTPPrefixed
             .compactMap { URL(string: "https://\($0)") }
             .forEach(Self.open)
