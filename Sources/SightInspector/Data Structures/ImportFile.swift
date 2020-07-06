@@ -24,7 +24,7 @@ internal struct ImportFile {
         guard let lines = _lines else { return nil }
         
         let sections = lines
-            .split(separator: "",maxSplits: 1)
+            .split(separator: "", maxSplits: 1)
         
         searchURLStrings = Array(sections[0])
         rootURLStrings = (2 <= sections.count) ? Array(sections[1].filter { !$0.isEmpty }) : []
