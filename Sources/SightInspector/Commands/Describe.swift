@@ -65,6 +65,6 @@ struct Describe: ParsableCommand {
 }
 
 fileprivate extension Describe {
-    var site: Site? { Site(authority: .init(stringLiteral: authority)) }
+    var site: Site? { Site(authority: .init(stringLiteral: authority.trimmedToURLAuthority)) }
     
 }
