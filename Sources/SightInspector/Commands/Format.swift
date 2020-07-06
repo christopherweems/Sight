@@ -13,7 +13,6 @@ import unstandard
 
 struct Format: ParsableCommand {
     enum Error: Swift.Error {
-        case importFileNotSpecified
         case couldNotOpenImportFile
         
     }
@@ -25,12 +24,12 @@ struct Format: ParsableCommand {
     var replacementQuery: String?
     
     func validate() throws {
-        guard let _ = importPath else { throw Error.importFileNotSpecified }
         
     }
     
     func run() throws {
-        let importFileURL = URL(fileURLWithPath: importPath!)
+        let importFileURL = URL(fileURLWithPath: importPath ?? "sites.text")
+        
         guard let importFile = ImportFile(contentsOf: importFileURL) else {
             throw Error.couldNotOpenImportFile
             
