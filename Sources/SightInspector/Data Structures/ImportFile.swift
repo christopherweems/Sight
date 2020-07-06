@@ -33,6 +33,15 @@ internal struct ImportFile {
 }
 
 extension ImportFile {
+    func searchURLStrings(replacingTestQuery query: String) -> [String] {
+        assert(!query.isEmpty)
+        
+        return searchURLStrings
+            .map { $0.replacingOccurrences(of: query, with: "%s") }
+    }
+}
+
+extension ImportFile {
     var hasSchemelessURLs: Bool {
         rootURLStrings.contains { !$0.hasPrefix("http") }
     }
