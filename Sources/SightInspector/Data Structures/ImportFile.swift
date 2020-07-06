@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SightBuilder
 
 #if canImport(AppKit)
 import AppKit
@@ -25,6 +26,12 @@ internal struct ImportFile {
     
     private(set) var urlStrings = [LineType: [String]]()
     
+    func importReadySplitURLs(replacingTestQuery testQuery: String) -> [(root: String, queryPath: String)] {
+        self.importURLStrings(replacingTestQuery: testQuery)
+            .sightSorted()
+            .map(self.splitAtPath)
+    }
+    
     
     // MARK: - Initializers
     
@@ -38,10 +45,10 @@ internal struct ImportFile {
         let sections = lines
             .split(separator: "", maxSplits: 1)
         
-        urlStrings[.importReady] = Array(sections[0])
+        urlStrings[.importReady] = sections[0].filter { !$0.isEmpty }
         
         if 2 <= sections.count {
-            urlStrings[.validateOnly] = Array(sections[1].filter { !$0.isEmpty })
+            urlStrings[.validateOnly] = sections[1].filter { !$0.isEmpty }
             
         } else {
             urlStrings[.validateOnly] = []
@@ -51,15 +58,30 @@ internal struct ImportFile {
     }
 }
 
-extension ImportFile {
+private extension ImportFile {
+    static let authorityURLExtract = NSRegularExpression(#"https?://(?:www\.)?(.*?)/.*"#)
+    static let baseURLMatch = NSRegularExpression(#"(.*?)\.(.*?)\/"#)
+    
+    func splitAtPath(_ urlString: String) -> (root: String, path: String) {
+        let pathStartOffset = max(Self.baseURLMatch
+            .rangeOfFirstMatch(in: urlString, range: urlString._fullRange).upperBound - 1, 0)
+        
+        guard pathStartOffset + 1 != NSNotFound else { return (urlString, "") }
+        
+        let pathStartIndex = urlString.index(urlString.startIndex, offsetBy: pathStartOffset)
+        
+        let root = urlString[..<pathStartIndex].asString()
+        let path = urlString[pathStartIndex...].asString()
+        
+        return (root, path)
+    }
+    
     func importURLStrings(replacingTestQuery query: String) -> [String] {
         assert(!query.isEmpty)
         
-        let baseURLExpression = NSRegularExpression(#"(.*?)\.(.*?)\/"#)
-        
         return urlStrings[.importReady, default: []]
             .map {
-                let queryPartStartIndex = baseURLExpression
+                let queryPartStartIndex = Self.baseURLMatch
                     .rangeOfFirstMatch(in: $0, range: $0._fullRange).upperBound
                 
                 guard queryPartStartIndex != NSNotFound else { return $0 }
@@ -104,12 +126,29 @@ fileprivate extension Array where Element == String {
     }
     
     func sightSorted() -> Self {
-        sorted()
+        self.map {
+            ($0,
+             ImportFile.authorityURLExtract.stringByReplacingMatches(in: $0, options: [], range: $0._fullRange, withTemplate: "$1"))
+            }
+            .sorted { $0.1 < $1.1 }
+        .map { $0.0 }
     }
 }
 
 fileprivate extension String {
     var _fullRange: NSRange {
         .init(location: 0, length: (self as NSString).length)
+    }
+}
+
+fileprivate extension Site {
+    init(_ root: String, queryPath: String) {
+        if queryPath.isEmpty {
+            self = .init(root)
+        
+        } else {
+            self = Site(root).queryURL(path: queryPath)
+            
+        }
     }
 }
