@@ -56,7 +56,7 @@ struct Format: ParsableCommand {
                     
                     return parts.joined(separator: .newLine)
                 }
-                .printEach { $0 + "\n" }
+                .printEach { $0 + .newLine }
                 
         }
     }
