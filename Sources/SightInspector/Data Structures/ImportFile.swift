@@ -68,7 +68,6 @@ internal struct ImportFile {
 }
 
 private extension ImportFile {
-    static let authorityURLExtract = NSRegularExpression(#"https?://(?:www\.)?(.*?)/.*"#)
     static let baseURLMatch = NSRegularExpression(#"(.*?)\.(.*?)\/"#)
     
     func splitAtPath(_ urlString: String) -> (root: String, path: String) {
@@ -144,12 +143,15 @@ fileprivate extension Array where Element == String {
     }
     
     func sightSorted() -> Self {
-        self.map {
-            ($0,
-             ImportFile.authorityURLExtract.stringByReplacingMatches(in: $0, options: [], range: $0._fullRange, withTemplate: "$1"))
-            }
+        func extractAuthorityFromURL(_ urlString: String) -> String {
+            String.extractAuthorityFromURL
+                .stringByReplacingMatches(in: urlString, options: [],
+                                          range: urlString._fullRange, withTemplate: "$1")
+        }
+        
+        return self.map { ($0, extractAuthorityFromURL($0)) }
             .sorted { $0.1 < $1.1 }
-        .map { $0.0 }
+            .map { $0.0 }
     }
 }
 
