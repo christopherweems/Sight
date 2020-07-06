@@ -122,6 +122,21 @@ extension ImportFile {
     }
 }
 
+extension ImportFile {
+    func openValidationURLs() {
+        urlStrings[.validateOnly]!
+            .httpPrefixed
+            .compactMap { URL(string: $0) }
+            .wrap {
+                $0 + urlStrings[.validateOnly]!.nonHTTPPrefixed.compactMap {
+                    URL(string: $0)
+                }
+            }
+            .forEach(Self.open)
+    }
+}
+
+
 fileprivate extension ImportFile {
     static func open(_ url: URL) {
         #if canImport(AppKit)
