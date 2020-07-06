@@ -236,11 +236,17 @@ internal extension SiteIndex {
         Site("https://break.com")
         .queryURL(path: "/search?q=%s")
         
+        
+        // #BRI
+        
         Site("https://bricstore.com")
             .queryURL(path: "/?s=%s&post_type=product")
         
         Site("https://www.bristolmotorspeedway.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.britannica.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://www.brown.edu")
             .queryURL(path: "/search?q=%s")

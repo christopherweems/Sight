@@ -337,6 +337,9 @@ internal extension SiteIndex {
         
         // #SI
         
+        Site("https://americanhistory.si.edu")
+            .queryURL(path: "/site-search/%s")
+        
         Site("https://www.si.com")
             .queryURL(path: "/search?query=%s")
         

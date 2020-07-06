@@ -53,6 +53,9 @@ internal extension SiteIndex {
         
         Site("https://www.capitalgazette.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+        
+        Site("http://www.catalogueoflife.org")
+            .queryURL(path: "/col/search/all/key/%s/fossil/1/match/1")
                 
         
         // #CAR
@@ -268,6 +271,9 @@ internal extension SiteIndex {
         Site("https://www.columbiastate.edu")
             .queryURL(path: "/search/index.html?q=%s#search/0/%s")
         
+        
+        // #COM
+        
         Site("https://comicbook.com")
             .queryURL(path: "/site/search/?View=Search&q=%s")
         
@@ -279,6 +285,9 @@ internal extension SiteIndex {
         
         Site("https://www.computerworld.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://computerhistory.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://consequenceofsound.net")
             .queryURL(path: "/?s=%s")
@@ -370,6 +379,8 @@ internal extension SiteIndex {
         
         Site("https://www.cultofmac.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://curlie.org")
         
         Site("https://www.currantdaily.com")
             .queryURL(path: "/?s=%s")

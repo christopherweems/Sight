@@ -325,6 +325,12 @@ internal extension SiteIndex {
         
         Site("https://arbys.com")
         
+        
+        // #ARCH
+        
+        Site("https://archive.org")
+            .queryURL(path: "/search.php?query=%s")
+        
         Site("https://www.argotea.com")
             .queryURL(path: "/search?q=%s")
         
