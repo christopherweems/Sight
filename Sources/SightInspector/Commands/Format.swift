@@ -23,7 +23,7 @@ struct Format: ParsableCommand {
     @Option(name: .shortAndLong, help: "Path of import file")
     var `importPath`: String?
     
-    @Option(name: .shortAndLong, help: "The query used to discover the search page")
+    @Option(name: .shortAndLong, help: "Query used to discover a site's search page (replaced with %s)")
     var replacementQuery: String?
     
     func validate() throws {
