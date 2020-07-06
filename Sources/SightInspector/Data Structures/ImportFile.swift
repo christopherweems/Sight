@@ -7,6 +7,7 @@
 
 import Foundation
 import SightBuilder
+import unstandard
 
 #if canImport(AppKit)
 import AppKit
@@ -26,7 +27,7 @@ internal struct ImportFile {
     
     private(set) var urlStrings = [LineType: [String]]()
     
-    func importReadySplitURLs(replacingTestQuery testQuery: String) -> [(root: String, queryPath: String)] {
+    func importReadySplitURLs(replacingTestQuery testQuery: String?) -> [(root: String, queryPath: String)] {
         self.importURLStrings(replacingTestQuery: testQuery)
             .sightSorted()
             .map(self.splitAtPath)
@@ -76,18 +77,27 @@ private extension ImportFile {
         return (root, path)
     }
     
-    func importURLStrings(replacingTestQuery query: String) -> [String] {
-        assert(!query.isEmpty)
+    func importURLStrings(replacingTestQuery query: String?) -> [String] {
+        let urlStrings = self.urlStrings[.importReady, default: []]
         
-        return urlStrings[.importReady, default: []]
-            .map {
-                let queryPartStartIndex = Self.baseURLMatch
-                    .rangeOfFirstMatch(in: $0, range: $0._fullRange).upperBound
-                
-                guard queryPartStartIndex != NSNotFound else { return $0 }
-                let queryPartRange = $0.index($0.startIndex, offsetBy: queryPartStartIndex)..<$0.endIndex
-                
-                return $0.replacingOccurrences(of: query, with: "%s", range: queryPartRange) }
+        if let query = query, !query.isEmpty {
+            return urlStrings
+                .map {
+                    let queryPartStartIndex = Self.baseURLMatch
+                        .rangeOfFirstMatch(in: $0, range: $0._fullRange).upperBound
+                    
+                    guard queryPartStartIndex != NSNotFound else { return $0 }
+                    let queryPartRange = $0.index($0.startIndex, offsetBy: queryPartStartIndex)..<$0.endIndex
+                    
+                    return $0.replacingOccurrences(of: query, with: "%s", range: queryPartRange)
+                }
+            
+        } else {
+            return urlStrings
+            
+        }
+        
+        
     }
 }
 
