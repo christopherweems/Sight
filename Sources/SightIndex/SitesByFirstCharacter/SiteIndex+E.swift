@@ -31,6 +31,8 @@ internal extension SiteIndex {
         Site("https://www.eastdane.com")
             .queryURL(path: "/s/products?query=%s")
         
+        Site("https://www.eastidahonews.com")
+        
         Site("http://www.easttennesseepbs.org")
             .queryURL(path: "/search/?q=%s")
         
@@ -327,6 +329,9 @@ internal extension SiteIndex {
         
         Site("https://www.express.com")
             .queryURL(path: "/exp/search?q=%s")
+        
+        Site("https://www.express.co.uk")
+            .queryURL(path: "/search?s=%s")
         
         Site("https://www.expressnews.com")
             .queryURL(path: "/search/?action=search&query=%s&search=")

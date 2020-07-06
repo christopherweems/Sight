@@ -261,6 +261,9 @@ internal extension SiteIndex {
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")
         
+        Site("https://www.complex.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.computerworld.com")
             .queryURL(path: "/search?q=%s")
         
@@ -287,6 +290,9 @@ internal extension SiteIndex {
         
         Site("https://www.cosabella.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
+        
+        Site("https://www.cosmopolitan.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.costco.com")
             .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")

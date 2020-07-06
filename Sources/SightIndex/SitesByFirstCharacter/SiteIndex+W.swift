@@ -200,6 +200,9 @@ internal extension SiteIndex {
         
         // #WF
         
+        Site("https://www.wfaa.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("http://www.wfu.edu")
             .queryURL(path: "/search/?q=%s")
         
@@ -448,6 +451,9 @@ internal extension SiteIndex {
         
         Site("https://www.wsj.com")
             .queryURL(path: "/search/term.html?KEYWORDS=%s")
+        
+        Site("https://www.wsoctv.com")
+            .queryURL(path: "/search/%s/1/")
         
         Site("https://www.wssu.edu")
             .queryURL(path: "/search.html?query=%s&mode=&opts=&pr=searchwssu&dropXSL=html&sq=&prox=page&rorder=500&rprox=500&rdfreq=500&rwfreq=500&rlead=500&rdepth=0&sufs=0&order=r")

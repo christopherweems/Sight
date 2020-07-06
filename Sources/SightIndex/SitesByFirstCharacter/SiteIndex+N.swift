@@ -181,6 +181,9 @@ internal extension SiteIndex {
         Site("https://newrepublic.com")
             .queryURL(path: "/search?search=%s")
         
+        Site("https://www.news.com.au")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.news24.com")
             .queryURL(path: "/search?q=%s")
         
@@ -323,6 +326,9 @@ internal extension SiteIndex {
         
         Site("https://www.nordstromrack.com")
             .queryURL(path: "/shop/search?query=%s")
+        
+        Site("https://www.nola.com")
+            .queryURL(path: "/search/?l=25&s=start_time&sd=desc&f=html&t=&app=editorial&nsa=eedition&q=%s")
         
         Site("https://norml.org")
             .queryURL(path: "/?s=%s")

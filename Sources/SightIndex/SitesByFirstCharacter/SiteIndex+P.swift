@@ -312,6 +312,9 @@ internal extension SiteIndex {
         Site("https://pony.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://popculture.com")
+            .queryURL(path: "/site/search/?View=Search&q=%s")
+        
         Site("https://www.popjustice.com")
             .queryURL(path: "/?s=%s")
         

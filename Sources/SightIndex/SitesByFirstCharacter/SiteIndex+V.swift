@@ -14,6 +14,8 @@ internal extension SiteIndex {
         // #V1
         // #VA
         
+        Site("https://valhalladsp.com")
+        
         Site("https://vanguard.com")
             .queryURL("https://investor.vanguard.com/search/?query=%s")
         

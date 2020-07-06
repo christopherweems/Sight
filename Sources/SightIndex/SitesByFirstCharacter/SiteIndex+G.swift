@@ -334,6 +334,9 @@ internal extension SiteIndex {
         
         Site("https://gosink.in")
         
+        Site("https://gothamist.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://goumikids.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -376,6 +379,9 @@ internal extension SiteIndex {
         
         Site("https://www.greenmangaming.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://www.greenvilleonline.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.grunt.com")
             .queryURL(path: "/search?type=product&q=%s")

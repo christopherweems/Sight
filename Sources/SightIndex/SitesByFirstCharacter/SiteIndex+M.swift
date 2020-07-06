@@ -142,6 +142,8 @@ internal extension SiteIndex {
         Site("https://www.matchesfashion.com")
             .queryURL(path: "/us/search/?text=%s")
         
+        Site("https://matrix.org")
+        
         Site("https://www.mattressfirm.com")
             .queryURL(path: "/search?q=%s")
         
@@ -206,6 +208,9 @@ internal extension SiteIndex {
         Site("https://www.mecca.com.au")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.mediaite.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.medicalnewstoday.com")
             .queryURL(path: "/search?q=%s")
         
@@ -240,6 +245,9 @@ internal extension SiteIndex {
         
         Site("https://meidastouch.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.mercurynews.com")
+            .queryURL(path: "/?s=%s&orderby=date&order=desc")
         
         Site("https://www.merrell.com")
             .queryURL(path: "/US/en/search?q=%s")
@@ -563,9 +571,6 @@ internal extension SiteIndex {
         
         Site("https://www.munich-airport.com")
             .queryURL(path: "/search-results-75585?search_form_presenter%5Bcommit%5D=1&search_form_presenter%5Bsearch_term%5D=%s")
-        
-        Site("https://www.mercurynews.com")
-            .queryURL(path: "/?s=%s&orderby=date&order=desc")
         
         Site("https://www.musclemilk.com")
         

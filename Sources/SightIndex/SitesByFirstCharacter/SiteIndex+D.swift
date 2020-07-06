@@ -32,6 +32,12 @@ internal extension SiteIndex {
         Site("https://dailycaller.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.dailyherald.com")
+            .queryURL(path: "/search/?query=%s")
+        
+        Site("https://www.dailystar.co.uk")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.djournal.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         

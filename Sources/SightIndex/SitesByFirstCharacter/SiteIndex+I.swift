@@ -182,8 +182,14 @@ internal extension SiteIndex {
         Site("https://www.inquirer.com")
             .queryURL(path: "/search/%s/score/?searchKeywords=%s")
         
+        
+        // #INS
+        
         Site("https://www.insideedition.com")
             .queryURL(path: "/search?keywords=%s")
+        
+        Site("https://www.insidehook.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://insideofknoxville.com")
         

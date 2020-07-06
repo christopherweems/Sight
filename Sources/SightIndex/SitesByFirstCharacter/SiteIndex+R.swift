@@ -183,6 +183,9 @@ internal extension SiteIndex {
         Site("https://www.reuters.com")
             .queryURL(path: "/search/news?blob=%s")
         
+        Site("https://www.reviewjournal.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.reynspooner.com")
             .queryURL(path: "/search?q=%s")
         

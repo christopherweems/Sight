@@ -182,12 +182,14 @@ internal extension SiteIndex {
         Site("https://www.lindtusa.com")
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
         
-        Site("http://www.linensbargains.com")
-            .queryURL(path: "/nsearch.html?vwcatalog=yhst-66793626610370&query=%s&x=0&y=0")
-        
         Site("https://line.me")
         
+        Site("http://www.linensbargains.com")
+            .queryURL(path: "/nsearch.html?vwcatalog=yhst-66793626610370&query=%s&x=0&y=0")
+                
         Site("https://www.lines.com")
+        
+        Site("https://www.linewize.com")
         
         Site("https://www.linex.com")
             .queryURL(path: "/search?q=%s")
@@ -359,6 +361,9 @@ internal extension SiteIndex {
         
         Site("https://lugz.com")
             .queryURL(path: "/?s=%s&post_type=product")
+        
+        Site("https://www.luisaviaroma.com")
+            .queryURL(path: "/en-us/shop/women/search?lvrid=_gw_f&noredirect=1&search=%s", locale: .unitedStates())
         
         Site("https://www.luluandgeorgia.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")

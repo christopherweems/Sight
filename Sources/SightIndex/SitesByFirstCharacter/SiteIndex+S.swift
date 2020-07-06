@@ -582,6 +582,8 @@ internal extension SiteIndex {
         Site("https://www.speckproducts.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://spectator.us")
+        
         Site("https://enterprise.spectrum.com")
             .queryURL(path: "/support/search.html?search-q=%s")
         
@@ -659,6 +661,9 @@ internal extension SiteIndex {
         Site("http://www.stanstedairport.com")
             .queryURL(path: "/search?searchTerm=%s")
         
+        Site("https://www.staradvertiser.com")
+            .queryURL(path: "/search/%s/?s=%s")
+        
         Site("https://starmagazine.com")
             .queryURL(path: "/search/?search=%s")
         
@@ -667,6 +672,9 @@ internal extension SiteIndex {
         
         Site("https://www.starvinartist.com")
             .queryURL(path: "/search.aspx?SearchTerm=%s")
+        
+        Site("https://www.statnews.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://statecashmere.com")
             .queryURL(path: "/search?q=%s")

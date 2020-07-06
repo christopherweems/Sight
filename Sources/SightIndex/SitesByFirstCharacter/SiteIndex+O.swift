@@ -46,6 +46,9 @@ internal extension SiteIndex {
         Site("https://www.ocm.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.ocregister.com")
+            .queryURL(path: "/?s=%s&orderby=date&order=desc")
+        
         
         // #OD
         

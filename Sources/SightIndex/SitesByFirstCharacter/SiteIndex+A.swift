@@ -46,6 +46,9 @@ internal extension SiteIndex {
         Site("https://www.abc15.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://abc7chicago.com")
+            .queryURL(path: "/search/?query=%s")
+        
         Site("https://abc7ny.com")
             .queryURL(path: "/search/?query=%s")
         
@@ -180,6 +183,9 @@ internal extension SiteIndex {
         Site("https://www.aljazeera.com")
             .queryURL(path: "/Search/?q=%s")
         
+        
+        // #ALL
+        
         Site("https://www.allaboutcircuits.com")
             .queryURL(path: "/search?q=%s")
         
@@ -187,6 +193,8 @@ internal extension SiteIndex {
         
         Site("https://www.allbeauty.com")
             .queryURL(path: "/us/en/search/?q=%s", locale: .unitedStates())
+        
+        Site("https://www.allbirds.com")
         
         Site("https://www.allrecipes.com")
             .queryURL(path: "/search/results/?wt=%s&sort=re")

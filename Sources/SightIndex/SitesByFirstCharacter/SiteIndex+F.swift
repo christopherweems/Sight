@@ -235,6 +235,9 @@ internal extension SiteIndex {
         Site("https://www.flooranddecor.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.floridatoday.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://flos.com")
             .queryURL("https://usa.flos.com/search-results-page?q=%s", locale: .unitedStates())
         

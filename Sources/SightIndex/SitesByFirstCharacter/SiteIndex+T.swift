@@ -249,6 +249,10 @@ internal extension SiteIndex {
         Site("https://www.theatlantic.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.theaustralian.com.au")
+            .queryURL(path: "/search-results?q=%s")
+
+        
         
         // #THEB
         
@@ -262,6 +266,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://thebigorangepress.com")
+        
+        Site("https://theblast.com")
+            .queryURL(path: "/?keyword=%s")
         
         Site("https://www.theblaze.com")
             .queryURL(path: "/search/?q=%s")
@@ -377,11 +384,14 @@ internal extension SiteIndex {
         
         
         // #THEM
-        
-        Site("https://themyersfirm.com")
+                
+        Site("https://www.themoscowtimes.com")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.themountain.com")
             .queryURL(path: "/search?search_query=%s")
+        
+        Site("https://themyersfirm.com")
         
         
         // #THEN
@@ -427,6 +437,9 @@ internal extension SiteIndex {
         
         Site("https://www.therams.com")
             .queryURL(path: "/search/?query=%s")
+        
+        Site("https://therealdeal.com")
+            .queryURL(path: "/miami/search/?q=%s")
         
         Site("https://www.theringer.com")
             .queryURL(path: "/search?q=%s")
@@ -506,7 +519,7 @@ internal extension SiteIndex {
             .queryURL(path: "/us/search?text=%s")
         
         Site("https://www.thewrap.com")
-        
+            .queryURL(path: "/?s=%s")
         
         // #THEX
         // #THEY
@@ -713,11 +726,17 @@ internal extension SiteIndex {
         Site("https://www.tous.com")
             .queryURL(path: "/us-en/?q=%s")
         
+        
+        // #TOW
+        
         Site("https://www.towleroad.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.townandcountrymag.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://townhall.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://toyota.com")
             .queryURL("https://site-search.toyota-global.com/en_all/search.x?q=%s")
