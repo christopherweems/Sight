@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    private static let stripHTTP_WWW = NSRegularExpression(#"https?:\/\/(?:www\.)?(.*?)(\/|$)"#)
+    internal static let stripHTTP_WWW = NSRegularExpression(#"https?:\/\/(?:www\.)?(.*?)(\/|$)"#)
     
     var trimmedToURLAuthority: String {
         Self.stripHTTP_WWW.stringByReplacingMatches(in: self, options: [],
