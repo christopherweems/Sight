@@ -8,11 +8,14 @@
 import Foundation
 
 extension String {
-    internal static let stripHTTP_WWW = NSRegularExpression(#"https?:\/\/(?:www\.)?(.*?)(\/|$)"#)
+    static let extractAuthorityFromURL = NSRegularExpression(#"https?:\/\/(?:www\.)?(.*?)(\/|$)"#)
+    
+    @available(*, deprecated)
+    internal static let stripHTTP_WWW = extractAuthorityFromURL
     
     var trimmedToURLAuthority: String {
-        Self.stripHTTP_WWW.stringByReplacingMatches(in: self, options: [],
-                                                    range: _fullRange, withTemplate: "$1")
+        Self.extractAuthorityFromURL.stringByReplacingMatches(in: self, options: [],
+                                                              range: _fullRange, withTemplate: "$1")
     }
 }
 
