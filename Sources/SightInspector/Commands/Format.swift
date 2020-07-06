@@ -23,6 +23,9 @@ struct Format: ParsableCommand {
     @Option(name: .shortAndLong, help: "Query used to discover site's search page")
     var replacementQuery: String?
     
+    @Flag(name: [.customShort("o"), .customLong("open-validation-urls")], help: "Open all urls in browser after first group.")
+    var openValidationURLs = false
+    
     func validate() throws {
         
     }
@@ -32,6 +35,11 @@ struct Format: ParsableCommand {
         
         guard let importFile = ImportFile(contentsOf: importFileURL) else {
             throw Error.couldNotOpenImportFile
+            
+        }
+        
+        if openValidationURLs {
+            importFile.openValidationURLs()
             
         }
         
