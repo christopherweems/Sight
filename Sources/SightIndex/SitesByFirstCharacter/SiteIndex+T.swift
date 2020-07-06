@@ -246,6 +246,9 @@ internal extension SiteIndex {
         Site("https://theathletic.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("https://www.theatlantic.com")
+            .queryURL(path: "/search/?q=%s")
+        
         
         // #THEB
         

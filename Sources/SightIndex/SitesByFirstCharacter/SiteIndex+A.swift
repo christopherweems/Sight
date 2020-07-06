@@ -232,6 +232,9 @@ internal extension SiteIndex {
         
         // #AN
         
+        Site("https://www.anandtech.com")
+            .queryURL(path: "/SearchResults?q=%s")
+        
         Site("https://www.anchorbooks.com")
         
         Site("https://andrewingram.net")
@@ -334,7 +337,13 @@ internal extension SiteIndex {
         
         Site("https://www.artsupplywarehouse.com")
             .queryURL(path: "/inet/storefront/store.php?mode=searchstore&search%5Bsearchfor%5D=%s")
-                
+        
+        Site("https://www.artsy.net")
+            .queryURL(path: "/search?term=%s")
+        
+        Site("https://arxiv.org")
+            .queryURL(path: "/search/?query=%s&searchtype=all&source=header")
+        
         
         // #AS
                 

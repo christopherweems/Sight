@@ -492,6 +492,9 @@ internal extension SiteIndex {
 
         // #SN
         
+        Site("https://www.snhu.edu")
+            .queryURL(path: "/search?ss360Query=%s")
+        
         Site("https://www.snippetscience.com")
         
         Site("https://www.snowjoe.com")

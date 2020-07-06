@@ -171,6 +171,8 @@ internal extension SiteIndex {
         Site("https://informationweek.com")
             .queryURL(path: "/search.asp?q=%s")
         
+        Site("https://infrequently.org")
+        
         Site("https://www.ingridandisabel.com")
             .queryURL(path: "/pages/search-results?q=%s")
         

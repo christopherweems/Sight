@@ -105,6 +105,11 @@ internal extension SiteIndex {
         
         
         // #CE
+        
+        Site("https://www.cell.com")
+            .queryURL(path: "/action/doSearch?searchType=quick&searchText=%s&searchScope=fullSite&occurrences=all&code=cell-site")
+        
+        
         // #CF
         // #CG
         
@@ -225,6 +230,8 @@ internal extension SiteIndex {
         Site("https://cocoacasts.com")
         
         Site("https://codegiant.io")
+        
+        Site("https://codemirror.net")
         
         Site("https://codewithchris.com")
         
