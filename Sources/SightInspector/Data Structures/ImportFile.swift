@@ -37,11 +37,13 @@ internal struct ImportFile {
     // MARK: - Initializers
     
     init?(contentsOf url: URL) {
-        let _lines = try? String(contentsOf: url)
+        guard let _stringValue = try? String(contentsOf: url) else { return nil }
+        
+        guard !_stringValue.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else { return nil }
+        
+        let lines = _stringValue
             .split(separator: "\n", omittingEmptySubsequences: false)
             .prefix { !$0.hasPrefix("#") }
-        
-        guard let lines = _lines else { return nil }
         
         let sections = lines
             .split(separator: "", maxSplits: 1)
