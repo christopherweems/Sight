@@ -55,8 +55,17 @@ extension ImportFile {
     func importURLStrings(replacingTestQuery query: String) -> [String] {
         assert(!query.isEmpty)
         
+        let baseURLExpression = NSRegularExpression(#"(.*?)\.(.*?)\/"#)
+        
         return urlStrings[.importReady, default: []]
-            .map { $0.replacingOccurrences(of: query, with: "%s") }
+            .map {
+                let queryPartStartIndex = baseURLExpression
+                    .rangeOfFirstMatch(in: $0, range: $0._fullRange).upperBound
+                
+                guard queryPartStartIndex != NSNotFound else { return $0 }
+                let queryPartRange = $0.index($0.startIndex, offsetBy: queryPartStartIndex)..<$0.endIndex
+                
+                return $0.replacingOccurrences(of: query, with: "%s", range: queryPartRange) }
     }
 }
 
@@ -96,5 +105,11 @@ fileprivate extension Array where Element == String {
     
     func sightSorted() -> Self {
         sorted()
+    }
+}
+
+fileprivate extension String {
+    var _fullRange: NSRange {
+        .init(location: 0, length: (self as NSString).length)
     }
 }
