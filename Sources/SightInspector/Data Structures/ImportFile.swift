@@ -153,12 +153,6 @@ fileprivate extension Array where Element == String {
     }
 }
 
-fileprivate extension String {
-    var _fullRange: NSRange {
-        .init(location: 0, length: (self as NSString).length)
-    }
-}
-
 fileprivate extension Site {
     init(_ root: String, queryPath: String) {
         if queryPath.isEmpty {
