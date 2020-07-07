@@ -24,8 +24,14 @@ internal extension SiteIndex {
         Site("https://www.gaiam.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        Site("https://www.gainesville.com")
+            .queryURL(path: "/search?text=%s")
+        
         Site("https://gameandgraphics.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://gamecocksonline.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://gamefaqs.gamespot.com")
             .queryURL(path: "/search?game=%s")
@@ -87,6 +93,8 @@ internal extension SiteIndex {
         Site("https://gardenmoz.com")
             .queryURL(path: "/?s=%s")
         
+        Site("http://gatorfclub.org")
+        
         Site("https://www.gatorsports.com")
             .queryURL(path: "/?s=%s")
         
@@ -137,6 +145,12 @@ internal extension SiteIndex {
         
         Site("https://genius.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://georgiadogs.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
+        Site("https://www.georgiaencyclopedia.org")
+            .queryURL(path: "/search/advanced/%s")
         
         Site("https://www.gerberchildrenswear.com")
             .queryURL(path: "/collections/search-results?q=%s")
@@ -396,6 +410,8 @@ internal extension SiteIndex {
         
         Site("https://www.greenvilleonline.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://gridironhistory.com")
         
         Site("https://www.grunt.com")
             .queryURL(path: "/search?type=product&q=%s")

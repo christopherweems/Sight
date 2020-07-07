@@ -50,6 +50,11 @@ internal extension SiteIndex {
         
         
         // #XM
+        
+        Site("https://www.xmpie.com")
+            .queryURL(path: "/?s=%s")
+        
+        
         // #XN
         // #XO
         // #XP

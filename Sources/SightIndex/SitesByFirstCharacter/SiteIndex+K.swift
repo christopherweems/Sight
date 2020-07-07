@@ -87,6 +87,9 @@ internal extension SiteIndex {
         Site("https://www.kens5.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.kentucky.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://kentuckysportsradio.com")
             .queryURL(path: "/?s=%s")
         
@@ -98,8 +101,14 @@ internal extension SiteIndex {
         Site("https://www.ketv.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.kew.org")
+            .queryURL(path: "/search?textsearch=%s")
+        
         
         // #KF
+        
+        Site("https://www.kff.org")
+            .queryURL(path: "/search/?s=%s")
         
         Site("https://kfor.com")
             .queryURL(path: "/?s=%s&submit=Search")
@@ -115,7 +124,11 @@ internal extension SiteIndex {
         
         Site("https://khanlou.com")
         
+        Site("https://khn.org")
+            .queryURL(path: "/search/%s")
+        
         Site("https://www.khruangbin.com")
+        
         
         // #KI
         
@@ -171,6 +184,8 @@ internal extension SiteIndex {
         // #KJ
         // #KK
         // #KL
+        
+        Site("https://www.klc.org")
         
         Site("https://www.kleintools.com")
             .queryURL(path: "/search/%s")
@@ -298,6 +313,10 @@ internal extension SiteIndex {
         // #KW
         // #KX
         // #KY
+        
+        Site("https://kdla.ky.gov")
+            .queryURL(path: "/pages/search.aspx?terms=%s&affiliateId=KDLA")
+        
         // #KZ
         
     }

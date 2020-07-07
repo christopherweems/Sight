@@ -35,6 +35,8 @@ internal extension SiteIndex {
         Site("https://www.ibm.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://ibotta.com")
+        
         
         // #IC
         
@@ -87,6 +89,9 @@ internal extension SiteIndex {
         
         Site("https://www.ign.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://igotyouontape.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #IH
@@ -144,6 +149,9 @@ internal extension SiteIndex {
         Site("https://www.indiana.edu")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://indianexpress.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.indiegogo.com")
             .queryURL(path: "/explore/all?project_type=campaign&project_timing=all&sort=trending&q=%s")
         
@@ -188,6 +196,9 @@ internal extension SiteIndex {
         Site("https://www.insideedition.com")
             .queryURL(path: "/search?keywords=%s")
         
+        Site("https://www.insidehighered.com")
+            .queryURL(path: "/search/results/%s")
+        
         Site("https://www.insidehook.com")
             .queryURL(path: "/?s=%s")
         
@@ -230,9 +241,14 @@ internal extension SiteIndex {
         Site("https://www.inquirer.com")
             .queryURL(path: "/search/%s/score/?searchKeywords=%s")
         
+        
+        // #INV
+        
         Site("https://www.inverse.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.investors.com")
+            .queryURL(path: "/search-results/?Ntt=%s")
         
         
         // #IO
@@ -277,6 +293,9 @@ internal extension SiteIndex {
         Site("https://www.iso1200.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://issuu.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.istockphoto.com")
             .queryURL(path: "/photos/%s")
         
@@ -296,6 +315,9 @@ internal extension SiteIndex {
         
         Site("https://iu.edu")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.iucnredlist.org")
+            .queryURL(path: "/search?query=%s")
         
         
         // #IV

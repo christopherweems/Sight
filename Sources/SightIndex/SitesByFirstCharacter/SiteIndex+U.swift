@@ -44,6 +44,9 @@ internal extension SiteIndex {
         Site("http://www.ucla.edu")
             .queryURL(path: "/search?qa=%s")
         
+        Site("https://uclabruins.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.ucsf.edu")
             .queryURL(path: "/search/site?search=%s")
         
@@ -92,6 +95,11 @@ internal extension SiteIndex {
         
         // #UJ
         // #UK
+        
+        Site("https://ukathletics.com")
+            .queryURL(path: "/searchresults.aspx?&q=%s&sa=Search&cof=FORID%3A11#1141")
+        
+        
         // #UL
         
         Site("https://www.ullapopken.com")
@@ -280,6 +288,9 @@ internal extension SiteIndex {
         Site("https://usedphotopro.com")
             .queryURL(path: "/catalogsearch/result/?cat=0&q=%s")
         
+        Site("https://www.usgs.gov")
+            .queryURL(path: "/science-explorer-results?es=%s")
+        
         Site("https://www.ushistory.org")
             .queryURL(path: "/search.htm?cx=partner-pub-5172756923302683%3Ahh1axq5h51t&cof=FORID%3A10&ie=ISO-8859-1&q=%s&sa=Search")
         
@@ -313,6 +324,9 @@ internal extension SiteIndex {
         
         Site("https://www.utrechtart.com")
             .queryURL(path: "/Search/Default.aspx?src=%s")
+        
+        Site("https://utsports.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:k4f4lozjbie&q=%s&sa=Search&cof=FORID%3A11#1141")
         
         Site("https://utvolshop.com")
             .queryURL(path: "/search.aspx?searchterm=%s")

@@ -23,6 +23,9 @@ internal extension SiteIndex {
         Site("https://www.oann.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.oaoa.com")
+            .queryURL(path: "/search/?t=article&s=start_time&sd=desc&q=%s")
+        
         Site("https://www.oasis-stores.com")
             .queryURL(path: "/us/search?q=%s")
         
@@ -56,6 +59,13 @@ internal extension SiteIndex {
         
         
         // #OE
+        
+        Site("http://www.oecd.org")
+            .queryURL(path: "/general/searchresults/?q=%s")
+        
+        Site("https://www.oed.com")
+        
+        
         // #OF
         
         Site("https://www.officedepot.com")
@@ -101,12 +111,20 @@ internal extension SiteIndex {
         
         Site("https://www.oldpueblotraders.com")
             .queryURL(path: "/search?search-type=user-generated&query=%s")
+        
+        Site("https://olemisssports.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
                 
         Site("https://www.oliso.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.olloclip.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.olympedia.org")
+        
+        Site("https://olympstats.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #OM
@@ -134,6 +152,9 @@ internal extension SiteIndex {
         Site("https://www.onlineamishfurniture.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.onlineathens.com")
+            .queryURL(path: "/search?text=%s")
+        
         Site("https://www.onlinefabricstore.net")
             .queryURL(path: "/hsearchresult.aspx?keyword=%s")
         
@@ -158,6 +179,8 @@ internal extension SiteIndex {
         
         Site("https://ooni.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.ootpdevelopments.com")
         
         
         // #OP
@@ -302,6 +325,10 @@ internal extension SiteIndex {
         
         
         // #OY
+        
+        Site("http://www.oyageninc.com")
+            .queryURL(path: "/wordpress/?s=%s")
+        
         // #OZ
         
     }

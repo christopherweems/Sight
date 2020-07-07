@@ -19,6 +19,8 @@ internal extension SiteIndex {
         Site("https://www.cafepress.com")
             .queryURL(path: "/+%s")
         
+        Site("https://www.cahawba.com")
+        
         Site("https://www.cajungrocer.com")
             .queryURL(path: "/index.php?route=product/search&search=%s")
         
@@ -33,6 +35,8 @@ internal extension SiteIndex {
         
         Site("https://www.campbells.com")
             .queryURL(path: "/v8/?s=%s")
+        
+        Site("https://www.canadastop100.com")
         
         Site("https://www.cancer.com")
             .queryURL(path: "/search/solr/%s")
@@ -117,6 +121,12 @@ internal extension SiteIndex {
         Site("https://www.cell.com")
             .queryURL(path: "/action/doSearch?searchType=quick&searchText=%s&searchScope=fullSite&occurrences=all&code=cell-site")
         
+        Site("https://data.census.gov")
+            .queryURL(path: "/cedsci/all?q=%s&hidePreview=false")
+        
+        Site("https://www.census.gov")
+            .queryURL(path: "/search-results.html?q=%s")
+        
         
         // #CF
         // #CG
@@ -154,6 +164,9 @@ internal extension SiteIndex {
         Site("https://www.chron.com")
             .queryURL(path: "/search/?action=search&query=%s")
         
+        Site("https://www.chronicle.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.chrono24.com")
             .queryURL(path: "/search/index.htm?query=%s&dosearch=true")
         
@@ -166,8 +179,16 @@ internal extension SiteIndex {
         Site("https://www.cincinnati.com")
             .queryURL(path: "/search/%s/")
         
+        Site("https://ciowatercooler.co.uk")
+            .queryURL(path: "/?s=%s&post_type=post")
+        
         Site("https://www.cisco.com")
             .queryURL("https://search.cisco.com/search?query=%s")
+        
+        Site("https://www.citizen-times.com")
+        
+        Site("https://www.citizensbank.com")
+            .queryURL(path: "/search/overview.aspx?searchText=%s")
         
         Site("https://citylifestyle.com")
             .queryURL(path: "/search-results?term=%s")
@@ -262,6 +283,8 @@ internal extension SiteIndex {
         
         Site("https://collegefootballnews.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.collegefootballpoll.com")
         
         Site("https://collider.com")
         
@@ -370,6 +393,9 @@ internal extension SiteIndex {
         Site("https://crossfitknoxville.com")
         
         Site("https://www.crowdstrike.com")
+        
+        Site("https://www.crn.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://crunchk.com")
         

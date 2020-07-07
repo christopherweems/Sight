@@ -20,8 +20,14 @@ internal extension SiteIndex {
         Site("https://121clicks.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://12thman.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.13deals.com")
             .queryURL(path: "/store/search.php?search_expression=%s")
+        
+        Site("https://13wham.com")
+            .queryURL(path: "/search?find=%s")
         
         Site("https://1more.com")
             .queryURL("https://usa.1more.com/search?type=product&q=%s", locale: .unitedStates())

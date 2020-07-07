@@ -109,6 +109,9 @@ internal extension SiteIndex {
         Site("https://www.red.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.redandblack.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://redbot.org")
         
         Site("https://www.redbubble.com")
@@ -148,6 +151,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://relix.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://remezcla.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.renosroadhouse.com")
@@ -325,11 +331,17 @@ internal extension SiteIndex {
         Site("https://www.roguefitness.com")
             .queryURL(path: "/catalogsearch/result?q=%s")
         
+        
+        // #ROL
+        
         Site("https://www.rolex.com")
             .queryURL(path: "/search.html#%s")
         
         Site("https://www.rollingstone.com")
             .queryURL(path: "/results/#?q=%s")
+        
+        Site("https://rolltide.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://romwe.com")
             .queryURL("https://us.romwe.com/pdsearch/%s", locale: .unitedStates())

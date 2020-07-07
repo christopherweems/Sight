@@ -16,6 +16,12 @@ internal extension SiteIndex {
         Site("https://www.t-mobile.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.the-sun.com")
+            .queryURL(path: "/?s=%s")
+            
+        Site("https://www.t13.cl")
+            .queryURL(path: "/buscador/%s")
+        
         
         // #TA
         
@@ -90,6 +96,9 @@ internal extension SiteIndex {
         
         // #TB
         
+        Site("https://www.tbnewswatch.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.tbr.edu")
             .queryURL(path: "/search/google/%s")
         
@@ -124,6 +133,9 @@ internal extension SiteIndex {
         
         Site("https://www.teacollection.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
+        
+        Site("https://www.teamspeedkills.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #TECH
@@ -327,10 +339,16 @@ internal extension SiteIndex {
         
         // #THEF
         
+        Site("https://www.thefader.com")
+            .queryURL(path: "/search?query=%s")
+        
         Site("https://thefashioncamera.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.thefirstnews.com")
+        
+        Site("https://www.thefreelibrary.com")
+            .queryURL(path: "/_/search/Search.aspx?q=%s")
         
         Site("https://www.thefreshmarket.com")
             .queryURL(path: "/search?q=%s")
@@ -354,6 +372,9 @@ internal extension SiteIndex {
         
         Site("https://thehill.com")
             .queryURL(path: "/search/query/%s")
+        
+        Site("https://www.thehindu.com")
+            .queryURL(path: "/#/search;query=%s")
         
         Site("https://thehockeynews.com")
             .queryURL(path: "/?s=%s")
@@ -413,6 +434,9 @@ internal extension SiteIndex {
         
         
         // #THEN
+        
+        Site("https://www.thenation.com")
+            .queryURL(path: "/?s=%s&post_type=article")
         
         Site("https://www.thenewstribune.com")
             .queryURL(path: "/search/?q=%s")
@@ -479,14 +503,14 @@ internal extension SiteIndex {
         
         
         // #THES
-        
-        Site("https://www.the-sun.com")
-            .queryURL(path: "/?s=%s")
-        
+                
         Site("https://www.thesaurus.com")
             .queryURL(path: "/browse/%s")
         
         Site("https://www.thescore.com")
+        
+        Site("https://www.thesecu.com")
+            .queryURL(path: "/?s=%s")
                 
         Site("https://theshaderoom.com")
             .queryURL(path: "/?s=%s")
@@ -496,6 +520,9 @@ internal extension SiteIndex {
         
         Site("https://www.thestate.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.thestreet.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://www.thesun.co.uk")
             .queryURL(path: "/?s=%s")
@@ -543,8 +570,17 @@ internal extension SiteIndex {
         // #THEY
         // #THEZ
         
+        Site("https://www.thezebra.com")
+        
+        
+        // #THF
+        // #THI
+        
         Site("https://www.thingsremembered.com")
             .queryURL(path: "/searchresults?Ntt=%s&Nty=1&No=0&Nrpp=12&Rdm=367&searchType=simple&type=search")
+        
+        // #THF
+        // #THR
         
         Site("https://www.threads4thought.com")
             .queryURL(path: "/search?q=%s")
@@ -552,17 +588,15 @@ internal extension SiteIndex {
         Site("https://www.thredup.com")
             .queryURL(path: "/products/women?department_tags=women&text=%s")
         
-        Site("https://thrivecausemetics.com")
-            .queryURL(path: "/pages/search-results?q=%s")
-        
-        // #THF
-        // #THR
-        
         Site("https://threatpost.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.thriftbooks.com")
             .queryURL(path: "/browse/?b.search=%s")
+        
+        Site("https://thrivecausemetics.com")
+            .queryURL(path: "/pages/search-results?q=%s")
+        
         
         // #TI
         
@@ -610,6 +644,8 @@ internal extension SiteIndex {
         
         Site("https://www.timeformecatalog.com")
             .queryURL(path: "/search.html?keywords=%s")
+        
+        Site("https://www.timesfreepress.com")
         
         Site("https://timesofindia.indiatimes.com")
             .queryURL(path: "/topic/%s")
@@ -690,6 +726,9 @@ internal extension SiteIndex {
         
         Site("http://www.tokyo-airport-bldg.co.jp")
             .queryURL(path: "/en/search/?q=%s")
+        
+        Site("http://tolweb.org")
+            .queryURL(path: "/tree/home.pages/search.html?q=%s&sa=Search")
         
         Site("https://tommy.com")
             .queryURL("https://usa.tommy.com/SearchDisplay?categoryId=&storeId=10151&catalogId=10551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&searchTerm=%s", locale: .unitedStates())
@@ -848,6 +887,9 @@ internal extension SiteIndex {
         
         
         // #TS
+        
+        Site("https://tshf.net")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.tsn.ca")
             .queryURL(path: "/search/search-7.427283?q=%s")

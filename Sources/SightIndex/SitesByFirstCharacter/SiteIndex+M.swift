@@ -99,11 +99,17 @@ internal extension SiteIndex {
         
         Site("http://makingthemadness.com")
         
+        
+        // #MAN
+        
         Site("http://www.manchesterairport.co.uk")
             .queryURL(path: "/search?searchTerm=%s")
         
         Site("https://www.manduka.com")
             .queryURL(path: "/pages/search-results?q=%s")
+        
+        Site("https://mangadex.org")
+            .queryURL(path: "/search?title=%s")
         
         Site("https://shop.mango.com")
             .queryURL(path: "/us/search?kw=%s")
@@ -195,6 +201,10 @@ internal extension SiteIndex {
         
         Site("https://www.mckinsey.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://mcspro.com")
+        
+        Site("http://www.mcubed.net")
         
         Site("https://www.mcsweeneys.net")
             .queryURL(path: "/articles/search?q=%s")
@@ -354,6 +364,8 @@ internal extension SiteIndex {
         Site("https://www.miniusa.com")
             .queryURL(path: "/content/miniusa/en/search-results.html?q=%s", locale: .unitedStates())
         
+        Site("https://www.mintmobile.com")
+        
         Site("https://www.miraclesuit.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -511,6 +523,9 @@ internal extension SiteIndex {
         Site("https://www.motosport.com")
             .queryURL(path: "/search?textsearch=%s")
         
+        
+        // #MOU
+        
         Site("https://www.mountaindew.com")
             .queryURL(path: "/search/?sq=%s")
         
@@ -522,6 +537,11 @@ internal extension SiteIndex {
         
         Site("https://www.mountainwarehouse.com")
             .queryURL(path: "/us/search/%s/")
+        
+        Site("https://mountainx.com")
+            .queryURL(path: "/?s=%s")
+        Site("https://www.mountsinai.org")
+            .queryURL(path: "/search?searchQuery=%s&label=mountsinai&pageSize=10&start=0")
         
         Site("https://moz.com")
             .queryURL(path: "/search?q=%s")
@@ -555,6 +575,10 @@ internal extension SiteIndex {
         
         // #MQ
         // #MR
+        
+        Site("https://www.mrsec.com")
+        
+        
         // #MS
         
         Site("https://www.mscc.edu")
@@ -567,6 +591,9 @@ internal extension SiteIndex {
         
         Site("http://www.msnbc.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://www.msstate.edu")
+            .queryURL(path: "/site-index?terms=%s")
         
         Site("https://msu.edu")
             .queryURL("https://search.msu.edu/index.php?q=%s")
@@ -604,6 +631,8 @@ internal extension SiteIndex {
         
         Site("https://www.musiciansfriend.com")
             .queryURL(path: "/search?Ntt=%s")
+        
+        Site("https://mutigers.com")
         
         
         // #MV

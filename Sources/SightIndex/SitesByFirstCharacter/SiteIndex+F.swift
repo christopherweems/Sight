@@ -23,6 +23,8 @@ internal extension SiteIndex {
         Site("https://factrepublic.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.fairvote.org")
+        
         Site("https://falconeri.com")
             .queryURL("https://us.falconeri.com/catalog/rest_search.cmd?form_state=searchForm&keyword=%s", locale: .unitedStates())
         
@@ -99,6 +101,9 @@ internal extension SiteIndex {
         
         Site("https://www.fbi.gov")
             .queryURL(path: "/@@search?SearchableText=%s")
+        
+        Site("https://fbschedules.com")
+            .queryURL(path: "/search-result/?q=%s")
         
         
         // #FC
@@ -178,6 +183,9 @@ internal extension SiteIndex {
         
         Site("https://final.co")
         
+        Site("https://finduslaw.com")
+            .queryURL(path: "/search/node/%s")
+        
         Site("https://www.fingerhut.com")
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
@@ -238,10 +246,16 @@ internal extension SiteIndex {
         Site("https://www.floridatoday.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://floridagators.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://flos.com")
             .queryURL("https://usa.flos.com/search-results-page?q=%s", locale: .unitedStates())
         
         Site("http://fluxmath.com")
+        
+        Site("https://flyavl.com")
+            .queryURL(path: "/search/all?keys=%s")
         
         Site("https://flyknoxville.com")
             .queryURL(path: "/?s=%s")
@@ -253,6 +267,8 @@ internal extension SiteIndex {
         
         Site("https://www.foco.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.focusfeatures.com")
         
         Site("https://www.followthemoney.org")
             .queryURL(path: "/search-results/SearchForm?Search=%s")

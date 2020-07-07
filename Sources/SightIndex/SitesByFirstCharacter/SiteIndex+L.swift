@@ -17,6 +17,8 @@ internal extension SiteIndex {
         Site("https://www.la-z-boy.com")
             .queryURL(path: "/no-results?Ntt=%s")
         
+        Site("http://www.laalmanac.com")
+        
         Site("https://www.lacausaclothing.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -33,6 +35,8 @@ internal extension SiteIndex {
             .queryURL(path: "/browse/?Ntt=%s")
         
         Site("https://www.laliga.com")
+        
+        Site("https://lambdaschool.com")
         
         Site("https://www.lance.com")
         

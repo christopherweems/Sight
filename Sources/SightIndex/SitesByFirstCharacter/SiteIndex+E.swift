@@ -25,8 +25,13 @@ internal extension SiteIndex {
         
         Site("https://www.earny.co")
         
+        
+        // #EAST
+        
         Site("https://www.eastbay.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.eastbourneherald.co.uk")
         
         Site("https://www.eastdane.com")
             .queryURL(path: "/s/products?query=%s")
@@ -89,6 +94,9 @@ internal extension SiteIndex {
         
         Site("https://www.eddiebauer.com")
             .queryURL(path: "/s/%s?keyword=%s")
+        
+        Site("https://edpa.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.edx.org")
             .queryURL(path: "/search?q=%s")
@@ -186,6 +194,9 @@ internal extension SiteIndex {
         Site("https://www.enasco.com")
             .queryURL(path: "/search/?ea_q=%s&boxsearchBy=easyAskSearchTermSearchStrategy&boxea_path=All+Products%2F%2F%2F%2FNasco&boxea_rpp=16&boxea_cp=1&boxea_sort=")
         
+        Site("http://www.encyclopediaofalabama.org")
+            .queryURL(path: "/search/node/%s")
+        
         Site("https://www.enekoalonso.com")
         
         Site("https://www.engadget.com")
@@ -229,6 +240,9 @@ internal extension SiteIndex {
         Site("http://www.ericamintu.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.erienewsnow.com")
+            .queryURL(path: "/search?qu=%s&num=5")
+        
         // #ES
         
         
@@ -268,6 +282,8 @@ internal extension SiteIndex {
         Site("https://www.etsy.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://ett.world")
+        
         Site("https://www.ettitude.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -282,6 +298,9 @@ internal extension SiteIndex {
         
         Site("https://www.eurogamer.net")
             .queryURL(path: "/search.php?q=%s")
+        
+        Site("http://www.eurohockey.com")
+            .queryURL(path: "/players.html?player_search=%s&write_player_search=1")
         
         
         // #EV

@@ -17,6 +17,9 @@ internal extension SiteIndex {
         Site("https://www.naacp.org")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://nacda.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://nadelectronics.com")
         .queryURL(path: "/?s=%s")
         
@@ -50,6 +53,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.natashatherobot.com")
+        
+        Site("http://www.nationalchamps.net")
         
         Site("https://nationalinterest.org")
             .queryURL(path: "/search/node/%s")
@@ -100,6 +105,9 @@ internal extension SiteIndex {
         // #NC
         
         Site("https://www.ncaa.com")
+        
+        Site("https://www.ncaapublications.com")
+            .queryURL(path: "/searchadv.aspx?IsSubmit=true&SearchTerm=%s")
         
         Site("https://ncat.edu")
             .queryURL("https://search.ncat.edu/s/search.html?ie=UTF-8&query=%s")
@@ -160,6 +168,9 @@ internal extension SiteIndex {
         
         Site("https://www.nevs.com")
         
+        
+        // #NEW
+        
         Site("https://www.newark.com")
             .queryURL(path: "/search?st=%s")
         
@@ -187,6 +198,9 @@ internal extension SiteIndex {
         Site("https://www.neweracap.com")
             .queryURL(path: "/search/?text=%s")
         
+        Site("https://www.newlaunches.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://newrepublic.com")
             .queryURL(path: "/search?search=%s")
         
@@ -204,11 +218,17 @@ internal extension SiteIndex {
         Site("https://newschannel9.com")
             .queryURL(path: "/search?find=%s")
         
+        Site("https://www.newsday.com")
+            .queryURL(path: "/search#filter=stories&query=%s")
+        
         Site("https://newslit.org")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.newsmax.com")
             .queryURL(path: "/search/#gsc.tab=0&gsc.q=%s&gsc.sort=date")
+        
+        Site("https://www.newsobserver.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.newsweek.com")
             .queryURL(path: "/search/site/%s")
@@ -233,6 +253,9 @@ internal extension SiteIndex {
         
         Site("https://www.nflshop.com")
             .queryURL(path: "/?query=%s")
+        
+        Site("https://www.nfpa.org")
+            .queryURL(path: "/standard_items/search_results?searchStr=%s")
         
         
         // #NG
@@ -265,6 +288,9 @@ internal extension SiteIndex {
         Site("https://www.niaid.nih.gov")
             .queryURL(path: "/search/niaidsite?search=%s")
         
+        Site("https://www.ncbi.nlm.nih.gov")
+            .queryURL(path: "/search/all/?term=%s")
+        
         Site("https://www.nih.gov")
             .queryURL("https://search.nih.gov/search?affiliate=nih&query=%s&commit=Search")
         
@@ -290,6 +316,9 @@ internal extension SiteIndex {
         
         Site("https://www.nintendo.com")
             .queryURL(path: "/search/#category=all&page=1&query=%s")
+        
+        Site("https://nintendoeverything.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.nissanusa.com")
             .queryURL(path: "/search-results.html?query=%s")
@@ -321,6 +350,9 @@ internal extension SiteIndex {
         Site("https://no7beauty.com")
             .queryURL("https://us.no7beauty.com/elysium.search?search=%s", locale: .unitedStates())
         
+        Site("https://www.nobelprize.org")
+            .queryURL(path: "/search/?s=%s")
+        
         Site("https://www.nolahmattress.com")
         
         Site("https://www.nolo.com")
@@ -345,6 +377,9 @@ internal extension SiteIndex {
         
         Site("https://www.nola.com")
             .queryURL(path: "/search/?l=25&s=start_time&sd=desc&f=html&t=&app=editorial&nsa=eedition&q=%s")
+        
+        Site("https://normashearer.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://norml.org")
             .queryURL(path: "/?s=%s")
@@ -373,6 +408,9 @@ internal extension SiteIndex {
         
         Site("https://www.npr.org")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.nps.gov")
+            .queryURL(path: "/search/?affiliate=nps&query=%s")
         
         
         // #NQ
@@ -422,6 +460,8 @@ internal extension SiteIndex {
         
         // #NX
         // #NY
+        
+        Site("https://www.nyac.org")
         
         Site("https://www.nyakio.com")
         

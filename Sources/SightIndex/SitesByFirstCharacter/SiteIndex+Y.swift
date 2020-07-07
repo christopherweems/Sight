@@ -25,6 +25,9 @@ internal extension SiteIndex {
         Site("https://yahoo.com")
             .queryURL("https://search.yahoo.com/search?p=%s")
         
+        Site("https://digitalcommons.law.yale.edu")
+            .queryURL(path: "/do/search/?q=%s&fq=virtual_ancestor_link%3Ahttps%3A%2F%2Fdigitalcommons.law.yale.edu%2Fylj")
+        
         Site("https://www.yale.edu")
             .queryURL(path: "/search/google/%s")
         

@@ -82,6 +82,9 @@ internal extension SiteIndex {
         Site("https://videos.sapo.pt")
             .queryURL(path: "/search.html?word=%s")
         
+        Site("https://satechi.net")
+            .queryURL(path: "/pages/search-results-page?q=%s")
+        
         Site("https://www.saturdaydownsouth.com")
             .queryURL(path: "/?s=%s")
         
@@ -105,6 +108,9 @@ internal extension SiteIndex {
         
         
         // #SC
+        
+        Site("https://sc.gov")
+            .queryURL(path: "/searchresults?q=%s")
         
         Site("https://www.sciencealert.com")
         
@@ -202,6 +208,9 @@ internal extension SiteIndex {
         
         Site("https://www.secsports.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://www.secsportsfan.com")
+            .queryURL(path: "/search-results.html?cx=partner-pub-2614183340980675%3Aob3leja0v22&cof=FORID%3A11&ie=ISO-8859-1&q=%s&sa=%3E&siteurl=www.secsportsfan.com%2F&ref=&ss=134j10130j3")
                 
         Site("https://www.sees.com")
             .queryURL(path: "/search?q=%s")
@@ -212,10 +221,18 @@ internal extension SiteIndex {
         Site("https://selfhacked.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #SEM
+        
         Site("https://www.sema.org")
             .queryURL(path: "/search/google/%s")
         
+        
+        // #SEN
+        
         Site("https://sendusmasks.com")
+        
+        Site("https://www.sensomatic.com")
         
         Site("https://www.sephora.com")
             .queryURL(path: "/search/search.jsp?keyword=%s")
@@ -255,13 +272,20 @@ internal extension SiteIndex {
         Site("https://www.sheba.com")
             .queryURL(path: "/search-results?indexCatalogue=custom-search&searchQuery=%s&wordsMode=AllWords")
         
+        Site("https://www.sheepcentre.co.uk")
+        
         Site("https://shein.com")
             .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
         
         Site("https://www.sherwin-williams.com")
         
+        
+        // #SHI
+        
         Site("https://www.shiekh.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://www.shipengine.com")
         
         Site("https://www.shoebacca.com")
             .queryURL(path: "/catalogsearch/result/q/%s")
@@ -375,10 +399,16 @@ internal extension SiteIndex {
         Site("https://www.silverjeans.com")
             .queryURL(path: "/us/search?q=%s")
         
+        
+        // #SIM
+        
         Site("https://simone.computer")
         
         Site("https://www.simonsaysstamp.com")
             .queryURL(path: "/search?currency=USD&q=%s")
+        
+        Site("https://www.simplemost.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://simpletire.com")
         
@@ -392,6 +422,9 @@ internal extension SiteIndex {
         
         Site("https://www.simplyrecipes.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://simson.net")
+            .queryURL(path: "/wiki/index.php?search=%s&title=Special%3ASearch&go=Go")
         
         Site("https://www.singer22.com")
             .queryURL(path: "/search?q=%s")
@@ -525,6 +558,9 @@ internal extension SiteIndex {
         
         // #SO
         
+        Site("https://int.soccerway.com")
+            .queryURL(path: "/search/?q=%s&module=all")
+        
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
         
@@ -638,6 +674,9 @@ internal extension SiteIndex {
         
         Site("https://www.sportingnews.com")
         
+        Site("https://www.sportsbusinessdaily.com")
+            .queryURL(path: "/Search/Site.aspx?searchPhrase=%s")
+        
         Site("https://www.sportsmansguide.com")
             .queryURL(path: "/productlist?k=%s")
         
@@ -741,8 +780,15 @@ internal extension SiteIndex {
         Site("https://www.stjohnknits.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        
+        // #STO
+        
         Site("https://stockmfgco.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://stockrow.com")
+        
+        Site("https://gettysburg.stonesentinels.com")
 
         Site("https://www.storets.com")
             .queryURL(path: "/search?type=product&q=%s")
@@ -759,6 +805,9 @@ internal extension SiteIndex {
         
         Site("https://stryve.com")
         
+        
+        // #STU
+        
         Site("https://www.stuartweitzman.com")
             .queryURL(path: "/search/?keyword=%s")
         
@@ -772,11 +821,16 @@ internal extension SiteIndex {
         
         Site("https://studiomdhr.com")
         
+        Site("https://www.studioneat.com")
+        
         Site("https://www.stuff.co.nz")
             .queryURL(path: "/searchresults?Search+Site=Search+Site&cof=FORID%3A9&cx=006730714154542492986%3Aoh6vl0ybuqy&q=%s&siteurl=www.stuff.co.nz")
         
         Site("https://www.stuff.tv")
             .queryURL(path: "/search/site/%s")
+        
+        Site("https://www.stylewe.com")
+            .queryURL(path: "/search?keywords=%s")
         
         
 

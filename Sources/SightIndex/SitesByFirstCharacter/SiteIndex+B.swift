@@ -44,6 +44,9 @@ internal extension SiteIndex {
         Site("https://bape.com")
             .queryURL("https://us.bape.com/search?q=%s")
         
+        
+        // #BAR
+        
         Site("https://www.bareminerals.com")
             .queryURL(path: "/on/demandware.store/Sites-BareMinerals_US_CA-Site/en_US/Search-Show?q=%s&lang=en_US", locale: .unitedStates())
         
@@ -138,8 +141,12 @@ internal extension SiteIndex {
         // #BF
         // #BG
         
+        Site("https://www.bgdailynews.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://bgr.com")
             .queryURL(path: "/?s=%s")
+        
         
         // #BH
         
@@ -157,6 +164,9 @@ internal extension SiteIndex {
         
         Site("https://bigten.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
+        
+        Site("https://www.billboard.com")
+            .queryURL(path: "/search/%s")
                 
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
@@ -205,11 +215,18 @@ internal extension SiteIndex {
         
         Site("https://www.blogger.com")
         
+        Site("https://fs64sports.blogspot.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://thewoodbooger.blogspot.com")
             .queryURL(path: "/search?q=%s")
         
         
         // #BLOH
+        // #BLOO
+        
+        Site("https://www.bloomberg.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://news.bloomberglaw.com")
             .queryURL(path: "/us-law-week/search?query=%s")
@@ -221,8 +238,13 @@ internal extension SiteIndex {
                 
         
         // #BM
+        
+        Site("https://www.bmj.com")
+            .queryURL(path: "/search/advanced/%s")
+        
         Site("https://www.bmw.com")
             .queryURL("/en/search.pwa.html?q=%s", language: .english)
+        
         
         // #BN
         
@@ -288,8 +310,14 @@ internal extension SiteIndex {
         Site("https://www.brownsfashion.com")
             .queryURL(path: "/shopping/woman?query=%s")
         
+        Site("https://www.bruingold.com")
+            .queryURL(path: "/BG-pedia/index.php?title=Special%3ASearch&search=%s&go=Go")
+        
         Site("https://www.brusselstimes.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.bryan.edu")
+            .queryURL(path: "/search/?q=%s")
         
         
         // #BS
@@ -356,6 +384,9 @@ internal extension SiteIndex {
         
         Site("https://www.bys.com.au")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://byucougars.com")
+        
         
         // #BZ
         

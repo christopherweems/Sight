@@ -55,6 +55,9 @@ internal extension SiteIndex {
         Site("https://abc7ny.com")
             .queryURL(path: "/search/?query=%s")
         
+        Site("http://www.aboutnorthgeorgia.com")
+            .queryURL(path: "/angsearch.html?cx=partner-pub-4663345822218311%3A2989421403&cof=FORID%3A10&q=%s")
+        
         Site("https://abovethelaw.com")
             .queryURL(path: "/?s=%s")
         
@@ -70,6 +73,9 @@ internal extension SiteIndex {
         Site("https://www.accuweather.com")
             .queryURL(path: "/en/search-locations?query=%s", language: .english)
         
+        Site("https://www.accountingtoday.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.acnestudios.com")
             .queryURL(path: "/us/en/home#q=%s*")
         
@@ -84,6 +90,9 @@ internal extension SiteIndex {
         
         
         // #AD
+        
+        Site("https://adage.com")
+            .queryURL(path: "/results?search_phrase=%s")
         
         Site("https://www.adl.org")
             .queryURL(path: "/search?keys=%s")
@@ -184,6 +193,15 @@ internal extension SiteIndex {
         Site("http://www.ala.org")
             .queryURL("https://cse.google.com/cse?cx=001695639812020286035%3Arukhncex72e&q=%s&gs_l=partner-generic.3...14532.14899.0.15003.5.5.0.0.0.0.121.164.3j1.4.0.csems%2Cnrl%3D13...0.296j29632j5...1.34.partner-generic..4.1.15.soIOG4XSMYk")
         
+        Site("https://www.alabama.gov")
+        
+        Site("https://www.alabamaheritage.com")
+            .queryURL(path: "/apps/search?q=%s")
+
+        Site("https://alabamanewscenter.com")
+            .queryURL(path: "/?s=%s&cat=")
+
+        
         Site("https://www.algolia.com")
             .queryURL(path: "/search/?page=1&query=%s")
         
@@ -207,6 +225,15 @@ internal extension SiteIndex {
             .queryURL(path: "/us/en/search/?q=%s", locale: .unitedStates())
         
         Site("https://www.allbirds.com")
+        
+        Site("https://www.alligatorarmy.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.allmovie.com")
+            .queryURL(path: "/search/all/%s")
+        
+        Site("https://www.allmusic.com")
+            .queryURL(path: "/search/all/%s")
         
         Site("https://www.allrecipes.com")
             .queryURL(path: "/search/results/?wt=%s&sort=re")
@@ -249,7 +276,13 @@ internal extension SiteIndex {
         
         Site("http://www.americangeode.com")
         
+        Site("https://www.amnh.org")
+            .queryURL(path: "/content/search?SearchText=%s")
+        
         Site("https://amp.dev")
+        
+        Site("https://amwater.com")
+            .queryURL(path: "/tnaw/search-results/search/%s?search=%s")
         
         
         // #AN
@@ -272,6 +305,9 @@ internal extension SiteIndex {
         Site("http://ankc.org.au")
         
         Site("https://www.ansa.it")
+        
+        Site("https://www.answers.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #AO
@@ -354,6 +390,12 @@ internal extension SiteIndex {
         
         Site("https://www.argotea.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #ARK
+        
+        Site("https://arkansasrazorbacks.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.arm.com")
             .queryURL(path: "/Search?q=%s")
@@ -459,6 +501,9 @@ internal extension SiteIndex {
         Site("https://auburn.edu")
             .queryURL("https://search.auburn.edu/?q=%s")
         
+        Site("https://auburntigers.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://www.audiusa.com")
         
         Site("https://www.augustsage.com")
@@ -496,6 +541,8 @@ internal extension SiteIndex {
         
         Site("https://awfulannouncing.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.awra.org")
         
         Site("https://awrestaurants.com")
         

@@ -197,6 +197,8 @@ internal extension SiteIndex {
         
         // #JN
         
+        Site("https://www.jnj.com")
+        
         Site("https://www.jny.com")
             .queryURL(path: "/pages/search-results?q=%s")
         

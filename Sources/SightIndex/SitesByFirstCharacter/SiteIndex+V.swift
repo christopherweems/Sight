@@ -92,6 +92,8 @@ internal extension SiteIndex {
         Site("https://www.vice.com")
             .queryURL(path: "/en_us/search?q=%s")
         
+        Site("https://www.victorianlondon.org")
+        
         Site("https://www.victoriassecret.com")
             .queryURL(path: "/vs/search?q=%s")
         
@@ -218,6 +220,8 @@ internal extension SiteIndex {
         
         
         // #VU
+        
+        Site("https://vucommodores.com")
         
         Site("https://www.vultr.com")
         

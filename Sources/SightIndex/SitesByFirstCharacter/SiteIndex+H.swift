@@ -31,6 +31,9 @@ internal extension SiteIndex {
         Site("https://www.haggar.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://hailstate.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156%3Abczjsx_b-z8&q=%s&sa=Search&cof=FORID%3A11#1141")
+        
         Site("https://www.halebob.com")
             .queryURL(path: "/shop/catalogsearch/result/?order=position&q=%s")
         

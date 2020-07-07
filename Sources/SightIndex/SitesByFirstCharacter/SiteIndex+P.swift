@@ -33,6 +33,8 @@ internal extension SiteIndex {
         Site("https://www.padandquill.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        Site("https://www.pagerduty.com")
+        
         Site("https://pagesix.com")
             .queryURL(path: "/search/%s/")
         
@@ -241,6 +243,9 @@ internal extension SiteIndex {
         Site("https://photographyspark.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://phys.org")
+            .queryURL(path: "/search/?search=%s&s=0")
+        
         
         // #PI
         
@@ -308,9 +313,22 @@ internal extension SiteIndex {
         // #PN
         // #PO
         
+        Site("https://www.podbean.com")
+            .queryURL(path: "/site/Search/index?v=%s")
+        
         Site("https://www.pogo.org")
             .queryURL(path: "/search/?query=%s&page=1")
         
+        
+        // #POK
+        
+        Site("https://www.pokerapi.dev")
+        
+        Site("https://pokemongolive.com")
+        
+        
+        // #POL
+                
         Site("https://www.polarnopyretusa.com")
             .queryURL(path: "/search-results?FullText=%s")
         
@@ -319,11 +337,6 @@ internal extension SiteIndex {
         
         Site("https://www.polygon.com")
             .queryURL(path: "/search?q=%s")
-        
-        
-        // #POK
-        
-        Site("https://www.pokerapi.dev")
         
         Site("https://pony.com")
             .queryURL(path: "/search?q=%s")
@@ -375,6 +388,12 @@ internal extension SiteIndex {
         Site("https://www.prana.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PRE
+        
+        Site("https://prepvolleyball.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://press-start.com.au")
             .queryURL(path: "/?s=%s")
         
@@ -398,8 +417,19 @@ internal extension SiteIndex {
         
         Site("https://www.printavo.com")
         
+        
+        // #PRO
+        
         Site("https://www.pro-football-reference.com")
             .queryURL(path: "/search/search.fcgi?hsearch=%s")
+        
+        Site("https://www.procyclingstats.com")
+            .queryURL(path: "/search.php?term=%s")
+        
+        Site("http://www.profootballarchives.com")
+        
+        Site("https://www.profootballhof.com")
+            .queryURL(path: "/search/?keyword=%s")
         
         Site("https://www.programmableweb.com")
             .queryURL(path: "/search/%s")

@@ -247,6 +247,9 @@ internal extension SiteIndex {
         Site("https://www.directv.com")
             .queryURL(path: "/search?keyword=%s")
         
+        
+        // #DIS
+        
         Site("https://discount99.us")
             .queryURL(path: "/%s")
         
@@ -261,6 +264,9 @@ internal extension SiteIndex {
         
         Site("https://discovermagazine.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://discoversouthcarolina.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://disney.com")
             .queryURL("https://search.disney.com/search?o=home&q=%s")
@@ -288,6 +294,10 @@ internal extension SiteIndex {
         
         Site("https://www.dkngstudios.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://www.dkriesel.com")
+            .queryURL(path: "/start?do=search&q=%s")
+        
         
         // #DL
         
@@ -393,6 +403,8 @@ internal extension SiteIndex {
         
         Site("https://drexel.edu")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://drewroberts.com")
         
         Site("https://www.drinkhint.com")
             .queryURL(path: "/search?type=product&q=%s")

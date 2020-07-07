@@ -229,11 +229,15 @@ internal extension SiteIndex {
         
         // #WH
         
+        Site("https://www.whalereport.com")
+        
         Site("https://www.whatgoesaroundnyc.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         Site("https://whatthefuckshouldilistentorightnow.com")
             .queryURL(path: "/artist.php?artist=%s")
+        
+        Site("http://whattheythink.com")
         
         Site("https://whatwg.org")
         
@@ -307,6 +311,8 @@ internal extension SiteIndex {
         
         Site("https://www.wingstop.com")
         
+        Site("http://www.winsipedia.com")
+        
         Site("https://www.wired.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -342,14 +348,22 @@ internal extension SiteIndex {
         Site("https://www.wkrn.com")
             .queryURL(path: "/?s=%s&submit=Search")
         
+        Site("https://www.wku.edu")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.wkyt.com")
             .queryURL(path: "/search?searchKeywords=%s")
         
+        Site("https://www.wkyufm.org")
+            .queryURL(path: "/search/google/%s")
         
         // #WL
         
         Site("https://www.wlfi.com")
             .queryURL(path: "/search/?site_search=%s")
+        
+        Site("https://wlos.com")
+            .queryURL(path: "/search?find=%s")
         
         Site("https://www.wlu.edu")
             .queryURL(path: "/search/#stq=%s&stp=1")
@@ -366,6 +380,8 @@ internal extension SiteIndex {
         Site("https://wmgk.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://wmt.digital")
+        
         
         // #WN
         
@@ -373,6 +389,9 @@ internal extension SiteIndex {
         
         Site("https://www.wndu.com")
             .queryURL(path: "/search?searchKeywords=%s")
+        
+        Site("https://www.wnem.com")
+            .queryURL(path: "/search/?q=%s")
         
         // #WO
         
@@ -400,11 +419,16 @@ internal extension SiteIndex {
         Site("https://www.woolovers.us")
             .queryURL(path: "/searchresults?keyword=%s")
         
+        Site("https://www.worldbank.org")
+            .queryURL(path: "/en/topic/%s", language: .english)
+        
         Site("https://www.worldcat.org")
             .queryURL(path: "/search?qt=worldcat_org_all&q=%s")
         
         Site("https://www.worldsurfleague.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.worldwater.org")
         
         Site("https://www.worldwidestereo.com")
             .queryURL(path: "/search?q=%s")
@@ -458,6 +482,9 @@ internal extension SiteIndex {
         
         Site("https://ws.edu")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.wsbtv.com")
+            .queryURL(path: "/search/%s/1/")
         
         Site("https://www.wsj.com")
             .queryURL(path: "/search/term.html?KEYWORDS=%s")
