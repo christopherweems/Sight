@@ -107,11 +107,15 @@ internal extension SiteIndex {
         Site("https://www.youneedabudget.com")
             .queryURL(path: "/?s=%s")
         
+        // #YOU
+        
         Site("https://www.younkers.com")
             .queryURL(path: "/search.php?search_query=%s")
         
         Site("https://www.yourartsupplies.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        Site("https://yournexthabit.com")
         
         Site("https://www.youtube.com")
             .queryURL(path: "/results?search_query=%s")

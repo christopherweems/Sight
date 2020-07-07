@@ -125,6 +125,9 @@ internal extension SiteIndex {
         Site("https://www.teacollection.com")
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
+        
+        // #TECH
+        
         Site("https://www.tech21.com")
             .queryURL(path: "/en_us/#q=%s")
         
@@ -153,6 +156,9 @@ internal extension SiteIndex {
         
         Site("https://www.techrepublic.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.technologyreview.com")
+            .queryURL(path: "/search/?s=%s")
         
         Site("https://techtonicstuning.com")
             .queryURL(path: "/main/index.php?main_page=advanced_search&keyword=%s")
@@ -210,6 +216,9 @@ internal extension SiteIndex {
         // #TH
         
         Site("https://tha.com")
+        
+        Site("https://www.thaienquirer.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://thakoon.com")
             .queryURL(path: "/search?q=%s")
@@ -275,6 +284,8 @@ internal extension SiteIndex {
         Site("https://www.theblaze.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://thebolditalic.com")
+        
         
         // #THEC
         
@@ -318,6 +329,8 @@ internal extension SiteIndex {
         
         Site("https://thefashioncamera.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.thefirstnews.com")
         
         Site("https://www.thefreshmarket.com")
             .queryURL(path: "/search?q=%s")
@@ -382,6 +395,9 @@ internal extension SiteIndex {
             .queryURL(path: "/action/doSearch?searchType=quick&searchText=%s&searchScope=series&journalCode=landia&seriesISSNFltraddfilter=2213-8587&occurrences=all&code=lancet-site&journalCode=landia")
         
         Site("https://www.thelines.com")
+            .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.thelocal.it")
             .queryURL(path: "/search/?q=%s")
         
         
@@ -540,6 +556,10 @@ internal extension SiteIndex {
             .queryURL(path: "/pages/search-results?q=%s")
         
         // #THF
+        // #THR
+        
+        Site("https://threatpost.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.thriftbooks.com")
             .queryURL(path: "/browse/?b.search=%s")
@@ -583,7 +603,7 @@ internal extension SiteIndex {
             .queryURL(path: "/shop/VFSearchDisplayRes?catalogId=10101&storeId=7101&langId=-1&searchTerm=%s")
         
         Site("https://www.timbuk2.com")
-            .queryURL(path: "/pages/search-results?search_submit=&type=product&q=%s")
+            .queryURL(path: "/pages/search-results?q=%s")
         
         Site("https://time.com")
             .queryURL(path: "/search/?q=%s")
@@ -778,6 +798,12 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://trekmovie.com")
+            .queryURL(path: "/?s=%s")
+        
+        
+        // #TRI
+        
+        Site("https://triad-city-beat.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.trinaturk.com")

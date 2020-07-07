@@ -146,10 +146,12 @@ internal extension SiteIndex {
         
         Site("https://getbevel.com")
         
-        Site("https://getjeda.com")
-        
         Site("https://gethyperskin.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("https://getjeda.com")
+        
+        Site("https://getpaaid.com")
         
         Site("https://www.getquip.com")
         
@@ -216,6 +218,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://swiftweekly.github.io")
+        
+        Site("https://www.gizchina.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://gizmodo.com")
             .queryURL(path: "/search?q=%s")
@@ -419,6 +424,9 @@ internal extension SiteIndex {
         
         Site("https://shop.guess.com")
             .queryURL(path: "/en/?rrq=%s")
+        
+        Site("https://guff.com")
+            .queryURL(path: "/search/%s")
         
         Site("https://www.guirys.com")
             .queryURL(path: "/advanced-search?search_api_views_fulltext=%s")

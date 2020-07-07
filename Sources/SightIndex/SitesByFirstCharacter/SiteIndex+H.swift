@@ -165,6 +165,12 @@ internal extension SiteIndex {
         
         Site("https://www.helmm.com")
         
+        
+        // #HEMP
+        
+        Site("https://hemphop.co")
+            .queryURL(path: "/search?q=%s&options%5Bprefix%5D=last")
+        
         Site("https://www.herald-dispatch.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         

@@ -239,6 +239,12 @@ internal extension SiteIndex {
         
         Site("https://cocoacasts.com")
         
+        
+        // #CODE
+        
+        Site("https://www.codeavail.com")
+            .queryURL(path: "/blog/?s=%s")
+        
         Site("https://codegiant.io")
         
         Site("https://codemirror.net")
@@ -279,6 +285,9 @@ internal extension SiteIndex {
         
         Site("https://www.commondreams.org")
             .queryURL(path: "/search/site/%s")
+        
+        Site("https://commonwealthmagazine.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.complex.com")
             .queryURL(path: "/search?q=%s")
@@ -352,10 +361,15 @@ internal extension SiteIndex {
         Site("https://crest.com")
             .queryURL(path: "/en-us/search?term=%s", locale: .unitedStates())
         
+        
+        // #CRO
+        
         Site("https://www.crossborderxpress.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://crossfitknoxville.com")
+        
+        Site("https://www.crowdstrike.com")
         
         Site("https://crunchk.com")
         

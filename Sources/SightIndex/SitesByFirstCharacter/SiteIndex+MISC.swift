@@ -88,6 +88,9 @@ internal extension SiteIndex {
         
         // #6
         
+        Site("https://avltoday.6amcity.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.6pm.com")
             .queryURL(path: "/%s")
         

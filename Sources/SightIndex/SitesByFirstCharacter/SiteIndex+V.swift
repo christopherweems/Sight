@@ -67,6 +67,8 @@ internal extension SiteIndex {
         Site("https://veronicabeard.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.versionmuseum.com")
+        
         Site("https://www.verywellmind.com")
             .queryURL(path: "/search?q=%s")
         
@@ -142,6 +144,9 @@ internal extension SiteIndex {
         
         Site("https://www.visitknoxville.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.visualcapitalist.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.vitamix.com")
             .queryURL(path: "/us/en_us/browse/s_%s/")

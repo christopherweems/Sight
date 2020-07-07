@@ -26,6 +26,8 @@ internal extension SiteIndex {
         Site("https://www.dafont.com")
             .queryURL(path: "/search.php?q=%s")
         
+        Site("https://www.dailywire.com")
+        
         Site("https://davinciartistsupply.com")
         .queryURL(path: "/shop/advanced_search_result.php?keywords=%s")
         

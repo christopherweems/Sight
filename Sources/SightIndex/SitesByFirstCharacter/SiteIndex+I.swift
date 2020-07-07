@@ -182,9 +182,6 @@ internal extension SiteIndex {
         Site("https://www.injennieskitchen.com")
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.inquirer.com")
-            .queryURL(path: "/search/%s/score/?searchKeywords=%s")
-        
         
         // #INS
         
@@ -199,6 +196,8 @@ internal extension SiteIndex {
         Site("https://www.insightcrime.org")
             .queryURL(path: "/?s=%s")
         
+        Site("https://instafeedjs.com")
+        
         Site("https://instantfigure.com")
             .queryURL(path: "/index.php?route=product/search&search=%s")
         
@@ -206,15 +205,18 @@ internal extension SiteIndex {
         
         Site("https://www.intel.com")
             .queryURL(path: "/content/www/us/en/search.html?ws=text#q=%s&t=All")
-        
-        Site("https://www.internetsociety.org")
-            .queryURL(path: "/search/?q=%s")
-        
+                
         Site("https://interestingengineering.com")
             .queryURL(path: "/s/search?q=%s")
         
         Site("https://www.intermixonline.com")
             .queryURL(path: "/search?q=%s&lang=en_US")
+        
+        Site("https://www.internetsociety.org")
+            .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.intersystems.com")
+            .queryURL(path: "/#stq=%s&stp=1")
         
         Site("https://www.interweave.com")
             .queryURL(path: "/store/index.php/catalogsearch/result/?q=%s")
@@ -223,10 +225,14 @@ internal extension SiteIndex {
             .queryURL(path: "/catalogsearch/result?q=%s")
         
         Site("https://www.intimissimi.com")
-            .queryURL(path: "/us/search/?q=%s&lang=en_US")
+            .queryURL(path: "/us/search/?q=%s&lang=en_US", locale: .unitedStates())
+        
+        Site("https://www.inquirer.com")
+            .queryURL(path: "/search/%s/score/?searchKeywords=%s")
         
         Site("https://www.inverse.com")
             .queryURL(path: "/search?q=%s")
+        
         
         
         // #IO

@@ -106,6 +106,8 @@ internal extension SiteIndex {
         
         // #SC
         
+        Site("https://www.sciencealert.com")
+        
         Site("https://www.sciencemag.org")
             .queryURL("https://search.sciencemag.org/?searchTerm=%s")
         
@@ -498,6 +500,8 @@ internal extension SiteIndex {
         Site("https://smittenkitchen.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://smokymountaincinema.com")
+        
         Site("https://www.smu.edu")
             .queryURL(path: "/search?q=%s")
         
@@ -578,6 +582,9 @@ internal extension SiteIndex {
         
         Site("https://southbeachswimsuits.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("https://www.southerncharmcbd.com")
+            .queryURL(path: "/s/search?q=%s")
         
         Site("https://www.southernstates.com")
             .queryURL(path: "/catalog/search?q=%s")

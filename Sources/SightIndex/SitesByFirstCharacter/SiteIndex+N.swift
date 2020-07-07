@@ -51,6 +51,9 @@ internal extension SiteIndex {
         
         Site("https://www.natashatherobot.com")
         
+        Site("https://nationalinterest.org")
+            .queryURL(path: "/search/node/%s")
+        
         Site("https://nativenewsonline.net")
             .queryURL(path: "/?s=%s")
         
@@ -104,6 +107,9 @@ internal extension SiteIndex {
         Site("http://www.nccu.edu")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.ncsbe.gov")
+            .queryURL(path: "/Site-Search?Search=%s")
+        
         Site("https://www.ncsu.edu")
             .queryURL(path: "/search/global.php?q=%s")
         
@@ -115,6 +121,9 @@ internal extension SiteIndex {
         
         Site("https://churchlifejournal.nd.edu")
             .queryURL(path: "/search/?as_sitesearch=churchlifejournal.nd.edu&entqr=3&q=%s")
+        
+        Site("https://gadgets.ndtv.com")
+            .queryURL(path: "/search?searchtext=%s")
         
         Site("https://sports.ndtv.com")
             .queryURL(path: "/search?q=%s")
@@ -204,10 +213,15 @@ internal extension SiteIndex {
         Site("https://www.newsweek.com")
             .queryURL(path: "/search/site/%s")
         
+        
+        // #NEX
+        
         Site("http://nexentireusa.com")
         
         Site("http://www.nextgenplayer.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://nexo.io")
         
         Site("https://www.nexusmagazine.com")
             .queryURL(path: "/component/search/?searchword=%s")

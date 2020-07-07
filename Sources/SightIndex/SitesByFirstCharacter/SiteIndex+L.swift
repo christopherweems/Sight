@@ -77,6 +77,8 @@ internal extension SiteIndex {
         Site("https://www.lays.com")
             .queryURL(path: "/search?query=%s")
         
+        Site("https://www.lazarusnaturals.com")
+        
         Site("https://www.lazyone.com")
             .queryURL(path: "/search/?q=%s")
         

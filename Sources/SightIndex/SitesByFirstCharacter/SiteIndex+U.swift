@@ -105,6 +105,8 @@ internal extension SiteIndex {
         Site("https://www.uloft.com")
             .queryURL(path: "/?s=%s&post_type=product")
         
+        // #ULT
+        
         Site("https://www.ulta.com")
             .queryURL(path: "/ulta/a/_/Ntt-%s/Nty-1?Dy=1&ciSelector=searchResults")
         
@@ -268,6 +270,9 @@ internal extension SiteIndex {
         
         Site("https://www.usatoday.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://sfi.usc.edu")
+            .queryURL(path: "/search-page?search=%s")
         
         Site("https://usdasearch.usda.gov")
             .queryURL(path: "/search?query=%s")

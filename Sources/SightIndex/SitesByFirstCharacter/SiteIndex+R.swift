@@ -156,6 +156,12 @@ internal extension SiteIndex {
         Site("https://www.rentacenter.com")
             .queryURL(path: "/search/?text=%s")
         
+        
+        // #REP
+        
+        Site("https://www.repairerdrivennews.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("http://www.repel.com")
             .queryURL(path: "/Search-Results.aspx?s=%s")
         
@@ -180,8 +186,14 @@ internal extension SiteIndex {
         Site("https://www.retrorgb.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://uk.reuters.com")
+            .queryURL(path: "/search/news?blob=%s")
+        
         Site("https://www.reuters.com")
             .queryURL(path: "/search/news?blob=%s")
+        
+        Site("https://www.revealnews.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.reviewjournal.com")
             .queryURL(path: "/?s=%s")

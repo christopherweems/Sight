@@ -29,6 +29,12 @@ internal extension SiteIndex {
         Site("https://bakingbites.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #BAL
+        
+        Site("https://ballotpedia.org")
+            .queryURL(path: "/wiki/index.php?search=%s")
+        
         Site("https://www.bannersociety.com")
             .queryURL(path: "/search?q=%s")
 
@@ -199,8 +205,20 @@ internal extension SiteIndex {
         
         Site("https://www.blogger.com")
         
-        Site("https://bluestreak.moxleycarmichael.com")
-            .queryURL(path: "/?s=%s")
+        Site("https://thewoodbooger.blogspot.com")
+            .queryURL(path: "/search?q=%s")
+        
+        
+        // #BLOH
+        
+        Site("https://news.bloomberglaw.com")
+            .queryURL(path: "/us-law-week/search?query=%s")
+        
+        // #BLU
+        
+        Site("https://www.blueridgenow.com")
+            .queryURL(path: "/search?text=%s&start=1")
+                
         
         // #BM
         Site("https://www.bmw.com")
@@ -209,6 +227,9 @@ internal extension SiteIndex {
         // #BN
         
         // #BO
+        
+        Site("https://boingboing.net")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.bona.co.za")
             .queryURL(path: "/?s=%s")
@@ -225,11 +246,21 @@ internal extension SiteIndex {
         
         Site("http://www.bostonsdeals.com")
         
+        
+        // #BOT
+        
         Site("https://www.botabox.com")
+        
+        Site("https://botsentinel.com")
         
         Site("https://www.boxofficepro.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #BP
+        
+        Site("https://www.bpr.org")
+            .queryURL(path: "/search/google/%s")
         
         // #BR
         

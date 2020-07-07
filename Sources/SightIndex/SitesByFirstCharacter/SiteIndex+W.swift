@@ -36,6 +36,9 @@ internal extension SiteIndex {
         Site("https://www.wards.com")
             .queryURL(path: "/search/results/?q=%s")
         
+        
+        // #WAS
+        
         Site("https://wasabi.com")
         
         Site("http://www.washington.edu")
@@ -61,6 +64,9 @@ internal extension SiteIndex {
         
         Site("https://watchstadium.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.wasserstrom.com")
+            .queryURL(path: "/restaurant-supplies-equipment/SearchDisplay?searchTerm=%s")
         
         Site("http://www.watchstation.com")
             .queryURL(path: "/webapp/wcs/stores/servlet/SearchDisplayCmd?URL=SearchResultsView&storeId=34054&catalogId=23503&langId=-1&Ntt=%s")
@@ -441,6 +447,8 @@ internal extension SiteIndex {
         
         Site("https://wrenglory.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("http://www.wristruments.com")
         
         Site("https://www.wrti.org")
             .queryURL(path: "/search/google/%s")

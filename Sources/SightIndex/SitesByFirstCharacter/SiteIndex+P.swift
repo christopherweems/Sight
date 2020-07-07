@@ -282,11 +282,17 @@ internal extension SiteIndex {
         Site("https://plantapothecary.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PLAY
+        
         Site("https://playpits.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.playstation.com")
             .queryURL(path: "/en-us/search/?q=%s")
+        
+        Site("https://www.playstationlifestyle.net")
+            .queryURL(path: "/search-2/?q=%s&search=Search")
         
         Site("https://www.plazaart.com")
             .queryURL(path: "/ssearch?q=%s")
@@ -301,6 +307,9 @@ internal extension SiteIndex {
         // #PM
         // #PN
         // #PO
+        
+        Site("https://www.pogo.org")
+            .queryURL(path: "/search/?query=%s&page=1")
         
         Site("https://www.polarnopyretusa.com")
             .queryURL(path: "/search-results?FullText=%s")
@@ -420,6 +429,8 @@ internal extension SiteIndex {
         // #PT
         // #PU
         
+        Site("https://publicinput.com")
+        
         Site("https://www.publix.com")
             .queryURL(path: "/search?searchTerm=%s")
         
@@ -434,6 +445,9 @@ internal extension SiteIndex {
         
         Site("https://www.purplebricks.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.pushtechnology.com")
+            .queryURL(path: "/search/pt-website?q=%s")
         
         
         // #PV

@@ -62,6 +62,9 @@ internal extension SiteIndex {
         Site("https://www.japantimes.co.jp")
             .queryURL(path: "/search-results/?q=%s&submit=Search")
         
+        Site("https://www.javaassignmenthelp.com")
+            .queryURL(path: "/blog/?s=%s")
+        
         Site("https://www.jayco.com")
             .queryURL(path: "/site/search/?term=%s")
         
@@ -135,6 +138,9 @@ internal extension SiteIndex {
         
         Site("https://www.jetpens.com")
             .queryURL(path: "/search?q=%s&v=2")
+        
+        Site("https://theslot.jezebel.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #JF

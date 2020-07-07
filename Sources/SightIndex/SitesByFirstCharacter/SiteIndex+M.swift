@@ -80,8 +80,14 @@ internal extension SiteIndex {
         
         Site("https://magnoliaandember.com")
         
+        
+        // #MAI
+        
         Site("https://www.maidenform.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=277157&doorId=7&storeId=14301&catalogId=14551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s#facet:&productBeginIndex:0&orderBy:&pageView:&minPrice:&maxPrice:&pageSize:20&")
+        
+        Site("https://www.mail-archive.com")
+            .queryURL(path: "/search?l=all&q=%s")
         
         Site("https://mailchimp.com")
         
@@ -328,10 +334,16 @@ internal extension SiteIndex {
         Site("https://www.milb.com")
             .queryURL(path: "/milb/news/search?q=%s")
         
+        
+        // #MIN
+        
         Site("https://www.mindbodygreen.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://www.minecraft.net")
+        
+        Site("https://www.mining.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.mingwangknits.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -431,6 +443,9 @@ internal extension SiteIndex {
         
         Site("https://mojospa.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://bluestreak.moxleycarmichael.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #MON

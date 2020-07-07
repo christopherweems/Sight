@@ -364,6 +364,9 @@ internal extension SiteIndex {
         Site("https://www.franklinpierce.edu")
             .queryURL(path: "/search-results.htm?q=%s")
         
+        Site("https://www.fraunhofer.de")
+            .queryURL(path: "/de/suche.html?lang=de&queryString=%s", locale: .germany())
+        
         Site("https://www.fred.com")
             .queryURL(path: "/en/search-en?search=%s")
         
@@ -398,6 +401,9 @@ internal extension SiteIndex {
          
         Site("https://froknowsphoto.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.frontiersin.org")
+            .queryURL(path: "/search?query=%s&tab=top-results")
         
         Site("https://www.frys.com")
             .queryURL(path: "/search?query_string=%s")

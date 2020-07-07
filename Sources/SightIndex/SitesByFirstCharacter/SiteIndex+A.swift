@@ -85,6 +85,9 @@ internal extension SiteIndex {
         
         // #AD
         
+        Site("https://www.adl.org")
+            .queryURL(path: "/search?keys=%s")
+        
         Site("https://www.admix.com")
         
         Site("https://www.adobe.com")
@@ -163,6 +166,12 @@ internal extension SiteIndex {
         Site("https://www.akc.org")
             .queryURL(path: "/?s=%s")
         
+        
+        // #AKI
+        
+        Site("https://akirabotanicals.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://akris.com")
             .queryURL("https://us.akris.com/pages/find/?text=%s", locale: .unitedStates())
         
@@ -238,6 +247,8 @@ internal extension SiteIndex {
         Site("https://www.americangemsociety.org")
             .queryURL(path: "/search/all.asp?bst=%s")
         
+        Site("http://www.americangeode.com")
+        
         Site("https://amp.dev")
         
         
@@ -247,6 +258,11 @@ internal extension SiteIndex {
             .queryURL(path: "/SearchResults?q=%s")
         
         Site("https://www.anchorbooks.com")
+        
+        
+        // #AND
+        
+        Site("https://www.andrewdenty.com")
         
         Site("https://andrewingram.net")
         
@@ -275,7 +291,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         
-        // #AP
+        /// #AP
         
         Site("https://collegefootball.ap.org")
             .queryURL(path: "/search/%s")
@@ -285,6 +301,11 @@ internal extension SiteIndex {
         
         Site("https://www.apa.org")
             .queryURL(path: "/search?query=%s")
+        
+        
+        // #API
+        
+        Site("https://apicalgreens.com")
         
         Site("https://apiscp.com")
         
@@ -345,6 +366,8 @@ internal extension SiteIndex {
         
         Site("https://www.artiba.org")
         
+        Site("https://www.article19.org")
+        
         Site("https://www.artistcraftsman.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -371,6 +394,9 @@ internal extension SiteIndex {
                 
         Site("https://www.ashleyfurniture.com")
             .queryURL(path: "/unxsearch/?q=%s")
+        
+        Site("http://ashevilleblog.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.ask.com")
             .queryURL(path: "/web?q=%s")
@@ -405,6 +431,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://atdonline.com")
+        
+        Site("https://atechdaily.com")
+            .queryURL(path: "/search?searchText=%s")
         
         Site("https://www.atheists.org")
             .queryURL(path: "/?s=%s&submit=")

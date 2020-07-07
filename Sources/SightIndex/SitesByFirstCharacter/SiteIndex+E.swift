@@ -292,6 +292,9 @@ internal extension SiteIndex {
         Site("https://www.eveningcollective.com")
             .queryURL(path: "/search.html?q=%s")
         
+        Site("https://www.eventbrite.com")
+            .queryURL(path: "/d/online/%s/?q=%s&mode=search")
+        
         Site("https://www.ever-pretty.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
