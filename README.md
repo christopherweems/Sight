@@ -11,8 +11,10 @@ Also acts as a local index of thousands of websites.
 Create a url for the site's query results page:
 ```
 import Sight
+import SightBuilder // will not be necessary in future release
 
 let searchURL = try? URL(site: "imdb.com", .unencodedQuery("Titanic II"))
+// searchURL == `https://www.imdb.com/find?q=Titanic+II`
 ```
 Spaces in .unencodedQuery(..) are automatically percent encoded.
 
@@ -54,11 +56,12 @@ let github = Site(authority: "github.com", match: .exact)
 ```
 
 Best match is O(n^2) and uncached:
+(Not yet implemented)
 ```
 let apple = Site(authority: "aple.com", match: .best)
 ```
 
-Where `n` is the count of `Site`s in directory (~`n/27`), due to splitting of domains into buckets a-z + misc)
+Where `n` is the count of `Site` indexed. (actually ~`n/27`), as sites are split into buckets a-z + misc)
 
 [These O(n) values are goals and may not be accurate until v1.0]
 
@@ -77,4 +80,4 @@ swift run SightInspector -o wikipedia.org Khruangbin
 
 ## Related Links
 
-[Smart bookmark](https://en.wikipedia.org/wiki/Smart_bookmark) 
+[Wikipedia - Smart bookmark](https://en.wikipedia.org/wiki/Smart_bookmark) 
