@@ -282,6 +282,9 @@ internal extension SiteIndex {
         Site("https://sfi.usc.edu")
             .queryURL(path: "/search-page?search=%s")
         
+        Site("https://www.usconcealedcarry.com")
+            .queryURL(path: "/search/?query=%s")
+        
         Site("https://usdasearch.usda.gov")
             .queryURL(path: "/search?query=%s")
         

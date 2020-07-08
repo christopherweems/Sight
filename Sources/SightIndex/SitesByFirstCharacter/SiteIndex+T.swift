@@ -201,6 +201,9 @@ internal extension SiteIndex {
         Site("https://tenor.com")
             .queryURL(path: "/search/%s-gifs")
         
+        Site("https://www.tennis.com")
+            .queryURL(path: "/search/?keywords=%s")
+        
         Site("https://www.tesla.com")
         
         Site("https://tequilaavion.com")
@@ -341,6 +344,8 @@ internal extension SiteIndex {
         
         Site("https://www.thefader.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.thefarside.com")
         
         Site("https://thefashioncamera.com")
             .queryURL(path: "/?s=%s")

@@ -328,7 +328,7 @@ internal extension SiteIndex {
             .queryURL(path: "/shop?s=%s&x=0&y=0")
         
         
-        // #DL
+        // #DOL
         
         
         Site("https://dolcegabbana.com")
@@ -357,6 +357,9 @@ internal extension SiteIndex {
         
         Site("https://www.donnakaran.com")
             .queryURL(path: "/search.do?query=%s")
+        
+        Site("https://www.donnywals.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.doodlepants.com")
             .queryURL(path: "/search.php?mode=1&search_query_adv=%s&brand=&searchsubs=ON&price_from=&price_to=&featured=&shipping=")

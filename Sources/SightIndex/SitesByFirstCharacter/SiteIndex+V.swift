@@ -31,6 +31,9 @@ internal extension SiteIndex {
         Site("https://variety.com")
         .queryURL(path: "/results/#?q=%s")
         
+        Site("https://www.varley.com")
+            .queryURL(path: "/pages/search-results?q=%s")
+        
         Site("https://www.vat19.com")
             .queryURL(path: "/products/search?q=%s")
         

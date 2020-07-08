@@ -35,6 +35,11 @@ internal extension SiteIndex {
         Site("https://ballotpedia.org")
             .queryURL(path: "/wiki/index.php?search=%s")
         
+        
+        // #BAN
+        
+        Site("https://www.bandlab.com")
+        
         Site("https://www.bannersociety.com")
             .queryURL(path: "/search?q=%s")
 

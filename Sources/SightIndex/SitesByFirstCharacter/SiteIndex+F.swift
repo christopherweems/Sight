@@ -200,6 +200,8 @@ internal extension SiteIndex {
         
         Site("https://www.firestonetire.com")
         
+        Site("https://www.firstleaf.club")
+        
         Site("https://www.fisk.edu")
             .queryURL(path: "/?s=%s&post_type=all")
         
@@ -397,6 +399,9 @@ internal extension SiteIndex {
         
         Site("https://www.freepeople.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.freepik.com")
+            .queryURL(path: "/search?dates=any&format=search&page=1&query=%s&sort=popular")
         
         Site("https://freepn.com")
         

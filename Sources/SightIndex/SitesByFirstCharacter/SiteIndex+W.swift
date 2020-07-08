@@ -303,6 +303,8 @@ internal extension SiteIndex {
         Site("https://www.wildfox.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://wildlifeinsider.com")
+        
         Site("https://www.williams-sonoma.com")
             .queryURL(path: "/search/results.html?words=%s&activeTab=products")
         

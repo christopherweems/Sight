@@ -130,6 +130,9 @@ internal extension SiteIndex {
         Site("https://www.9news.com.au")
             .queryURL("https://search.nine.com.au/?q=%s&site=news")
         
+        Site("https://9to5.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://9to5google.com")
             .queryURL(path: "/?s=%s")
         

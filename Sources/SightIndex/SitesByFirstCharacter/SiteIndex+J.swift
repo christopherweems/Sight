@@ -322,6 +322,9 @@ internal extension SiteIndex {
         Site("https://www.justonecookbook.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.justsecurity.org")
+            .queryURL(path: "/?s=%s")
+        
         
         // #JV
         

@@ -237,6 +237,9 @@ internal extension SiteIndex {
         
         // #ER
         
+        Site("https://www.ereplacementparts.com")
+            .queryURL(path: "/search_result.php?q=%s")
+        
         Site("http://www.ericamintu.com")
             .queryURL(path: "/?s=%s")
         
