@@ -53,6 +53,7 @@ struct Describe: ParsableCommand {
                 #endif
             
             } else {
+                print(url)
                 
             }
             
