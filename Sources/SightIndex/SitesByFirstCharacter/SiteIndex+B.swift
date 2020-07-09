@@ -86,6 +86,9 @@ internal extension SiteIndex {
         Site("https://www.bbc.com")
             .queryURL("https://www.bbc.co.uk/search?q=%s")
         
+        Site("https://www.bbcamerica.com")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://www.bbcnewsalerts.com")
             .queryURL(path: "/search?q=%s")
         
@@ -140,8 +143,9 @@ internal extension SiteIndex {
         Site("https://www.bestusedtires.com")
             .queryURL(path: "/shop?search_query=%s")
         
-        Site("https://getbevel.com")
-        
+        Site("https://www.bet.com")
+            .queryURL(path: "/searchresults.html?q=%s")
+                
         
         // #BF
         // #BG
@@ -290,6 +294,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search/google/%s")
         
         // #BR
+        
+        Site("https://www.bravotv.com")
         
         Site("https://break.com")
         .queryURL(path: "/search?q=%s")

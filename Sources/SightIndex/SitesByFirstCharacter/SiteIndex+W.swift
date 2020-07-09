@@ -226,6 +226,8 @@ internal extension SiteIndex {
         Site("https://www.wgbh.org")
             .queryURL(path: "/news/search?q=%s")
         
+        Site("https://wgnamerica.com")
+        
         
         // #WH
         

@@ -16,6 +16,9 @@ internal extension SiteIndex {
         
         Site("https://haaalp.me")
         
+        Site("https://www.haaretz.com")
+            .queryURL(path: "/search-results?q=%s")
+        
         Site("https://www.haband.com")
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
@@ -397,6 +400,8 @@ internal extension SiteIndex {
             .queryURL(path: "/nsearch/?q=%s")
         
         Site("https://hypercritical.co")
+        
+        Site("https://hyperice.com")
         
         Site("https://www.hypershop.com")
             .queryURL(path: "/search?q=%s")

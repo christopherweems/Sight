@@ -58,6 +58,8 @@ internal extension SiteIndex {
         // #YD
         // #YE
         
+        Site("https://www.yellowbrick.co")
+        
         Site("https://www.yelp.com")
             .queryURL(path: "/search?find_desc=%s")
         

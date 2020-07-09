@@ -368,6 +368,8 @@ internal extension SiteIndex {
         
         Site("https://www.foxsports.com.au")
         
+        Site("https://www.foxsports.com")
+        
         
         // #FP
         // #FQ

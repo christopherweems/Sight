@@ -11,6 +11,12 @@ import SightBuilder
 internal extension SiteIndex {
     static var C = SiteSet {
         
+        // #C1
+        
+        Site("https://www.c-span.org")
+            .queryURL(path: "/search/basic/?query=%s")
+        
+        
         // #CA
         
         Site("https://www.cadillac.com")
@@ -46,6 +52,8 @@ internal extension SiteIndex {
         
         Site("https://shop.usa.canon.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=&storeId=10051&catalogId=10051&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=18&searchTerm=%s")
+        
+        Site("https://www.cartoonnetwork.com")
         
         Site("https://www.ckc.ca")
             .queryURL(path: "/en/Templates/Special-Pages/Search-Results?searchtext=%s", language: .english)
@@ -97,6 +105,8 @@ internal extension SiteIndex {
         
         
         // #CC
+        
+        Site("https://www.cc.com")
         
         Site("https://www.ccmmagazine.com")
             .queryURL(path: "/?s=%s")
@@ -228,6 +238,8 @@ internal extension SiteIndex {
         // #CM
         
         Site("https://www.cmgresearch.com")
+        
+        Site("https://www.cmt.com")
         
         Site("https://web-search.andrew.cmu.edu")
             .queryURL(path: "/search?entqr=3&entsp=a&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&client=default_frontend&ud=1&oe=UTF-8&ie=UTF-8&proxystylesheet=default_frontend&q=%s&site=")

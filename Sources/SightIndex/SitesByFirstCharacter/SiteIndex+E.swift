@@ -25,6 +25,9 @@ internal extension SiteIndex {
         
         Site("https://www.earny.co")
         
+        Site("https://earthjustice.org")
+            .queryURL(path: "/library/%s")
+        
         
         // #EAST
         

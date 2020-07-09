@@ -75,6 +75,9 @@ internal extension SiteIndex {
         
         // #IF
         
+        Site("https://www.ifc.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.ifixit.com")
         .queryURL(path: "/Search?query=%s")
         

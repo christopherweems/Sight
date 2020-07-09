@@ -90,6 +90,8 @@ internal extension SiteIndex {
         
         Site("https://www.dawgnation.com")
         
+        Site("https://www.dazn.com")
+        
         
         // #DB
         // #DC

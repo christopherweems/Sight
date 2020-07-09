@@ -234,6 +234,9 @@ internal extension SiteIndex {
         
         Site("https://onezero.medium.com")
         
+        Site("https://meidastouch.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.meijer.com")
             .queryURL(path: "/catalog/search_command.cmd?keyword=%s")
         
@@ -260,8 +263,8 @@ internal extension SiteIndex {
         
         Site("https://www.mentedcosmetics.com")
             .queryURL(path: "/search?q=%s")
-        
-        Site("https://meidastouch.com")
+                
+        Site("https://www.merchantmaverick.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.mercurynews.com")

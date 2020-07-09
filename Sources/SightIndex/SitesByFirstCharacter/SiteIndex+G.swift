@@ -283,6 +283,8 @@ internal extension SiteIndex {
         
         // #GO
         
+        Site("https://freeform.go.com")
+        
         Site("https://gobattlers.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
@@ -427,6 +429,8 @@ internal extension SiteIndex {
         
         Site("https://www.gsmarena.com")
             .queryURL(path: "/res.php3?sSearch=%s")
+        
+        Site("https://www.gsntv.com")
         
         
         // #GT

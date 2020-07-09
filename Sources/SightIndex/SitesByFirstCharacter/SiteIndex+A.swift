@@ -82,6 +82,9 @@ internal extension SiteIndex {
         Site("https://www.acouplecooks.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.acslaw.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://actblue.com")
             .queryURL("https://secure.actblue.com/directory?query=%s")
         
@@ -123,7 +126,10 @@ internal extension SiteIndex {
         // #AE
         
         Site("https://www.ae.com")
-            .queryURL(path: "/us/en/s/%s")
+            .queryURL(path: "/us/en/s/%s", locale: .unitedStates())
+        
+        Site("https://www.aetv.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #AF
@@ -538,6 +544,8 @@ internal extension SiteIndex {
         
         
         // #AW
+        
+        Site("https://www.awetv.com")
         
         Site("https://awfulannouncing.com")
             .queryURL(path: "/?s=%s")

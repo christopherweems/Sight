@@ -102,6 +102,8 @@ internal extension SiteIndex {
         Site("https://www.tbr.edu")
             .queryURL(path: "/search/google/%s")
         
+        Site("https://www.tbs.com")
+        
         // #TC
         
         Site("https://www.tcelectronic.com")
@@ -157,6 +159,9 @@ internal extension SiteIndex {
         
         Site("https://www.technewsworld.com")
             .queryURL(path: "/perl/search.pl?x=0&y=0&query=%s")
+        
+        Site("https://technigadgets.net")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.technobyte.org")
             .queryURL(path: "/?s=%s")
@@ -712,6 +717,8 @@ internal extension SiteIndex {
         Site("http://www.tnstate.edu")
             .queryURL(path: "/searchresults.aspx?cx=002368324096397372458%3Auiyt-zp6kyu&cof=FORID%3A11&q=%s")
         
+        Site("https://www.tntdrama.com")
+        
         Site("https://www.tntech.edu")
             .queryURL(path: "/search.php#stq=%s")
         
@@ -878,6 +885,8 @@ internal extension SiteIndex {
         
         Site("https://truthout.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.trutv.com")
         
         Site("https://www.trwaftermarket.com")
             .queryURL(path: "/us/site-search-results/?query=%s")
