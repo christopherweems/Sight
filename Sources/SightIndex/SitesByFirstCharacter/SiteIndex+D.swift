@@ -452,7 +452,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search-results?indexCatalogue=MainSearch&searchQuery=%s")
         
         Site("https://duckduckgo.com")
-            .queryURL("/?q=%s")
+            .queryURL(path: "/?q=%s")
         
         Site("https://www.duluthtrading.com")
             .queryURL(path: "/search/?q=%s")
