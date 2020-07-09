@@ -451,6 +451,9 @@ internal extension SiteIndex {
         Site("https://www.dublinairport.com")
             .queryURL(path: "/search-results?indexCatalogue=MainSearch&searchQuery=%s")
         
+        Site("https://duckduckgo.com")
+            .queryURL("/?q=%s")
+        
         Site("https://www.duluthtrading.com")
             .queryURL(path: "/search/?q=%s")
         

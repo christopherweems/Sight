@@ -293,6 +293,9 @@ internal extension SiteIndex {
         Site("https://www.colorado.edu")
             .queryURL(path: "/today/search?cse=%s&op=Search")
         
+        Site("https://colorofchange.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://collegefootballnews.com")
             .queryURL(path: "/?s=%s")
         
