@@ -10,7 +10,7 @@ import Foundation
 public struct SiteReader {
     private let site: Site
     
-    init(_ site: Site) {
+    public init(_ site: Site) {
         self.site = site
     }
 }
