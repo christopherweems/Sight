@@ -138,6 +138,8 @@ internal extension SiteIndex {
         Site("https://www.scotchporter.com")
             .queryURL(path: "/search?q=%s&type=product")
         
+        Site("https://scottberrevoets.com")
+        
         Site("https://www.screenbinge.com")
             .queryURL(path: "/?s=%se")
         
@@ -382,6 +384,12 @@ internal extension SiteIndex {
         
         Site("https://www.sierra.com")
             .queryURL(path: "/s~%s/")
+        
+        
+        // #SIG
+        
+        Site("https://pldi20.sigplan.org")
+            .queryURL(path: "/search/%s/all")
         
         Site("https://www.siteground.com")
         
@@ -636,6 +644,9 @@ internal extension SiteIndex {
         Site("https://southbeachswimsuits.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        Site("https://southboundanddown.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.southerncharmcbd.com")
             .queryURL(path: "/s/search?q=%s")
         
@@ -721,6 +732,12 @@ internal extension SiteIndex {
         Site("https://www.sqlite.org")
             .queryURL(path: "/search?s=d&q=%s")
         
+        
+        // #SQR
+
+        Site("https://www.sqreen.com")
+        
+        
         // #SR
         // #SS
         
@@ -731,6 +748,7 @@ internal extension SiteIndex {
         
         
         // #ST
+        // #STA
         
         Site("https://stackexchange.com")
             .queryURL(path: "/search?q=%s")
@@ -740,6 +758,8 @@ internal extension SiteIndex {
         
         Site("https://www.stacyadams.com")
             .queryURL(path: "/shop/styleGridSearch.html?pageNumber=0&text=%s")
+        
+        Site("https://www.standard.co.uk")
         
         Site("https://www.stage.com")
             .queryURL(path: "/s/%s/N-0")
@@ -788,7 +808,12 @@ internal extension SiteIndex {
         Site("https://www.stevemadden.com")
             .queryURL(path: "/pages/search-results?q=%s")
         
+        
+        // #STI
+        
         Site("https://stitcher.io")
+        
+        Site("https://www.stitchfix.com")
         
         Site("https://www.stihlusa.com")
             .queryURL(path: "/search/#stq=%s")

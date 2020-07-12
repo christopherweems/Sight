@@ -227,7 +227,14 @@ internal extension SiteIndex {
         Site("https://liverpooljeans.com")
             .queryURL(path: "/pages/search-results-page?q=%s")
         
+        
+        // #LIV
+
+        Site("https://www.livescience.com")
+            .queryURL(path: "/search?searchTerm=%s")
+        
         Site("https://www.livescore.com")
+        
         
         // #LJ
         // #LK

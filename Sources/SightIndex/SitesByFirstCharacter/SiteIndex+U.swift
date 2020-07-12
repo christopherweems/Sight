@@ -68,6 +68,9 @@ internal extension SiteIndex {
         Site("https://www.udel.edu")
             .queryURL(path: "/udel-search/?q=%s")
         
+        Site("https://www.udemy.com")
+            .queryURL(path: "/courses/search/?q=%s")
+        
         
         // #UE
         
@@ -176,12 +179,6 @@ internal extension SiteIndex {
         Site("https://www.uncommongoods.com")
             .queryURL(path: "/search?q=%s")
         
-        
-        // #UND
-        
-        Site("https://und.com")
-            .queryURL(path: "/search/%s/")
-        
         Site("https://www.uncp.edu")
             .queryURL(path: "/search/cse?keys=%s")
         
@@ -192,7 +189,13 @@ internal extension SiteIndex {
             .queryURL(path: "/results.html?cx=002044598884227321031%3An6s3wx0uhow&cof=FORID%3A10&ie=UTF-8&q=%s")
         
         
-        // #UNDE
+        // #UND
+        
+        Site("https://und.com")
+            .queryURL(path: "/search/%s/")
+        
+        
+        // #UND
         
         Site("https://www.underarmour.com")
             .queryURL(path: "/en-us/search?q=%s")
@@ -201,6 +204,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         Site("https://understandlegacycode.com")
+        
+        Site("https://undream.net")
         
         Site("https://www.uniformcity.com")
             .queryURL(path: "/catalogsearch/result/?q=%s")
@@ -337,21 +342,42 @@ internal extension SiteIndex {
  
         
         // #UT
+        // #UTC
         
         Site("https://www.utc.edu")
             .queryURL(path: "/search.php?q=%s")
         
+        
+        // #UTD
+        
         Site("http://www.utdailybeacon.com")
             .queryURL(path: "/search/?q=%s")
+        
+        
+        // #UTE
         
         Site("https://my.utep.edu")
             .queryURL(path: "/Search?q=%s")
         
+        
+        // #UTK
+        
+        Site("https://www.utkaoii.com")
+        
+        
+        // #UTR
+        
         Site("https://www.utrechtart.com")
             .queryURL(path: "/Search/Default.aspx?src=%s")
         
+        
+        // #UTS
+        
         Site("https://utsports.com")
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:k4f4lozjbie&q=%s&sa=Search&cof=FORID%3A11#1141")
+        
+        
+        // #UTV
         
         Site("https://utvolshop.com")
             .queryURL(path: "/search.aspx?searchterm=%s")

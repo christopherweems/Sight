@@ -23,8 +23,14 @@ internal extension SiteIndex {
         Site("https://www.jachsny.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #JAC
+
         Site("https://www.jacksonsart.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.jacksonville.com")
+            .queryURL(path: "/search?text=%s")
         
         Site("https://jacobinmag.com")
             .queryURL(path: "/search?query=%s")
@@ -304,6 +310,11 @@ internal extension SiteIndex {
         
         Site("https://www.julep.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #JUN
+
+        Site("https://juneoven.com")
         
         Site("https://junoactive.com")
             .queryURL(path: "/search?type=product&q=%s*")

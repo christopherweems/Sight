@@ -76,6 +76,12 @@ internal extension SiteIndex {
         Site("https://www.accountingtoday.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #ACE
+
+        Site("https://www.acedout.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.acnestudios.com")
             .queryURL(path: "/us/en/home#q=%s*")
         
@@ -121,6 +127,12 @@ internal extension SiteIndex {
         
         Site("https://adventuregamers.com")
             .queryURL(path: "/games/search?keywords=%s")
+        
+        
+        // #ADW
+
+        Site("https://www.adweek.com")
+            .queryURL(path: "/?s=%s&orderby=date")
                 
         
         // #AE
@@ -156,8 +168,14 @@ internal extension SiteIndex {
         Site("https://www.aia.org")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #AIP
+        
         Site("https://publishing.aip.org")
             .queryURL(path: "/?s=%s&c=")
+
+        Site("https://aiptcomics.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.airbnb.com")
             .queryURL(path: "/s/all?query=%s")
@@ -232,6 +250,9 @@ internal extension SiteIndex {
         
         Site("https://www.allbirds.com")
         
+        Site("https://allfortennessee.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.alligatorarmy.com")
             .queryURL(path: "/search?q=%s")
         
@@ -249,6 +270,11 @@ internal extension SiteIndex {
         
         Site("https://www.almay.com")
             .queryURL(path: "/search-results-page?search=%s")
+        
+        
+        // #ALO
+
+        Site("https://www.alonetogether.com")
         
         Site("https://www.altpress.com")
             .queryURL(path: "/?s=%s")

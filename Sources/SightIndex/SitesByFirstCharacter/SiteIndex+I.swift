@@ -144,6 +144,9 @@ internal extension SiteIndex {
         
         Site("https://theincentive.org")
         
+        
+        // #IND
+        
         Site("https://www.indeed.com")
             .queryURL(path: "/jobs?q=%s")
         
@@ -151,6 +154,8 @@ internal extension SiteIndex {
         
         Site("https://www.indiana.edu")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("http://www.indianafoodways.com")
         
         Site("https://indianexpress.com")
             .queryURL(path: "/?s=%s")
@@ -309,6 +314,15 @@ internal extension SiteIndex {
         
         Site("https://www.italist.com")
             .queryURL(path: "/us/women/?q=%s")
+        
+        
+        // #ITC
+
+        Site("https://itch.io")
+            .queryURL(path: "/search?q=%s")
+        
+        
+        // #ITR
         
         Site("https://itrboxing.com")
             .queryURL(path: "/?s=%s")

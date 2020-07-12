@@ -310,6 +310,9 @@ internal extension SiteIndex {
         Site("https://www.theblaze.com")
             .queryURL(path: "/search/?q=%s")
         
+        Site("https://www.theblockcrypto.com")
+            .queryURL(path: "/search?s=%s")
+        
         Site("https://thebolditalic.com")
         
         
@@ -330,11 +333,17 @@ internal extension SiteIndex {
         Site("https://theconversation.com")
             .queryURL(path: "/us/search?q=%s")
         
+        Site("https://www.thecryptoassociate.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #THED
         
         Site("https://www.thedailybeast.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://thedailychain.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.thedailymash.co.uk")
             .queryURL(path: "/?s=%s")
@@ -441,6 +450,9 @@ internal extension SiteIndex {
         
         Site("https://www.thelocal.it")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.theluxurypost.com")
+            .queryURL(path: "/?s=%s")
         
         
         // #THEM
@@ -607,6 +619,9 @@ internal extension SiteIndex {
         
         // #THF
         // #THR
+        
+        Site("https://threader.app")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.threads4thought.com")
             .queryURL(path: "/search?q=%s")
@@ -890,6 +905,9 @@ internal extension SiteIndex {
         Site("https://troytrojans.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
+        
+        // #TRU
+        
         Site("https://www.truemfg.com")
             .queryURL(path: "/Search/%s")
         
@@ -898,6 +916,9 @@ internal extension SiteIndex {
         
         Site("https://www.trulia.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.trustnodes.com")
+            .queryURL(path: "/?s=%s&post_type=post")
         
         Site("https://www.trusstlingerie.com")
             .queryURL(path: "/search?type=product,article,page&q=*%s*")
@@ -951,8 +972,15 @@ internal extension SiteIndex {
         
         Site("https://www.tucksbrand.com")
         
+        
+        // #TUL
+        
         Site("https://tulanegreenwave.com")
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")
+        
+        Site("https://www.tulsaworld.com")
+            .queryURL(path: "/search/?l=25&s=start_time&sd=desc&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+
         
         Site("https://tungfresh.co")
             .queryURL(path: "/search?q=%s&options%5Bprefix%5D=last")

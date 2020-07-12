@@ -294,6 +294,9 @@ internal extension SiteIndex {
         
         Site("https://www.fontinlogo.com")
             .queryURL(path: "/search?query=%s")
+        
+        
+        // #FOO
                 
         Site("https://food52.com")
             .queryURL(path: "/recipes/search?q=%s")
@@ -312,6 +315,9 @@ internal extension SiteIndex {
         
         Site("https://www.foodnetwork.com")
             .queryURL(path: "/search/%s-")
+        
+        Site("http://foodychile.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.footaction.com")
             .queryURL(path: "/search?query=%s")

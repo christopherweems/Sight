@@ -23,9 +23,15 @@ internal extension SiteIndex {
         
         
         // #PAC
+
+        Site("https://pac-12.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://www.pacificcoast.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.packagedfacts.com")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://subscription.packtpub.com")
             .queryURL(path: "/search?query=%s")
@@ -448,6 +454,9 @@ internal extension SiteIndex {
         Site("https://www.procyclingstats.com")
             .queryURL(path: "/search.php?term=%s")
         
+        Site("https://www.producthunt.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("http://www.profootballarchives.com")
         
         Site("https://www.profootballhof.com")
@@ -459,6 +468,11 @@ internal extension SiteIndex {
         Site("https://www.promgirl.com")
             .queryURL(path: "/shop/find?keywords=%s")
         
+        Site("https://forums.prohashing.com")
+            .queryURL(path: "/search.php?keywords=%s")
+        
+        Site("https://promo.com")
+        
         Site("https://www.proozy.com")
             .queryURL(path: "/search?q=%s")
         
@@ -466,13 +480,28 @@ internal extension SiteIndex {
             .queryURL(path: "/search?qss=%s")
         
         
+        // #PRU
+
+        Site("https://www.prusaprinters.org")
+            .queryURL(path: "/search/all?q=%s")
+        
+        
         // #PS
+        // #PSL
+
+        Site("https://www.psl.com")
         
         Site("https://www.psu.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #PSU
+        
         Site("http://www.psu.edu")
             .queryURL(path: "/search/gss?query=%s")
+        
+        
+        // #PSY
         
         Site("https://www.psychologytoday.com")
             .queryURL(path: "/search/site/%s")

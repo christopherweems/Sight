@@ -54,6 +54,12 @@ internal extension SiteIndex {
         Site("https://www.zenith-watches.com")
             .queryURL(path: "/en_en/catalogsearch/result/?q=%s")
         
+        
+        // #ZER
+        
+        Site("https://www.zerohedge.com")
+            .queryURL(path: "/search-content?search_api_fulltext=%s&sort_by=search_api_relevance")
+        
         Site("https://www.zeromotorcycles.com")
         
         
@@ -119,6 +125,12 @@ internal extension SiteIndex {
         // #ZW
         // #ZX
         // #ZY
+        // #ZYC
+
+        Site("https://zycrypto.com")
+            .queryURL(path: "/?s=%s")
+        
+        
         // #ZZ
         
     }

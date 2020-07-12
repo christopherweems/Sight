@@ -159,6 +159,9 @@ internal extension SiteIndex {
         Site("https://www.visualcapitalist.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://code.visualstudio.com")
+            .queryURL(path: "/Search?q=%s")
+        
         Site("https://www.vitamix.com")
             .queryURL(path: "/us/en_us/browse/s_%s/")
         

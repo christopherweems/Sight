@@ -44,6 +44,12 @@ internal extension SiteIndex {
         
         Site("https://www.canadastop100.com")
         
+        
+        // #CAN
+
+        Site("https://www.canalblog.com")
+            .queryURL(path: "/search/posts/%s")
+        
         Site("https://www.cancer.com")
             .queryURL(path: "/search/solr/%s")
         
@@ -118,8 +124,14 @@ internal extension SiteIndex {
         
         Site("https://www.ccmmagazine.com")
             .queryURL(path: "/?s=%s")
+
         
+        // #CCN
+
         Site("https://www.ccn.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://ccnews24.net")
             .queryURL(path: "/?s=%s")
         
         Site("https://shop.ccs.com")
@@ -178,6 +190,12 @@ internal extension SiteIndex {
         Site("https://www.chick-fil-a.com")
         
         Site("https://www.christmastreeassociation.org")
+
+        
+        // #CHO
+
+        Site("https://www.chowhound.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.chron.com")
             .queryURL(path: "/search/?action=search&query=%s")
@@ -229,6 +247,9 @@ internal extension SiteIndex {
         Site("https://www.classichits1027.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #CLE
+        
         Site("https://newsstand.clemson.edu")
         
         Site("https://www.clemson.edu")
@@ -236,6 +257,9 @@ internal extension SiteIndex {
         
         Site("https://www.cleveland.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.cleveland19.com")
+            .queryURL(path: "/search/%s/1/")
         
         Site("https://www.clevelandstatecc.edu")
             .queryURL(path: "/search-results.html?q=%s")
@@ -304,6 +328,18 @@ internal extension SiteIndex {
         Site("https://codemirror.net")
         
         Site("https://codewithchris.com")
+        
+        
+        // #COI
+
+        Site("https://coinspice.io")
+            .queryURL(path: "/?s=%s")
+
+        Site("https://blog.coinmarketcap.com")
+            .queryURL(path: "/?s=%s")
+
+        Site("https://www.coindesk.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #COL

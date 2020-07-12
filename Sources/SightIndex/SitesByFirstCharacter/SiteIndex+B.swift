@@ -201,8 +201,14 @@ internal extension SiteIndex {
         Site("https://bigten.org")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
+        
+        // #BIL
+        
         Site("https://www.billboard.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://www.billdancestore.com")
+            .queryURL(path: "/search?q=%s")
                 
         Site("https://www.bing.com")
             .queryURL(path: "/search?q=%s")
@@ -339,6 +345,12 @@ internal extension SiteIndex {
         Site("https://www.britannica.com")
             .queryURL(path: "/search?query=%s")
         
+        
+        // #BRO
+
+        Site("https://brobible.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.brown.edu")
             .queryURL(path: "/search?q=%s")
         
@@ -390,6 +402,12 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         Site("https://www.buffalowildwings.com")
+        
+        
+        // #BUN
+        
+        Site("https://gourmet.bunn.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://retail.bunn.com")
             .queryURL(path: "/search?q=%s")

@@ -227,6 +227,12 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         
+        // #KNS
+        
+        Site("https://knsb.nl")
+            .queryURL(path: "/zoeken/?q=%s")
+        
+        
         // #KO
         
         Site("https://koa.com")

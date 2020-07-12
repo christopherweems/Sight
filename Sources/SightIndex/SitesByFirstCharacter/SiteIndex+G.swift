@@ -27,6 +27,14 @@ internal extension SiteIndex {
         Site("https://www.gainesville.com")
             .queryURL(path: "/search?text=%s")
         
+        
+        // #GAL
+        
+        Site("https://www.galvanize.com")
+        
+        
+        // #GAM
+        
         Site("https://gameandgraphics.com")
             .queryURL(path: "/search/%s")
         
@@ -378,10 +386,18 @@ internal extension SiteIndex {
         Site("https://gopro.com")
             .queryURL(path: "/en/us/shop/search?q=%s")
         
+        
+        // #GOS
+
+        Site("https://goshockers.com")
+            .queryURL(path: "/searchresults.aspx?q=%s")
+        
         Site("https://gosink.in")
         
         Site("https://gothamist.com")
             .queryURL(path: "/search?q=%s")
+        
+        // #GOU
         
         Site("https://goumikids.com")
             .queryURL(path: "/search/?q=%s")
@@ -389,8 +405,8 @@ internal extension SiteIndex {
         Site("https://gouppercase.com")
             .queryURL(path: "/search?q=%s")
         
-        Site("https://gourmet.bunn.com")
-            .queryURL(path: "/search?q=%s")
+        Site("https://www.gourmet-food.com")
+            .queryURL(path: "/NewProducts/ProductListSearchByPage.aspx?S=%s")
         
         Site("https://www.govtrack.us")
             .queryURL(path: "/search?q=%s")
@@ -413,7 +429,10 @@ internal extension SiteIndex {
             .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.grahambrown.com")
-            .queryURL(path: "/us/search/?q=%s&lang=en_US")
+            .queryURL(path: "/us/search/?q=%s&lang=en_US", locale: .unitedStates())
+        
+        Site("https://grainfoodsfoundation.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.grainger.com")
             .queryURL(path: "/search?searchQuery=%s")
@@ -473,6 +492,12 @@ internal extension SiteIndex {
         
         Site("https://guff.com")
             .queryURL(path: "/search/%s")
+        
+        
+        // #GUI
+
+        Site("https://www.guinnessworldrecords.com")
+            .queryURL(path: "/search?term=%s&page=1&type=all&max=20&partial=_Results&")
         
         Site("https://www.guirys.com")
             .queryURL(path: "/advanced-search?search_api_views_fulltext=%s")

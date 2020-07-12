@@ -58,8 +58,14 @@ internal extension SiteIndex {
         Site("https://www.rand.org")
             .queryURL(path: "/search.html?query=%s")
         
+        
+        // #RAP
+        
         Site("https://rapidcityjournal.com")
             .queryURL(path: "/search/?sd=desc&l=25&s=start_time&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
+        Site("http://www.rapidshift.net")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.ratchetandwrench.com")
             .queryURL(path: "/search?q=%s")
@@ -93,6 +99,10 @@ internal extension SiteIndex {
         
         
         // #RE
+        // #REA
+
+        Site("https://read.cash")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://readwrite.com")
             .queryURL(path: "/?s=%s")

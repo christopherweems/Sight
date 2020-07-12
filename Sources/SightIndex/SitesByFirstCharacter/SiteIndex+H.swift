@@ -138,6 +138,7 @@ internal extension SiteIndex {
         // #HC
         // #HD
         // #HE
+        // #HEA
         
         Site("http://www.healthdata.org")
             .queryURL(path: "/search?search_terms=%s")
@@ -148,11 +149,18 @@ internal extension SiteIndex {
         Site("https://healthyhappylife.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.hearingtracker.com")
+            .queryURL(path: "/search?&q=%s")
+
+        
         Site("https://www.heatholders.com")
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
         Site("https://www.heathrow.com")
             .queryURL(path: "/help/search-this-site?vgnextkeyword=%s")
+        
+        
+        // #HEB
         
         Site("https://www.heb.com")
             .queryURL(path: "/search/?q=%s")
@@ -235,11 +243,17 @@ internal extension SiteIndex {
         Site("https://www.hindustantimes.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #HIS
+        
         Site("https://www.hisroom.com")
             .queryURL(path: "/search2.aspx?terms=%s")
         
         Site("https://www.history.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://historyofmassachusetts.org")
+            .queryURL(path: "/?s=%s&submit=Search")
         
         Site("https://www.hive.co.uk")
             .queryURL(path: "/Search/Keyword?keyword=%s")

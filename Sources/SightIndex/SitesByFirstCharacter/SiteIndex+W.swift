@@ -118,6 +118,10 @@ internal extension SiteIndex {
         
         
         // #WC
+        // #WCC
+        
+        Site("https://wccftech.com")
+            .queryURL(path: "/find/?q=%s")
         
         Site("https://www.wcu.edu")
             .queryURL(path: "/search-wcu.aspx?q=%s")
@@ -272,6 +276,12 @@ internal extension SiteIndex {
         Site("https://www.whowhatwear.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #WHN
+        
+        Site("https://whnt.com")
+            .queryURL(path: "/?s=%s&submit=Search")
+        
         Site("https://www.whut.org")
             .queryURL(path: "/search-results/q-%s")
         
@@ -355,6 +365,10 @@ internal extension SiteIndex {
         
         
         // #WK
+        // #WKB
+        
+        Site("https://www.wkbw.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.wkno.org")
             .queryURL(path: "/search/?q=%s")
@@ -434,6 +448,11 @@ internal extension SiteIndex {
         
         Site("https://www.woolovers.us")
             .queryURL(path: "/searchresults?keyword=%s")
+        
+        
+        // #WOR
+        
+        Site("https://worldanimalnews.com")
         
         Site("https://www.worldbank.org")
             .queryURL(path: "/en/topic/%s", language: .english)

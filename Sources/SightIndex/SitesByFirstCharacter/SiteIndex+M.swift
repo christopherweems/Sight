@@ -381,6 +381,12 @@ internal extension SiteIndex {
         Site("https://www.mirror.co.uk")
             .queryURL("/search/?q=%s")
         
+        
+        // #MIS
+        
+        Site("https://mises.org")
+            .queryURL(path: "/search-mises?search=%s")
+        
         Site("https://www.misfit.com")
             .queryURL(path: "/search/?q=%s")
         

@@ -140,6 +140,12 @@ internal extension SiteIndex {
         Site("https://www.deseret.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #DES
+
+        Site("https://www.designboom.com")
+            .queryURL(path: "/search-result/?q=%s")
+        
         Site("https://www.designbyhumans.com")
             .queryURL(path: "/shop/?q=%s")
         

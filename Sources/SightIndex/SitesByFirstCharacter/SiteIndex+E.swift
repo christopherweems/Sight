@@ -353,6 +353,12 @@ internal extension SiteIndex {
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         
+        // #EVU
+
+        Site("https://evutec.com")
+            .queryURL(path: "/search?type=product&q=%s*")
+        
+        
         // #EW
         
         Site("https://ew.com")
@@ -362,6 +368,11 @@ internal extension SiteIndex {
         // #EX
         
         Site("https://ex1cosmetics.com")
+        
+        
+        // #EXO
+        
+        Site("https://exok.com")
         
         Site("https://www.express.com")
             .queryURL(path: "/exp/search?q=%s")
