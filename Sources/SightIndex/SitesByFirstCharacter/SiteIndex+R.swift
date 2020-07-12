@@ -265,6 +265,12 @@ internal extension SiteIndex {
         Site("https://www.ringtv.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #RIP
+        
+        Site("https://riptutorial.com")
+            .queryURL(path: "/topic?q=%s")
+        
         Site("https://n.rivals.com")
             .queryURL(path: "/search#?query=%s&formValues=%7B%22sport%22:%22Football%22,%22page_number%22:1,%22page_size%22:50%7D")
 

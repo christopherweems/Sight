@@ -502,6 +502,9 @@ internal extension SiteIndex {
         
         
         // #SL
+        // #SLA
+
+        Site("https://slack.com")
         
         Site("https://www.slamonline.com")
             .queryURL(path: "/?s=%s")

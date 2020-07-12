@@ -15,8 +15,13 @@ internal extension SiteIndex {
         Site("https://www.g-star.com")
             .queryURL(path: "/en_us/search?q=%s")
         
+        
+        // #G2
+        
         Site("https://www.g2a.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://www.g2i.co")
         
         
         // #GA
@@ -307,6 +312,11 @@ internal extension SiteIndex {
         
         Site("https://www.gnomonwatches.com")
             .queryURL(path: "/search?q=%s&type=product")
+        
+        
+        // #GNU
+        
+        Site("http://gnustep.org")
         
         
         // #GO

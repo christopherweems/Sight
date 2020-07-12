@@ -104,6 +104,11 @@ internal extension SiteIndex {
         Site("https://www.leeds.ac.uk")
             .queryURL(path: "/site/scripts/search_results.php?q=%s&cid=6002&cname=Environment&searchOption=searchSite")
         
+        
+        // #LEF
+
+        Site("https://www.leftfieldlabs.com")
+        
         Site("https://www.lego.com")
             .queryURL(path: "/en-us/search?q=%s")
         

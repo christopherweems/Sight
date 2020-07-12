@@ -99,12 +99,21 @@ internal extension SiteIndex {
         
         
         // #AD
+        // #ADA
         
         Site("https://adage.com")
             .queryURL(path: "/results?search_phrase=%s")
         
+        Site("https://www.adalo.com")
+        
+        
+        // #ADL
+        
         Site("https://www.adl.org")
             .queryURL(path: "/search?keys=%s")
+        
+        
+        // #ADM
         
         Site("https://www.admix.com")
         

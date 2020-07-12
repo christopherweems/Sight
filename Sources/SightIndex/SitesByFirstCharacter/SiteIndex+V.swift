@@ -16,6 +16,14 @@ internal extension SiteIndex {
         
         Site("https://valhalladsp.com")
         
+        
+        // #VAN
+
+        Site("https://www.vancopayments.com")
+
+        Site("https://www.vanco1.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://vanguard.com")
             .queryURL("https://investor.vanguard.com/search/?query=%s")
         

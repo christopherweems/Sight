@@ -57,6 +57,10 @@ internal extension SiteIndex {
         
         // #YD
         // #YE
+        // #YEL
+
+        Site("https://www.yellawood.com")
+            .queryURL(path: "/search-results?q=%s")
         
         Site("https://www.yellowbrick.co")
         
