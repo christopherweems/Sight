@@ -364,8 +364,13 @@ internal extension SiteIndex {
         Site("https://www.rosenskincare.com")
             .queryURL(path: "/search?q=%s")
         
+        // #ROT
+        
         Site("https://www.rottentomatoes.com")
             .queryURL(path: "/search/?search=%s")
+        
+        Site("https://www.rotowire.com")
+            .queryURL(path: "/search.php?sport=All&term=%s")
         
         Site("http://www.rouge18.com")
             .queryURL(path: "/?s=%s")

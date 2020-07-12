@@ -73,9 +73,15 @@ internal extension SiteIndex {
         Site("https://www.barstoolsports.com")
             .queryURL(path: "/search?page=1&query=%s")
         
+        
+        // #BAS
+        
         Site("https://www.basebutter.com")
         
         Site("https://basecamp.com")
+        
+        Site("https://www.basketball-reference.com")
+            .queryURL(path: "/search/search.fcgi?search=%s")
         
         Site("https://www.baskinrobbins.com")
         
@@ -163,6 +169,13 @@ internal extension SiteIndex {
         
         // #BF
         // #BG
+        // #BGC
+
+        Site("https://www.bgci.org")
+            .queryURL(path: "/?s=%s")
+        
+        
+        // #BGD
         
         Site("https://www.bgdailynews.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")

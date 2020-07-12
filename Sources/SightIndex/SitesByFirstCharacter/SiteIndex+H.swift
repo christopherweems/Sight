@@ -226,6 +226,12 @@ internal extension SiteIndex {
         Site("https://shop.highsierra.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #HIL
+
+        Site("https://www.hillsdale.edu")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.hindustantimes.com")
             .queryURL(path: "/search?q=%s")
         

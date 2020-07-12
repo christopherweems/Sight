@@ -21,6 +21,12 @@ internal extension SiteIndex {
             .queryURL(path: "/home/index.php?option=com_googlesearch_cse&n=30&view=googlesearchs&Itemid=1525&cx=004141537052427868461%3Azz92jk09ome&cof=FORID%3A11&ie=ISO-8859-1&q=%s&sa=Search")
         
         
+        // #UAL
+        
+        Site("https://ualr.edu")
+            .queryURL(path: "/www/search/?q=%s")
+        
+        
         // #UB
         
         Site("https://www.ubergizmo.com")
@@ -33,7 +39,10 @@ internal extension SiteIndex {
             .queryURL(path: "/archive/?q=%s")
         
         
-        // #UC
+        // #UCA
+
+        Site("https://uca.edu")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.uchicago.edu")
             .queryURL(path: "/search/?q=%s")
@@ -110,8 +119,15 @@ internal extension SiteIndex {
         
         Site("http://www.ulisp.com")
         
+        
+        // #ULM
+
+        Site("https://www.ulm.edu")
+            .queryURL(path: "/search/index.php?q=%s&submit.x=0&submit.y=0&submit=search+web&cx=005135313479815645488%3Axbiutuxgsr8&cof=FORID%3A9&ie=UTF-8&st=web")
+        
         Site("https://www.uloft.com")
             .queryURL(path: "/?s=%s&post_type=product")
+        
         
         // #ULT
         
@@ -175,9 +191,6 @@ internal extension SiteIndex {
         Site("https://uncw.edu")
             .queryURL(path: "/results.html?cx=002044598884227321031%3An6s3wx0uhow&cof=FORID%3A10&ie=UTF-8&q=%s")
         
-        Site("https://theundefeated.com")
-            .queryURL(path: "/?s=%s")
-        
         
         // #UNDE
         
@@ -202,6 +215,12 @@ internal extension SiteIndex {
             .queryURL(path: "/us/en/search/?q=%s")
         
         Site("https://www.universalsuffragechurch.org")
+        
+        
+        // #UNI
+        
+        Site("https://universitybusiness.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://unm.edu")
             .queryURL("https://search.unm.edu/search/?q=%s")
@@ -270,6 +289,9 @@ internal extension SiteIndex {
         
         Site("https://usartsupply.com")
             .queryURL(path: "/search?type=product&q=%s")
+        
+        Site("https://www.usatf.org")
+            .queryURL(path: "/search-results?searchtext=%s")
         
         Site("https://buckeyeswire.usatoday.com")
         Site("https://spartanswire.usatoday.com")

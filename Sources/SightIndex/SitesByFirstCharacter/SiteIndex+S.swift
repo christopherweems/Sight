@@ -206,6 +206,12 @@ internal extension SiteIndex {
         Site("https://www.seattletimes.com")
             .queryURL(path: "/search/?query=%s")
         
+        
+        // #SEC
+
+        Site("https://secondnature.org")
+            .queryURL(path: "/library?_search=%s")
+        
         Site("https://www.secsports.com")
             .queryURL(path: "/search?q=%s")
         
@@ -621,6 +627,12 @@ internal extension SiteIndex {
         Site("https://thesource.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #SOU
+
+        Site("https://www.southalabama.edu")
+            .queryURL(path: "/search/searchresults.html?cx=015271837967661074870%3A1bcj4ehmap4&cof=FORID%3A10&ie=UTF-8&q=%s&sa.x=0&sa.y=0")
+        
         Site("https://southbeachswimsuits.com")
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -863,6 +875,12 @@ internal extension SiteIndex {
         
         Site("https://www.summitsports.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #SUN
+        
+        Site("https://sunbeltsports.org")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:7qstqttbenw&q=%s&sa=Search")
         
         Site("https://www.sundancecatalog.com")
             .queryURL(path: "/search.do?query=%s")

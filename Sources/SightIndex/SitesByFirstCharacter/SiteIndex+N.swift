@@ -115,6 +115,12 @@ internal extension SiteIndex {
         Site("http://www.nccu.edu")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #NCS
+
+        Site("https://www.ncsasports.org")
+            .queryURL(path: "/search/node/%s")
+        
         Site("https://www.ncsbe.gov")
             .queryURL(path: "/Site-Search?Search=%s")
         
@@ -258,7 +264,10 @@ internal extension SiteIndex {
             .queryURL(path: "/standard_items/search_results?searchStr=%s")
         
         
-        // #NG
+        // #NGA
+
+        Site("https://www.nga.org")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.nginx.com")
             .queryURL(path: "/?s=%s")

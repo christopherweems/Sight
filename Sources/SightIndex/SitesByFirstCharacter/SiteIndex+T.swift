@@ -36,11 +36,17 @@ internal extension SiteIndex {
         Site("https://www.tahariasl.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #TAL
+        
         Site("https://www.talbots.com")
             .queryURL(path: "/search?q=%s")
         
         Site("https://talentless.co")
             .queryURL(path: "/pages/search-results-page?q=%s")
+        
+        Site("https://talkbusiness.net")
+            .queryURL(path: "/?s=%s&post_type=post")
         
         Site("https://talkingpointsmemo.com")
             .queryURL(path: "/search/%s")
@@ -371,6 +377,9 @@ internal extension SiteIndex {
         
         // #THEG
         
+        Site("http://www.thegeorgeanne.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("https://www.theguardian.com")
         
         
@@ -556,6 +565,11 @@ internal extension SiteIndex {
         
         
         // #THEU
+        
+        Site("https://theundefeated.com")
+            .queryURL(path: "/?s=%s")
+        
+        
         // #THEV
         
         Site("http://www.thevanillabeanblog.com")
@@ -867,6 +881,12 @@ internal extension SiteIndex {
         
         Site("https://triplebyte.com")
         
+        
+        // #TRO
+
+        Site("https://www.troy.edu")
+            .queryURL(path: "/search/?q=%s")
+        
         Site("https://troytrojans.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
@@ -987,7 +1007,12 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         
-        // #TX
+        // #TXS
+
+        Site("https://www.txstate.edu")
+            .queryURL(path: "/search/#q=%s")
+        
+        
         // #TY
         
         Site("https://www.tymestyle.com")

@@ -683,6 +683,12 @@ internal extension SiteIndex {
         Site("https://www.myfoodandfamily.com")
             .queryURL(path: "/brands/kraft-jello/search?searchTerm=%s")
         
+        
+        // #MYH
+
+        Site("https://www.myhorrynews.com")
+            .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
         Site("http://mynameisyeh.com")
             .queryURL(path: "/search?q=%s")
         
@@ -694,6 +700,12 @@ internal extension SiteIndex {
         
         Site("https://myprotein.com")
             .queryURL("https://us.myprotein.com/elysium.search?search=%s", locale: .unitedStates())
+        
+        
+        // #MYR
+
+        Site("https://www.myrtlebeachonline.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.mysanantonio.com")
             .queryURL(path: "/search/?action=search&firstRequest=1&searchindex=solr&query=%s")

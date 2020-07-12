@@ -82,6 +82,9 @@ internal extension SiteIndex {
         
         
         // #OH
+        // #OHI
+
+        Site("https://ohiostatebuckeyes.com")
         
         Site("https://ohmyveggies.com")
             .queryURL(path: "/?s=%s")

@@ -378,8 +378,11 @@ internal extension SiteIndex {
         
         Site("https://applypixels.com")
         
-        Site("https://cse.appstate.edu")
-            .queryURL(path: "/?q=%s")
+        Site("https://www.appstate.edu")
+            .queryURL("https://cse.appstate.edu/?q=%s")
+        
+        Site("https://appstatesports.com")
+            .queryURL(path: "/searchresults.aspx?cx=016306950182310286156%3Abuhobbh90pk&q=%s")
         
         
         // #AR
@@ -400,7 +403,12 @@ internal extension SiteIndex {
         
         // #ARK
         
+        Site("https://www.arkansashouse.org")
+        
         Site("https://arkansasrazorbacks.com")
+            .queryURL(path: "/?s=%s")
+        
+        Site("https://arktimes.com")
             .queryURL(path: "/?s=%s")
         
         Site("https://www.arm.com")

@@ -146,11 +146,17 @@ internal extension SiteIndex {
         Site("https://genius.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #GEO
+        
         Site("https://georgiadogs.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
         Site("https://www.georgiaencyclopedia.org")
             .queryURL(path: "/search/advanced/%s")
+        
+        Site("https://www.georgiasouthern.edu")
+            .queryURL(path: "/search.php?cx=006963324316116947513%3Awblwaosrhqm&cof=FORID%3A10&ie=UTF-8&q=%s")
         
         Site("https://www.gerberchildrenswear.com")
             .queryURL(path: "/collections/search-results?q=%s")
@@ -445,6 +451,12 @@ internal extension SiteIndex {
             .queryURL(path: "/res.php3?sSearch=%s")
         
         Site("https://www.gsntv.com")
+        
+        
+        // #GSU
+
+        Site("https://www.gsu.edu")
+            .queryURL(path: "/search-georgia-state/?givennames=*&sns=*&search=All&sn=&givenname=&q=%s&Submit=Submit&site=GeorgiaState")
         
         
         // #GT

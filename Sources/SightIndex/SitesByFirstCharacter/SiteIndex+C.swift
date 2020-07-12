@@ -85,6 +85,9 @@ internal extension SiteIndex {
         
         Site("https://carolchen.me")
         
+        Site("https://www.carolinanewswire.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.carparts.com")
         .queryURL(path: "/search?q=%s")
         
@@ -200,6 +203,9 @@ internal extension SiteIndex {
         Site("https://www.cisco.com")
             .queryURL("https://search.cisco.com/search?query=%s")
         
+        
+        // #CIT
+        
         Site("https://www.citizen-times.com")
         
         Site("https://www.citizensbank.com")
@@ -207,6 +213,9 @@ internal extension SiteIndex {
         
         Site("https://citylifestyle.com")
             .queryURL(path: "/search-results?term=%s")
+        
+        Site("https://www.cityofws.org")
+            .queryURL(path: "/Search?searchPhrase=%s")
         
         Site("https://cityviewmag.com")
             .queryURL(path: "/?s=%s")
@@ -269,9 +278,16 @@ internal extension SiteIndex {
         
         
         // #CO
+        // #COA
         
         Site("https://www.coach.com")
             .queryURL(path: "/staticcontent?q=%s")
+        
+        Site("https://www.coastal.edu")
+            .queryURL(path: "/coastal-now/2015search/?cof=FORID%3A11&cx=010679160022105370014%3Ainpgo1kqbpe&q=%s")
+        
+        
+        // #COC
         
         Site("https://www.coca-cola.com")
         

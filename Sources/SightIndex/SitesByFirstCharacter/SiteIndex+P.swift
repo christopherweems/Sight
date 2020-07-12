@@ -50,11 +50,17 @@ internal extension SiteIndex {
         Site("https://pairofthieves.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PAN
+        
         Site("https://pando.com")
             .queryURL(path: "/search/?q=%s")
         
         Site("https://panoz.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.panthers.com")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://www.papabearbotanicals.com")
             .queryURL(path: "/?s=%s")
@@ -323,6 +329,12 @@ internal extension SiteIndex {
         
         Site("https://www.podbean.com")
             .queryURL(path: "/site/Search/index?v=%s")
+        
+        
+        // #POE
+
+        Site("https://www.poetryfoundation.org")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://www.pogo.org")
             .queryURL(path: "/search/?query=%s&page=1")
