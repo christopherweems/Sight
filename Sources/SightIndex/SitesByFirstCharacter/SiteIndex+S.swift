@@ -577,6 +577,11 @@ internal extension SiteIndex {
         Site("https://www.soiakyo.com")
             .queryURL(path: "/us/en/search?q=%s")
         
+        
+        // #SOL
+        
+        Site("https://www.solostove.com")
+        
         Site("https://www.solsticesunglasses.com")
             .queryURL(path: "/search/?text=%s")
         
@@ -753,6 +758,11 @@ internal extension SiteIndex {
         
         Site("https://www.statesmanjournal.com")
             .queryURL(path: "/search/%s/")
+        
+        
+        // #STE
+
+        Site("https://stealthshorts.com")
         
         Site("https://store.steampowered.com")
             .queryURL(path: "/search/?term=%s")

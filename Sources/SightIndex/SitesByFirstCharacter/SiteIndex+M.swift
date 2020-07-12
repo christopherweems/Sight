@@ -344,6 +344,12 @@ internal extension SiteIndex {
         Site("https://www.miir.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #MIL
+
+        Site("https://milanoloop.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.milb.com")
             .queryURL(path: "/milb/news/search?q=%s")
         

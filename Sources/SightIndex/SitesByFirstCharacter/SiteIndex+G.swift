@@ -233,8 +233,14 @@ internal extension SiteIndex {
         
         Site("https://swiftweekly.github.io")
         
+        
+        // #GIZ
+        
         Site("https://www.gizchina.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.gizmodo.co.uk")
+            .queryURL(path: "/search?searchTerm=%s")
         
         Site("https://gizmodo.com")
             .queryURL(path: "/search?q=%s")

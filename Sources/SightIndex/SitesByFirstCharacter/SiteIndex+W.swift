@@ -82,8 +82,14 @@ internal extension SiteIndex {
         
         Site("https://waveformpodcast.com")
         
+        
+        // #WAY
+        
         Site("https://www.wayfair.com")
             .queryURL(path: "/keyword.php?keyword=%s")
+        
+        Site("https://www.wayrates.com")
+            .queryURL(path: "/search/?words=%s")
         
         Site("https://waymo.com")
         

@@ -106,6 +106,12 @@ internal extension SiteIndex {
         Site("https://www.rebeccataylor.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #REC
+
+        Site("https://reclaimthenet.org")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.red.com")
             .queryURL(path: "/search?q=%s")
         

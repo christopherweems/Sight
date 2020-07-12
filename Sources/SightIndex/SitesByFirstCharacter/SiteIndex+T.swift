@@ -355,6 +355,8 @@ internal extension SiteIndex {
         Site("https://thefashioncamera.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://thefightisinus.org")
+        
         Site("https://www.thefirstnews.com")
         
         Site("https://www.thefreelibrary.com")
@@ -991,7 +993,13 @@ internal extension SiteIndex {
         Site("https://www.tymestyle.com")
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
+        
+        // #TYP
+        
         Site("https://www.typeform.com")
+        
+        Site("https://www.typography.com")
+            .queryURL(path: "/search?term=%s")
         
         Site("https://www.tysonfoods.com")
             .queryURL(path: "/search?search=%s")

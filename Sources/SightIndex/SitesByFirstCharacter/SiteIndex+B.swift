@@ -17,8 +17,14 @@ internal extension SiteIndex {
         Site("https://www.babobotanicals.com")
             .queryURL(path: "/search?type=product&q=%s")
         
+        
+        // #BAI
+        
         Site("https://www.baidu.com")
             .queryURL(path: "/s?wd=%s")
+        
+        Site("https://www.baileigh.com")
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         Site("https://www.bakerella.com")
             .queryURL(path: "/?s=%s")
@@ -79,6 +85,7 @@ internal extension SiteIndex {
         Site("https://baylorbears.com")
             .queryURL(path: "/searchresults.aspx?q=%s")
         
+        
         // #BB
         
         Site("https://www.bbb.org")
@@ -94,6 +101,7 @@ internal extension SiteIndex {
         
         Site("https://www.bbcgoodfood.com")
             .queryURL(path: "/search/recipes?query=%s")
+        
         
         // #BC
         // #BD
@@ -128,6 +136,12 @@ internal extension SiteIndex {
         
         Site("https://www.behr.com")
             .queryURL(path: "/consumer/search?s=%s")
+        
+        
+        // #BEL
+
+        Site("https://bellroy.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://beneathyourmask.com")
             .queryURL(path: "/search?type=product&q=%s")

@@ -21,8 +21,14 @@ internal extension SiteIndex {
         
         Site("https://pabstblueribbon.com")
         
+        
+        // #PAC
+        
         Site("https://www.pacificcoast.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://subscription.packtpub.com")
+            .queryURL(path: "/search?query=%s")
         
         Site("https://pacon.com")
             .queryURL(path: "/?isorc=&keywords=%s")
@@ -247,7 +253,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?search=%s&s=0")
         
         
-        // #PI
+        // #PIC
+        
+        Site("https://www.picknrg.com")
         
         Site("https://www.pier1.com")
             .queryURL(path: "/on/demandware.store/Sites-pier1_us-Site/default/Search-Show?q=%s")

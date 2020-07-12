@@ -82,8 +82,13 @@ internal extension SiteIndex {
         Site("https://www.farmhousefreshgoods.com")
             .queryURL(path: "/nsearch.html?#search/q=%s")
         
+        
+        // #FAS
+        
         Site("https://www.fashiontofigure.com")
             .queryURL(path: "/search/?Dy=1&Nty=1&Ntp=1&Ntt=%s")
+        
+        Site("https://www.fastcompany.com")
         
         Site("https://www.fastly.com")
             .queryURL(path: "/#stq=%s&stp=1")
@@ -387,6 +392,9 @@ internal extension SiteIndex {
         Site("https://www.fraunhofer.de")
             .queryURL(path: "/de/suche.html?lang=de&queryString=%s", locale: .germany())
         
+        
+        // #FRE
+        
         Site("https://www.fred.com")
             .queryURL(path: "/en/search-en?search=%s")
         
@@ -395,6 +403,9 @@ internal extension SiteIndex {
         
         Site("https://www.fredmeyer.com")
             .queryURL(path: "/search?query=%s")
+        
+        Site("https://freefontsfamily.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://freeflyapparel.com")
             .queryURL(path: "/search?q=%s")
