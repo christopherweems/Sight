@@ -337,6 +337,12 @@ internal extension SiteIndex {
         Site("https://www.nj.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #NJE
+
+        Site("https://njengah.com")
+        
+        
         // #NK
         // #NL
         // #NM

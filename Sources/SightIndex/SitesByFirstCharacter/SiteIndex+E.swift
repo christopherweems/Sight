@@ -139,6 +139,9 @@ internal extension SiteIndex {
         Site("https://www.elago.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #ELE
+        
         Site("https://electricbikereview.com")
             .queryURL(path: "/?s=%s")
         
@@ -147,9 +150,11 @@ internal extension SiteIndex {
         
         Site("https://www.electronicspoint.com")
         .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.elegantthemes.com")
                 
         Site("https://www.elfcosmetics.com")
-            .queryURL(path: "/search?q=%s&lang=en_US")
+            .queryURL(path: "/search?q=%s&lang=en_US", locale: .unitedStates())
         
         Site("https://www.elietahari.com")
             .queryURL(path: "/search/%s")

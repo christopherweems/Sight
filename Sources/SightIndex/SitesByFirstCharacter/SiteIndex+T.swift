@@ -1001,6 +1001,8 @@ internal extension SiteIndex {
         Site("https://www.typography.com")
             .queryURL(path: "/search?term=%s")
         
+        Site("https://www.typewolf.com")
+        
         Site("https://www.tysonfoods.com")
             .queryURL(path: "/search?search=%s")
         

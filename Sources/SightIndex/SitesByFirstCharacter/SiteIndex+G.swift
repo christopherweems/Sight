@@ -223,10 +223,18 @@ internal extension SiteIndex {
         Site("https://giphy.com")
             .queryURL(path: "/search/%s")
         
+        
+        // #GIT
+        
         Site("https://git-scm.com")
             .queryURL(path: "/search/results?search=%s")
         
         Site("https://www.git-tower.com")
+        
+        Site("https://levelup.gitconnected.com")
+            .queryURL(path: "/search?q=%s")
+        
+        Site("https://gitconnected.com")
         
         Site("https://github.com")
             .queryURL(path: "/search?q=%s")

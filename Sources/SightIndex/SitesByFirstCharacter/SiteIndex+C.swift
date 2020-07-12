@@ -53,6 +53,11 @@ internal extension SiteIndex {
         Site("https://shop.usa.canon.com")
             .queryURL(path: "/shop/SearchDisplay?categoryId=&storeId=10051&catalogId=10051&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=18&searchTerm=%s")
         
+        
+        // #CAP
+
+        Site("https://capps.tech")
+        
         Site("https://www.cartoonnetwork.com")
         
         Site("https://www.ckc.ca")

@@ -343,6 +343,8 @@ internal extension SiteIndex {
         Site("https://www.politico.com")
             .queryURL(path: "/search?q=%s")
         
+        Site("https://www.pollfish.com")
+        
         Site("https://www.polygon.com")
             .queryURL(path: "/search?q=%s")
         
