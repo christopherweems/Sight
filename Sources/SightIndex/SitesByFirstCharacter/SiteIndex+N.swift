@@ -49,6 +49,12 @@ internal extension SiteIndex {
         Site("https://www.nasdaq.com")
             .queryURL(path: "/search?q=%s&page=1&sort_by=relevant")
         
+        
+        // #NAS
+        
+        Site("https://www.nashvilledowntown.com")
+            .queryURL(path: "/search.php?kw=%s")
+        
         Site("https://www.nastygal.com")
             .queryURL(path: "/search?q=%s")
         
@@ -160,11 +166,20 @@ internal extension SiteIndex {
         Site("https://www.nestfragrances.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #NET
+        
         Site("https://www.net-a-porter.com")
             .queryURL(path: "/us/en/Shop/Search?keywords=%s")
         
         Site("https://www.net10wireless.com")
             .queryURL(path: "/searchresults?key=%s")
+        
+        Site("https://www.netflix.com")
+            .queryURL(path: "/search?q=%s")
+        
+        
+        // #NEV
         
         Site("https://www.nevadaappeal.com")
             .queryURL(path: "/search-results/?q=%s")

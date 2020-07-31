@@ -124,6 +124,8 @@ internal extension SiteIndex {
         Site("https://www.pba.com")
             .queryURL(path: "/home/search?q=%s")
         
+        Site("https://pbfcomics.com")
+        
         Site("https://shop.pbs.org")
             .queryURL(path: "/noSearchResults?searchTerm=%s")
         

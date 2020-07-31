@@ -21,6 +21,11 @@ internal extension SiteIndex {
         Site("https://www.iabmfg.com")
             .queryURL(path: "/search?q=%s")
         
+        // #IAC
+
+        Site("https://dev.iachieved.it")
+            .queryURL(path: "/iachievedit/?s=%s")
+        
         Site("https://www.iapmo.org")
             .queryURL(path: "/group/search?query=%s")
         
@@ -267,6 +272,12 @@ internal extension SiteIndex {
         Site("https://www.ionos.com")
         
         Site("https://iontelevision.com")
+        
+        
+        // #IOS
+        
+        Site("https://www.ioscreator.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #IP

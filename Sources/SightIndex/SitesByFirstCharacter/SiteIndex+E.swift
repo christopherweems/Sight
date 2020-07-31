@@ -248,6 +248,9 @@ internal extension SiteIndex {
         Site("https://www.ereplacementparts.com")
             .queryURL(path: "/search_result.php?q=%s")
         
+        Site("https://ericmcnew.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("http://www.ericamintu.com")
             .queryURL(path: "/?s=%s")
         
@@ -278,11 +281,16 @@ internal extension SiteIndex {
         Site("https://eternitymodern.com")
             .queryURL(path: "/search?type=product&q=%s*")
         
+        
+        // #ETH
+        
         Site("https://www.ethanallen.com")
             .queryURL(path: "/on/demandware.store/Sites-ethanallen-us-Site/en_US/Search-Show?q=%s&lang=en_US")
         
         Site("https://ethereumworldnews.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://ethworks.io")
         
         Site("https://www.etonline.com")
             .queryURL(path: "/search?keywords=%s")

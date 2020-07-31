@@ -20,6 +20,9 @@ internal extension SiteIndex {
         Site("https://www.aacn.org")
             .queryURL(path: "/search?searchtext=%s")
         
+        Site("https://cancerpreventionresearch.aacrjournals.org")
+            .queryURL(path: "/search/%s%20exclude_meeting_abstracts%3A1")
+        
         Site("https://www.aaf.org")
             .queryURL(path: "/Search?SearchTerms=%s")
         
@@ -497,6 +500,8 @@ internal extension SiteIndex {
         
         Site("https://mbio.asm.org")
             .queryURL(path: "/search/%s")
+        
+        Site("http://asofterworld.com")
         
         Site("https://asphair.com")
             .queryURL(path: "/us/?s=%s&post_type=product", locale: .unitedStates())

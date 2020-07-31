@@ -107,11 +107,20 @@ internal extension SiteIndex {
         Site("https://www.hautelook.com")
             .queryURL(path: "/shop/search?query=%s")
         
+        
+        // #HAW
+        
         Site("https://www.hawesandcurtis.com")
             .queryURL(path: "/site/search?q=%s")
         
         Site("https://www.hawkcentral.com")
             .queryURL(path: "/search/%s/")
+        
+        Site("https://store.haworth.com")
+            .queryURL(path: "/search?q=%s")
+        
+        
+        // #HAY
         
         Site("https://www.hayneedle.com")
             .queryURL(path: "/search/index.cfm?Ntt=%s")
@@ -142,7 +151,12 @@ internal extension SiteIndex {
         
         Site("http://www.healthdata.org")
             .queryURL(path: "/search?search_terms=%s")
-                
+        
+        Site("https://www.healthitq.com")
+        
+        Site("https://healthfully.com")
+            .queryURL(path: "/search?google_kw=%s&submit+button=")
+        
         Site("https://www.healthline.com")
             .queryURL(path: "/search?q1=%s")
         

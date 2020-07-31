@@ -336,6 +336,9 @@ internal extension SiteIndex {
         
         Site("https://golde.co")
         
+        
+        // #GOO
+        
         Site("https://www.goodamerican.com")
             .queryURL(path: "/search?q=%s")
         
@@ -386,6 +389,9 @@ internal extension SiteIndex {
         Site("https://www.google.com/maps")
             .queryURL(path: "?q=%s")
         */
+        
+        Site("https://googoo.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://shop.goop.com")
             .queryURL(path: "/search/products?query=%s&country=USA", locale: .unitedStates())

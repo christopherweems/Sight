@@ -51,6 +51,9 @@ internal extension SiteIndex {
         Site("https://talkingpointsmemo.com")
             .queryURL(path: "/search/%s")
         
+        Site("http://www.talkmobiledev.com")
+            .queryURL(path: "/?s=%s")
+        
         Site("https://www.tallahassee.com")
             .queryURL(path: "/search/?q=%s")
         
@@ -320,6 +323,9 @@ internal extension SiteIndex {
         
         Site("https://www.thecheesecakefactory.com")
             .queryURL(path: "/search/?q=%s")
+        
+        Site("https://www.thecinemaholic.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.thecinemaspot.com")
             .queryURL(path: "/?s=%s")
@@ -619,6 +625,7 @@ internal extension SiteIndex {
         
         // #THF
         // #THR
+        // #THRE
         
         Site("https://threader.app")
             .queryURL(path: "/search?q=%s")
@@ -632,8 +639,16 @@ internal extension SiteIndex {
         Site("https://threatpost.com")
             .queryURL(path: "/?s=%s")
         
+        Site("http://threewordphrase.com")
+        
+        
+        // #THRI
+        
         Site("https://www.thriftbooks.com")
             .queryURL(path: "/browse/?b.search=%s")
+        
+        Site("https://www.thrillist.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://thrivecausemetics.com")
             .queryURL(path: "/pages/search-results?q=%s")
@@ -772,6 +787,9 @@ internal extension SiteIndex {
         
         Site("http://tolweb.org")
             .queryURL(path: "/tree/home.pages/search.html?q=%s&sa=Search")
+        
+        
+        // #TOM
         
         Site("https://tommy.com")
             .queryURL("https://usa.tommy.com/SearchDisplay?categoryId=&storeId=10151&catalogId=10551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&searchTerm=%s", locale: .unitedStates())
@@ -974,6 +992,9 @@ internal extension SiteIndex {
         
         
         // #TUL
+        
+        Site("https://www.tula.com")
+            .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://tulanegreenwave.com")
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")

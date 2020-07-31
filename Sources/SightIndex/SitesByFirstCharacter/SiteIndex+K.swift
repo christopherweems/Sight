@@ -183,7 +183,11 @@ internal extension SiteIndex {
         
         // #KJ
         // #KK
+        
         // #KL
+        // #KLA
+        
+        Site("https://www.klarna.com")
         
         Site("https://www.klc.org")
         

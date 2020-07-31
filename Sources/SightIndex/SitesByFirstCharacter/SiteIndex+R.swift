@@ -67,14 +67,29 @@ internal extension SiteIndex {
         Site("http://www.rapidshift.net")
             .queryURL(path: "/?s=%s")
         
+        Site("https://rapzilla.com")
+            .queryURL(path: "/?s=%s")
+        
+        
+        // #RAT
+        
         Site("https://www.ratchetandwrench.com")
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #RAW
         
         Site("https://www.rawstory.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #RAY
+        
         Site("https://www.ray-ban.com")
             .queryURL(path: "/SearchDisplay?storeId=10151&catalogId=22552&langId=-1&pageSize=9&beginIndex=0&searchSource=Q&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchType=1000&viewMode=Rayban&searchTerm=%s")
+        
+        
+        // #RAZ
         
         Site("https://www.razer.com")
             .queryURL(path: "/search?text=%s")
@@ -153,6 +168,11 @@ internal extension SiteIndex {
         
         Site("https://www.refrigiwear.com")
             .queryURL(path: "/search?search-term=%s")
+        
+        // #REG
+        
+        Site("https://www.reginfo.gov")
+            .queryURL(path: "/public/Forward?SearchTarget=RegReview&textfield=%s&Image61.x=0&Image61.y=0")
         
         Site("https://www.regmovies.com")
             .queryURL(path: "/search?query=%s")

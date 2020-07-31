@@ -267,11 +267,17 @@ internal extension SiteIndex {
         Site("https://www.whiteandwarren.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #WHO
+        
         Site("https://www.who.int")
             .queryURL(path: "/search?query=%s")
         
         Site("https://products.wholefoodsmarket.com")
             .queryURL(path: "/search?sort=relevance&text=%s")
+        
+        Site("https://www.wholelattelove.com")
+            .queryURL(path: "/search?type=product&q=%s")
         
         Site("https://www.whowhatwear.com")
             .queryURL(path: "/search?q=%s")

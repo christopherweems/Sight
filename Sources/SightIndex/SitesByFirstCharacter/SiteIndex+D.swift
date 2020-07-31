@@ -114,8 +114,14 @@ internal extension SiteIndex {
         
         Site("https://debubble.me")
         
+        
+        // #DEC
+        
         Site("https://www.decibullz.com")
             .queryURL(path: "/search.php?search_query=%s")
+        
+        Site("https://decrypt.co")
+            .queryURL(path: "/search/all/%s")
         
         Site("https://www.decogear.com")
             .queryURL(path: "/?s=%s")
@@ -172,6 +178,12 @@ internal extension SiteIndex {
         
         Site("https://www.deuxpardeux.com")
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
+        
+        
+        // #DEV
+        
+        Site("https://devconnected.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://www.deviantart.com")
             .queryURL(path: "/search?q=%s")
@@ -357,8 +369,14 @@ internal extension SiteIndex {
         Site("https://dolphin-emu.org")
             .queryURL(path: "/blog/search/?pattern=%s")
         
+        
+        // #DON
+        
         Site("https://www.don.com")
             .queryURL(path: "/search?criteria=%s")
+        
+        Site("https://www.donorschoose.org")
+            .queryURL(path: "/donors/search.html?keywords=%s")
         
         Site("http://www.donmueangairportthai.com")
             .queryURL(path: "/en/search?q=%s")
@@ -369,11 +387,17 @@ internal extension SiteIndex {
         Site("https://www.donnywals.com")
             .queryURL(path: "/?s=%s")
         
+        
+        // #DOO
+        
         Site("https://www.doodlepants.com")
             .queryURL(path: "/search.php?mode=1&search_query_adv=%s&brand=&searchsubs=ON&price_from=&price_to=&featured=&shipping=")
         
         Site("https://www.dooney.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("http://doozyui.com")
+            .queryURL(path: "/?s=%s")
         
         Site("https://dorothyperkins.com")
             .queryURL("https://us.dorothyperkins.com/search/?q=%s", locale: .unitedStates())

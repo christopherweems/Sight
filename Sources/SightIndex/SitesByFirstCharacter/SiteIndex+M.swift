@@ -153,6 +153,12 @@ internal extension SiteIndex {
         Site("https://mashable.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #MAT
+
+        Site("https://www.mat.org")
+            .queryURL(path: "/search#mat-search-results_q=%s")
+        
         Site("https://www.matchesfashion.com")
             .queryURL(path: "/us/search/?text=%s")
         
@@ -161,8 +167,14 @@ internal extension SiteIndex {
         Site("https://www.mattressfirm.com")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #MAU
+        
         Site("https://www.mauinews.com")
             .queryURL(path: "/search/%s")
+        
+        Site("https://mauinuivenison.com")
+            .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
         Site("https://www.maurices.com")
             .queryURL(path: "/maurices/search?Ntt=%s")
@@ -226,8 +238,14 @@ internal extension SiteIndex {
         Site("https://www.mecca.com.au")
             .queryURL(path: "/search?q=%s")
         
+        
+        // #MED
+        
         Site("https://www.mediaite.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.mediamatters.org")
+            .queryURL(path: "/search?search=%s")
         
         Site("https://www.medicalnewstoday.com")
             .queryURL(path: "/search?q=%s")
@@ -240,14 +258,22 @@ internal extension SiteIndex {
         Site("https://www.meijer.com")
             .queryURL(path: "/catalog/search_command.cmd?keyword=%s")
         
+        
+        // #MEL
+        
         Site("https://www.melijoe.com")
             .queryURL(path: "/us/shop?termsFilter=%s")
+        
+        Site("https://www.meliopayments.com")
         
         Site("https://www.melissaanddoug.com")
             .queryURL(path: "/search/?q=w%s")
         
         Site("https://www.memphis.edu")
             .queryURL(path: "/search/results.php?q=%s")
+        
+        Site("https://www.memsql.com")
+            .queryURL(path: "/?q=%s")
         
         Site("https://www.menards.com")
             .queryURL(path: "/main/search.html?search=%s")
@@ -353,6 +379,9 @@ internal extension SiteIndex {
         Site("https://www.milb.com")
             .queryURL(path: "/milb/news/search?q=%s")
         
+        Site("https://milkfrothertop.com")
+            .queryURL(path: "/?s=%s")
+        
         
         // #MIN
         
@@ -449,6 +478,7 @@ internal extension SiteIndex {
         
         // #MN
         // #MO
+        // #MOD
         
         Site("https://www.modanisa.com")
             .queryURL(path: "/en/search/?q=%s")
@@ -461,6 +491,9 @@ internal extension SiteIndex {
         
         Site("https://www.modells.com")
             .queryURL(path: "/search?q=%s")
+        
+        Site("https://www.modlily.com")
+            .queryURL(path: "/search.php?keywords=%s")
         
         Site("https://www.moen.com")
             .queryURL(path: "/search?search_terms=%s")
@@ -555,8 +588,12 @@ internal extension SiteIndex {
         
         Site("https://mountainx.com")
             .queryURL(path: "/?s=%s")
+        
         Site("https://www.mountsinai.org")
             .queryURL(path: "/search?searchQuery=%s&label=mountsinai&pageSize=10&start=0")
+        
+        
+        // #MOZ
         
         Site("https://moz.com")
             .queryURL(path: "/search?q=%s")
@@ -565,6 +602,9 @@ internal extension SiteIndex {
             .queryURL(path: "/en-US/search?q=%s")
         
         Site("https://observatory.mozilla.org")
+        
+        Site("https://www.mozzafiller.com")
+            .queryURL(path: "/search?q=%s")
         
         
         // #MP
@@ -694,6 +734,12 @@ internal extension SiteIndex {
 
         Site("https://www.myhorrynews.com")
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
+        
+        
+        // #MYJ
+        
+        Site("https://www.myjewishlearning.com")
+            .queryURL(path: "/?s=%s")
         
         Site("http://mynameisyeh.com")
             .queryURL(path: "/search?q=%s")

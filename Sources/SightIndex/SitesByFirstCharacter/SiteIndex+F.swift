@@ -131,6 +131,12 @@ internal extension SiteIndex {
         Site("https://www.featureshoot.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://feda.com")
+            .queryURL(path: "/fedaimis/Search?SearchTerms=%s")
+        
+        Site("https://www.federalregister.gov")
+            .queryURL(path: "/documents/search?conditions%5Bterm%5D=%s")
+        
         Site("https://www.fedex.com")
         
         Site("https://www.feelingoodtees.com")

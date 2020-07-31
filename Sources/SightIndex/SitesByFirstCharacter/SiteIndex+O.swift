@@ -57,6 +57,9 @@ internal extension SiteIndex {
         
         Site("https://www.odeon.co.uk")
         
+        Site("https://www.odfl.com")
+            .queryURL(path: "/Search/Search.faces?newSearchTerm=%s")
+        
         
         // #OE
         
@@ -79,6 +82,11 @@ internal extension SiteIndex {
         
         Site("https://www.ogio.com")
             .queryURL(path: "/on/demandware.store/Sites-OGIO-Site/en_US/Search-Show?q=%s&cgid=results")
+        
+        
+        // #OGL
+        
+        Site("https://www.oglaf.com")
         
         
         // #OH

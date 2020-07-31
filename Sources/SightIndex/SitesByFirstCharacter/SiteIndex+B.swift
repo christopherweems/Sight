@@ -41,6 +41,9 @@ internal extension SiteIndex {
         Site("https://ballotpedia.org")
             .queryURL(path: "/wiki/index.php?search=%s")
         
+        Site("https://www.baltimoresun.com")
+            .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
+        
         
         // #BAN
         
@@ -267,6 +270,11 @@ internal extension SiteIndex {
         // #BLOH
         // #BLOO
         
+        
+
+        Site("http://www.bloodpressureuk.org")
+            .queryURL(path: "/Search/w_search_searchresultspage_pav_e?SearchableText=%s")
+        
         Site("https://www.bloomberg.com")
             .queryURL(path: "/search?query=%s")
         
@@ -317,6 +325,18 @@ internal extension SiteIndex {
         
         Site("https://botsentinel.com")
         
+        
+        // #BOW
+        
+        Site("https://www.bowdoin.edu")
+            .queryURL(path: "/search/index.html?cx=013353341904883193524%3Aljk_n_5vqw4&cof=FORID%3A11&ie=UTF-8&q=%s#gsc.tab=0&gsc.q=%s&gsc.page=1")
+
+        
+        // #BOX
+        
+        Site("https://www.boxlunch.com")
+            .queryURL(path: "/search?q=%s")
+        
         Site("https://www.boxofficepro.com")
             .queryURL(path: "/?s=%s")
         
@@ -327,6 +347,10 @@ internal extension SiteIndex {
             .queryURL(path: "/search/google/%s")
         
         // #BR
+        
+        Site("https://www.branchfurniture.com")
+
+        Site("https://braverobot.co")
         
         Site("https://www.bravotv.com")
         

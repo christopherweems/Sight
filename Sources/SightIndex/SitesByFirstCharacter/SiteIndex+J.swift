@@ -294,6 +294,11 @@ internal extension SiteIndex {
         Site("https://jsonld.com")
         
         
+        // #JSP
+        
+        Site("https://www.jspowerhour.com")
+        
+        
         // #JT
         
         Site("https://www.jtv.com")

@@ -437,6 +437,8 @@ internal extension SiteIndex {
         Site("https://www.simplyrecipes.com")
             .queryURL(path: "/?s=%s")
         
+        Site("https://www.simris.com")
+        
         Site("https://simson.net")
             .queryURL(path: "/wiki/index.php?search=%s&title=Special%3ASearch&go=Go")
         
@@ -538,6 +540,11 @@ internal extension SiteIndex {
         Site("https://www.smashingmagazine.com")
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #SMB
+        
+        Site("https://www.smbc-comics.com")
+        
         Site("https://www.smh.com.au")
             .queryURL(path: "/search?text=%s")
         
@@ -563,6 +570,10 @@ internal extension SiteIndex {
         
 
         // #SN
+        // #SNA
+        
+        Site("https://www.snackworks.com")
+            .queryURL(path: "/search/recipe-results?searchText=%s")
         
         Site("https://www.snhu.edu")
             .queryURL(path: "/search?ss360Query=%s")
@@ -580,6 +591,12 @@ internal extension SiteIndex {
         
         Site("https://society6.com")
             .queryURL(path: "/s?q=%s")
+        
+        
+        // #SOE
+        
+        Site("https://www.soengsouy.com")
+            .queryURL(path: "/search?q=%s")
         
         Site("https://www.sofapps.it")
         
@@ -702,6 +719,9 @@ internal extension SiteIndex {
         
         Site("https://www.spoonforkbacon.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://spoonuniversity.com")
+            .queryURL(path: "/search?searchTerm=%s&searchCategory=")
         
         Site("https://www.sportingnews.com")
         

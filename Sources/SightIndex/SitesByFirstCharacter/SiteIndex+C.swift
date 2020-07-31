@@ -159,6 +159,11 @@ internal extension SiteIndex {
         
         
         // #CF
+        
+    Site("https://www.cfainstitute.org")
+        .queryURL(path: "/en/search#q=%s")
+        
+        
         // #CG
         
         Site("https://www.cgtn.com")
@@ -184,10 +189,18 @@ internal extension SiteIndex {
         Site("https://www.chevrolet.com")
             .queryURL(path: "/site-search?q=%s")
         
+        
+        // #CHI
+        
         Site("https://www.chicagotribune.com")
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
+        Site("https://www.chicme.com")
+            .queryURL(path: "/i/search/result?key=%s")
+        
         Site("https://www.chick-fil-a.com")
+        
+        Site("https://www.chilitechnology.com")
         
         Site("https://www.christmastreeassociation.org")
 
@@ -211,6 +224,9 @@ internal extension SiteIndex {
         
         Site("https://www.cicis.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.cinemablend.com")
+            .queryURL(path: "/search.html?keyword=%s")
         
         Site("https://www.cincinnati.com")
             .queryURL(path: "/search/%s/")
@@ -390,11 +406,19 @@ internal extension SiteIndex {
         Site("https://computerhistory.org")
             .queryURL(path: "/?s=%s")
         
+        
+        // #CON
+        
+        Site("https://www.conflictnations.com")
+        
         Site("https://consequenceofsound.net")
             .queryURL(path: "/?s=%s")
         
         Site("https://consumerbrandsassociation.org")
             .queryURL(path: "/?s=%s")
+        
+        Site("https://www.consumerreports.org")
+            .queryURL(path: "/search/?query=%s")
         
         Site("https://www.containerstore.com")
             .queryURL(path: "/s?q=%s")
@@ -419,6 +443,18 @@ internal extension SiteIndex {
         
         Site("https://www.costco.com")
             .queryURL(path: "/CatalogSearch?dept=All&keyword=%s")
+        
+        
+        // #COT
+        
+        Site("https://cottonbureau.com")
+            .queryURL(path: "/search?query=%s")
+        
+        
+        // #COU
+        
+        Site("https://counterculturecoffee.com")
+            .queryURL(path: "/search/?q=%s")
         
         Site("https://www.courier-journal.com")
             .queryURL(path: "/search/?q=%s")
