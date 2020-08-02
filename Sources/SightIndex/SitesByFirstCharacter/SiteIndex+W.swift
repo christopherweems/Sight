@@ -586,6 +586,9 @@ internal extension SiteIndex {
         Site("https://www.wvlt.tv")
             .queryURL(path: "/search?searchKeywords=%s")
         
+        Site("https://www.wvu.edu")
+            .queryURL("https://search.wvu.edu/results/?q=%s")
+        
         Site("https://www.wvup.edu")
             .queryURL(path: "/?s=%s")
         

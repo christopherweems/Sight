@@ -220,10 +220,13 @@ internal extension SiteIndex {
         Site("https://knockknockstuff.com")
             .queryURL(path: "/?s=%s&searching=shop")
         
-        Site("http://knoxvilledowntownrealty.com")
-        
+        Site("https://knoxify.com")
+            .queryURL(path: "/?s=%s")
+                
         Site("http://knoxfocus.com")
             .queryURL(path: "/?s=%s")
+        
+        Site("http://knoxvilledowntownrealty.com")
         
         Site("https://knoxvillesymphony.com")
         
