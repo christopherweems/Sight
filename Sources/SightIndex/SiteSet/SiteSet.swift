@@ -16,7 +16,7 @@ internal class SiteSet {
             return exactMatch
             
         } else {
-            let firstPrivateDomainMatches = sites.filter({ $0.key.firstPrivateDomain == authority.firstPrivateDomain })
+            let firstPrivateDomainMatches = sites.filter { $0.key.firstPrivateDomain == authority.firstPrivateDomain }
             
             if let wwwPrefixed = firstPrivateDomainMatches.first(whereKey: {
                 $0.subdomainPart(for: authority.domainPartCount)?.hasPrefix("www") == true }) {
@@ -33,14 +33,17 @@ internal class SiteSet {
         
     fileprivate init(sites: [Site.Authority: Site]) {
         self.sites = sites
+        
     }
     
     convenience init(@SiteSetBuilder _ builder: () -> SiteSet) {
         self.init(sites: builder().sites)
+        
     }
     
     convenience init(@EmptyBuilder _ builder: () -> Void) {
         self.init(sites: [:])
+        
     }
 }
 
@@ -80,5 +83,7 @@ internal struct EmptyBuilder {
 fileprivate extension Dictionary where Key == Site.Authority, Value == Site {
     init(sites: [Site]) {
         self.init(uniqueKeysWithValues: sites.map { ($0.authority, $0) })
+        
     }
+    
 }
