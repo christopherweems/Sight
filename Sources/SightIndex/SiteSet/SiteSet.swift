@@ -41,10 +41,6 @@ internal class SiteSet {
         
     }
     
-    convenience init(@EmptyBuilder _ builder: () -> Void) {
-        self.init(sites: [:])
-        
-    }
 }
 
 
@@ -63,18 +59,13 @@ internal extension SiteSet {
 
 @_functionBuilder
 internal struct SiteSetBuilder {
+    static func buildBlock() -> SiteSet {
+        .init(sites: [:])
+    }
+    
     static func buildBlock(_ elements: Site...) -> SiteSet {
         .init(sites: .init(sites: elements))
     }
-}
-
-
-// MARK: - EmptyBuilder (Function Builder)
-
-@_functionBuilder
-internal struct EmptyBuilder {
-    static func buildBlock() -> Void { }
-    
 }
 
 
