@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/apple/swift-argument-parser",
         "state": {
           "branch": null,
-          "revision": "7255fd547f70468e19abbac5f7964f1ef309ad92",
-          "version": "0.2.1"
+          "revision": "92646c0cdbaca076c8d3d0207891785b3379cbff",
+          "version": "0.3.1"
         }
       },
       {
@@ -15,7 +15,7 @@
         "repositoryURL": "https://github.com/christopherweems/unstandard.git",
         "state": {
           "branch": "main",
-          "revision": "f07584c453652aa1e5121f6767d70382cc3a7533",
+          "revision": "89878e628b9e35ab9352cad2fb20a51c1d7925c5",
           "version": null
         }
       }
