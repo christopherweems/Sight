@@ -1,4 +1,4 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -25,7 +25,7 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
         .package(url: "https://github.com/apple/swift-argument-parser", from: "0.2.1"),
-        .package(url: "https://github.com/christopherweems/unstandard.git", from: "0.0.5"),
+        .package(url: "https://github.com/christopherweems/unstandard.git", .branch("main")),
         
     ],
     targets: [
