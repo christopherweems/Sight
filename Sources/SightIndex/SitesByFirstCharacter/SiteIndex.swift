@@ -6,10 +6,17 @@
 //
 
 import SightBuilder
+import unstandard
 
 public class SiteIndex {
-    fileprivate var allSets: [SiteSet] {
-        [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,misc]
+    fileprivate lazy var allSets = Array<SiteSet> {
+        [a, b, c, d]
+        [e, f, g, h]
+        [i, j, k, l, m, n]
+        [o, p, q, r, s, t]
+        [u, v, w, x, y, z]
+        misc
+        
     }
     
     internal var _allSites: [Site] {
