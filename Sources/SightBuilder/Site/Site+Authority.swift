@@ -53,6 +53,16 @@ public extension Site.Authority {
         [subdomainPrefix, firstPrivateDomain].contains { $0?.contains(substring) == true }
     }
     
+    static func ==(lhs: Self, rhs: String) -> Bool {
+        [lhs.subdomainPrefix, lhs.firstPrivateDomain]
+            .compactMap { $0 }
+            .joined() == rhs
+    }
+    
+    static func ==(lhs: String, rhs: Self) -> Bool {
+        rhs == lhs // flip of operator definition above
+    }
+    
 }
 
 fileprivate extension String {
