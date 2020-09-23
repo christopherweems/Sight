@@ -33,6 +33,8 @@ public struct Site: Hashable, Identifiable {
     }
 }
 
+extension Site: Iffable, Wrappable { }
+
 
 // MARK: - Query URLs
 
