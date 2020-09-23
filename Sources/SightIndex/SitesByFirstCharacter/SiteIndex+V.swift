@@ -222,6 +222,10 @@ internal extension SiteIndex {
         // #VOT
 
         Site("https://justfacts.votesmart.org")
+        "https://vote.org"
+        
+        
+        // #VOX
         
         Site("https://www.vox.com")
             .queryURL(path: "/search?q=%s")
