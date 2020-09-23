@@ -9,7 +9,13 @@ import Foundation
 import SightBuilder
 
 internal class SiteSet {
-    internal var sites: [Site.Authority: Site]
+    private var siteBuilder: (() -> [Site.Authority: Site])?
+    
+    internal lazy var sites: [Site.Authority: Site] = {
+        let sites = siteBuilder!()
+        siteBuilder = nil
+        return sites
+    }()
     
     func site(forAuthority authority: Site.Authority) -> Site? {
         if let exactMatch = sites[authority] {
@@ -35,8 +41,8 @@ internal class SiteSet {
         
     }
     
-    convenience init(@SiteSetBuilder _ builder: () -> SiteSet) {
-        self.init(sites: builder().sites)
+    init(@SiteSetBuilder _ builder: @escaping () -> SiteSet) {
+        self.siteBuilder = { builder().sites }
         
     }
     
