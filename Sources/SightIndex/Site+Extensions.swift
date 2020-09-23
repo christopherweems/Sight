@@ -7,6 +7,7 @@
 
 import Foundation
 import SightBuilder
+import unstandard
 
 public extension Site {
     private static var index = SiteIndex()
@@ -59,13 +60,5 @@ internal extension Site.Authority {
             
         }
     }
-    
-}
-
-
-// MARK: - Helper extensions
-
-fileprivate extension Array {
-    var lastIndex: Index { count - 1 }
     
 }
