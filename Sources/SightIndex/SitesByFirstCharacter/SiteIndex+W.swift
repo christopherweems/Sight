@@ -518,6 +518,8 @@ internal extension SiteIndex {
         "https://www.wrti.org"
             .queryURL(path: "/search/google/%s")
         
+        "https://www.wrzk.com"
+        
         
         // #WS
         
