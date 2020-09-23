@@ -39,7 +39,10 @@ let package = Package(
             dependencies: [.product(name: "unstandard", package: "unstandard")]),
         .target(
             name: "SightIndex",
-            dependencies: ["SightBuilder"]),
+            dependencies: [
+                "SightBuilder",
+                .product(name: "unstandard", package: "unstandard"),
+            ]),
         .target(name: "SightInspector",
                 dependencies: [
                     "SightIndex",
