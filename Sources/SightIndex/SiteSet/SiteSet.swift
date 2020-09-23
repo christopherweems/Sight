@@ -24,7 +24,6 @@ internal class SiteSet {
             }
             
             return firstPrivateDomainMatches.first?.value
-            
         }
     }
     
@@ -52,6 +51,7 @@ internal extension SiteSet {
     func count(where predicate: (Site) -> Bool) -> Int {
         sites.values.reduce(0) { $0 + (predicate($1) ? 1 : 0) }
     }
+    
 }
 
 
