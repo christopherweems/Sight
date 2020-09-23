@@ -54,7 +54,7 @@ struct Format: ParsableCommand {
                 .map { (root, queryPath) in
                     var parts = [String]()
                     
-                    parts += ["Site(\"\(root)\")"]
+                    parts += ["\"\(root)\""]
                     
                     if !queryPath.isEmpty {
                         parts += ["    .queryURL(path: \"\(queryPath)\")"]
