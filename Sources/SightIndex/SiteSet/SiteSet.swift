@@ -63,9 +63,25 @@ internal struct SiteSetBuilder {
         .init(sites: [:])
     }
     
-    static func buildBlock(_ elements: Site...) -> SiteSet {
-        .init(sites: .init(sites: elements))
+    static func buildBlock(_ elements: SiteSet...) -> SiteSet {
+        let sites = elements
+            .flatMap(\.sites)
+            .wrap { Dictionary(uniqueKeysWithValues: $0) }
+        
+        return SiteSet(sites: sites)
     }
+    
+}
+
+extension SiteSetBuilder {
+    static func buildExpression(_ rootURLString: String) -> SiteSet {
+        buildExpression(.init(rootURLString))
+    }
+    
+    static func buildExpression(_ site: Site) -> SiteSet {
+        site.wrap { SiteSet(sites: [$0.authority : $0]) }
+    }
+    
 }
 
 
