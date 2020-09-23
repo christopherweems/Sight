@@ -16,1004 +16,1004 @@ internal extension SiteIndex {
         
         // #SA
         
-        Site("https://www.sabonnyc.com")
+        "https://www.sabonnyc.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.sachinandbabi.com")
+        "https://www.sachinandbabi.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.sacbee.com")
+        "https://www.sacbee.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.saddlebrookproperties.com")
+        "https://www.saddlebrookproperties.com"
         
-        Site("https://safelifedefense.com")
+        "https://safelifedefense.com"
             .queryURL(path: "/?s=%s&post_type=product")
         
-        Site("https://www.sagefinds.com")
+        "https://www.sagefinds.com"
             .queryURL(path: "/Search.aspx?txtSearch=%s")
         
-        Site("https://journals.sagepub.com")
+        "https://journals.sagepub.com"
             .queryURL(path: "/action/doSearch?filterOption=allJournal&AllField=%s")
         
-        Site("https://sagepub.com")
+        "https://sagepub.com"
             .queryURL("https://us.sagepub.com/en-us/nam/product/%s", locale: .unitedStates())
         
-        Site("https://www.saicmotor.com")
+        "https://www.saicmotor.com"
         
-        Site("https://www.saint-james.com")
+        "https://www.saint-james.com"
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         
-        Site("https://www.saksfifthavenue.com")
+        "https://www.saksfifthavenue.com"
             .queryURL(path: "/search/EndecaSearch.jsp?submit-search=&bmSingle=N_Dim&N_Dim=0&bmHidden=Ntk&Ntk=Entire+Site&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&SearchString=%s")
         
-        Site("https://www.sallybeauty.com")
+        "https://www.sallybeauty.com"
             .queryURL(path: "/search-show/?q=%s")
         
-        Site("https://sallysbakingaddiction.com")
+        "https://sallysbakingaddiction.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.saltlife.com")
+        "https://www.saltlife.com"
             .queryURL(path: "/nsearch/?q=%s")
         
-        Site("https://www.samash.com")
+        "https://www.samash.com"
             .queryURL(path: "/SearchDisplay?storeId=10001&catalogId=10051&langId=-1&pageSize=15&beginIndex=0&sType=SimpleSearch&searchSource=Q&resultCatEntryType=2&showResultsPage=true&pageView=grid&searchTerm=%s&searchBtn=")
         
-        Site("http://blog.samys.com")
+        "http://blog.samys.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.samsclub.com")
+        "https://www.samsclub.com"
             .queryURL(path: "/s/%s")
         
-        Site("https://www.samsung.com")
+        "https://www.samsung.com"
             .queryURL(path: "/us/search/searchMain?listType=g&searchTerm=%s")
         
-        Site("https://www.samys.com")
+        "https://www.samys.com"
             .queryURL(path: "/s/%s")
         
-        Site("https://www.sandiegouniontribune.com")
+        "https://www.sandiegouniontribune.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.sandimetz.com")
+        "https://www.sandimetz.com"
         
-        Site("https://www.sanuk.com")
+        "https://www.sanuk.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://videos.sapo.pt")
+        "https://videos.sapo.pt"
             .queryURL(path: "/search.html?word=%s")
         
-        Site("https://satechi.net")
+        "https://satechi.net"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://www.saturdaydownsouth.com")
+        "https://www.saturdaydownsouth.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.saturdaysnyc.com")
+        "https://www.saturdaysnyc.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.save-on-crafts.com")
+        "https://www.save-on-crafts.com"
             .queryURL(path: "/catalogsearch/result/?f=%s")
         
-        Site("https://savilerowco.com")
+        "https://savilerowco.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.saxxunderwear.com")
+        "https://www.saxxunderwear.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SB
         
-        Site("https://www.sbnation.com")
+        "https://www.sbnation.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SC
         
-        Site("https://sc.gov")
+        "https://sc.gov"
             .queryURL(path: "/searchresults?q=%s")
         
-        Site("https://www.sciencealert.com")
+        "https://www.sciencealert.com"
         
-        Site("https://www.sciencemag.org")
+        "https://www.sciencemag.org"
             .queryURL("https://search.sciencemag.org/?searchTerm=%s")
         
-        Site("https://www.sciencenews.org")
+        "https://www.sciencenews.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.schiphol.nl")
+        "https://www.schiphol.nl"
             .queryURL(path: "/en/search/?q=%s")
         
-        Site("https://www.scientificamerican.com")
+        "https://www.scientificamerican.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://sclobo.com")
+        "https://sclobo.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.scmp.com")
+        "https://www.scmp.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.scoopnashville.com")
+        "https://www.scoopnashville.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.scotchporter.com")
+        "https://www.scotchporter.com"
             .queryURL(path: "/search?q=%s&type=product")
         
-        Site("https://scottberrevoets.com")
+        "https://scottberrevoets.com"
         
-        Site("https://www.screenbinge.com")
+        "https://www.screenbinge.com"
             .queryURL(path: "/?s=%se")
         
-        Site("https://scriptingosx.com")
+        "https://scriptingosx.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.scrubbingbubbles.com")
+        "https://www.scrubbingbubbles.com"
             .queryURL(path: "/en-us/search-results?key=%s", locale: .unitedStates())
         
-        Site("https://www.scrubsandbeyond.com")
+        "https://www.scrubsandbeyond.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.scu.edu")
+        "https://www.scu.edu"
             .queryURL(path: "/search/?q=%s")
         
         
         // #SD
         
-        Site("https://sdotbeauty.com")
+        "https://sdotbeauty.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SEA
         
-        Site("https://sea-conference.com")
+        "https://sea-conference.com"
         
-        Site("https://sea-ny.com")
+        "https://sea-ny.com"
             .queryURL(path: "/search?q=%s*")
         
-    /*
-        Site("https://search.us-cert.gov")
-            .queryURL(path: "/search?affiliate=cisa&query=%s")
+        /*
+         "https://search.us-cert.gov"
+             .queryURL(path: "/search?affiliate=cisa&query=%s")
+         
+         "https://search.usa.gov"
+             .queryURL(path: "/search?query=%s&affiliate=defense-logistics-agency&utf8=%26%23x2713%3B")
+         
+         "https://search.usc.edu"
+             .queryURL(path: "/?q=%s")
+         
+         "https://search.uwa.edu.au"
+             .queryURL(path: "/s/search.html?collection=uwa-meta&form=uwa&query=%s")
+         
+         "https://search.vcu.edu"
+             .queryURL(path: "/s/search.html?collection=vcu-meta&query=%s")
+         
+         "https://search.verizonwireless.com"
+             .queryURL(path: "/onesearch/search?q=%s")
+         
+         "https://search.wvu.edu"
+             .queryURL(path: "/results/?q=%s&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&ie=UTF-8&oe=UTF-8&proxystylesheet=default_frontend&client=default_frontend&btnG=Search&as_sitesearch=wvu.edu")
+         
+         "https://search.wvu.edu"
+             .queryURL(path: "/wvutech/results/?q=%s")
+         
+         */
         
-        Site("https://search.usa.gov")
-            .queryURL(path: "/search?query=%s&affiliate=defense-logistics-agency&utf8=%26%23x2713%3B")
-        
-        Site("https://search.usc.edu")
-            .queryURL(path: "/?q=%s")
-        
-        Site("https://search.uwa.edu.au")
-            .queryURL(path: "/s/search.html?collection=uwa-meta&form=uwa&query=%s")
-        
-        Site("https://search.vcu.edu")
-            .queryURL(path: "/s/search.html?collection=vcu-meta&query=%s")
-        
-        Site("https://search.verizonwireless.com")
-            .queryURL(path: "/onesearch/search?q=%s")
-                
-        Site("https://search.wvu.edu")
-            .queryURL(path: "/results/?q=%s&sort=date%3AD%3AL%3Ad1&output=xml_no_dtd&ie=UTF-8&oe=UTF-8&proxystylesheet=default_frontend&client=default_frontend&btnG=Search&as_sitesearch=wvu.edu")
-        
-        Site("https://search.wvu.edu")
-            .queryURL(path: "/wvutech/results/?q=%s")
-        
-        */
-        
-        Site("https://www.searchenginejournal.com")
+        "https://www.searchenginejournal.com"
             .queryURL(path: "/?s=%s")
         
-        Site("http://www.sears.com")
+        "http://www.sears.com"
             .queryURL(path: "/search=%s")
         
-        Site("https://seatgeek.com")
+        "https://seatgeek.com"
             .queryURL(path: "/search?f=1&search=%s")
         
-        Site("https://www.seattletimes.com")
+        "https://www.seattletimes.com"
             .queryURL(path: "/search/?query=%s")
         
         
         // #SEC
-
-        Site("https://secondnature.org")
+        
+        "https://secondnature.org"
             .queryURL(path: "/library?_search=%s")
         
-        Site("https://www.secsports.com")
+        "https://www.secsports.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("http://www.secsportsfan.com")
+        "http://www.secsportsfan.com"
             .queryURL(path: "/search-results.html?cx=partner-pub-2614183340980675%3Aob3leja0v22&cof=FORID%3A11&ie=ISO-8859-1&q=%s&sa=%3E&siteurl=www.secsportsfan.com%2F&ref=&ss=134j10130j3")
-                
-        Site("https://www.sees.com")
+        
+        "https://www.sees.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.self.com")
+        "https://www.self.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://selfhacked.com")
+        "https://selfhacked.com"
             .queryURL(path: "/?s=%s")
         
         
         // #SEM
         
-        Site("https://www.sema.org")
+        "https://www.sema.org"
             .queryURL(path: "/search/google/%s")
         
         
         // #SEN
         
-        Site("https://sendusmasks.com")
+        "https://sendusmasks.com"
         
-        Site("https://www.sensomatic.com")
+        "https://www.sensomatic.com"
         
-        Site("https://www.sephora.com")
+        "https://www.sephora.com"
             .queryURL(path: "/search/search.jsp?keyword=%s")
         
-        Site("https://www.seriouseats.com")
+        "https://www.seriouseats.com"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://serverfault.com")
+        "https://serverfault.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.seventeen.com")
+        "https://www.seventeen.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #SF
         
-        Site("https://sfist.com")
+        "https://sfist.com"
         
         
         // #SG
         // #SH
         
-        Site("https://www.shacknews.com")
+        "https://www.shacknews.com"
             .queryURL(path: "/editorial-search?q=%s")
         
-        Site("https://www.shape.com")
+        "https://www.shape.com"
             .queryURL(path: "/search/site/%s")
         
-        Site("https://www.sharperimage.com")
+        "https://www.sharperimage.com"
             .queryURL(path: "/si/view/category/Search/100209?trail=SRCH%3A%s")
         
-        Site("https://www.sharkclean.com")
+        "https://www.sharkclean.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.shawacademy.com")
+        "https://www.shawacademy.com"
         
-        Site("https://www.sheba.com")
+        "https://www.sheba.com"
             .queryURL(path: "/search-results?indexCatalogue=custom-search&searchQuery=%s&wordsMode=AllWords")
         
-        Site("https://www.sheepcentre.co.uk")
+        "https://www.sheepcentre.co.uk"
         
-        Site("https://shein.com")
+        "https://shein.com"
             .queryURL("https://us.shein.com/pdsearch/awb/?scici=Search~~EditSearch~~1~~%s~~~~0~~0", locale: .unitedStates())
         
-        Site("https://www.sherwin-williams.com")
+        "https://www.sherwin-williams.com"
         
         
         // #SHI
         
-        Site("https://www.shiekh.com")
+        "https://www.shiekh.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.shipengine.com")
+        "https://www.shipengine.com"
         
-        Site("https://www.shoebacca.com")
+        "https://www.shoebacca.com"
             .queryURL(path: "/catalogsearch/result/q/%s")
         
-        Site("https://elevtd.shoebuy.com")
+        "https://elevtd.shoebuy.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://www.shoemall.com")
+        "https://www.shoemall.com"
             .queryURL(path: "/?Ntt=%s")
         
-        Site("https://www.shoes.com")
+        "https://www.shoes.com"
             .queryURL(path: "/s.jsp?Search=%s")
         
-        Site("https://www.shootproof.com")
+        "https://www.shootproof.com"
             .queryURL(path: "/blog/?s=%s")
-
-        Site("https://www.shopakira.com")
+        
+        "https://www.shopakira.com"
             .queryURL(path: "/nsearch/?q=%s")
         
-        Site("https://www.shopbop.com")
+        "https://www.shopbop.com"
             .queryURL(path: "/s/products?query=%s")
         
-        Site("https://www.shopdisney.com")
+        "https://www.shopdisney.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://shopduer.com")
+        "https://shopduer.com"
             .queryURL(path: "/search?q=%s&type=product")
         
-        Site("https://www.shophellofashion.com")
+        "https://www.shophellofashion.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://shophorne.com")
+        "https://shophorne.com"
             .queryURL(path: "/search?view=spring&q=%s")
         
-        Site("https://www.shopify.com")
+        "https://www.shopify.com"
         
-        Site("https://www.shopjura.com")
+        "https://www.shopjura.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.shopjustice.com")
+        "https://www.shopjustice.com"
             .queryURL(path: "/justice/search?Ntt=%s")
         
-        Site("https://shopkimkimble.com")
+        "https://shopkimkimble.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.shopmissa.com")
+        "https://www.shopmissa.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://shopplanetblue.com")
+        "https://shopplanetblue.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://shoprachelzoe.com")
+        "https://shoprachelzoe.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.shopstyle.com")
+        "https://www.shopstyle.com"
             .queryURL(path: "/browse?fts=%s")
         
-        Site("https://www.shoptiques.com")
+        "https://www.shoptiques.com"
             .queryURL(path: "/search/products?query=%s")
         
-        Site("https://shopvida.com")
+        "https://shopvida.com"
             .queryURL(path: "/search?x=0&y=0&q=%s")
         
-        Site("https://shopzimba.com")
+        "https://shopzimba.com"
         
-        Site("https://www.shoutmeloud.com")
+        "https://www.shoutmeloud.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://showmeyourmumu.com")
+        "https://showmeyourmumu.com"
             .queryURL(path: "/search?view=shop&q=%s")
         
-        Site("https://www.showpo.com")
+        "https://www.showpo.com"
             .queryURL(path: "/us/search?q=%s")
         
         
         // #SI
         
-        Site("https://americanhistory.si.edu")
+        "https://americanhistory.si.edu"
             .queryURL(path: "/site-search/%s")
         
-        Site("https://www.si.com")
+        "https://www.si.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://sicem365.com")
+        "https://sicem365.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.sidearmsports.com")
+        "https://www.sidearmsports.com"
         
-        Site("https://www.sierra.com")
+        "https://www.sierra.com"
             .queryURL(path: "/s~%s/")
         
         
         // #SIG
         
-        Site("https://pldi20.sigplan.org")
+        "https://pldi20.sigplan.org"
             .queryURL(path: "/search/%s/all")
         
-        Site("https://www.siteground.com")
+        "https://www.siteground.com"
         
-        Site("https://www.sigmaphoto.com")
+        "https://www.sigmaphoto.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.signiant.com")
+        "https://www.signiant.com"
             .queryURL(path: "/search/#stq=%s&stp=1")
         
-        Site("https://www.signaturehardware.com")
+        "https://www.signaturehardware.com"
             .queryURL(path: "/search/result/?q=%s")
         
         
         // #SIL
         
-        Site("https://siliconangle.com")
+        "https://siliconangle.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://nibbler.silktide.com")
+        "https://nibbler.silktide.com"
         
-        Site("https://www.silverjeans.com")
+        "https://www.silverjeans.com"
             .queryURL(path: "/us/search?q=%s")
         
         
         // #SIM
         
-        Site("https://simone.computer")
+        "https://simone.computer"
         
-        Site("https://www.simonsaysstamp.com")
+        "https://www.simonsaysstamp.com"
             .queryURL(path: "/search?currency=USD&q=%s")
         
-        Site("https://www.simplemost.com")
+        "https://www.simplemost.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://simpletire.com")
+        "https://simpletire.com"
         
-        Site("https://www.simplybe.com")
+        "https://www.simplybe.com"
             .queryURL(path: "/en-us/search/?text=%s")
         
-        Site("https://simplisafe.com")
+        "https://simplisafe.com"
         
-        Site("https://www.simplydresses.com")
+        "https://www.simplydresses.com"
             .queryURL(path: "/shop/find?keywords=%s")
         
-        Site("https://www.simplyrecipes.com")
+        "https://www.simplyrecipes.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.simris.com")
+        "https://www.simris.com"
         
-        Site("https://simson.net")
+        "https://simson.net"
             .queryURL(path: "/wiki/index.php?search=%s&title=Special%3ASearch&go=Go")
         
-        Site("https://www.singer22.com")
+        "https://www.singer22.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://singularityhub.com")
+        "https://singularityhub.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.siobeauty.com")
+        "https://www.siobeauty.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.sixityauto.com")
+        "https://www.sixityauto.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SJ
         
-        Site("https://www.sjcdrums.com")
+        "https://www.sjcdrums.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://sjpbeauty.com")
+        "https://sjpbeauty.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://sjsunews.com")
+        "https://sjsunews.com"
             .queryURL(path: "/search/%s")
         
         
         // #SK
         
-        Site("https://www.sk-ii.com")
+        "https://www.sk-ii.com"
             .queryURL(path: "/on/demandware.store/Sites-SKII-Site/default/Search-Show?q=%s")
         
-        Site("https://www.skagen.com")
+        "https://www.skagen.com"
             .queryURL(path: "/en-us/catalogsearch/result/?q=%s")
         
-        Site("https://www.skil.com")
+        "https://www.skil.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://skims.com")
+        "https://skims.com"
             .queryURL(path: "/search?type=product&q=%s")
-                
-        Site("https://www.skinceuticals.com")
+        
+        "https://www.skinceuticals.com"
             .queryURL(path: "/search?q=%s")
- 
-        Site("https://www.skinnytaste.com")
+        
+        "https://www.skinnytaste.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.skirtsports.com")
+        "https://www.skirtsports.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.skis.com")
+        "https://www.skis.com"
             .queryURL(path: "/on/demandware.store/Sites-Skis-Site/default/Search-Show?q=%s")
         
-        Site("https://sktools.com")
+        "https://sktools.com"
             .queryURL(path: "/shop/catalogsearch/result/?q=%s")
         
-        Site("https://www.skylaryoo.com")
+        "https://www.skylaryoo.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.skysports.com")
+        "https://www.skysports.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SL
         // #SLA
-
-        Site("https://slack.com")
         
-        Site("https://www.slamonline.com")
+        "https://slack.com"
+        
+        "https://www.slamonline.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.slashgear.com")
+        "https://www.slashgear.com"
             .queryURL(path: "/search-results/?q=%s")
         
-        Site("https://sleefs.com")
+        "https://sleefs.com"
             .queryURL(path: "/pages/search-results?findify_q=%s")
         
-        Site("https://slidegame.io")
+        "https://slidegame.io"
         
-        Site("https://www.sltrib.com")
+        "https://www.sltrib.com"
             .queryURL(path: "/search/%s/?q=%s")
         
         
         // #SM
         
-        Site("https://www.smartfood.com")
+        "https://www.smartfood.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://home-automation.smarthome.com")
+        "https://home-automation.smarthome.com"
             .queryURL(path: "/search?w=%s")
         
-        Site("https://www.smartwool.com")
+        "https://www.smartwool.com"
             .queryURL(path: "/webapp/wcs/stores/servlet/VFSearchDisplay?sType=SimpleSearch&catalogId=11701&searchSource=Q&beginIndex=0&storeId=7501&langId=-1&searchTerm=%s")
         
-        Site("https://www.smashbox.com")
+        "https://www.smashbox.com"
             .queryURL(path: "/esearch?form_id=perlgem_search_form&search=%s")
         
-        Site("https://www.smashingmagazine.com")
+        "https://www.smashingmagazine.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #SMB
         
-        Site("https://www.smbc-comics.com")
+        "https://www.smbc-comics.com"
         
-        Site("https://www.smh.com.au")
+        "https://www.smh.com.au"
             .queryURL(path: "/search?text=%s")
         
-        Site("https://smile.amazon.com")
+        "https://smile.amazon.com"
             .queryURL(path: "/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=%s")
         
-        Site("https://www.smilemay.com")
+        "https://www.smilemay.com"
             .queryURL(path: "/search/?words=%s")
         
-        Site("https://smittenkitchen.com")
+        "https://smittenkitchen.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://smokymountaincinema.com")
+        "https://smokymountaincinema.com"
         
-        Site("https://www.smu.edu")
+        "https://www.smu.edu"
             .queryURL(path: "/search?q=%s")
         
         /*
-        Site("https://so.csdn.net")
-            .queryURL(path: "/so/search/s.do?q=%s")
-        */
+         "https://so.csdn.net"
+         .queryURL(path: "/so/search/s.do?q=%s")
+         */
         
         
-
+        
         // #SN
         // #SNA
         
-        Site("https://www.snackworks.com")
+        "https://www.snackworks.com"
             .queryURL(path: "/search/recipe-results?searchText=%s")
         
-        Site("https://www.snhu.edu")
+        "https://www.snhu.edu"
             .queryURL(path: "/search?ss360Query=%s")
         
-        Site("https://www.snippetscience.com")
+        "https://www.snippetscience.com"
         
-        Site("https://www.snowjoe.com")
+        "https://www.snowjoe.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
         
         // #SO
         
-        Site("https://int.soccerway.com")
+        "https://int.soccerway.com"
             .queryURL(path: "/search/?q=%s&module=all")
         
-        Site("https://society6.com")
+        "https://society6.com"
             .queryURL(path: "/s?q=%s")
         
         
         // #SOE
         
-        Site("https://www.soengsouy.com")
+        "https://www.soengsouy.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.sofapps.it")
+        "https://www.sofapps.it"
         
-        Site("https://www.sofi.com")
+        "https://www.sofi.com"
         
-        Site("https://www.soffe.com")
+        "https://www.soffe.com"
             .queryURL(path: "/asearch?q=%s")
         
-        Site("http://www.sogou.com")
+        "http://www.sogou.com"
             .queryURL(path: "/tx?query=%s")
         
-        Site("https://www.soiakyo.com")
+        "https://www.soiakyo.com"
             .queryURL(path: "/us/en/search?q=%s")
         
         
         // #SOL
         
-        Site("https://www.solostove.com")
+        "https://www.solostove.com"
         
-        Site("https://www.solsticesunglasses.com")
+        "https://www.solsticesunglasses.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.soma.com")
+        "https://www.soma.com"
             .queryURL(path: "/store/search/?searchTerms=%s")
         
-        Site("https://www.somethingawful.com")
+        "https://www.somethingawful.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.songkick.com")
+        "https://www.songkick.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://songmeanings.com")
+        "https://songmeanings.com"
             .queryURL(path: "/query/?query=%s")
         
-        Site("https://www.sonos.com")
+        "https://www.sonos.com"
             .queryURL(path: "/en-us/search?q=%s")
         
-        Site("https://www.sony.com")
+        "https://www.sony.com"
             .queryURL(path: "/search?query=%s&locale=en_US", locale: .unitedStates())
         
-        Site("https://www.soompi.com")
+        "https://www.soompi.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://soonersports.com")
+        "https://soonersports.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://soundcloud.com")
+        "https://soundcloud.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.soundstagedirect.com")
+        "https://www.soundstagedirect.com"
             .queryURL(path: "/search/go?w=%s")
         
-        Site("https://souq.com")
+        "https://souq.com"
             .queryURL(path: "/ae-en/%s/s/?as=1")
         
-        Site("https://thesource.com")
+        "https://thesource.com"
             .queryURL(path: "/?s=%s")
         
         
         // #SOU
-
-        Site("https://www.southalabama.edu")
+        
+        "https://www.southalabama.edu"
             .queryURL(path: "/search/searchresults.html?cx=015271837967661074870%3A1bcj4ehmap4&cof=FORID%3A10&ie=UTF-8&q=%s&sa.x=0&sa.y=0")
         
-        Site("https://southbeachswimsuits.com")
+        "https://southbeachswimsuits.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://southboundanddown.com")
+        "https://southboundanddown.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.southerncharmcbd.com")
+        "https://www.southerncharmcbd.com"
             .queryURL(path: "/s/search?q=%s")
         
-        Site("https://www.southernstates.com")
+        "https://www.southernstates.com"
             .queryURL(path: "/catalog/search?q=%s")
         
-        Site("https://southmill.com")
+        "https://southmill.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.southmoonunder.com")
+        "https://www.southmoonunder.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SP
         
-        Site("https://spaceexplored.com")
+        "https://spaceexplored.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.spanx.com")
+        "https://www.spanx.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.speckproducts.com")
+        "https://www.speckproducts.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://spectator.us")
+        "https://spectator.us"
         
-        Site("https://enterprise.spectrum.com")
+        "https://enterprise.spectrum.com"
             .queryURL(path: "/support/search.html?search-q=%s")
         
-        Site("https://www.spectrum.net")
+        "https://www.spectrum.net"
             .queryURL(path: "/search-results/?k=%s")
         
-        Site("https://spectrumlocalnews.com")
+        "https://spectrumlocalnews.com"
             .queryURL(path: "/tx/san-antonio/search#%s/1/")
         
-        Site("https://speechless.com")
+        "https://speechless.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.spelman.edu")
+        "https://www.spelman.edu"
             .queryURL(path: "/about-us/search-results?indexCatalogue=site%2Dsearch&searchQuery=%s&wordsMode=0")
         
-        Site("https://www.spin.com")
+        "https://www.spin.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.splits59.com")
+        "https://www.splits59.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.splunk.com")
+        "https://www.splunk.com"
             .queryURL(path: "/en_us/search.html?query=%s")
         
-        Site("https://www.spoonforkbacon.com")
+        "https://www.spoonforkbacon.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://spoonuniversity.com")
+        "https://spoonuniversity.com"
             .queryURL(path: "/search?searchTerm=%s&searchCategory=")
         
-        Site("https://www.sportingnews.com")
+        "https://www.sportingnews.com"
         
-        Site("https://www.sportsbusinessdaily.com")
+        "https://www.sportsbusinessdaily.com"
             .queryURL(path: "/Search/Site.aspx?searchPhrase=%s")
         
-        Site("https://www.sportsmansguide.com")
+        "https://www.sportsmansguide.com"
             .queryURL(path: "/productlist?k=%s")
         
         
         // #SPR
         
-        Site("https://www.sprinklebakes.com")
+        "https://www.sprinklebakes.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("http://spritesmods.com")
+        "http://spritesmods.com"
         
-        Site("https://www.spyder.com")
+        "https://www.spyder.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.spyoptic.com")
+        "https://www.spyoptic.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SQ
         
-        Site("https://www.squarespace.com")
+        "https://www.squarespace.com"
         
-        Site("https://squareup.com")
+        "https://squareup.com"
         
-        Site("https://www.sqlite.org")
+        "https://www.sqlite.org"
             .queryURL(path: "/search?s=d&q=%s")
         
         
         // #SQR
-
-        Site("https://www.sqreen.com")
+        
+        "https://www.sqreen.com"
         
         
         // #SR
         // #SS
         
-        Site("https://www.sstire.com")
+        "https://www.sstire.com"
         
-        Site("https://www.ssww.com")
+        "https://www.ssww.com"
             .queryURL(path: "/search/index.php?q=%s")
         
         
         // #ST
         // #STA
         
-        Site("https://stackexchange.com")
+        "https://stackexchange.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://stackoverflow.com")
+        "https://stackoverflow.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.stacyadams.com")
+        "https://www.stacyadams.com"
             .queryURL(path: "/shop/styleGridSearch.html?pageNumber=0&text=%s")
         
-        Site("https://www.standard.co.uk")
+        "https://www.standard.co.uk"
         
-        Site("https://www.stage.com")
+        "https://www.stage.com"
             .queryURL(path: "/s/%s/N-0")
         
-        Site("http://www.stanstedairport.com")
+        "http://www.stanstedairport.com"
             .queryURL(path: "/search?searchTerm=%s")
         
-        Site("https://www.staradvertiser.com")
+        "https://www.staradvertiser.com"
             .queryURL(path: "/search/%s/?s=%s")
         
-        Site("https://starmagazine.com")
+        "https://starmagazine.com"
             .queryURL(path: "/search/?search=%s")
         
-        Site("https://www.startpage.com")
+        "https://www.startpage.com"
             .queryURL(path: "/do/metasearch.pl?query=%s")
         
-        Site("https://www.starvinartist.com")
+        "https://www.starvinartist.com"
             .queryURL(path: "/search.aspx?SearchTerm=%s")
         
-        Site("https://www.statnews.com")
+        "https://www.statnews.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://statecashmere.com")
+        "https://statecashmere.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.statecollege.com")
+        "https://www.statecollege.com"
             .queryURL(path: "/search/results.php?SearchString=%s")
         
-        Site("https://www.statesmanjournal.com")
+        "https://www.statesmanjournal.com"
             .queryURL(path: "/search/%s/")
         
         
         // #STE
-
-        Site("https://stealthshorts.com")
         
-        Site("https://store.steampowered.com")
+        "https://stealthshorts.com"
+        
+        "https://store.steampowered.com"
             .queryURL(path: "/search/?term=%s")
         
-        Site("https://www.steepandcheap.com")
+        "https://www.steepandcheap.com"
             .queryURL(path: "/Store/catalog/search.jsp?q=%s")
         
-        Site("https://www.steinmart.com")
+        "https://www.steinmart.com"
             .queryURL(path: "/search.do?query=%s")
         
-        Site("https://www.stevemadden.com")
+        "https://www.stevemadden.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
         
         // #STI
         
-        Site("https://stitcher.io")
+        "https://stitcher.io"
         
-        Site("https://www.stitchfix.com")
+        "https://www.stitchfix.com"
         
-        Site("https://www.stihlusa.com")
+        "https://www.stihlusa.com"
             .queryURL(path: "/search/#stq=%s")
         
-        Site("https://www.stilacosmetics.com")
+        "https://www.stilacosmetics.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.stio.com")
+        "https://www.stio.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://www.stjohnknits.com")
+        "https://www.stjohnknits.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         
         // #STO
         
-        Site("https://stockmfgco.com")
+        "https://stockmfgco.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://stockrow.com")
+        "https://stockrow.com"
         
-        Site("https://gettysburg.stonesentinels.com")
-
-        Site("https://www.storets.com")
+        "https://gettysburg.stonesentinels.com"
+        
+        "https://www.storets.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.stories.com")
+        "https://www.stories.com"
             .queryURL(path: "/en_usd/search.html?q=%s")
         
-        Site("https://stratechery.com")
+        "https://stratechery.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://streamable.com")
+        "https://streamable.com"
         
-        Site("http://linter.structured-data.org")
+        "http://linter.structured-data.org"
         
-        Site("https://stryve.com")
+        "https://stryve.com"
         
         
         // #STU
         
-        Site("https://www.stuartweitzman.com")
+        "https://www.stuartweitzman.com"
             .queryURL(path: "/search/?keyword=%s")
         
-        Site("https://stubbypencilstudio.com")
+        "https://stubbypencilstudio.com"
             .queryURL(path: "/?s=%s&post_type=product")
         
-        Site("https://www.stubhub.com")
+        "https://www.stubhub.com"
         
-        Site("https://stuckincustoms.com")
+        "https://stuckincustoms.com"
             .queryURL(path: "/search-page/?q=%s")
         
-        Site("https://studiomdhr.com")
+        "https://studiomdhr.com"
         
-        Site("https://www.studioneat.com")
+        "https://www.studioneat.com"
         
-        Site("https://www.stuff.co.nz")
+        "https://www.stuff.co.nz"
             .queryURL(path: "/searchresults?Search+Site=Search+Site&cof=FORID%3A9&cx=006730714154542492986%3Aoh6vl0ybuqy&q=%s&siteurl=www.stuff.co.nz")
         
-        Site("https://www.stuff.tv")
+        "https://www.stuff.tv"
             .queryURL(path: "/search/site/%s")
         
-        Site("https://www.stylewe.com")
+        "https://www.stylewe.com"
             .queryURL(path: "/search?keywords=%s")
         
         
-
+        
         // #SU
         
-        Site("https://www.suave.com")
+        "https://www.suave.com"
             .queryURL(path: "/us/en/search.html?q=%s")
         
-        Site("https://substack.com")
+        "https://substack.com"
             .queryURL(path: "/discover/%s")
         
-        Site("https://www.suck.uk.com")
+        "https://www.suck.uk.com"
             .queryURL(path: "/search/%s/")
         
-        Site("https://www.summitappliance.com")
+        "https://www.summitappliance.com"
             .queryURL(path: "/search?search=%s")
         
-        Site("https://www.summitracing.com")
+        "https://www.summitracing.com"
             .queryURL(path: "/search?keyword=%s")
         
-        Site("https://www.summitsports.com")
+        "https://www.summitsports.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SUN
         
-        Site("https://sunbeltsports.org")
+        "https://sunbeltsports.org"
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:7qstqttbenw&q=%s&sa=Search")
         
-        Site("https://www.sundancecatalog.com")
+        "https://www.sundancecatalog.com"
             .queryURL(path: "/search.do?query=%s")
         
-        Site("https://www.sunglasshut.com")
+        "https://www.sunglasshut.com"
             .queryURL(path: "/SearchDisplay?storeId=10152&catalogId=20602&langId=-1&pageSize=18&beginIndex=0&searchSource=Q&sType=SimpleSearch&resultCatEntryType=2&searchType=102&searchingFrom=global&showResultsPage=true&pageView=image&orderBy=default&searchTerm=%s")
         
-        Site("http://www.sunny923.com")
+        "http://www.sunny923.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.superdry.com")
+        "https://www.superdry.com"
             .queryURL(path: "/us/search/%s")
         
-        Site("https://www.superrugby.co.nz")
+        "https://www.superrugby.co.nz"
             .queryURL(path: "/search-results?Keyword=%s#st")
         
-        Site("https://www.surlatable.com")
+        "https://www.surlatable.com"
             .queryURL(path: "/search/search.jsp?Ntt=%s")
         
-        Site("https://www.suvabeauty.com")
+        "https://www.suvabeauty.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #SV
         
-        Site("http://www.svo.aero")
+        "http://www.svo.aero"
             .queryURL(path: "/en/search/?text=%s")
         
         
         // #SW
         
-        Site("https://www.swap.com")
+        "https://www.swap.com"
             .queryURL(path: "/shop/?q=%s")
         
-        Site("https://www.sweatybetty.com")
+        "https://www.sweatybetty.com"
             .queryURL(path: "/us/search?q=%s")
         
-        Site("https://sweetandsavory.co")
+        "https://sweetandsavory.co"
         
-        Site("https://www.sweetwater.com")
+        "https://www.sweetwater.com"
             .queryURL(path: "/store/search.php?s=%s")
         
-        Site("https://forums.swift.org")
+        "https://forums.swift.org"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://swift.org")
+        "https://swift.org"
         
-        Site("https://www.swiftbysundell.com")
+        "https://www.swiftbysundell.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://swiftpackageindex.com")
+        "https://swiftpackageindex.com"
         
-        Site("https://www.swiglife.com")
+        "https://www.swiglife.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.swimoutlet.com")
+        "https://www.swimoutlet.com"
             .queryURL(path: "/searchresults.asp?Search=%s")
         
-        Site("https://www.swimsuitsdirect.com")
+        "https://www.swimsuitsdirect.com"
             .queryURL(path: "/search?type=product&query=%s")
         
-        Site("https://www.swimsuitsforall.com")
+        "https://www.swimsuitsforall.com"
             .queryURL(path: "/browse/searchResult.php?goSearch=Y&searchKeyword=%s")
         
-        Site("https://www.swissdiamond.com")
+        "https://www.swissdiamond.com"
             .queryURL(path: "/search?search=%s")
         
         
         // #SWT
         
-        Site("https://swtch.com")
+        "https://swtch.com"
         
         
         // #SX
         
-        Site("https://www.sxsw.com")
+        "https://www.sxsw.com"
             .queryURL(path: "/?s=%s")
         
         
         // #SY
         
-        Site("https://library.sydneycatholic.org")
+        "https://library.sydneycatholic.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.sykes.com")
+        "https://www.sykes.com"
             .queryURL(path: "/?s=%s")
         
         

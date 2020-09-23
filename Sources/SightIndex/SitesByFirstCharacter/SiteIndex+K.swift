@@ -13,64 +13,64 @@ internal extension SiteIndex {
         
         // #K1
         
-        Site("https://www.k-deer.com")
+        "https://www.k-deer.com"
             .queryURL(path: "/search?type=product&q=%s*")
         
-        Site("https://www.k12.com")
+        "https://www.k12.com"
             .queryURL(path: "/search.html?query=%s")
         
         
         // #KA
         
-        Site("https://www.kaia.com")
+        "https://www.kaia.com"
         
-        Site("https://www.kait8.com")
+        "https://www.kait8.com"
             .queryURL(path: "/search/%s/1/")
         
-        Site("https://www.kansai-airport.or.jp")
+        "https://www.kansai-airport.or.jp"
             .queryURL(path: "/en/search?keywords=%s")
         
-        Site("https://kapeli.com")
+        "https://kapeli.com"
         
-        Site("https://kappa-usa.com")
+        "https://kappa-usa.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.karenkane.com")
+        "https://www.karenkane.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.karllagerfeldparis.com")
+        "https://www.karllagerfeldparis.com"
             .queryURL(path: "/search.do?query=%s")
         
-        Site("https://www.karmaindustriesinc.com")
+        "https://www.karmaindustriesinc.com"
         
-        Site("https://www.karmaloop.com")
+        "https://www.karmaloop.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://kassatex.com")
+        "https://kassatex.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.katespade.com")
+        "https://www.katespade.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("http://katoces.com")
+        "http://katoces.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.katom.com")
+        "https://www.katom.com"
             .queryURL(path: "/search?w=%s")
         
-        Site("https://www.katvondbeauty.com")
+        "https://www.katvondbeauty.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kay.com")
+        "https://www.kay.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.kazzclothing.com")
+        "https://www.kazzclothing.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #KB
         
-        Site("https://www.kbellsocks.com")
+        "https://www.kbellsocks.com"
             .queryURL(path: "/search.aspx?keyword=%s")
         
         
@@ -78,106 +78,106 @@ internal extension SiteIndex {
         // #KD
         // #KE
         
-        Site("https://www.keh.com")
+        "https://www.keh.com"
             .queryURL(path: "/shop/search/?q=%s")
         
-        Site("https://www.kennethcole.com")
+        "https://www.kennethcole.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kens5.com")
+        "https://www.kens5.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kentucky.com")
+        "https://www.kentucky.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://kentuckysportsradio.com")
+        "https://kentuckysportsradio.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.kenzoparfums.com")
+        "https://www.kenzoparfums.com"
             .queryURL(path: "/en/search?search=%s")
         
-        Site("https://ketanbhatt.com")
+        "https://ketanbhatt.com"
         
-        Site("https://www.ketv.com")
+        "https://www.ketv.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kew.org")
+        "https://www.kew.org"
             .queryURL(path: "/search?textsearch=%s")
         
         
         // #KF
         
-        Site("https://www.kff.org")
+        "https://www.kff.org"
             .queryURL(path: "/search/?s=%s")
         
-        Site("https://kfor.com")
+        "https://kfor.com"
             .queryURL(path: "/?s=%s&submit=Search")
         
         
         // #KG
         
-        Site("http://www.kgi.edu")
+        "http://www.kgi.edu"
             .queryURL(path: "/google-search-results?q=%s")
         
         
         // #KH
         
-        Site("https://khanlou.com")
+        "https://khanlou.com"
         
-        Site("https://khn.org")
+        "https://khn.org"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.khruangbin.com")
+        "https://www.khruangbin.com"
         
         
         // #KI
         
-        Site("https://www.kia.com")
+        "https://www.kia.com"
             .queryURL(path: "/us/en/search?q=%s")
         
-        Site("https://www.kickstarter.com")
+        "https://www.kickstarter.com"
             .queryURL(path: "/discover/advanced?ref=nav_search&term=%s")
         
-        Site("https://www.kicksusa.com")
+        "https://www.kicksusa.com"
             .queryURL(path: "/nsearch/?q=%s")
         
-        Site("https://www.kidney.org")
+        "https://www.kidney.org"
             .queryURL(path: "/search-results?solr-keywords=%s")
         
-        Site("https://shop.kidpik.com")
+        "https://shop.kidpik.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kidsfootlocker.com")
+        "https://www.kidsfootlocker.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.kiehls.com")
+        "https://www.kiehls.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://king-mag.com")
+        "https://king-mag.com"
             .queryURL(path: "/search/?s=%s")
         
-        Site("https://www.king.edu")
+        "https://www.king.edu"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.kingsize.com")
+        "https://www.kingsize.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kipling-usa.com")
+        "https://www.kipling-usa.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.kirklands.com")
+        "https://www.kirklands.com"
             .queryURL(path: "/catalog/search_sp.cmd?form_state=searchForm&q=%s")
         
-        Site("https://www.kirnazabete.com")
+        "https://www.kirnazabete.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("tps://www.kitandace.com")
+        "tps://www.kitandace.com"
             .queryURL(path: "/us/en/search?q=%s")
         
-        Site("https://kiwibotanicals.com")
+        "https://kiwibotanicals.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://www.kiyonna.com")
+        "https://www.kiyonna.com"
             .queryURL(path: "/SEARCH.html?q=%s")
         
         
@@ -187,89 +187,89 @@ internal extension SiteIndex {
         // #KL
         // #KLA
         
-        Site("https://www.klarna.com")
+        "https://www.klarna.com"
         
-        Site("https://www.klc.org")
+        "https://www.klc.org"
         
-        Site("https://www.kleintools.com")
+        "https://www.kleintools.com"
             .queryURL(path: "/search/%s")
         
-        Site("http://www.klia.com.my")
+        "http://www.klia.com.my"
             .queryURL(path: "/index.php?m=search&query=%s")
         
-        Site("https://klur.co")
+        "https://klur.co"
         
         
         // #KM
         
-        Site("https://www.kmart.com")
+        "https://www.kmart.com"
             .queryURL(path: "/search=%s")
         
         
         // #KN
         
-        Site("https://knewz.com")
+        "https://knewz.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.knex.com")
+        "https://www.knex.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.knfilters.com")
+        "https://www.knfilters.com"
             .queryURL(path: "/search/search.aspx?src=%s")
         
-        Site("https://knockknockstuff.com")
+        "https://knockknockstuff.com"
             .queryURL(path: "/?s=%s&searching=shop")
         
-        Site("https://knoxify.com")
-            .queryURL(path: "/?s=%s")
-                
-        Site("http://knoxfocus.com")
+        "https://knoxify.com"
             .queryURL(path: "/?s=%s")
         
-        Site("http://knoxvilledowntownrealty.com")
+        "http://knoxfocus.com"
+            .queryURL(path: "/?s=%s")
         
-        Site("https://knoxvillesymphony.com")
+        "http://knoxvilledowntownrealty.com"
         
-        Site("https://knoxvillemoms.com")
+        "https://knoxvillesymphony.com"
+        
+        "https://knoxvillemoms.com"
             .queryURL(path: "/?s=%s")
         
         
         // #KNS
         
-        Site("https://knsb.nl")
+        "https://knsb.nl"
             .queryURL(path: "/zoeken/?q=%s")
         
         
         // #KO
         
-        Site("https://koa.com")
+        "https://koa.com"
             .queryURL(path: "/search/?txtLocation=%s")
         
-        Site("http://www.koeln-bonn-airport.de") // related: `cologne-bonn-airport.com`
+        "http://www.koeln-bonn-airport.de" // related: `cologne-bonn-airport.com`
         
-        Site("https://www.kohls.com")
+        "https://www.kohls.com"
             .queryURL(path: "/search.jsp?search=%s")
         
-        Site("https://www.kolotv.com")
+        "https://www.kolotv.com"
             .queryURL(path: "/search/?searchTerm=%s")
         
-        Site("https://www.komaks.com")
+        "https://www.komaks.com"
         
-        Site("https://konghq.com")
+        "https://konghq.com"
         
-        Site("https://www.kooding.com")
+        "https://www.kooding.com"
             .queryURL(path: "/search?idCategory=&search=%s")
         
-        Site("https://www.kora.net")
+        "https://www.kora.net"
             .queryURL(path: "/usa/catalogsearch/result/?q=%s", locale: .unitedStates())
         
-        Site("https://koral.com")
+        "https://koral.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://kotaku.com")
+        "https://kotaku.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://kotlinlang.org")
+        "https://kotlinlang.org"
             .queryURL(path: "/?q=%s")
         
         
@@ -277,48 +277,48 @@ internal extension SiteIndex {
         // #KQ
         // #KR
         
-        Site("http://www.kraftmaid.com")
+        "http://www.kraftmaid.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://www.kroger.com")
+        "https://www.kroger.com"
             .queryURL(path: "/search?query=%s")
         
         
         // #KS
         
-        Site("https://www.ksat.com")
+        "https://www.ksat.com"
             .queryURL(path: "/search/?searchTerm=%s")
         
-        Site("https://www.ksdk.com")
+        "https://www.ksdk.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ksn.com")
+        "https://www.ksn.com"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://kswiss.com")
+        "https://kswiss.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #KT
         
-        Site("https://ktc.tools")
+        "https://ktc.tools"
             .queryURL(path: "/?s=%s")
         
         // #KU
         
-        Site("https://kuathletics.com")
+        "https://kuathletics.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.kuhl.com")
+        "https://www.kuhl.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.kule.com")
+        "https://www.kule.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://kumhotireusa.com")
+        "https://kumhotireusa.com"
             .queryURL(path: "/tire-search-keyword/%s")
         
-        Site("https://kuow.org")
+        "https://kuow.org"
             .queryURL(path: "/search/results?term=%s&action=search")
         
         
@@ -327,7 +327,7 @@ internal extension SiteIndex {
         // #KX
         // #KY
         
-        Site("https://kdla.ky.gov")
+        "https://kdla.ky.gov"
             .queryURL(path: "/pages/search.aspx?terms=%s&affiliateId=KDLA")
         
         // #KZ

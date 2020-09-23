@@ -14,132 +14,134 @@ internal extension SiteIndex {
         // #0
         // #1
         
-        Site("https://www.1079nashicon.com")
+        "https://www.1079nashicon.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://121clicks.com")
+        "https://121clicks.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://12thman.com")
+        "https://12thman.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://www.13deals.com")
+        "https://www.13deals.com"
             .queryURL(path: "/store/search.php?search_expression=%s")
         
-        Site("https://13wham.com")
+        "https://13wham.com"
             .queryURL(path: "/search?find=%s")
         
-        Site("https://1more.com")
+        "https://1more.com"
             .queryURL("https://usa.1more.com/search?type=product&q=%s", locale: .unitedStates())
         
-        Site("https://1x.com")
+        "https://1x.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #2
         
-        Site("https://247sports.com")
+        "https://247sports.com"
             .queryURL(path: "/Site/?View=Search#gsc.tab=0&gsc.q=%s")
         
-        Site("https://2k.com")
+        "https://2k.com"
             .queryURL(path: "/en-US/search/?q=%s")
         
-        Site("https://2xist.com")
+        "https://2xist.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #3
         
-        Site("https://34heritage.com")
+        "https://34heritage.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://350colorado.org")
+        "https://350colorado.org"
         
-        Site("https://www.3cx.com")
+        "https://www.3cx.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.3m.com")
+        "https://www.3m.com"
             .queryURL(path: "/3M/en_US/company-us/search/?Ntt=%s")
         
-        Site("https://3x1denim.com")
+        "https://3x1denim.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #4
         
-        Site("https://www.420magazine.com")
+        "https://www.420magazine.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.47brand.com")
+        "https://www.47brand.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.4imprint.com")
+        "https://www.4imprint.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.4wheelparts.com")
+        "https://www.4wheelparts.com"
             .queryURL(path: "/s/_/?Ntt=%s")
         
         
         // #5
         
-        Site("https://500px.com")
+        "https://500px.com"
             .queryURL(path: "/search?q=%s&type=photos")
         
-        Site("https://www.511tactical.com")
+        "https://www.511tactical.com"
             .queryURL(path: "/?q=%s")
         
-        Site("https://www.525america.com")
+        "https://www.525america.com"
             .queryURL(path: "/search?type=product&q=%s*")
         
         
         // #6
         
-        Site("https://avltoday.6amcity.com")
+        "https://avltoday.6amcity.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.6pm.com")
+        "https://www.6pm.com"
             .queryURL(path: "/%s")
         
         
         // #7
         
-        Site("https://www.7forallmankind.com")
+        "https://www.7forallmankind.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.7up.com")
+        "https://www.7up.com"
             .queryURL(path: "/en/search?search-term=%s")
         
         
         // #8
         
-        Site("https://news.8btc.com")
+        "https://news.8btc.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.8newsnow.com")
+        "https://www.8newsnow.com"
             .queryURL(path: "/?s=%s&submit=Search")
         
         
         // #9
         
-        Site("https://www.911tabs.com")
+        "https://www.911tabs.com"
             .queryURL(path: "/search.php?search=%s")
-                
-        Site("https://www.991thesportsanimal.com")
+        
+        "https://www.991thesportsanimal.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.9news.com.au")
+        "https://www.9news.com.au"
             .queryURL("https://search.nine.com.au/?q=%s&site=news")
         
-        Site("https://9to5.org")
+        "https://9to5.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://9to5google.com")
+        "https://9to5google.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://9to5mac.com")
+        "https://9to5mac.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://9to5toys.com")
+        "https://9to5toys.com"
             .queryURL(path: "/?s=%s")
+        
     }
+    
 }

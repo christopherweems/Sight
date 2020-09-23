@@ -14,434 +14,434 @@ internal extension SiteIndex {
         // #N1
         // #NA
         
-        Site("https://www.naacp.org")
+        "https://www.naacp.org"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://nacda.com")
+        "https://nacda.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://nadelectronics.com")
-        .queryURL(path: "/?s=%s")
+        "https://nadelectronics.com"
+            .queryURL(path: "/?s=%s")
         
-        Site("https://naffco54.com")
+        "https://naffco54.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("http://www.naircare.com")
+        "http://www.naircare.com"
         
-        Site("https://www.namecheap.com")
+        "https://www.namecheap.com"
             .queryURL(path: "/domains/registration/results/?domain=%s")
         
-        Site("https://www.nancymeyer.com")
+        "https://www.nancymeyer.com"
             .queryURL(path: "/%s/Search")
         
-        Site("https://www.napaonline.com")
+        "https://www.napaonline.com"
             .queryURL(path: "/en/search?text=%s")
         
-        Site("https://narita-airport.jp")
+        "https://narita-airport.jp"
             .queryURL("https://search.narita-airport.jp/search?query=%s")
         
-        Site("https://www.narscosmetics.com")
+        "https://www.narscosmetics.com"
             .queryURL(path: "/USA/search?q=%s", locale: .unitedStates())
         
-        Site("https://store.nascar.com")
+        "https://store.nascar.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://www.nasdaq.com")
+        "https://www.nasdaq.com"
             .queryURL(path: "/search?q=%s&page=1&sort_by=relevant")
         
         
         // #NAS
         
-        Site("https://www.nashvilledowntown.com")
+        "https://www.nashvilledowntown.com"
             .queryURL(path: "/search.php?kw=%s")
         
-        Site("https://www.nastygal.com")
+        "https://www.nastygal.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.natashatherobot.com")
+        "https://www.natashatherobot.com"
         
-        Site("http://www.nationalchamps.net")
+        "http://www.nationalchamps.net"
         
-        Site("https://nationalinterest.org")
+        "https://nationalinterest.org"
             .queryURL(path: "/search/node/%s")
         
-        Site("https://nativenewsonline.net")
+        "https://nativenewsonline.net"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nationalgeographic.com")
+        "https://www.nationalgeographic.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.nationalgrocers.org")
+        "https://www.nationalgrocers.org"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://www.nature.com")
+        "https://www.nature.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.nautica.com")
+        "https://www.nautica.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #NB
         
-        Site("https://store.nba.com")
+        "https://store.nba.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://www.nbcbayarea.com")
+        "https://www.nbcbayarea.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nbclosangeles.com")
+        "https://www.nbclosangeles.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nbcnews.com")
+        "https://www.nbcnews.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://nascar.nbcsports.com")
+        "https://nascar.nbcsports.com"
             .queryURL(path: "/search?search_api_views_fulltext=%s")
         
-        Site("https://profootballtalk.nbcsports.com")
+        "https://profootballtalk.nbcsports.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nbcsports.com")
+        "https://www.nbcsports.com"
             .queryURL(path: "/search?search_api_views_fulltext=%s")
         
-        Site("https://www.nbcwashington.com")
+        "https://www.nbcwashington.com"
             .queryURL(path: "/?s=%s")
         
         
         // #NC
         
-        Site("https://www.ncaa.com")
+        "https://www.ncaa.com"
         
-        Site("https://www.ncaapublications.com")
+        "https://www.ncaapublications.com"
             .queryURL(path: "/searchadv.aspx?IsSubmit=true&SearchTerm=%s")
         
-        Site("https://ncat.edu")
+        "https://ncat.edu"
             .queryURL("https://search.ncat.edu/s/search.html?ie=UTF-8&query=%s")
         
-        Site("http://www.nccu.edu")
+        "http://www.nccu.edu"
             .queryURL(path: "/search?q=%s")
         
         
         // #NCS
-
-        Site("https://www.ncsasports.org")
+        
+        "https://www.ncsasports.org"
             .queryURL(path: "/search/node/%s")
         
-        Site("https://www.ncsbe.gov")
+        "https://www.ncsbe.gov"
             .queryURL(path: "/Site-Search?Search=%s")
         
-        Site("https://www.ncsu.edu")
+        "https://www.ncsu.edu"
             .queryURL(path: "/search/global.php?q=%s")
         
-        Site("http://ncte.org")
+        "http://ncte.org"
             .queryURL("http://search.ncte.org/default.aspx?q=%22%s%22")
         
         
         // #ND
         
-        Site("https://churchlifejournal.nd.edu")
+        "https://churchlifejournal.nd.edu"
             .queryURL(path: "/search/?as_sitesearch=churchlifejournal.nd.edu&entqr=3&q=%s")
         
-        Site("https://gadgets.ndtv.com")
+        "https://gadgets.ndtv.com"
             .queryURL(path: "/search?searchtext=%s")
         
-        Site("https://sports.ndtv.com")
+        "https://sports.ndtv.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ndtv.com")
+        "https://www.ndtv.com"
             .queryURL(path: "/search?searchtext=%s")
         
         
         // #NE
         
-        Site("https://needsupply.com")
+        "https://needsupply.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.neimanmarcus.com")
+        "https://www.neimanmarcus.com"
             .queryURL(path: "/search.jsp?q=%s")
         
-        Site("https://www.nemoequipment.com")
+        "https://www.nemoequipment.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nestfragrances.com")
+        "https://www.nestfragrances.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #NET
         
-        Site("https://www.net-a-porter.com")
+        "https://www.net-a-porter.com"
             .queryURL(path: "/us/en/Shop/Search?keywords=%s")
         
-        Site("https://www.net10wireless.com")
+        "https://www.net10wireless.com"
             .queryURL(path: "/searchresults?key=%s")
         
-        Site("https://www.netflix.com")
+        "https://www.netflix.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #NEV
         
-        Site("https://www.nevadaappeal.com")
+        "https://www.nevadaappeal.com"
             .queryURL(path: "/search-results/?q=%s")
         
-        Site("https://nevalleynews.org")
+        "https://nevalleynews.org"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://www.nevs.com")
+        "https://www.nevs.com"
         
         
         // #NEW
         
-        Site("https://www.newark.com")
+        "https://www.newark.com"
             .queryURL(path: "/search?st=%s")
         
-        Site("https://newatlas.com")
+        "https://newatlas.com"
             .queryURL(path: "/search/?q=%s#nt=navsearch")
         
-        Site("https://www.newbalance.com")
+        "https://www.newbalance.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.newcastleairport.com")
+        "https://www.newcastleairport.com"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://www.newchic.com")
+        "https://www.newchic.com"
             .queryURL(path: "/nc/%s.html")
         
-        Site("https://www.newdelhiairport.in")
+        "https://www.newdelhiairport.in"
             .queryURL(path: "/search.aspx?val=%s")
         
-        Site("https://www.newyorker.com")
+        "https://www.newyorker.com"
             .queryURL(path: "/search/q/%s")
         
-        Site("https://www.newegg.com")
+        "https://www.newegg.com"
             .queryURL(path: "/p/pl?d=%s")
         
-        Site("https://www.neweracap.com")
+        "https://www.neweracap.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.newlaunches.com")
+        "https://www.newlaunches.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://newrepublic.com")
+        "https://newrepublic.com"
             .queryURL(path: "/search?search=%s")
         
-        Site("https://www.news.com.au")
+        "https://www.news.com.au"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.news24.com")
+        "https://www.news24.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.newsbreak.com")
+        "https://www.newsbreak.com"
         
-        Site("https://www.newsbtc.com")
+        "https://www.newsbtc.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://newschannel9.com")
+        "https://newschannel9.com"
             .queryURL(path: "/search?find=%s")
         
-        Site("https://www.newsday.com")
+        "https://www.newsday.com"
             .queryURL(path: "/search#filter=stories&query=%s")
         
-        Site("https://newslit.org")
+        "https://newslit.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.newsmax.com")
+        "https://www.newsmax.com"
             .queryURL(path: "/search/#gsc.tab=0&gsc.q=%s&gsc.sort=date")
         
-        Site("https://www.newsobserver.com")
+        "https://www.newsobserver.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.newsweek.com")
+        "https://www.newsweek.com"
             .queryURL(path: "/search/site/%s")
         
         
         // #NEX
         
-        Site("http://nexentireusa.com")
+        "http://nexentireusa.com"
         
-        Site("http://www.nextgenplayer.com")
+        "http://www.nextgenplayer.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://nexo.io")
+        "https://nexo.io"
         
-        Site("https://www.nexusmagazine.com")
+        "https://www.nexusmagazine.com"
             .queryURL(path: "/component/search/?searchword=%s")
         
         
         // #NF
         
-        Site("https://www.nfl.com")
+        "https://www.nfl.com"
         
-        Site("https://www.nflshop.com")
+        "https://www.nflshop.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://www.nfpa.org")
+        "https://www.nfpa.org"
             .queryURL(path: "/standard_items/search_results?searchStr=%s")
         
         
         // #NGA
-
-        Site("https://www.nga.org")
+        
+        "https://www.nga.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nginx.com")
+        "https://www.nginx.com"
             .queryURL(path: "/?s=%s")
         
         
         // #NH
         
-        Site("https://www.nhk.or.jp")
+        "https://www.nhk.or.jp"
         
-        Site("https://shop.nhl.com")
+        "https://shop.nhl.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://www.nhl.com")
+        "https://www.nhl.com"
             .queryURL(path: "/search#q=%s")
         
         
         // #NI
         
-        Site("https://www.nicandzoe.com")
+        "https://www.nicandzoe.com"
             .queryURL(path: "/search.html?term=%s")
         
-        Site("https://www.nick.com")
+        "https://www.nick.com"
         
-        Site("https://nickpunt.com")
+        "https://nickpunt.com"
         
-        Site("https://www.nicolemiller.com")
+        "https://www.nicolemiller.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.niaid.nih.gov")
+        "https://www.niaid.nih.gov"
             .queryURL(path: "/search/niaidsite?search=%s")
         
-        Site("https://www.ncbi.nlm.nih.gov")
+        "https://www.ncbi.nlm.nih.gov"
             .queryURL(path: "/search/all/?term=%s")
         
-        Site("https://www.nih.gov")
+        "https://www.nih.gov"
             .queryURL("https://search.nih.gov/search?affiliate=nih&query=%s&commit=Search")
         
-        Site("https://www.nike.com")
+        "https://www.nike.com"
             .queryURL(path: "/w?q=%s")
         
-        Site("https://www.nililotan.com")
+        "https://www.nililotan.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://www.ninacloak.com")
+        "https://www.ninacloak.com"
             .queryURL(path: "/search/?words=%s")
         
-        Site("https://wwos.nine.com.au")
+        "https://wwos.nine.com.au"
             .queryURL("https://search.nine.com.au/?q=%s&site=wwos")
         
-        Site("https://www.ninewest.com")
+        "https://www.ninewest.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.ninjakitchen.com")
+        "https://www.ninjakitchen.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://ninjarockstar.dev")
+        "https://ninjarockstar.dev"
         
-        Site("https://www.nintendo.com")
+        "https://www.nintendo.com"
             .queryURL(path: "/search/#category=all&page=1&query=%s")
         
-        Site("https://nintendoeverything.com")
+        "https://nintendoeverything.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nissanusa.com")
+        "https://www.nissanusa.com"
             .queryURL(path: "/search-results.html?query=%s")
         
-        Site("https://www.niveausa.com")
+        "https://www.niveausa.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.nixon.com")
+        "https://www.nixon.com"
             .queryURL(path: "/us/en/search?q=%s")
         
         
         // #NJ
         
-        Site("https://www.nj.com")
+        "https://www.nj.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #NJE
-
-        Site("https://njengah.com")
+        
+        "https://njengah.com"
         
         
         // #NK
         // #NL
         // #NM
-
         
-        Site("https://home-p.nmsu.edu")
+        
+        "https://home-p.nmsu.edu"
             .queryURL(path: "/search_results.html?q=%s")
         
         
         // #NN
         // #NO
         
-        Site("https://no7beauty.com")
+        "https://no7beauty.com"
             .queryURL("https://us.no7beauty.com/elysium.search?search=%s", locale: .unitedStates())
         
-        Site("https://www.nobelprize.org")
+        "https://www.nobelprize.org"
             .queryURL(path: "/search/?s=%s")
         
-        Site("https://www.nolahmattress.com")
+        "https://www.nolahmattress.com"
         
-        Site("https://www.nolo.com")
+        "https://www.nolo.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://nomadgoods.com")
+        "https://nomadgoods.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://nomnompaleo.com")
+        "https://nomnompaleo.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.noodles.com")
+        "https://www.noodles.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.nordkeyboards.com")
+        "https://www.nordkeyboards.com"
         
-        Site("https://shop.nordstrom.com")
+        "https://shop.nordstrom.com"
             .queryURL(path: "/sr?keyword=%s")
         
-        Site("https://www.nordstromrack.com")
+        "https://www.nordstromrack.com"
             .queryURL(path: "/shop/search?query=%s")
         
-        Site("https://www.nola.com")
+        "https://www.nola.com"
             .queryURL(path: "/search/?l=25&s=start_time&sd=desc&f=html&t=&app=editorial&nsa=eedition&q=%s")
         
-        Site("https://normashearer.com")
+        "https://normashearer.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://norml.org")
+        "https://norml.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.northeaststate.edu")
+        "https://www.northeaststate.edu"
         
-        Site("https://www.northernsafety.com")
+        "https://www.northernsafety.com"
             .queryURL(path: "/Search?q=%s")
         
-        Site("https://www.northerntool.com")
+        "https://www.northerntool.com"
             .queryURL(path: "/shop/tools/NTESearch?Ntt=%s")
         
-        Site("https://www.northstyle.com")
+        "https://www.northstyle.com"
             .queryURL(path: "/ShopCategory.aspx?id=1,4123&GASearchTerm=%s")
         
-        Site("https://northwestern.edu")
+        "https://northwestern.edu"
             .queryURL("https://search.northwestern.edu/?q=%s")
         
         
         // #NP
         
-        Site("https://www.npcinternational.com")
+        "https://www.npcinternational.com"
         
-        Site("https://nphilanthropy.com")
+        "https://nphilanthropy.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.npr.org")
+        "https://www.npr.org"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.nps.gov")
+        "https://www.nps.gov"
             .queryURL(path: "/search/?affiliate=nps&query=%s")
         
         
@@ -449,87 +449,88 @@ internal extension SiteIndex {
         // #NR
         // #NS
         
-        Site("https://www.nscc.edu")
+        "https://www.nscc.edu"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.nssf.org")
+        "https://www.nssf.org"
             .queryURL(path: "/?s=%s")
         
         // #NT
         
-        Site("https://www.ntsb.gov")
+        "https://www.ntsb.gov"
             .queryURL(path: "/pages/Results.aspx?k=%s")
         
         
         // #NU
         
-        Site("https://www.nudwear.com")
+        "https://www.nudwear.com"
             .queryURL(path: "/search?type=product&q=%s*")
         
-        Site("https://www.nuggbeauty.com")
+        "https://www.nuggbeauty.com"
             .queryURL(path: "/search?q=%s&type=product")
         
-        Site("https://www.nunnbush.com")
+        "https://www.nunnbush.com"
             .queryURL(path: "/shop/styleGridSearch.html?pageNumber=0&text=%s")
         
-        Site("https://nusports.com")
+        "https://nusports.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://www.nutsvolts.com")
+        "https://www.nutsvolts.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #NV
         
-        Site("https://www.nvidia.com")
+        "https://www.nvidia.com"
             .queryURL(path: "/en-us/search/?q=%s", locale: .unitedStates())
         
         // #NW
         
-        Site("https://www.nwpc.org")
+        "https://www.nwpc.org"
             .queryURL(path: "/?s=%s")
         
         
         // #NX
         // #NY
         
-        Site("https://www.nyac.org")
+        "https://www.nyac.org"
         
-        Site("https://www.nyakio.com")
+        "https://www.nyakio.com"
         
-        Site("https://www.nyandcompany.com")
+        "https://www.nyandcompany.com"
             .queryURL(path: "/search/?Ntt=%s")
         
-        Site("https://www.nydailynews.com")
+        "https://www.nydailynews.com"
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
-        Site("https://www.nydj.com")
+        "https://www.nydj.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.nylas.com")
+        "https://www.nylas.com"
         
-        Site("https://nymag.com")
+        "https://nymag.com"
             .queryURL(path: "/search.html?q=%s")
         
-        Site("https://nypost.com")
+        "https://nypost.com"
             .queryURL(path: "/search/%s/")
         
-        Site("https://www.nytimes.com")
+        "https://www.nytimes.com"
             .queryURL(path: "/search?query=%s")
         
         /*
-        Site("https://www.nytimes.com/wirecutter")
-            .queryURL(path: "/search/?s=%s")
-        */
- 
-        Site("https://www.nyu.edu")
+         "https://www.nytimes.com/wirecutter"
+             .queryURL(path: "/search/?s=%s")
+         */
+        
+        "https://www.nyu.edu"
             .queryURL(path: "/search.html?search=%s")
         
-        Site("https://www.nyxcosmetics.com")
+        "https://www.nyxcosmetics.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #NZ
         
     }
+    
 }

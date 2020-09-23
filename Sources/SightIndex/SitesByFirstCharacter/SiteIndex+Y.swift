@@ -13,45 +13,45 @@ internal extension SiteIndex {
         
         // #Y1
         
-        Site("https://www.y8.com")
+        "https://www.y8.com"
             .queryURL(path: "/search?kind=game&q=%s")
         
         
         // #YA
         
-        Site("https://images.search.yahoo.com")
+        "https://images.search.yahoo.com"
             .queryURL(path: "/search/images?p=%s")
         
-        Site("https://yahoo.com")
+        "https://yahoo.com"
             .queryURL("https://search.yahoo.com/search?p=%s")
         
-        Site("https://digitalcommons.law.yale.edu")
+        "https://digitalcommons.law.yale.edu"
             .queryURL(path: "/do/search/?q=%s&fq=virtual_ancestor_link%3Ahttps%3A%2F%2Fdigitalcommons.law.yale.edu%2Fylj")
         
-        Site("https://www.yale.edu")
+        "https://www.yale.edu"
             .queryURL(path: "/search/google/%s")
         
-        Site("https://yamaha-motor.co.jp")
+        "https://yamaha-motor.co.jp"
             .queryURL("https://search.yamaha-motor.co.jp/en/search.x?q=%s", language: .english)
         
-        Site("https://yamaha-motor.com")
+        "https://yamaha-motor.com"
         
-        Site("https://yandex.com")
+        "https://yandex.com"
             .queryURL(path: "/search/?text=%s")
         
         /*
-        Site("https://yandex.com/weather")
+        "https://yandex.com/weather"
             .queryURL(path: "/search?request=%s")
         */
         
-        Site("https://www.yandy.com")
+        "https://www.yandy.com"
             .queryURL(path: "/search.php?q=%s")
         
         
         // #YB
         // #YC
         
-        Site("https://www.ycmc.com")
+        "https://www.ycmc.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         
@@ -59,30 +59,30 @@ internal extension SiteIndex {
         // #YE
         // #YEL
 
-        Site("https://www.yellawood.com")
+        "https://www.yellawood.com"
             .queryURL(path: "/search-results?q=%s")
         
-        Site("https://www.yellowbrick.co")
+        "https://www.yellowbrick.co"
         
-        Site("https://www.yelp.com")
+        "https://www.yelp.com"
             .queryURL(path: "/search?find_desc=%s")
         
-        Site("https://yema.com")
+        "https://yema.com"
         
-        Site("https://yesah.com")
+        "https://yesah.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.yesplz.coffee")
+        "https://www.yesplz.coffee"
         
-        Site("http://yesto.com")
+        "http://yesto.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://yetanotherdevblog.com")
+        "https://yetanotherdevblog.com"
         
-        Site("https://www.yeti.com")
+        "https://www.yeti.com"
             .queryURL(path: "/en_US/search?q=%s&lang=en_US")
         
-        Site("https://blog.yeticheese.com")
+        "https://blog.yeticheese.com"
         
         
         // #YF
@@ -93,13 +93,13 @@ internal extension SiteIndex {
         // #YK
         // #YL
         
-        Site("https://www.ylang23.com")
+        "https://www.ylang23.com"
             .queryURL(path: "/search?categoryId=203408&query=%s")
         
-        Site("https://www.ylighting.com")
+        "https://www.ylighting.com"
             .queryURL(path: "/s/YLighting/search/?q=%s&simplesearch=Search")
         
-        Site("https://www.yliving.com")
+        "https://www.yliving.com"
             .queryURL(path: "/s/YLiving/search/?q=%s&simplesearch=Search")
         
         
@@ -107,26 +107,26 @@ internal extension SiteIndex {
         // #YN
         // #YO
         
-        Site("ttps://www.yogaoutlet.com")
+        "ttps://www.yogaoutlet.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.yoins.com")
+        "https://www.yoins.com"
             .queryURL(path: "/ys/%s.html")
         
-        Site("https://www.youneedabudget.com")
+        "https://www.youneedabudget.com"
             .queryURL(path: "/?s=%s")
         
         // #YOU
         
-        Site("https://www.younkers.com")
+        "https://www.younkers.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://www.yourartsupplies.com")
+        "https://www.yourartsupplies.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://yournexthabit.com")
+        "https://yournexthabit.com"
         
-        Site("https://www.youtube.com")
+        "https://www.youtube.com"
             .queryURL(path: "/results?search_query=%s")
         
         
@@ -135,23 +135,23 @@ internal extension SiteIndex {
         // #YR
         // #YS
         
-        Site("https://www.ysl.com")
+        "https://www.ysl.com"
             .queryURL(path: "/Search/Index?season=A,P,E&department=llmnwmn&gender=D,U,Etextsearch=%s")
         
         
         // #YT
         // #YU
         
-        Site("https://www.yumbaits.com")
+        "https://www.yumbaits.com"
             .queryURL(path: "/catalogsearch/result/?form_key=pveo22229AUlkVSn&q=%s")
         
-        Site("https://yumikim.com")
+        "https://yumikim.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://www.yummie.com")
+        "https://www.yummie.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.yummly.com")
+        "https://www.yummly.com"
             .queryURL(path: "/recipes?q=%s")
         
         
@@ -163,4 +163,5 @@ internal extension SiteIndex {
 
         
     }
+    
 }

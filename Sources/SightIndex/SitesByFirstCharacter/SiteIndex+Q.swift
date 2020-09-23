@@ -13,7 +13,7 @@ internal extension SiteIndex {
         
         // #Q1
         
-        Site("https://qtwists.com")
+        "https://qtwists.com"
         
         // #QA
         // #QB
@@ -30,8 +30,8 @@ internal extension SiteIndex {
         // #QM
         // #QN
         
-        Site("https://www.qnap.com")
-            .queryURL(path: "/en-us/search?q=%s")
+        "https://www.qnap.com"
+            .queryURL(path: "/en-us/search?q=%s", locale: .unitedStates())
         
         
         // #QO
@@ -41,37 +41,37 @@ internal extension SiteIndex {
         // #QS
         // #QT
         
-        Site("https://www.qthemusic.com")
+        "https://www.qthemusic.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #QU
         // #QUE
-
-        Site("https://questionablecontent.net")
+        
+        "https://questionablecontent.net"
         
         
         // #QUI
         
-        Site("https://quickzipsheet.com")
+        "https://quickzipsheet.com"
             .queryURL(path: "/search?q=%s*")
         
-        Site("https://www.quiksilver.com")
+        "https://www.quiksilver.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.quill.com")
+        "https://www.quill.com"
             .queryURL(path: "/search?x=0&y=0&keywords=%s")
         
         
         // #QUO
         
-        Site("https://www.quora.com")
+        "https://www.quora.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #QV
         
-        Site("https://www.qvc.com")
+        "https://www.qvc.com"
             .queryURL(path: "/catalog/search.html?keyword=%s")
         
         
@@ -81,4 +81,5 @@ internal extension SiteIndex {
         // #QZ
         
     }
+    
 }

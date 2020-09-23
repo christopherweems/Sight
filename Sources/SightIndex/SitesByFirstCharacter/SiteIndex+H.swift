@@ -14,133 +14,133 @@ internal extension SiteIndex {
         // #H1
         // #HA
         
-        Site("https://haaalp.me")
+        "https://haaalp.me"
         
-        Site("https://www.haaretz.com")
+        "https://www.haaretz.com"
             .queryURL(path: "/search-results?q=%s")
         
-        Site("https://www.haband.com")
+        "https://www.haband.com"
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
-        Site("https://hackaday.com")
+        "https://hackaday.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://hackernoon.com")
+        "https://hackernoon.com"
             .queryURL(path: "/search?stories%5Bquery%5D=%s")
         
-        Site("https://www.hackingwithswift.com")
+        "https://www.hackingwithswift.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.haggar.com")
+        "https://www.haggar.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://hailstate.com")
+        "https://hailstate.com"
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156%3Abczjsx_b-z8&q=%s&sa=Search&cof=FORID%3A11#1141")
         
-        Site("https://www.halebob.com")
+        "https://www.halebob.com"
             .queryURL(path: "/shop/catalogsearch/result/?order=position&q=%s")
         
-        Site("https://hampdenclothing.com")
+        "https://hampdenclothing.com"
             .queryURL(path: "/search?q=%s&type=product")
         
-        Site("https://www.hamptonthink.org")
+        "https://www.hamptonthink.org"
             .queryURL("/search?q=%s")
         
-        Site("https://www.hanahanabeauty.com")
+        "https://www.hanahanabeauty.com"
         
-        Site("https://hanaemoriparfums.com")
+        "https://hanaemoriparfums.com"
             .queryURL(path: "/search?controller=search&orderby=position&orderway=desc&search_query=%s")
         
-        Site("https://www.handitv.com")
+        "https://www.handitv.com"
             .queryURL(path: "/search/?search_term=%s")
         
-        Site("https://www.hanes.com")
+        "https://www.hanes.com"
             .queryURL(path: "/shop/SearchDisplay?categoryId=21062&doorId=2&storeId=10702&catalogId=11051&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s")
         
-        Site("https://hankooktire.com")
+        "https://hankooktire.com"
         
-        Site("https://www.hankypanky.com")
+        "https://www.hankypanky.com"
             .queryURL(path: "/searchresults?q=%s")
         
-        Site("https://www.hannaandersson.com")
+        "https://www.hannaandersson.com"
             .queryURL(path: "/search?q=fabb&lang=%s")
         
-        Site("https://www.happysocks.com")
+        "https://www.happysocks.com"
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         
-        Site("https://www.happyxnature.com")
+        "https://www.happyxnature.com"
             .queryURL(path: "/search/?Dy=1&Nty=1&Ntp=1&Ntt=%s")
         
-        Site("https://www.harborfreight.com")
+        "https://www.harborfreight.com"
             .queryURL(path: "/catalogsearch/result/index/?q=%s")
         
-        Site("https://www.hardtailforever.com")
+        "https://www.hardtailforever.com"
             .queryURL(path: "/store/catalogsearch/result/?q=%s")
         
-        Site("https://www.harley-davidson.com")
+        "https://www.harley-davidson.com"
             .queryURL(path: "/us/en/search.html?country=us;format=json;i=1;lang=en;q=%s;sp_staged=0")
         
-        Site("https://www.harmankardon.com")
+        "https://www.harmankardon.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://shop.harpersbazaar.com")
+        "https://shop.harpersbazaar.com"
             .queryURL(path: "/search.html?term=%s")
         
-        Site("https://www.harristeeter.com")
+        "https://www.harristeeter.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.harrods.com")
+        "https://www.harrods.com"
             .queryURL(path: "/en-gb/search?searchTerm=%s")
         
-        Site("https://www.health.harvard.edu")
+        "https://www.health.harvard.edu"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.harveynichols.com")
+        "https://www.harveynichols.com"
             .queryURL(path: "/int/search/%s/")
         
-        Site("https://www.hatcocaps.com")
+        "https://www.hatcocaps.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.hatcocorp.com")
+        "https://www.hatcocorp.com"
             .queryURL(path: "/en/search/index/%s")
         
-        Site("https://www.hautelook.com")
+        "https://www.hautelook.com"
             .queryURL(path: "/shop/search?query=%s")
         
         
         // #HAW
         
-        Site("https://www.hawesandcurtis.com")
+        "https://www.hawesandcurtis.com"
             .queryURL(path: "/site/search?q=%s")
         
-        Site("https://www.hawkcentral.com")
+        "https://www.hawkcentral.com"
             .queryURL(path: "/search/%s/")
         
-        Site("https://store.haworth.com")
+        "https://store.haworth.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #HAY
         
-        Site("https://www.hayneedle.com")
+        "https://www.hayneedle.com"
             .queryURL(path: "/search/index.cfm?Ntt=%s")
         
-        Site("https://www.hayvine.com")
+        "https://www.hayvine.com"
             .queryURL(path: "/search?search=%s")
         
         
         // #HB
         
-        Site("https://hbcugameday.com")
+        "https://hbcugameday.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://shop.hbo.com")
+        "https://shop.hbo.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://www.hbo.com")
+        "https://www.hbo.com"
             .queryURL(path: "/searchresults?q=%s")
         
-        Site("https://hbx.com")
+        "https://hbx.com"
             .queryURL(path: "/search?q=%s")
         
         
@@ -149,127 +149,127 @@ internal extension SiteIndex {
         // #HE
         // #HEA
         
-        Site("http://www.healthdata.org")
+        "http://www.healthdata.org"
             .queryURL(path: "/search?search_terms=%s")
         
-        Site("https://www.healthitq.com")
+        "https://www.healthitq.com"
         
-        Site("https://healthfully.com")
+        "https://healthfully.com"
             .queryURL(path: "/search?google_kw=%s&submit+button=")
         
-        Site("https://www.healthline.com")
+        "https://www.healthline.com"
             .queryURL(path: "/search?q1=%s")
         
-        Site("https://healthyhappylife.com")
+        "https://healthyhappylife.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.hearingtracker.com")
+        "https://www.hearingtracker.com"
             .queryURL(path: "/search?&q=%s")
 
         
-        Site("https://www.heatholders.com")
+        "https://www.heatholders.com"
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
-        Site("https://www.heathrow.com")
+        "https://www.heathrow.com"
             .queryURL(path: "/help/search-this-site?vgnextkeyword=%s")
         
         
         // #HEB
         
-        Site("https://www.heb.com")
+        "https://www.heb.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://heebmagazine.com")
+        "https://heebmagazine.com"
             .queryURL(path: "/?s=%s")
         
         
         // #HEL
         
-        Site("https://www.hellomerch.com")
+        "https://www.hellomerch.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.hellomolly.com")
+        "https://www.hellomolly.com"
             .queryURL(path: "/us/catalogsearch/result/?q=%s")
         
-        Site("https://www.helmm.com")
+        "https://www.helmm.com"
         
         
         // #HEMP
         
-        Site("https://hemphop.co")
+        "https://hemphop.co"
             .queryURL(path: "/search?q=%s&options%5Bprefix%5D=last")
         
-        Site("https://www.herald-dispatch.com")
+        "https://www.herald-dispatch.com"
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         
-        Site("https://www.herofruitspreads.com")
+        "https://www.herofruitspreads.com"
             .queryURL(path: "/home/search?keywords=%s")
         
-        Site("https://www.heroku.com")
+        "https://www.heroku.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.herroom.com")
+        "https://www.herroom.com"
             .queryURL(path: "/search2.aspx?terms=%s")
         
-        Site("https://www.hersheys.com")
+        "https://www.hersheys.com"
             .queryURL(path: "/york/en_us/search.html?q=%s")
         
-        Site("https://www.hertz.com")
+        "https://www.hertz.com"
         
-        Site("https://www.hertzcarsales.com")
+        "https://www.hertzcarsales.com"
             .queryURL(path: "/all-inventory/no-results.htm?category=AUTO&search=%s&geoRadius=100")
         
-        Site("https://www.herveleger.com")
+        "https://www.herveleger.com"
             .queryURL(path: "/on/demandware.store/Sites-HerveLeger-Site/default/Search-Show?q=%s")
         
-        Site("https://www.hexbrand.com")
+        "https://www.hexbrand.com"
             .queryURL(path: "/search?type=product&type=product&q=%s")
         
-        Site("https://heybooutdoors.com")
+        "https://heybooutdoors.com"
             .queryURL(path: "/search?q=%s*")
         
         
         // #HF
         // #HG
         
-        Site("https://www.hglrc.com")
+        "https://www.hglrc.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://www.hgtv.com")
+        "https://www.hgtv.com"
             .queryURL(path: "/search/%s-")
         
         
         // #HH
         // #HI
                 
-        Site("https://hiphopgoldenage.com")
+        "https://hiphopgoldenage.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://shop.highsierra.com")
+        "https://shop.highsierra.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #HIL
 
-        Site("https://www.hillsdale.edu")
+        "https://www.hillsdale.edu"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.hindustantimes.com")
+        "https://www.hindustantimes.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #HIS
         
-        Site("https://www.hisroom.com")
+        "https://www.hisroom.com"
             .queryURL(path: "/search2.aspx?terms=%s")
         
-        Site("https://www.history.com")
+        "https://www.history.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://historyofmassachusetts.org")
+        "https://historyofmassachusetts.org"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://www.hive.co.uk")
+        "https://www.hive.co.uk"
             .queryURL(path: "/Search/Keyword?keyword=%s")
         
         
@@ -277,7 +277,7 @@ internal extension SiteIndex {
         // #HK
         // #HL
         
-        Site("https://www2.hm.com")
+        "https://www2.hm.com"
             .queryURL(path: "/en_us/search-results.html?q=%s")
         
         
@@ -285,145 +285,145 @@ internal extension SiteIndex {
         // #HN
         // #HO
         
-        Site("https://www.hobbycraft.co.uk")
+        "https://www.hobbycraft.co.uk"
             .queryURL(path: "/advancedsearchresults.aspx?query=%s")
         
-        Site("https://www.hobbylobby.com")
+        "https://www.hobbylobby.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.hockeymonkey.com")
+        "https://www.hockeymonkey.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.hodinkee.com")
+        "https://www.hodinkee.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://holdyourhaunches.com")
+        "https://holdyourhaunches.com"
             .queryURL(path: "/search.php?search_query_adv=%s")
         
-        Site("https://www.hollisterco.com")
+        "https://www.hollisterco.com"
             .queryURL(path: "/shop/us/search?searchTerm=2pac%s")
         
-        Site("https://hollywoodlife.com")
+        "https://hollywoodlife.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.hollywoodmemorabilia.com")
+        "https://www.hollywoodmemorabilia.com"
             .queryURL(path: "/search2.php?Ntt=%s")
         
-        Site("https://www.hollywoodreporter.com")
+        "https://www.hollywoodreporter.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.holmesproducts.com")
+        "https://www.holmesproducts.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.hookem.com")
+        "https://www.hookem.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.hoosiertire.com")
+        "https://www.hoosiertire.com"
         
-        Site("https://www.homage.com")
+        "https://www.homage.com"
             .queryURL(path: "/search?q=%s")
                 
-        Site("https://www.homedepot.com")
+        "https://www.homedepot.com"
             .queryURL(path: "/s/%s")
         
-        Site("https://homegaden.com")
+        "https://homegaden.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.homesicktexan.com")
+        "https://www.homesicktexan.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.homfurniture.com")
+        "https://www.homfurniture.com"
             .queryURL(path: "/search?s=%s")
         
-        Site("https://www.honda.com")
+        "https://www.honda.com"
             .queryURL(path: "/search?s=%s")
         
-        Site("https://www.honestjohn.co.uk")
+        "https://www.honestjohn.co.uk"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.hongkongfp.com")
+        "https://www.hongkongfp.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.horizonharvesting.com")
+        "https://www.horizonharvesting.com"
         
-        Site("https://www.hostpoint.ch")
+        "https://www.hostpoint.ch"
         
-        Site("https://www.hot1045.net")
+        "https://www.hot1045.net"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.hotsox.com")
+        "https://www.hotsox.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.hotter.com")
+        "https://www.hotter.com"
             .queryURL(path: "/shop/SearchDisplay?searchTerm=%s")
         
-        Site("https://www.hottopic.com")
+        "https://www.hottopic.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.hover.com")
+        "https://www.hover.com"
         .queryURL(path: "/domains/results?q=%s")
         
-        Site("https://howard.edu")
+        "https://howard.edu"
             .queryURL("https://www2.howard.edu/search-results?as_q=%s")
         
-        Site("https://www.howardstern.com")
+        "https://www.howardstern.com"
             .queryURL(path: "/search/?term=%s")
         
-        Site("https://www.howstuffworks.com")
+        "https://www.howstuffworks.com"
             .queryURL(path: "/search.php?terms=%s")
         
-        Site("https://www.howsweeteats.com")
+        "https://www.howsweeteats.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.howtogeek.com")
+        "https://www.howtogeek.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #HP
         
-        Site("https://www8.hp.com")
+        "https://www8.hp.com"
             .queryURL(path: "/us/en/search/search.html?nores=true&qt=%s")
         
         // #HQ
         // #HR
         
-        Site("https://www.hrw.org")
+        "https://www.hrw.org"
             .queryURL(path: "/sitesearch/%s")
         
         
         // #HS
         
-        Site("https://www.hsn.com")
+        "https://www.hsn.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://hsrmotors.com")
+        "https://hsrmotors.com"
             .queryURL(path: "/search?s=%s")
         
         
         // #HT
         
-        Site("https://www.htc.com")
+        "https://www.htc.com"
             .queryURL(path: "/us/search/?submit=&q=%s")
         
         
         // #HU
         
-        Site("https://www.hudsonjeans.com")
+        "https://www.hudsonjeans.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://huel.com")
+        "https://huel.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://www.huffpost.com")
+        "https://www.huffpost.com"
             .queryURL("https://search.huffpost.com/search?p=%s&fr=huffpost")
         
-        Site("https://www.hufworldwide.com")
+        "https://www.hufworldwide.com"
             .queryURL(path: "/shop?q=%s")
         
-        Site("https://www.hugoboss.com")
+        "https://www.hugoboss.com"
             .queryURL(path: "/us/search?q=%s")
         
-        Site("https://www.hukgear.com")
+        "https://www.hukgear.com"
             .queryURL(path: "/search?type=product&q=%s")
         
         
@@ -432,18 +432,19 @@ internal extension SiteIndex {
         // #HX
         // #HY
         
-        Site("https://www.hylete.com")
+        "https://www.hylete.com"
             .queryURL(path: "/nsearch/?q=%s")
         
-        Site("https://hypercritical.co")
+        "https://hypercritical.co"
         
-        Site("https://hyperice.com")
+        "https://hyperice.com"
         
-        Site("https://www.hypershop.com")
+        "https://www.hypershop.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #HZ
         
     }
+    
 }

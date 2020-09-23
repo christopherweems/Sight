@@ -14,22 +14,22 @@ internal extension SiteIndex {
         // #Z1
         // #ZA
         
-        Site("https://zadig-et-voltaire.com")
+        "https://zadig-et-voltaire.com"
             .queryURL("https://us.zadig-et-voltaire.com/catalogsearch/result/?q=%s", locale: .unitedStates())
         
-        Site("https://www.zaful.com")
+        "https://www.zaful.com"
             .queryURL(path: "/s/%s/")
         
-        Site("https://www.zagg.com")
+        "https://www.zagg.com"
             .queryURL(path: "/en_us/catalogsearch/result/?q=%s")
         
-        Site("https://www.zales.com")
+        "https://www.zales.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.zappos.com")
+        "https://www.zappos.com"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://www.zara.com")
+        "https://www.zara.com"
             .queryURL(path: "/us/en/search?searchTerm=%s")
         
         
@@ -37,30 +37,30 @@ internal extension SiteIndex {
         // #ZC
         // #ZD
         
-        Site("https://www.zdnet.com")
+        "https://www.zdnet.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #ZE
         
-        Site("https://www.zenartsupplies.co")
+        "https://www.zenartsupplies.co"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.zendesk.com")
+        "https://www.zendesk.com"
         
-        Site("https://zenevochocolate.com")
+        "https://zenevochocolate.com"
             .queryURL(path: "/?s=%s&post_type=product")
         
-        Site("https://www.zenith-watches.com")
+        "https://www.zenith-watches.com"
             .queryURL(path: "/en_en/catalogsearch/result/?q=%s")
         
         
         // #ZER
         
-        Site("https://www.zerohedge.com")
+        "https://www.zerohedge.com"
             .queryURL(path: "/search-content?search_api_fulltext=%s&sort_by=search_api_relevance")
         
-        Site("https://www.zeromotorcycles.com")
+        "https://www.zeromotorcycles.com"
         
         
         // #ZF
@@ -68,10 +68,10 @@ internal extension SiteIndex {
         // #ZH
         // #ZI
         
-        Site("https://www.zillow.com")
+        "https://www.zillow.com"
             .queryURL(path: "/homes/%s_rb/")
                 
-        Site("https://www.zinus.com")
+        "https://www.zinus.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         
@@ -80,24 +80,24 @@ internal extension SiteIndex {
         // #ZL
         // #ZM
         
-        Site("https://www.zmescience.com")
+        "https://www.zmescience.com"
             .queryURL(path: "/?s=%s")
         
         // #ZN
         // #ZO
         
-        Site("https://www.zobha.com")
+        "https://www.zobha.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("http://www.zoinkgames.com")
+        "http://www.zoinkgames.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.zoleo.com")
+        "https://www.zoleo.com"
         
-        Site("https://www.zomei.com")
+        "https://www.zomei.com"
             .queryURL(path: "/search/?Keyword=%s")
         
-        Site("https://www.zoro.com")
+        "https://www.zoro.com"
             .queryURL(path: "/search?q=%s")
         
         
@@ -108,16 +108,16 @@ internal extension SiteIndex {
         // #ZT
         // #ZU
         
-        Site("https://www.zulily.com")
+        "https://www.zulily.com"
             /*.queryURL(path: "/%s?fromSearch=true&searchTerm=%s")*/
         
-        Site("http://www.zuribeautysupply.com")
+        "http://www.zuribeautysupply.com"
             .queryURL(path: "/?s=%s")
         
-        Site("http://www.zurich-airport.com")
+        "http://www.zurich-airport.com"
             .queryURL(path: "/service-sites/search?search_string=%s")
         
-        Site("https://zutano.com")
+        "https://zutano.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
         
@@ -127,11 +127,12 @@ internal extension SiteIndex {
         // #ZY
         // #ZYC
 
-        Site("https://zycrypto.com")
+        "https://zycrypto.com"
             .queryURL(path: "/?s=%s")
         
         
         // #ZZ
         
     }
+    
 }

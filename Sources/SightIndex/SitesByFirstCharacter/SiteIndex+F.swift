@@ -14,150 +14,150 @@ internal extension SiteIndex {
         // #F1
         // #FA
         
-        Site("https://fab.com")
+        "https://fab.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://factorydirectcraft.com")
+        "https://factorydirectcraft.com"
             .queryURL(path: "/catalog/advanced_search_result.php?keywords=%s")
         
-        Site("https://factrepublic.com")
+        "https://factrepublic.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.fairvote.org")
+        "https://www.fairvote.org"
         
-        Site("https://falconeri.com")
+        "https://falconeri.com"
             .queryURL("https://us.falconeri.com/catalog/rest_search.cmd?form_state=searchForm&keyword=%s", locale: .unitedStates())
         
-        Site("https://www.fameandpartners.com")
+        "https://www.fameandpartners.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.familieslearning.org")
+        "https://www.familieslearning.org"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.familydollar.com")
+        "https://www.familydollar.com"
             .queryURL(path: "/search/go?w=afsefesf%s")
         
-        Site("https://www.famousfootwear.com")
+        "https://www.famousfootwear.com"
             .queryURL(path: "/en-US/_/_/_/_/Srch0+%s/Products.aspx")
         
-        Site("https://www.fanatics.com")
+        "https://www.fanatics.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://gameofthrones.fandom.com")
+        "https://gameofthrones.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://friends.fandom.com")
+        "https://friends.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://rickandmorty.fandom.com")
+        "https://rickandmorty.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://strangerthings.fandom.com")
+        "https://strangerthings.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://supernatural.fandom.com")
+        "https://supernatural.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://the-handmaids-tale.fandom.com")
+        "https://the-handmaids-tale.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://turtlepedia.fandom.com")
+        "https://turtlepedia.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://walkingdead.fandom.com")
+        "https://walkingdead.fandom.com"
             .queryURL(path: "/wiki/Special:Search?query=%s")
         
-        Site("https://www.fandom.com")
+        "https://www.fandom.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.fansedge.com")
+        "https://www.fansedge.com"
             .queryURL(path: "/?query=%s")
         
-        Site("https://www.farfetch.com")
+        "https://www.farfetch.com"
             .queryURL(path: "/shopping/women/search/items.aspx?q=%s")
         
-        Site("https://www.fark.com")
+        "https://www.fark.com"
             .queryURL(path: "/hlsearch?qq=%s")
         
-        Site("https://www.farmhousefreshgoods.com")
+        "https://www.farmhousefreshgoods.com"
             .queryURL(path: "/nsearch.html?#search/q=%s")
         
         
         // #FAS
         
-        Site("https://www.fashiontofigure.com")
+        "https://www.fashiontofigure.com"
             .queryURL(path: "/search/?Dy=1&Nty=1&Ntp=1&Ntt=%s")
         
-        Site("https://www.fastcompany.com")
+        "https://www.fastcompany.com"
         
-        Site("https://www.fastly.com")
+        "https://www.fastly.com"
             .queryURL(path: "/#stq=%s&stp=1")
         
-        Site("https://www.fatherhood.gov")
+        "https://www.fatherhood.gov"
             .queryURL(path: "/search?search_api_fulltext=%s")
         
-        Site("http://www.fau.edu")
+        "http://www.fau.edu"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://fazua.com")
+        "https://fazua.com"
         
         
         // #FB
         
-        Site("https://www.fbi.gov")
+        "https://www.fbi.gov"
             .queryURL(path: "/@@search?SearchableText=%s")
         
-        Site("https://fbschedules.com")
+        "https://fbschedules.com"
             .queryURL(path: "/search-result/?q=%s")
         
         
         // #FC
         
-        Site("https://www.fcc.gov")
+        "https://www.fcc.gov"
             .queryURL(path: "/search/#q=%s")
         
         
         // #FD
         
-        Site("https://fda.gov")
+        "https://fda.gov"
             .queryURL("https://search.usa.gov/search?query=%s&affiliate=fda1")
         
-        Site("https://www.fdcservers.net")
+        "https://www.fdcservers.net"
         
         // #FE
         
-        Site("https://feals.com")
+        "https://feals.com"
         
-        Site("https://www.featureshoot.com")
+        "https://www.featureshoot.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://feda.com")
+        "https://feda.com"
             .queryURL(path: "/fedaimis/Search?SearchTerms=%s")
         
-        Site("https://www.federalregister.gov")
+        "https://www.federalregister.gov"
             .queryURL(path: "/documents/search?conditions%5Bterm%5D=%s")
         
-        Site("https://www.fedex.com")
+        "https://www.fedex.com"
         
-        Site("https://www.feelingoodtees.com")
+        "https://www.feelingoodtees.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://fein.com")
+        "https://fein.com"
             .queryURL(path: "/en_us/search-results/?query=%s")
         
-        Site("https://www.felina.com")
+        "https://www.felina.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://shop.fender.com")
+        "https://shop.fender.com"
             .queryURL(path: "/en-US/search?q=%s")
         
-        Site("https://www.fendi.com")
+        "https://www.fendi.com"
             .queryURL(path: "/us/search-results?async=false&q=%s")
         
-        Site("https://auto.ferrari.com")
+        "https://auto.ferrari.com"
             .queryURL(path: "/en_US/?s=%s")
         
-        Site("https://fetco.com")
+        "https://fetco.com"
             .queryURL(path: "/pl,search.html?s=%s&search_type=off&ilosc=8")
         
         
@@ -165,75 +165,75 @@ internal extension SiteIndex {
         // #FG
         // #FH
         
-        Site("https://www.fhu.edu")
+        "https://www.fhu.edu"
             .queryURL(path: "/search?indexCatalogue=general&searchQuery=%s")
         
         
         // #FI
         
-        Site("https://www.fiatusa.com")
+        "https://www.fiatusa.com"
             .queryURL(path: "/find/searchresults.html?q=%s&proxystylesheet=prod_fiatusa")
         
-        Site("https://fidefreight.com")
+        "https://fidefreight.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://fieldsofhempllc.com")
+        "https://fieldsofhempllc.com"
             .queryURL(path: "/?s=%s&post_type=product")
         
-        Site("https://www.fifa.com")
+        "https://www.fifa.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.figleaves.com")
+        "https://www.figleaves.com"
             .queryURL(path: "/us/search?q=%s&lang=en_US")
         
-        Site("https://www.fila.com")
+        "https://www.fila.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.final-score.com")
+        "https://www.final-score.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://final.co")
+        "https://final.co"
         
-        Site("https://finduslaw.com")
+        "https://finduslaw.com"
             .queryURL(path: "/search/node/%s")
         
-        Site("https://www.fingerhut.com")
+        "https://www.fingerhut.com"
             .queryURL(path: "/search?search-type=user-generated&q=%s")
         
-        Site("https://www.finishline.com")
+        "https://www.finishline.com"
             .queryURL(path: "/store/Ntt-%s")
         
-        Site("https://www.fineartstore.com")
+        "https://www.fineartstore.com"
             .queryURL(path: "/search.aspx?searchterm=%s")
         
-        Site("https://www.finra.org")
+        "https://www.finra.org"
             .queryURL(path: "/search?search_api_fulltext=%s")
         
-        Site("https://www.firestonetire.com")
+        "https://www.firestonetire.com"
         
-        Site("https://www.firstleaf.club")
+        "https://www.firstleaf.club"
         
-        Site("https://www.fisk.edu")
+        "https://www.fisk.edu"
             .queryURL(path: "/?s=%s&post_type=all")
         
-        Site("https://fiskgroup.com")
+        "https://fiskgroup.com"
             .queryURL(path: "/search?q=%s*")
         
-        Site("https://www.fit-fresh.com")
+        "https://www.fit-fresh.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fitnessmagazine.com")
+        "https://www.fitnessmagazine.com"
             .queryURL(path: "/search/site/%s")
         
-        Site("https://www.fiu.edu")
+        "https://www.fiu.edu"
             .queryURL(path: "/results.html?q=%s")
         
-        Site("https://www.fivestars.blog")
+        "https://www.fivestars.blog"
         
-        Site("https://fivestoryny.com")
+        "https://fivestoryny.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://fivethirtyeight.com")
+        "https://fivethirtyeight.com"
             .queryURL(path: "/?s=%s")
         
         
@@ -241,36 +241,36 @@ internal extension SiteIndex {
         // #FK
         // #FL
         
-        Site("https://www.flare.com")
+        "https://www.flare.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.flawlessbeauty.com")
+        "https://www.flawlessbeauty.com"
             .queryURL(path: "/IDVFTFBS/9.0000/SearchResults?query=%s")
         
-        Site("https://www.flickr.com")
+        "https://www.flickr.com"
             .queryURL(path: "/search/?text=%s")
         
-        Site("https://www.flir.com")
+        "https://www.flir.com"
             .queryURL(path: "/search/?query=%s")
         
-        Site("https://www.flooranddecor.com")
+        "https://www.flooranddecor.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.floridatoday.com")
+        "https://www.floridatoday.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://floridagators.com")
+        "https://floridagators.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://flos.com")
+        "https://flos.com"
             .queryURL("https://usa.flos.com/search-results-page?q=%s", locale: .unitedStates())
         
-        Site("http://fluxmath.com")
+        "http://fluxmath.com"
         
-        Site("https://flyavl.com")
+        "https://flyavl.com"
             .queryURL(path: "/search/all?keys=%s")
         
-        Site("https://flyknoxville.com")
+        "https://flyknoxville.com"
             .queryURL(path: "/?s=%s")
         
         
@@ -278,247 +278,248 @@ internal extension SiteIndex {
         // #FN
         // #FO
         
-        Site("https://www.foco.com")
+        "https://www.foco.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.focusfeatures.com")
+        "https://www.focusfeatures.com"
         
-        Site("https://www.followthemoney.org")
+        "https://www.followthemoney.org"
             .queryURL(path: "/search-results/SearchForm?Search=%s")
         
         /*
          // wavelength blog
-        Site("https://www.focuscamera.com")
-            .queryURL(path: "/wavelength/?s=%s")
-        */
- 
-        Site("https://www.focuscamera.com")
+         "https://www.focuscamera.com"
+         .queryURL(path: "/wavelength/?s=%s")
+         */
+        
+        "https://www.focuscamera.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://focushempco.com")
+        "https://focushempco.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.fontinlogo.com")
+        "https://www.fontinlogo.com"
             .queryURL(path: "/search?query=%s")
         
         
         // #FOO
-                
-        Site("https://food52.com")
+        
+        "https://food52.com"
             .queryURL(path: "/recipes/search?q=%s")
         
-        Site("https://www.foodandwine.com")
+        "https://www.foodandwine.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.foodcity.com")
+        "https://www.foodcity.com"
             .queryURL(path: "/search/all/?searchType=All&Search=%s")
         
-        Site("https://www.foodlion.com")
+        "https://www.foodlion.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.foodmayhem.com")
+        "https://www.foodmayhem.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.foodnetwork.com")
+        "https://www.foodnetwork.com"
             .queryURL(path: "/search/%s-")
         
-        Site("http://foodychile.com")
+        "http://foodychile.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.footaction.com")
+        "https://www.footaction.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://footballfoundation.org")
+        "https://footballfoundation.org"
         
-        Site("https://www.footlocker.com")
+        "https://www.footlocker.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.forbes.com")
+        "https://www.forbes.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.ford.com")
+        "https://www.ford.com"
             .queryURL(path: "/search/?f%3AsearchInputString=%s")
         
-        Site("https://www.fordfound.org")
+        "https://www.fordfound.org"
             .queryURL(path: "/search/?q=%s&p=0")
-                
-        Site("https://www.forever21.com")
+        
+        "https://www.forever21.com"
             .queryURL(path: "/us/shop/Search/#brm-search?request_type=search&search_type=keyword&q=%s")
         
-        Site("https://www.forhims.com")
+        "https://www.forhims.com"
         
-        Site("https://forward.com")
+        "https://forward.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.fossil.com")
+        "https://www.fossil.com"
             .queryURL(path: "/us/en/search.%s.html")
         
-        Site("https://www.fourfourtwo.com")
+        "https://www.fourfourtwo.com"
             .queryURL(path: "/search/content/%s")
         
-        Site("https://fox59.com")
+        "https://fox59.com"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://fox8.com")
+        "https://fox8.com"
             .queryURL(path: "/?s=%s&submit=Search")
         
-        Site("https://www.foxbusiness.com")
+        "https://www.foxbusiness.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.foxcroftcollection.com")
+        "https://www.foxcroftcollection.com"
             .queryURL(path: "/search/?terms=%s")
         
-        Site("https://www.fox26houston.com")
+        "https://www.fox26houston.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fox5dc.com")
+        "https://www.fox5dc.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://foxiecosmetics.com")
+        "https://foxiecosmetics.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.foxnews.com")
+        "https://www.foxnews.com"
             .queryURL(path: "/search-results/search?q=%s")
         
-        Site("https://www.foxracing.com")
+        "https://www.foxracing.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.foxsports.com.au")
+        "https://www.foxsports.com.au"
         
-        Site("https://www.foxsports.com")
+        "https://www.foxsports.com"
         
         
         // #FP
         // #FQ
         // #FR
         
-        Site("https://frame-store.com")
+        "https://frame-store.com"
             .queryURL(path: "/pages/search-results?limit=24&q=%s")
         
-        Site("https://www.frankfurt-airport.com")
+        "https://www.frankfurt-airport.com"
             .queryURL(path: "/en/search/searchresult.html?searchTerm=%s")
         
-        Site("https://www.franklinpierce.edu")
+        "https://www.franklinpierce.edu"
             .queryURL(path: "/search-results.htm?q=%s")
         
-        Site("https://www.fraunhofer.de")
+        "https://www.fraunhofer.de"
             .queryURL(path: "/de/suche.html?lang=de&queryString=%s", locale: .germany())
         
         
         // #FRE
         
-        Site("https://www.fred.com")
+        "https://www.fred.com"
             .queryURL(path: "/en/search-en?search=%s")
         
-        Site("https://www.fredericks.com")
+        "https://www.fredericks.com"
             .queryURL(path: "/v2/search?q=%s")
         
-        Site("https://www.fredmeyer.com")
+        "https://www.fredmeyer.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://freefontsfamily.com")
+        "https://freefontsfamily.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://freeflyapparel.com")
+        "https://freeflyapparel.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.freepeople.com")
+        "https://www.freepeople.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.freepik.com")
+        "https://www.freepik.com"
             .queryURL(path: "/search?dates=any&format=search&page=1&query=%s&sort=popular")
         
-        Site("https://freepn.com")
+        "https://freepn.com"
         
-        Site("https://frenchconnection.com")
+        "https://frenchconnection.com"
             .queryURL("https://usa.frenchconnection.com/search/keywords-are-%s/%s.htm", locale: .unitedStates())
         
-        Site("https://www.frenchtoast.com")
+        "https://www.frenchtoast.com"
             .queryURL(path: "/search?categoryId=1&query=%s")
         
-        Site("https://freshieandzero.com")
+        "https://freshieandzero.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.freshpair.com")
+        "https://www.freshpair.com"
             .queryURL(path: "/search?findify_q=%s")
         
-        Site("https://www.frette.com")
+        "https://www.frette.com"
             .queryURL(path: "/en_US/search?q=%s")
-         
-        Site("https://froknowsphoto.com")
+        
+        "https://froknowsphoto.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.frontiersin.org")
+        "https://www.frontiersin.org"
             .queryURL(path: "/search?query=%s&tab=top-results")
         
-        Site("https://www.frys.com")
+        "https://www.frys.com"
             .queryURL(path: "/search?query_string=%s")
         
         
         // #FS
         
-        Site("https://fsastore.com")
+        "https://fsastore.com"
             .queryURL(path: "/SearchProducts.aspx?q=%s")
         
-        Site("https://fstoppers.com")
+        "https://fstoppers.com"
             .queryURL(path: "/search?t=articles&k=%s")
         
         
         // #FT
         
-        Site("https://www.ft.com")
+        "https://www.ft.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #FU
         
-        Site("https://fubu.com")
+        "https://fubu.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fujifilm.com")
+        "https://www.fujifilm.com"
             .queryURL("https://site-search.fujifilm.com/?kw=%s&ie=u&site=global&temp=global")
         
-        Site("https://ful.com")
+        "https://ful.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #FUN
         
-        Site("http://www.fundinguniverse.com")
+        "http://www.fundinguniverse.com"
             .queryURL(path: "/company-histories/search/?q=%s")
         
-        Site("https://shop.funko.com")
+        "https://shop.funko.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fuse.tv")
+        "https://www.fuse.tv"
         
-        Site("https://futurism.com")
+        "https://futurism.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.fuzzfind.com")
-        .queryURL("https://cse.google.com/cse?cx=partner-pub-2476251727991664:3499967540&ie=UTF-8&q=%s&sa=Search&ref=")
+        "https://www.fuzzfind.com"
+            .queryURL("https://cse.google.com/cse?cx=partner-pub-2476251727991664:3499967540&ie=UTF-8&q=%s&sa=Search&ref=")
         
         
         // #FV
         
-        Site("https://www.fvsu.edu")
+        "https://www.fvsu.edu"
             .queryURL(path: "/?s=%s")
         
         
         // #FW
         // #FX
         
-        Site("https://www.fxnetworks.com")
+        "https://www.fxnetworks.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #FY
         
-        Site("https://www.fyi.tv")
+        "https://www.fyi.tv"
             .queryURL(path: "/search?q=%s")
         
         
         // #FZ
         
     }
+    
 }

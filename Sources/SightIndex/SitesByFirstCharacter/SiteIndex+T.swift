@@ -13,731 +13,731 @@ internal extension SiteIndex {
         
         // #T1
         
-        Site("https://www.t-mobile.com")
+        "https://www.t-mobile.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.the-sun.com")
+        "https://www.the-sun.com"
             .queryURL(path: "/?s=%s")
             
-        Site("https://www.t13.cl")
+        "https://www.t13.cl"
             .queryURL(path: "/buscador/%s")
         
         
         // #TA
         
-        Site("https://taaalk.co")
+        "https://taaalk.co"
         
-        Site("https://www.tacobell.com")
+        "https://www.tacobell.com"
             .queryURL(path: "/search?text=%s")
         
-        Site("https://www.tagheuer.com")
+        "https://www.tagheuer.com"
             .queryURL(path: "/en-us/search?q=%s")
         
-        Site("https://www.tahariasl.com")
+        "https://www.tahariasl.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #TAL
         
-        Site("https://www.talbots.com")
+        "https://www.talbots.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://talentless.co")
+        "https://talentless.co"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://talkbusiness.net")
+        "https://talkbusiness.net"
             .queryURL(path: "/?s=%s&post_type=post")
         
-        Site("https://talkingpointsmemo.com")
+        "https://talkingpointsmemo.com"
             .queryURL(path: "/search/%s")
         
-        Site("http://www.talkmobiledev.com")
+        "http://www.talkmobiledev.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.tallahassee.com")
+        "https://www.tallahassee.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.tamaramellon.com")
+        "https://www.tamaramellon.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tampabay.com")
+        "https://www.tampabay.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.tamu.edu")
+        "https://www.tamu.edu"
             .queryURL(path: "/search/index.html?q=%s")
         
-        Site("https://www.tandyleather.com")
+        "https://www.tandyleather.com"
             .queryURL(path: "/en/search/?sSearch=%s")
         
-        Site("https://www.tanga.com")
+        "https://www.tanga.com"
             .queryURL(path: "/deals/search?q=%s")
         
         /*
         // up&up product search
-        Site("https://www.target.com")
+        "https://www.target.com"
             .queryURL(path: "/s?searchTerm=up%26up+%s")
         */
  
-        Site("https://www.target.com")
+        "https://www.target.com"
             .queryURL(path: "/s?searchTerm=%s")
         
-        Site("https://targus.com")
+        "https://targus.com"
             .queryURL("https://us.targus.com/pages/search-results?q=%s", locale: .unitedStates())
         
-        Site("https://tartecosmetics.com")
+        "https://tartecosmetics.com"
             .queryURL(path: "/en_US/search?q=%s")
         
-        Site("https://taskandpurpose.com")
+        "https://taskandpurpose.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://watch.tastemade.com")
+        "https://watch.tastemade.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tatamotors.com")
+        "https://www.tatamotors.com"
             .queryURL(path: "/?s=%s")
  
-        Site("https://www.taylorstitch.com")
+        "https://www.taylorstitch.com"
             .queryURL(path: "/search?type=product&Submit+Query=&q=%s")
         
-        Site("https://www.tazo.com")
+        "https://www.tazo.com"
             .queryURL(path: "/us/en/search.html?q=%s")
         
         
         // #TB
         
-        Site("https://www.tbnewswatch.com")
+        "https://www.tbnewswatch.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tbr.edu")
+        "https://www.tbr.edu"
             .queryURL(path: "/search/google/%s")
         
-        Site("https://www.tbs.com")
+        "https://www.tbs.com"
         
         // #TC
         
-        Site("https://www.tcelectronic.com")
+        "https://www.tcelectronic.com"
             .queryURL(path: "/search/Tcelectronic?text=%s")
         
-        Site("https://shop.tcm.com")
+        "https://shop.tcm.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tbn.org")
+        "https://www.tbn.org"
             .queryURL(path: "/search?s=%s")
         
-        Site("https://tcrf.net")
+        "https://tcrf.net"
             .queryURL(path: "/index.php?search=%s")
         
-        Site("https://tcu.edu")
+        "https://tcu.edu"
             .queryURL( "https://search.tcu.edu/search?q=%s&output=xml_no_dtd&oe=UTF-8&ie=UTF-8&client=default_frontend&proxystylesheet=default_frontend")
         
         
         // #TD
         
-        Site("http://dictionary.tdf.org")
+        "http://dictionary.tdf.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://tdk.com")
+        "https://tdk.com"
             .queryURL("https://search.tdk.com/search?site=FBNXDO0R&group=5&design=31&query=%s")
         
         
         // #TE
         
-        Site("https://www.teacollection.com")
+        "https://www.teacollection.com"
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
-        Site("https://www.teamspeedkills.com")
+        "https://www.teamspeedkills.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #TECH
         
-        Site("https://www.tech21.com")
+        "https://www.tech21.com"
             .queryURL(path: "/en_us/#q=%s")
         
-        Site("https://techcrunch.com")
+        "https://techcrunch.com"
             .queryURL("https://search.techcrunch.com/search;?p=%s")
         
-        Site("https://www.techdirt.com")
+        "https://www.techdirt.com"
             .queryURL(path: "/search-g.php?q=%s")
         
-        Site("https://www.techforless.com")
+        "https://www.techforless.com"
             .queryURL(path: "/cgi-bin/tech4less/process?mv_doit=return&mv_nextpage=split_search&new_search=1&q_phrase=%s")
         
-        Site("https://techmeme.com")
+        "https://techmeme.com"
             .queryURL(path: "/search/query?q=%s")
         
-        Site("https://www.technewsworld.com")
+        "https://www.technewsworld.com"
             .queryURL(path: "/perl/search.pl?x=0&y=0&query=%s")
         
-        Site("https://technigadgets.net")
+        "https://technigadgets.net"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.technobyte.org")
+        "https://www.technobyte.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.technologynetworks.com")
+        "https://www.technologynetworks.com"
         
-        Site("https://www.techradar.com")
+        "https://www.techradar.com"
             .queryURL(path: "/search?searchTerm=%s")
         
-        Site("https://www.techrepublic.com")
+        "https://www.techrepublic.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.technologyreview.com")
+        "https://www.technologyreview.com"
             .queryURL(path: "/search/?s=%s")
         
-        Site("https://techtonicstuning.com")
+        "https://techtonicstuning.com"
             .queryURL(path: "/main/index.php?main_page=advanced_search&keyword=%s")
         
-        Site("https://www.techtricksworld.com")
+        "https://www.techtricksworld.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.techspot.com")
+        "https://www.techspot.com"
         
-        Site("https://www.techwalla.com")
+        "https://www.techwalla.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ted.com")
+        "https://www.ted.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tedbaker.com")
+        "https://www.tedbaker.com"
             .queryURL(path: "/us/search?text=%s")
         
-        Site("https://www.telemundowashingtondc.com")
+        "https://www.telemundowashingtondc.com"
             .queryURL(path: "/?s=%s", locale: .unitedStates(language: .spanish))
         
-        Site("https://www.telescope.com")
+        "https://www.telescope.com"
             .queryURL(path: "/catalog/search.cmd?form_state=searchForm&siteCode=US&keyword=%s")
         
-        Site("https://power.tenergy.com")
+        "https://power.tenergy.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://tenor.com")
+        "https://tenor.com"
             .queryURL(path: "/search/%s-gifs")
         
-        Site("https://www.tennis.com")
+        "https://www.tennis.com"
             .queryURL(path: "/search/?keywords=%s")
         
-        Site("https://www.tesla.com")
+        "https://www.tesla.com"
         
-        Site("https://tequilaavion.com")
+        "https://tequilaavion.com"
         
-        Site("https://www.teva.com")
+        "https://www.teva.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tceq.texas.gov")
+        "https://www.tceq.texas.gov"
             .queryURL(path: "/searchpage?q=%s&btnG=TCEQ+Search")
         
-        Site("https://www.texasfootball.com")
+        "https://www.texasfootball.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.texastribune.org")
+        "https://www.texastribune.org"
             .queryURL(path: "/search/?q=%s")
         
         
         // #TF
         // #TG
         
-        Site("https://www.tgw.com")
+        "https://www.tgw.com"
             .queryURL(path: "/SearchDisplay?categoryId=&storeId=10151&catalogId=10052&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=24&searchTerm=%s")
         
         
         // #TH
         
-        Site("https://tha.com")
+        "https://tha.com"
         
-        Site("https://www.thaienquirer.com")
+        "https://www.thaienquirer.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thakoon.com")
+        "https://thakoon.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("http://thanuka.com")
+        "http://thanuka.com"
         
-        Site("https://www.theluvscrub.com")
+        "https://www.theluvscrub.com"
         
-        Site("https://www.tnhia.org")
+        "https://www.tnhia.org"
         
         
         // #THE1
         
-        Site("https://www.the-house.com")
+        "https://www.the-house.com"
             .queryURL(path: "/search.html?keywords=%s")
         
-        Site("https://the-ux-mini-course.com")
+        "https://the-ux-mini-course.com"
         
-        Site("https://the8-bit.com")
+        "https://the8-bit.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.theartofshaving.com")
+        "https://www.theartofshaving.com"
             .queryURL(path: "/on/demandware.store/Sites-TAOS-Site/default/Search-Show?q=%s")
         
         
         // #THEA
         
-        Site("https://www.theadvertiser.com")
+        "https://www.theadvertiser.com"
             .queryURL(path: "/search/%s/")
         
-        Site("http://theamerican.org")
+        "http://theamerican.org"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
-        Site("https://theathleteshub.org")
+        "https://theathleteshub.org"
         
-        Site("https://theathletic.com")
+        "https://theathletic.com"
             .queryURL(path: "/search/?query=%s")
         
-        Site("https://www.theatlantic.com")
+        "https://www.theatlantic.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.theaustralian.com.au")
+        "https://www.theaustralian.com.au"
             .queryURL(path: "/search-results?q=%s")
 
         
         
         // #THEB
         
-        Site("https://www.thebay.com")
+        "https://www.thebay.com"
             .queryURL(path: "/search/EndecaSearch.jsp?bmArch=bmForm&bmForm=endeca_search_form_one&bmArch=bmIsForm&bmIsForm=true&bmHidden=submit-search&submit-search=&bmArch=bmSingle&bmSingle=N_Dim&bmHidden=N_Dim&N_Dim=0&bmArch=bmHidden&bmHidden=Ntk&bmHidden=Ntk&Ntk=Entire+Site&bmArch=bmHidden&bmHidden=Ntx&bmHidden=Ntx&Ntx=mode%2Bmatchpartialmax&bmHidden=PA&PA=TRUE&SearchString=%s")
         
-        Site("https://thebeardclub.com")
+        "https://thebeardclub.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://thebestvpn.com")
+        "https://thebestvpn.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thebigorangepress.com")
+        "https://thebigorangepress.com"
         
-        Site("https://theblast.com")
+        "https://theblast.com"
             .queryURL(path: "/?keyword=%s")
         
-        Site("https://www.theblaze.com")
+        "https://www.theblaze.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.theblockcrypto.com")
+        "https://www.theblockcrypto.com"
             .queryURL(path: "/search?s=%s")
         
-        Site("https://thebolditalic.com")
+        "https://thebolditalic.com"
         
         
         // #THEC
         
-        Site("https://www.thecheesecakefactory.com")
+        "https://www.thecheesecakefactory.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.thecinemaholic.com")
+        "https://www.thecinemaholic.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.thecinemaspot.com")
+        "https://www.thecinemaspot.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://theclemsoninsider.com")
+        "https://theclemsoninsider.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.theclymb.com")
+        "https://www.theclymb.com"
             .queryURL(path: "/Search.aspx?k=%s")
         
-        Site("https://theconversation.com")
+        "https://theconversation.com"
             .queryURL(path: "/us/search?q=%s")
         
-        Site("https://www.thecryptoassociate.com")
+        "https://www.thecryptoassociate.com"
             .queryURL(path: "/?s=%s")
         
         
         // #THED
         
-        Site("https://www.thedailybeast.com")
+        "https://www.thedailybeast.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://thedailychain.com")
+        "https://thedailychain.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.thedailymash.co.uk")
+        "https://www.thedailymash.co.uk"
             .queryURL(path: "/?s=%s")
         
         
         // #THEE
         
-        Site("http://www.theemptycup.org")
+        "http://www.theemptycup.org"
         
-        Site("https://www.theenglishshavingcompany.com")
+        "https://www.theenglishshavingcompany.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.theepochtimes.com")
+        "https://www.theepochtimes.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #THEF
         
-        Site("https://www.thefader.com")
+        "https://www.thefader.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.thefarside.com")
+        "https://www.thefarside.com"
         
-        Site("https://thefashioncamera.com")
+        "https://thefashioncamera.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thefightisinus.org")
+        "https://thefightisinus.org"
         
-        Site("https://www.thefirstnews.com")
+        "https://www.thefirstnews.com"
         
-        Site("https://www.thefreelibrary.com")
+        "https://www.thefreelibrary.com"
             .queryURL(path: "/_/search/Search.aspx?q=%s")
         
-        Site("https://www.thefreshmarket.com")
+        "https://www.thefreshmarket.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://thefryecompany.com")
+        "https://thefryecompany.com"
             .queryURL("https://search.thefryecompany.com/search?w=%s")
         
         
         // #THEG
         
-        Site("http://www.thegeorgeanne.com")
+        "http://www.thegeorgeanne.com"
             .queryURL(path: "/search/?l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
         
-        Site("https://www.theguardian.com")
+        "https://www.theguardian.com"
         
         
         // #THEH
         
-        Site("https://thehackernews.com")
+        "https://thehackernews.com"
         .queryURL("https://cse.google.com/cse?q=%s&cx=partner-pub-7983783048239650%3A3179771210#gsc.tab=0&gsc.q=%s&gsc.page=1")
         
-        Site("https://thehealthyfoodie.com")
+        "https://thehealthyfoodie.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thehill.com")
+        "https://thehill.com"
             .queryURL(path: "/search/query/%s")
         
-        Site("https://www.thehindu.com")
+        "https://www.thehindu.com"
             .queryURL(path: "/#/search;query=%s")
         
-        Site("https://thehockeynews.com")
+        "https://thehockeynews.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thehoneypot.co")
+        "https://thehoneypot.co"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.thehut.com")
+        "https://www.thehut.com"
             .queryURL(path: "/elysium.search?search=%s")
         
         
         // #THEI
         
-        Site("https://theintercept.com")
+        "https://theintercept.com"
             .queryURL(path: "/search/?s=%s")
         
         // #THEJ
         // #THEK
         
-        Site("https://www.thekitchn.com")
+        "https://www.thekitchn.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://theknoxvilleblog.com")
+        "https://theknoxvilleblog.com"
             .queryURL(path: "/?s=%s")
         
         /*
          // `thekitchn` recipes seaerch
-        Site("https://www.thekitchn.com")
+        "https://www.thekitchn.com"
             .queryURL(path: "/search?q=%s&page=1&filter=recipes")
         */
         
         
         // #THEL
  
-        Site("http://theladiesfinger.com")
+        "http://theladiesfinger.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.thelancet.com")
+        "https://www.thelancet.com"
             .queryURL(path: "/action/doSearch?searchType=quick&searchText=%s&searchScope=series&journalCode=landia&seriesISSNFltraddfilter=2213-8587&occurrences=all&code=lancet-site&journalCode=landia")
         
-        Site("https://www.thelines.com")
+        "https://www.thelines.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.thelocal.it")
+        "https://www.thelocal.it"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.theluxurypost.com")
+        "https://www.theluxurypost.com"
             .queryURL(path: "/?s=%s")
         
         
         // #THEM
                 
-        Site("https://www.themoscowtimes.com")
+        "https://www.themoscowtimes.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.themountain.com")
+        "https://www.themountain.com"
             .queryURL(path: "/search?search_query=%s")
         
-        Site("https://themyersfirm.com")
+        "https://themyersfirm.com"
         
         
         // #THEN
         
-        Site("https://www.thenation.com")
+        "https://www.thenation.com"
             .queryURL(path: "/?s=%s&post_type=article")
         
-        Site("https://www.thenewstribune.com")
+        "https://www.thenewstribune.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://thenextweb.com")
+        "https://thenextweb.com"
             .queryURL(path: "/?q=%s")
         
-        Site("https://www.thenorthface.com")
+        "https://www.thenorthface.com"
             .queryURL(path: "/shop/VFSearchDisplay?catalogId=20001&storeId=7001&langId=-1&searchTerm=%s")
         
         
         // #THEO
         
-        Site("https://www.theonion.com")
+        "https://www.theonion.com"
             .queryURL(path: "/search?blogId=1636079510&q=%s")
         
-        Site("https://www.theory.com")
+        "https://www.theory.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.theoutnet.com")
+        "https://www.theoutnet.com"
             .queryURL(path: "/en-us/shop/search/%s")
         
         
         // #THEP
         
-        Site("https://www.thephoblographer.com")
+        "https://www.thephoblographer.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.thephotoargus.com")
+        "https://www.thephotoargus.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thepioneerwoman.com")
+        "https://thepioneerwoman.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.theplanetarypress.com")
+        "https://www.theplanetarypress.com"
             .queryURL(path: "/?s=%s")
         
         // #THEQ
         // #THER
         
-        Site("https://www.therams.com")
+        "https://www.therams.com"
             .queryURL(path: "/search/?query=%s")
         
-        Site("https://therealdeal.com")
+        "https://therealdeal.com"
             .queryURL(path: "/miami/search/?q=%s")
         
-        Site("https://www.theringer.com")
+        "https://www.theringer.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://therising.co")
+        "https://therising.co"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thegrapevine.theroot.com")
+        "https://thegrapevine.theroot.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.theroot.com")
+        "https://www.theroot.com"
             .queryURL(path: "/search?blogId=1635821517&q=%s")
         
-        Site("https://www.therugbypaper.co.uk")
+        "https://www.therugbypaper.co.uk"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.therustedgarden.com")
+        "https://www.therustedgarden.com"
             .queryURL(path: "/search?type=product&q=%s")
         
         
         // #THES
                 
-        Site("https://www.thesaurus.com")
+        "https://www.thesaurus.com"
             .queryURL(path: "/browse/%s")
         
-        Site("https://www.thescore.com")
+        "https://www.thescore.com"
         
-        Site("https://www.thesecu.com")
+        "https://www.thesecu.com"
             .queryURL(path: "/?s=%s")
                 
-        Site("https://theshaderoom.com")
+        "https://theshaderoom.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thespun.com")
+        "https://thespun.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.thestate.com")
+        "https://www.thestate.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.thestreet.com")
+        "https://www.thestreet.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.thesun.co.uk")
+        "https://www.thesun.co.uk"
             .queryURL(path: "/?s=%s")
         
         
         // #THET
         
-        Site("https://www.thetechie.de")
+        "https://www.thetechie.de"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.thetot.com")
+        "https://www.thetot.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://thetylt.com")
+        "https://thetylt.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://theturfsports.com")
+        "https://theturfsports.com"
             .queryURL(path: "/?s=%s")
         
         
         // #THEU
         
-        Site("https://theundefeated.com")
+        "https://theundefeated.com"
             .queryURL(path: "/?s=%s")
         
         
         // #THEV
         
-        Site("http://www.thevanillabeanblog.com")
+        "http://www.thevanillabeanblog.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.theverge.com")
+        "https://www.theverge.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #THEW
         
-        Site("https://www.thewanderinglens.com")
+        "https://www.thewanderinglens.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://theweek.com")
+        "https://theweek.com"
         
-        Site("https://www.thewhitecompany.com")
+        "https://www.thewhitecompany.com"
             .queryURL(path: "/us/search?text=%s")
         
-        Site("https://www.thewrap.com")
+        "https://www.thewrap.com"
             .queryURL(path: "/?s=%s")
         
         // #THEX
         // #THEY
         // #THEZ
         
-        Site("https://www.thezebra.com")
+        "https://www.thezebra.com"
         
         
         // #THF
         // #THI
         
-        Site("https://www.thingsremembered.com")
+        "https://www.thingsremembered.com"
             .queryURL(path: "/searchresults?Ntt=%s&Nty=1&No=0&Nrpp=12&Rdm=367&searchType=simple&type=search")
         
         // #THF
         // #THR
         // #THRE
         
-        Site("https://threader.app")
+        "https://threader.app"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.threads4thought.com")
+        "https://www.threads4thought.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.thredup.com")
+        "https://www.thredup.com"
             .queryURL(path: "/products/women?department_tags=women&text=%s")
         
-        Site("https://threatpost.com")
+        "https://threatpost.com"
             .queryURL(path: "/?s=%s")
         
-        Site("http://threewordphrase.com")
+        "http://threewordphrase.com"
         
         
         // #THRI
         
-        Site("https://www.thriftbooks.com")
+        "https://www.thriftbooks.com"
             .queryURL(path: "/browse/?b.search=%s")
         
-        Site("https://www.thrillist.com")
+        "https://www.thrillist.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://thrivecausemetics.com")
+        "https://thrivecausemetics.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
         
         // #TI
         
-        Site("http://www.ti.com")
+        "http://www.ti.com"
             .queryURL(path: "/sitesearch/docs/universalsearch.tsp?searchTerm=%s")
         
-        Site("https://www.tibi.com")
+        "https://www.tibi.com"
             .queryURL(path: "/shop/catalogsearch/result/?q=%s")
         
-        Site("https://tidbits.com")
+        "https://tidbits.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://tide.com")
+        "https://tide.com"
             .queryURL(path: "/en-us/search?term=%s")
         
-        Site("https://www.ties.com")
+        "https://www.ties.com"
             .queryURL(path: "/search?srq=%s")
         
-        Site("http://www.tigerdirect.com")
+        "http://www.tigerdirect.com"
             .queryURL(path: "/applications/SearchTools/search.asp?keywords=%s")
         
-        Site("https://www.tigernet.com")
+        "https://www.tigernet.com"
             .queryURL(path: "/search/site.do?q=%s")
         
-        Site("https://www.tikkun.org")
+        "https://www.tikkun.org"
             .queryURL(path: "/nextgen/searchresults?cx=008208239971096824769%3Apj0ik8g7c5k&cof=FORID%3A11&ie=UTF-8&sa=Search&q=%s")
         
-        Site("https://www.tilley.com")
+        "https://www.tilley.com"
             .queryURL(path: "/us_en/catalogsearch/result/?q=%s", locale: .unitedStates())
         
-        Site("https://www.tillys.com")
+        "https://www.tillys.com"
             .queryURL(path: "/find/?q=%s")
         
-        Site("https://tim.blog")
+        "https://tim.blog"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.timberland.com")
+        "https://www.timberland.com"
             .queryURL(path: "/shop/VFSearchDisplayRes?catalogId=10101&storeId=7101&langId=-1&searchTerm=%s")
         
-        Site("https://www.timbuk2.com")
+        "https://www.timbuk2.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://time.com")
+        "https://time.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.timeformecatalog.com")
+        "https://www.timeformecatalog.com"
             .queryURL(path: "/search.html?keywords=%s")
         
-        Site("https://www.timesfreepress.com")
+        "https://www.timesfreepress.com"
         
-        Site("https://timesofindia.indiatimes.com")
+        "https://timesofindia.indiatimes.com"
             .queryURL(path: "/topic/%s")
         
-        Site("https://www.timex.com")
+        "https://www.timex.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tirebarn.com")
+        "https://www.tirebarn.com"
         
-        Site("https://www.tirebuyer.com")
+        "https://www.tirebuyer.com"
             .queryURL(path: "/searchpage?text=%s")
         
-        Site("https://tirerack.com")
+        "https://tirerack.com"
             .queryURL("https://tires.tirerack.com/search?asug=&view=list&w=%s")
         
-        Site("https://tirescanner.com")
+        "https://tirescanner.com"
         
-        Site("https://tissotshop.com")
+        "https://tissotshop.com"
             .queryURL("https://us.tissotshop.com/catalogsearch/result/?q=%s", locale: .unitedStates())
         
-        Site("https://www.titansonline.com")
+        "https://www.titansonline.com"
             .queryURL(path: "/search/?query=%s")
         
-        Site("https://www.titosvodka.com")
+        "https://www.titosvodka.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.tivo.com")
+        "https://www.tivo.com"
             .queryURL(path: "/gsearch?term=%s")
         
         
         // #TJ
         
-        Site("https://www.tjc.edu")
+        "https://www.tjc.edu"
             .queryURL(path: "/site/scripts/google_results.php?q=%s")
                 
-        Site("https://tjmaxx.tjx.com")
+        "https://tjmaxx.tjx.com"
             .queryURL(path: "/store/shop/?Ntt=%s&qfh_sch=Search")
         
         
@@ -745,133 +745,133 @@ internal extension SiteIndex {
         // #TL
         // #TM
         
-        Site("https://secure.tmart.com")
+        "https://secure.tmart.com"
             .queryURL(path: "/search.html?typeid=&q=%s")
         
-        Site("https://www.tmlewin.com")
+        "https://www.tmlewin.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tmz.com")
+        "https://www.tmz.com"
             .queryURL(path: "/search/?q=%s")
         
         
         // #TN
         
-        Site("https://www.tn.gov")
+        "https://www.tn.gov"
             .queryURL(path: "/twra/search-results.html?q=%s")
         
-        Site("http://www.tnstate.edu")
+        "http://www.tnstate.edu"
             .queryURL(path: "/searchresults.aspx?cx=002368324096397372458%3Auiyt-zp6kyu&cof=FORID%3A11&q=%s")
         
-        Site("https://www.tntdrama.com")
+        "https://www.tntdrama.com"
         
-        Site("https://www.tntech.edu")
+        "https://www.tntech.edu"
             .queryURL(path: "/search.php#stq=%s")
         
-        Site("https://www.tnvacation.com")
+        "https://www.tnvacation.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #TO
         
-        Site("https://www.tobi.com")
+        "https://www.tobi.com"
             .queryURL(path: "/search?search_term=%s")
         
-        Site("https://www.toddsnyder.com")
+        "https://www.toddsnyder.com"
             .queryURL(path: "/search?type=product&q=%s*")
         
-        Site("https://toffelblog.xyz")
+        "https://toffelblog.xyz"
         
-        Site("http://www.tokyo-airport-bldg.co.jp")
+        "http://www.tokyo-airport-bldg.co.jp"
             .queryURL(path: "/en/search/?q=%s")
         
-        Site("http://tolweb.org")
+        "http://tolweb.org"
             .queryURL(path: "/tree/home.pages/search.html?q=%s&sa=Search")
         
         
         // #TOM
         
-        Site("https://tommy.com")
+        "https://tommy.com"
             .queryURL("https://usa.tommy.com/SearchDisplay?categoryId=&storeId=10151&catalogId=10551&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&searchTerm=%s", locale: .unitedStates())
         
-        Site("https://www.tommybahama.com")
+        "https://www.tommybahama.com"
             .queryURL(path: "/en/search/?text=%s")
         
-        Site("https://tommyjohn.com")
+        "https://tommyjohn.com"
             .queryURL(path: "/search?keywords=%s")
         
-        Site("https://www.toms.com")
+        "https://www.toms.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tomtop.com")
+        "https://www.tomtop.com"
             .queryURL(path: "/search/%s.html")
         
-        Site("http://top10tech.com")
+        "http://top10tech.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://topdogtool.com")
+        "https://topdogtool.com"
             .queryURL(path: "/?s=%s&post_type=product")
         
-        Site("https://topman.com")
+        "https://topman.com"
             .queryURL("https://us.topman.com/webapp/wcs/stores/servlet/CatalogNavigationSearchResultCmd?storeId=13051&catalogId=33059&Ntt=%s", locale: .unitedStates())
         
-        Site("https://www.topshop.com")
+        "https://www.topshop.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.toririchard.com")
+        "https://www.toririchard.com"
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
-        Site("https://www.toro.com")
+        "https://www.toro.com"
             .queryURL(path: "/en/search#q=%s")
         
-        Site("https://torontosun.com")
+        "https://torontosun.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.torrid.com")
+        "https://www.torrid.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.toryburch.com")
+        "https://www.toryburch.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://totalfilm.com")
+        "https://totalfilm.com"
         
-        Site("https://www.totalwine.com")
+        "https://www.totalwine.com"
             .queryURL(path: "/search/all?text=%s")
         
-        Site("https://www.totes.com")
+        "https://www.totes.com"
             .queryURL(path: "/browse?Ntt=%s")
         
-        Site("https://totokaelo.com")
+        "https://totokaelo.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.totousa.com")
+        "https://www.totousa.com"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://www.tous.com")
+        "https://www.tous.com"
             .queryURL(path: "/us-en/?q=%s")
         
         
         // #TOW
         
-        Site("https://www.towleroad.com")
+        "https://www.towleroad.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.townandcountrymag.com")
+        "https://www.townandcountrymag.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://townhall.com")
+        "https://townhall.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://toyota.com")
+        "https://toyota.com"
             .queryURL("https://site-search.toyota-global.com/en_all/search.x?q=%s")
         
-        Site("https://toyotires-global.com")
+        "https://toyotires-global.com"
             .queryURL("https://search.toyotires-global.com/?kw=%s")
         
-        Site("https://toywiz.com")
+        "https://toywiz.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("http://www.tozostore.com")
+        "http://www.tozostore.com"
             .queryURL(path: "/?product_cat=&s=%s&post_type=product")
         
         
@@ -879,209 +879,210 @@ internal extension SiteIndex {
         // #TQ
         // #TR
         
-        Site("https://www.tractorsupply.com")
+        "https://www.tractorsupply.com"
             .queryURL(path: "/tsc/search/%s")
         
-        Site("https://www.travelvida.co")
+        "https://www.travelvida.co"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.travismathew.com")
+        "https://www.travismathew.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.trdusa.com")
+        "https://www.trdusa.com"
             .queryURL(path: "/search-results.html?search=%s")
         
-        Site("https://treblab.com")
+        "https://treblab.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://trendygadgetreview.com")
+        "https://trendygadgetreview.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://trekmovie.com")
+        "https://trekmovie.com"
             .queryURL(path: "/?s=%s")
         
         
         // #TRI
         
-        Site("https://triad-city-beat.com")
+        "https://triad-city-beat.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.trinaturk.com")
+        "https://www.trinaturk.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.tripadvisor.com")
+        "https://www.tripadvisor.com"
             .queryURL(path: "/Search?q=%s")
         
-        Site("https://triplebyte.com")
+        "https://triplebyte.com"
         
         
         // #TRO
 
-        Site("https://www.troy.edu")
+        "https://www.troy.edu"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://troytrojans.com")
+        "https://troytrojans.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
         
         
         // #TRU
         
-        Site("https://www.truemfg.com")
+        "https://www.truemfg.com"
             .queryURL(path: "/Search/%s")
         
-        Site("https://www.truereligion.com")
+        "https://www.truereligion.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.trulia.com")
+        "https://www.trulia.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.trustnodes.com")
+        "https://www.trustnodes.com"
             .queryURL(path: "/?s=%s&post_type=post")
         
-        Site("https://www.trusstlingerie.com")
+        "https://www.trusstlingerie.com"
             .queryURL(path: "/search?type=product,article,page&q=*%s*")
         
-        Site("https://www.trustedreviews.com")
+        "https://www.trustedreviews.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://truthout.org")
+        "https://truthout.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.trutv.com")
+        "https://www.trutv.com"
         
-        Site("https://www.trwaftermarket.com")
+        "https://www.trwaftermarket.com"
             .queryURL(path: "/us/site-search-results/?query=%s")
         
-        Site("https://tryfi.com")
+        "https://tryfi.com"
         
-        Site("https://tryhards.com")
+        "https://tryhards.com"
         
-        Site("https://tryshift.com")
+        "https://tryshift.com"
         
-        Site("https://www.tryswift.co")
+        "https://www.tryswift.co"
         
         
         // #TS
         
-        Site("https://tshf.net")
+        "https://tshf.net"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.tsn.ca")
+        "https://www.tsn.ca"
             .queryURL(path: "/search/search-7.427283?q=%s")
         
-        Site("https://tssaa.org")
+        "https://tssaa.org"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.tumblr.com")
+        "https://www.tumblr.com"
             .queryURL(path: "/search/%s")
         
-        Site("https://www.tumi.com")
+        "https://www.tumi.com"
             .queryURL(path: "/search?text=%s")
         
-        Site("http://www.turboairinc.com")
+        "http://www.turboairinc.com"
             .queryURL(path: "/index.php/catalogsearch/result/?q=%s")
         
-        Site("https://www.turtlebeach.com")
+        "https://www.turtlebeach.com"
             .queryURL(path: "/search?q=%s")
         
         
         // #TT
         // #TU
         
-        Site("https://www.tucksbrand.com")
+        "https://www.tucksbrand.com"
         
         
         // #TUL
         
-        Site("https://www.tula.com")
+        "https://www.tula.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://tulanegreenwave.com")
+        "https://tulanegreenwave.com"
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156:xzruz8o5ls0&q=%s&sa=Search&cof=FORID%3A11#1141")
         
-        Site("https://www.tulsaworld.com")
+        "https://www.tulsaworld.com"
             .queryURL(path: "/search/?l=25&s=start_time&sd=desc&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=%s")
 
         
-        Site("https://tungfresh.co")
+        "https://tungfresh.co"
             .queryURL(path: "/search?q=%s&options%5Bprefix%5D=last")
         
-        Site("https://turo.com")
+        "https://turo.com"
         
-        Site("https://home.tusculum.edu")
+        "https://home.tusculum.edu"
             .queryURL(path: "/search/index.php?q=%s")
         
         // #TV
         
-        Site("https://www.tva.gov")
+        "https://www.tva.gov"
             .queryURL(path: "/Search-Results?vgnextkeyword=%s")
         
-        Site("https://www.tvguide.com")
+        "https://www.tvguide.com"
             .queryURL(path: "/search/?keyword=%s")
         
-        Site("https://tvline.com")
+        "https://tvline.com"
             .queryURL(path: "/results/#?q=%s")
         
         
         // #TW
         
-        Site("https://www.tweaktown.com")
+        "https://www.tweaktown.com"
             .queryURL(path: "/cse/?q=%s")
         
-        Site("https://tweedlefarms.com")
+        "https://tweedlefarms.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://www.twelvesouth.com")
+        "https://www.twelvesouth.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://twentytwowords.com")
+        "https://twentytwowords.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.twillory.com")
+        "https://www.twillory.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://twistedvoxel.com")
+        "https://twistedvoxel.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.twitch.tv")
+        "https://www.twitch.tv"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://twitter.com")
+        "https://twitter.com"
             .queryURL(path: "/search?f=tweets&q=%s&src=typed_query")
         
-        Site("https://twobrokewatchsnobs.com")
+        "https://twobrokewatchsnobs.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.twopeasandtheirpod.com")
+        "https://www.twopeasandtheirpod.com"
             .queryURL(path: "/?s=%s")
         
         
         // #TXS
 
-        Site("https://www.txstate.edu")
+        "https://www.txstate.edu"
             .queryURL(path: "/search/#q=%s")
         
         
         // #TY
         
-        Site("https://www.tymestyle.com")
+        "https://www.tymestyle.com"
             .queryURL(path: "/search?type=product%2Carticle%2Cpage&q=%s")
         
         
         // #TYP
         
-        Site("https://www.typeform.com")
+        "https://www.typeform.com"
         
-        Site("https://www.typography.com")
+        "https://www.typography.com"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://www.typewolf.com")
+        "https://www.typewolf.com"
         
-        Site("https://www.tysonfoods.com")
+        "https://www.tysonfoods.com"
             .queryURL(path: "/search?search=%s")
         
         
         // #TZ
         
     }
+    
 }

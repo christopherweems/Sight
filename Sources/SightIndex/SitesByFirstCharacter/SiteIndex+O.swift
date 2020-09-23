@@ -14,96 +14,96 @@ internal extension SiteIndex {
         // #O1
         // #OA
         
-        Site("https://www.oakley.com")
+        "https://www.oakley.com"
             .queryURL(path: "/en-us/search?text=%s")
         
-        Site("https://www.oakleysi.com")
+        "https://www.oakleysi.com"
             .queryURL(path: "/en-us/search?text=%s")
         
-        Site("https://www.oann.com")
+        "https://www.oann.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.oaoa.com")
+        "https://www.oaoa.com"
             .queryURL(path: "/search/?t=article&s=start_time&sd=desc&q=%s")
         
-        Site("https://www.oasis-stores.com")
+        "https://www.oasis-stores.com"
             .queryURL(path: "/us/search?q=%s")
         
         
         // #OB
         
-        Site("https://obeyclothing.com")
+        "https://obeyclothing.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://observer.com")
+        "https://observer.com"
             .queryURL(path: "/?s=%s")
         
         
         // #OC
         
-        Site("https://www.oceanvoyagesinstitute.org")
+        "https://www.oceanvoyagesinstitute.org"
         
-        Site("https://www.oclc.org")
+        "https://www.oclc.org"
             .queryURL(path: "/en/search-results.html#q=%s")
         
-        Site("https://www.ocm.com")
+        "https://www.ocm.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ocregister.com")
+        "https://www.ocregister.com"
             .queryURL(path: "/?s=%s&orderby=date&order=desc")
         
         
         // #OD
         
-        Site("https://www.odeon.co.uk")
+        "https://www.odeon.co.uk"
         
-        Site("https://www.odfl.com")
+        "https://www.odfl.com"
             .queryURL(path: "/Search/Search.faces?newSearchTerm=%s")
         
         
         // #OE
         
-        Site("http://www.oecd.org")
+        "http://www.oecd.org"
             .queryURL(path: "/general/searchresults/?q=%s")
         
-        Site("https://www.oed.com")
+        "https://www.oed.com"
         
         
         // #OF
         
-        Site("https://www.officedepot.com")
+        "https://www.officedepot.com"
             .queryURL(path: "/catalog/search.do?Ntt=%s")
         
-        Site("https://www.ofracosmetics.com")
+        "https://www.ofracosmetics.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
         
         // #OG
         
-        Site("https://www.ogio.com")
+        "https://www.ogio.com"
             .queryURL(path: "/on/demandware.store/Sites-OGIO-Site/en_US/Search-Show?q=%s&cgid=results")
         
         
         // #OGL
         
-        Site("https://www.oglaf.com")
+        "https://www.oglaf.com"
         
         
         // #OH
         // #OHI
-
-        Site("https://ohiostatebuckeyes.com")
         
-        Site("https://ohmyveggies.com")
+        "https://ohiostatebuckeyes.com"
+        
+        "https://ohmyveggies.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://ohsheglows.com")
+        "https://ohsheglows.com"
             .queryURL(path: "/search_results/?q=%s")
         
-        Site("https://ohtsu-tires.com")
+        "https://ohtsu-tires.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.ohuhu.com")
+        "https://www.ohuhu.com"
             .queryURL(path: "/search?word=%s")
         
         
@@ -111,233 +111,233 @@ internal extension SiteIndex {
         // #OJ
         // #OK
         
-        Site("https://www.okta.com")
+        "https://www.okta.com"
             .queryURL(path: "/search/#q=%s")
         
         
         // #OL
         
-        Site("https://www.olay.com")
+        "https://www.olay.com"
             .queryURL(path: "/search.php?search_query=%s")
         
-        Site("https://www.oldpueblotraders.com")
+        "https://www.oldpueblotraders.com"
             .queryURL(path: "/search?search-type=user-generated&query=%s")
         
-        Site("https://olemisssports.com")
+        "https://olemisssports.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
-                
-        Site("https://www.oliso.com")
+        
+        "https://www.oliso.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.olloclip.com")
+        "https://www.olloclip.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.olympedia.org")
+        "https://www.olympedia.org"
         
-        Site("https://olympstats.com")
+        "https://olympstats.com"
             .queryURL(path: "/?s=%s")
         
         
         // #OM
         
-        Site("https://www.omen.com")
+        "https://www.omen.com"
         
-        Site("https://www.omgubuntu.co.uk")
+        "https://www.omgubuntu.co.uk"
             .queryURL(path: "/?s=%s")
         
         
         // #ON
         
-        Site("https://www.onehanesplace.com")
+        "https://www.onehanesplace.com"
             .queryURL(path: "/shop/SearchDisplay?categoryId=89551&doorId=4&storeId=10705&catalogId=11054&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q&pageView=&beginIndex=0&pageSize=20&searchTerm=%s")
         
-        Site("https://oneill.com")
+        "https://oneill.com"
             .queryURL("https://us.oneill.com/search?type=product&q=%s", locale: .unitedStates())
         
-        Site("https://www.onelovedbabe.com")
+        "https://www.onelovedbabe.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.onepiece.com")
+        "https://www.onepiece.com"
             .queryURL(path: "/en-us/shop/search/algoliaresult?query=%s")
         
-        Site("https://www.onlineamishfurniture.com")
+        "https://www.onlineamishfurniture.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
-        Site("https://www.onlineathens.com")
+        "https://www.onlineathens.com"
             .queryURL(path: "/search?text=%s")
         
-        Site("https://www.onlinefabricstore.net")
+        "https://www.onlinefabricstore.net"
             .queryURL(path: "/hsearchresult.aspx?keyword=%s")
         
-        Site("https://onna.com")
+        "https://onna.com"
         
-        Site("https://www.onmsft.com")
+        "https://www.onmsft.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.onnit.com")
+        "https://www.onnit.com"
             .queryURL(path: "/search/?q=%s")
         
-        Site("http://onsfoundation.org")
+        "http://onsfoundation.org"
         
-        Site("https://onwardstate.com")
+        "https://onwardstate.com"
             .queryURL(path: "/?s=%s")
         
         
         // #OO
         
-        Site("https://www.ooly.com")
+        "https://www.ooly.com"
             .queryURL(path: "/pages/search-results-page?q=%s")
         
-        Site("https://ooni.com")
+        "https://ooni.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ootpdevelopments.com")
+        "https://www.ootpdevelopments.com"
         
         
         // #OP
         
-        Site("https://www.opb.org")
+        "https://www.opb.org"
             .queryURL(path: "/news/search/?q=%s")
         
-        Site("https://www.opel.com")
+        "https://www.opel.com"
         
-        Site("https://openbazaar.com")
+        "https://openbazaar.com"
             .queryURL(path: "/discover/results?q=%s")
         
-        Site("https://openfoodfacts.org")
+        "https://openfoodfacts.org"
             .queryURL("https://us.openfoodfacts.org/cgi/search.pl?search_terms=%s", locale: .unitedStates())
         
-        Site("https://www.openingceremony.com")
+        "https://www.openingceremony.com"
             .queryURL(path: "/search.html?q=%s")
         
-        Site("https://www.opensky.com")
+        "https://www.opensky.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://opensourc.es")
+        "https://opensourc.es"
         
-        Site("https://opensource.org")
+        "https://opensource.org"
             .queryURL(path: "/search/node/%s")
         
-        Site("https://www.openstreetmap.org")
+        "https://www.openstreetmap.org"
             .queryURL(path: "/search?query=%s")
         
-        Site("https://openweathermap.org")
+        "https://openweathermap.org"
             .queryURL(path: "/find?q=%s")
         
-        Site("https://www.opi.com")
+        "https://www.opi.com"
             .queryURL(path: "/site-search?search_api_views_fulltext=%s")
         
-        Site("https://www.opposuits.com")
+        "https://www.opposuits.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://opusartsupplies.com")
+        "https://opusartsupplies.com"
             .queryURL(path: "/?s=%s")
         
         
         // #OQ
         // #OR
         
-        Site("https://orchardmile.com")
+        "https://orchardmile.com"
             .queryURL(path: "/search?term=%s")
         
-        Site("https://www.oregonartsupply.com")
+        "https://www.oregonartsupply.com"
             .queryURL(path: "/SearchResults.asp?Search=%s")
         
-        Site("https://www.oreillyauto.com")
+        "https://www.oreillyauto.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.orientaltrading.com")
+        "https://www.orientaltrading.com"
             .queryURL(path: "/web/search/searchMain?keyword=%s")
         
-        Site("https://www.originalpenguin.com")
+        "https://www.originalpenguin.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://orionmagazine.org")
+        "https://orionmagazine.org"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.orlandosentinel.com")
+        "https://www.orlandosentinel.com"
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
-        Site("https://orlybeauty.com")
+        "https://orlybeauty.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.ornl.gov")
+        "https://www.ornl.gov"
             .queryURL(path: "/search-results#stq=%s")
         
-        Site("https://www.orvis.com")
+        "https://www.orvis.com"
             .queryURL(path: "/store/product_search_promote.aspx?keyword=%s")
         
         
         // #OS
         
-        Site("https://www.oscardelarenta.com")
+        "https://www.oscardelarenta.com"
             .queryURL(path: "/search?q=%s")
         
-        Site("https://www.oshkosh.com")
+        "https://www.oshkosh.com"
             .queryURL(path: "/on/demandware.store/Sites-Carters-Site/default/Search-Show?q=%s")
         
-        Site("https://www.osu.edu")
+        "https://www.osu.edu"
             .queryURL(path: "/search.html?query=%s")
         
-        Site("https://osxdaily.com")
+        "https://osxdaily.com"
             .queryURL(path: "/gsearch/?q=%s")
         
         
         // #OT
         
-        Site("https://www.otterbox.com")
+        "https://www.otterbox.com"
             .queryURL(path: "/en-us/search?q=%s")
         
         
         // #OU
         
-        Site("http://www.ou.edu")
+        "http://www.ou.edu"
             .queryURL(path: "/web/search?q=%s")
         
-        Site("https://ourbestbites.com")
+        "https://ourbestbites.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://global.oup.com")
+        "https://global.oup.com"
         
-        Site("http://www.outdoorknoxville.com")
+        "http://www.outdoorknoxville.com"
             .queryURL(path: "/component/search/?searchword=%s")
         
-        Site("https://www.outdoorphotographer.com")
+        "https://www.outdoorphotographer.com"
             .queryURL(path: "/?s=%s")
         
-        Site("https://www.outdoorvoices.com")
+        "https://www.outdoorvoices.com"
             .queryURL(path: "/search?type=product&q=%s")
         
-        Site("https://www.outerbanks.org")
+        "https://www.outerbanks.org"
             .queryURL(path: "/search/?q=%s")
         
-        Site("https://www.outerknown.com")
+        "https://www.outerknown.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
-        Site("https://www.outlookindia.com")
+        "https://www.outlookindia.com"
         
-        Site("https://www.outsideonline.com")
+        "https://www.outsideonline.com"
             .queryURL(path: "/bcse/search/%s?keys=")
         
         
         // #OV
         
-        Site("https://www.overstock.com")
+        "https://www.overstock.com"
             .queryURL(path: "/%s,/k,/results.html")
         
-        Site("https://www.ovh.com")
+        "https://www.ovh.com"
         
         
         // #OW
         // #OX
         
-        Site("https://www.oxo.com")
+        "https://www.oxo.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         
         // #OY
         
-        Site("http://www.oyageninc.com")
+        "http://www.oyageninc.com"
             .queryURL(path: "/wordpress/?s=%s")
         
         // #OZ
