@@ -31,6 +31,7 @@ public struct Site: Hashable, Identifiable {
         assert(rootURLString.contains(schemeSeparator), "root url must contain scheme")
         assert(!rootURLString.hasSuffix("/"), "root url `\(rootURLString)` cannot contain path components")
     }
+    
 }
 
 extension Site: Iffable, Wrappable { }
@@ -112,6 +113,7 @@ internal extension Site {
         case fullURLQuery(parts: [String])
         
     }
+    
 }
 
 internal extension Site {
@@ -148,5 +150,7 @@ internal extension Site {
                 return nil
             }
         }
+        
     }
+    
 }

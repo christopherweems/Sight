@@ -16,6 +16,9 @@ public extension Site {
         // `co.uk` or `com.au` counts as one domain part
         public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3 `ebay.co.uk` == 2
         
+        
+        // MARK: - Initializers
+        
         public init(stringLiteral value: StringLiteralType) {
             self.init(value)
         }
@@ -36,8 +39,11 @@ public extension Site {
                 firstPrivateDomain = String(stringValue)
                 
             }
+            
         }
+        
     }
+    
 }
 
 public extension Site.Authority {
@@ -46,6 +52,7 @@ public extension Site.Authority {
     func contains<SP>(_ substring: SP) -> Bool where SP : StringProtocol {
         [subdomainPrefix, firstPrivateDomain].contains { $0?.contains(substring) == true }
     }
+    
 }
 
 fileprivate extension String {
@@ -66,6 +73,7 @@ fileprivate extension String {
         
         return parts
     }
+    
 }
 
 fileprivate extension Array {
@@ -73,10 +81,12 @@ fileprivate extension Array {
         let penultimateIndex = index(endIndex, offsetBy: -2)
         return self[penultimateIndex]
     }
+    
 }
 
 fileprivate extension Set {
     init(_ elements: Element...) {
         self = .init(elements)
     }
+    
 }
