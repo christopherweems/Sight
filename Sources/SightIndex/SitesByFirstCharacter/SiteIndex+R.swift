@@ -321,6 +321,8 @@ internal extension SiteIndex {
         "https://www.roadrunnersports.com"
             .queryURL(path: "/rrs/search/?Query=%s")
         
+        "https://www.roadsnacks.net"
+        
         "https://www.roamans.com"
             .queryURL(path: "/search?q=%s")
         
@@ -400,6 +402,7 @@ internal extension SiteIndex {
         "https://www.rosenskincare.com"
             .queryURL(path: "/search?q=%s")
         
+        
         // #ROT
         
         "https://www.rottentomatoes.com"
@@ -409,6 +412,12 @@ internal extension SiteIndex {
             .queryURL(path: "/search.php?sport=All&term=%s")
         
         "http://www.rouge18.com"
+            .queryURL(path: "/?s=%s")
+        
+        
+        // #ROW
+        
+        "https://rowant.co.uk"
             .queryURL(path: "/?s=%s")
         
         "https://www.rowdygentleman.com"

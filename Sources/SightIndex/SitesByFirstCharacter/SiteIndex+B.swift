@@ -325,6 +325,8 @@ internal extension SiteIndex {
         
         "https://botsentinel.com"
         
+        "https://boulderrealestatenews.com"
+        
         
         // #BOW
         

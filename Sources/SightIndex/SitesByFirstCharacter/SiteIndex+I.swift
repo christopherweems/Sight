@@ -282,6 +282,8 @@ internal extension SiteIndex {
         
         // #IP
         
+        "https://ipfs.io"
+        
         "https://iphonephotographyschool.com"
             .queryURL(path: "/?s=%s")
         

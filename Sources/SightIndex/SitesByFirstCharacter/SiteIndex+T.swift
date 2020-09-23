@@ -963,6 +963,9 @@ internal extension SiteIndex {
         
         // #TS
         
+        "https://www.tsbrass.com"
+            .queryURL(path: "/search/%s")
+        
         "https://tshf.net"
             .queryURL(path: "/?s=%s")
         

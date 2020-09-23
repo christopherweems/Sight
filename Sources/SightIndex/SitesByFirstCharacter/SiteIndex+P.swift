@@ -98,11 +98,17 @@ internal extension SiteIndex {
         "https://www.pastryaffair.com"
             .queryURL(path: "/search?q=%s")
         
+        
+        // #PAT
+        
         "https://www.patagonia.com"
             .queryURL(path: "/search/?q=%s")
         
         "https://www.patarashoes.com"
             .queryURL(path: "/search?type=product&q=%s")
+        
+        "https://www.pattersonsappliances.com"
+            .queryURL(path: "/search/%s")
         
         "https://www.patmcgrath.com"
             .queryURL(path: "/search?q=%s&type=product")
@@ -403,6 +409,9 @@ internal extension SiteIndex {
         
         "https://www.potterybarnkids.com"
             .queryURL(path: "/search/results.html?words=%s")
+        
+        "https://www.powertrainproducts.net"
+            .queryURL(path: "/SearchResults.asp?Search=%s&Submit=Submit")
         
         
         // #PP

@@ -214,6 +214,8 @@ internal extension SiteIndex {
         "https://secondnature.org"
             .queryURL(path: "/library?_search=%s")
         
+        "https://secret.club"
+        
         "https://www.secsports.com"
             .queryURL(path: "/search?q=%s")
         

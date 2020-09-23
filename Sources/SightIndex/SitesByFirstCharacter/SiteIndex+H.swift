@@ -315,6 +315,9 @@ internal extension SiteIndex {
         "https://www.holmesproducts.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://www.hokaoneone.com"
+            .queryURL(path: "/search/?q=%s")
+        
         "https://www.hookem.com"
             .queryURL(path: "/?s=%s")
         

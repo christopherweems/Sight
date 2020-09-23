@@ -241,6 +241,8 @@ internal extension SiteIndex {
         // #FK
         // #FL
         
+        "https://www.flairespresso.com"
+        
         "https://www.flare.com"
             .queryURL(path: "/?s=%s")
         

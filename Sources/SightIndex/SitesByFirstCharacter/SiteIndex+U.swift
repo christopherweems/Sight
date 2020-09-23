@@ -111,6 +111,8 @@ internal extension SiteIndex {
         "https://ukathletics.com"
             .queryURL(path: "/searchresults.aspx?&q=%s&sa=Search&cof=FORID%3A11#1141")
         
+        "http://en.ukuh.cz"
+        
         
         // #UL
         
@@ -288,6 +290,8 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         "https://urbint.com"
+        
+        "https://app.urlgeni.us"
         
         
         // #US

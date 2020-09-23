@@ -192,6 +192,9 @@ internal extension SiteIndex {
         
         // #CHI
         
+        "https://www.chicagofaucetshoppe.com"
+            .queryURL(path: "/searchresults.asp?Submit=Go&Search=%s")
+        
         "https://www.chicagotribune.com"
             .queryURL(path: "/search/%s/100-y/ALL/score/1/?")
         
@@ -245,6 +248,9 @@ internal extension SiteIndex {
         "https://www.citizensbank.com"
             .queryURL(path: "/search/overview.aspx?searchText=%s")
         
+        "https://www.citizensforethics.org"
+            .queryURL(path: "/?s=%s")
+        
         "https://citylifestyle.com"
             .queryURL(path: "/search-results?term=%s")
         
@@ -252,6 +258,9 @@ internal extension SiteIndex {
             .queryURL(path: "/Search?searchPhrase=%s")
         
         "https://cityviewmag.com"
+            .queryURL(path: "/?s=%s")
+        
+        "https://ciw-online.org"
             .queryURL(path: "/?s=%s")
         
         
@@ -345,17 +354,22 @@ internal extension SiteIndex {
         
         "https://codewithchris.com"
         
+        "https://cohub.com"
+        
         
         // #COI
+        
+        "https://www.coindesk.com"
+            .queryURL(path: "/search?q=%s")
+        
+        "https://www.coingecko.com"
+                
+        "https://blog.coinmarketcap.com"
+            .queryURL(path: "/?s=%s")
         
         "https://coinspice.io"
             .queryURL(path: "/?s=%s")
         
-        "https://blog.coinmarketcap.com"
-            .queryURL(path: "/?s=%s")
-        
-        "https://www.coindesk.com"
-            .queryURL(path: "/search?q=%s")
         
         
         // #COL

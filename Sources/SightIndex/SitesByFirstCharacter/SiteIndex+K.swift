@@ -61,6 +61,8 @@ internal extension SiteIndex {
         "https://www.katvondbeauty.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://kawaius.com"
+        
         "https://www.kay.com"
             .queryURL(path: "/search/?text=%s")
         

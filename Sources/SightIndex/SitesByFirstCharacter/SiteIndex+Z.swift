@@ -32,6 +32,8 @@ internal extension SiteIndex {
         "https://www.zara.com"
             .queryURL(path: "/us/en/search?searchTerm=%s")
         
+        "https://www.zayo.com"
+        
         
         // #ZB
         // #ZC

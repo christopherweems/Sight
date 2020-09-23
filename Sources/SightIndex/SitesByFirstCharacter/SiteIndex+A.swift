@@ -320,6 +320,8 @@ internal extension SiteIndex {
         
         "http://www.americangeode.com"
         
+        "https://www.amiba.net"
+        
         "https://www.amnh.org"
             .queryURL(path: "/content/search?SearchText=%s")
         
@@ -400,7 +402,7 @@ internal extension SiteIndex {
         // #APP
         
         "https://forums.developer.apple.com"
-            .queryURL(path: "/search.jspa?q=%s")
+            .queryURL("https://developer.apple.com/forums/search/?q=%s")
         
         "https://developer.apple.com"
             .queryURL(path: "/search/?q=%s")
@@ -413,6 +415,9 @@ internal extension SiteIndex {
         
         "https://appleinsider.com"
             .queryURL(path: "/search/?query=%s")
+        
+        "https://appletoolbox.com"
+            .queryURL(path: "/?s=%s")
         
         "https://applypixels.com"
         
@@ -520,6 +525,9 @@ internal extension SiteIndex {
         "https://asweetspoonful.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www.aswm.org"
+            .queryURL(path: "/component/search/?searchword=%s&searchphrase=all&Itemid=283")
+        
         
         // #AT
         
@@ -578,6 +586,9 @@ internal extension SiteIndex {
         
         
         // #AV
+        
+        "https://www.avanderlee.com"
+            .queryURL(path: "/?s=%s&id=1190")
         
         "https://news.avclub.com"
             .queryURL(path: "/search?blogId=1636027099&q=%s")

@@ -576,6 +576,9 @@ internal extension SiteIndex {
         "https://www.wusa9.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://math.wustl.edu"
+            .queryURL(path: "/search?search_api_views_fulltext=%s&search=Search")
+        
         "https://www.wutc.org"
             .queryURL(path: "/search/google/%s")
         

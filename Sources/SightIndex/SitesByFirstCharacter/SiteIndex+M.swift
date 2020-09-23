@@ -631,6 +631,9 @@ internal extension SiteIndex {
         // #MQ
         // #MR
         
+        "https://mrmacintosh.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.mrsec.com"
         
         

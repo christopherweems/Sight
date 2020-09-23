@@ -42,6 +42,9 @@ internal extension SiteIndex {
         
         "https://www.narscosmetics.com"
             .queryURL(path: "/USA/search?q=%s", locale: .unitedStates())
+                
+        
+        // #NAS
         
         "https://store.nascar.com"
             .queryURL(path: "/?query=%s")
@@ -49,14 +52,14 @@ internal extension SiteIndex {
         "https://www.nasdaq.com"
             .queryURL(path: "/search?q=%s&page=1&sort_by=relevant")
         
-        
-        // #NAS
-        
         "https://www.nashvilledowntown.com"
             .queryURL(path: "/search.php?kw=%s")
         
         "https://www.nastygal.com"
             .queryURL(path: "/search?q=%s")
+        
+        
+        // #NAT
         
         "https://www.natashatherobot.com"
         
@@ -73,6 +76,9 @@ internal extension SiteIndex {
         
         "https://www.nationalgrocers.org"
             .queryURL(path: "/?s=%s&submit=Search")
+        
+        "https://www.naturalarearugs.com"
+            .queryURL(path: "/search-results/?search_query_adv=%s")
         
         "https://www.nature.com"
             .queryURL(path: "/search?q=%s")

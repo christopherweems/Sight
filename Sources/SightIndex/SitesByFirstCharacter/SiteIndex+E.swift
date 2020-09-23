@@ -121,6 +121,9 @@ internal extension SiteIndex {
         
         
         // #EG
+        
+        "https://www.egeniq.com"
+        
         // #EH
         
         "https://www.ehow.com"
