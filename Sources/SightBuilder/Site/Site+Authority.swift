@@ -53,13 +53,13 @@ public extension Site.Authority {
         [subdomainPrefix, firstPrivateDomain].contains { $0?.contains(substring) == true }
     }
     
-    static func ==(lhs: Self, rhs: String) -> Bool {
+    static func ==<SP>(lhs: Self, rhs: SP) -> Bool where SP: StringProtocol {
         [lhs.subdomainPrefix, lhs.firstPrivateDomain]
             .compactMap { $0 }
             .joined() == rhs
     }
     
-    static func ==(lhs: String, rhs: Self) -> Bool {
+    static func ==<SP>(lhs: SP, rhs: Self) -> Bool where SP: StringProtocol {
         rhs == lhs // flip of operator definition above
     }
     
