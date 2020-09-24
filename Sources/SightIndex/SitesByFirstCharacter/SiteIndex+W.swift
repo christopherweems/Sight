@@ -161,8 +161,9 @@ internal extension SiteIndex {
         
         "https://www.weathertech.com"
         
-        "https://www.wunderground.com"
         
+        // #WB
+                
         "https://products.weaverleathersupply.com"
             .queryURL(path: "/search?ts=custom&w=%s")
                 

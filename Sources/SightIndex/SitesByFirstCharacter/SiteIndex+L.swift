@@ -145,6 +145,9 @@ internal extension SiteIndex {
         "http://www.lg.com"
             .queryURL(path: "/us/search.lg?search=%s", locale: .unitedStates())
         
+        "https://lgtm.com"
+            .queryURL(path: "/search?q=%s")
+        
         
         // #LH
         

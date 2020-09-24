@@ -270,8 +270,6 @@ internal extension SiteIndex {
         // #BLOH
         // #BLOO
         
-        
-        
         "http://www.bloodpressureuk.org"
             .queryURL(path: "/Search/w_search_searchresultspage_pav_e?SearchableText=%s")
         
@@ -351,6 +349,9 @@ internal extension SiteIndex {
         // #BR
         
         "https://www.branchfurniture.com"
+        
+        "https://bravenewcoin.com"
+            .queryURL(path: "/search?search=%s")
         
         "https://braverobot.co"
         

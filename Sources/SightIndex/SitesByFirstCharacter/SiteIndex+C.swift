@@ -189,6 +189,9 @@ internal extension SiteIndex {
         "https://www.chevrolet.com"
             .queryURL(path: "/site-search?q=%s")
         
+        "https://www.chewy.com"
+            .queryURL(path: "/s?query=%s")
+        
         
         // #CHI
         
@@ -271,6 +274,9 @@ internal extension SiteIndex {
         
         "https://www.classichits1027.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://claytonandcrume.com"
+            .queryURL(path: "/search?type=product&q=%s")
         
         
         // #CLE
@@ -359,6 +365,10 @@ internal extension SiteIndex {
         
         // #COI
         
+        "https://www.coinbase.com"
+        
+        "https://pro.coinbase.com"
+        
         "https://www.coindesk.com"
             .queryURL(path: "/search?q=%s")
         
@@ -369,6 +379,9 @@ internal extension SiteIndex {
         
         "https://coinspice.io"
             .queryURL(path: "/?s=%s")
+        
+        "https://cointelegraph.com"
+            .queryURL(path: "/search?query=%s")
         
         
         
@@ -480,13 +493,25 @@ internal extension SiteIndex {
         
         // #CR
         
+        "https://www.craftdirect.com"
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
         "https://crafthtv.com"
             .queryURL(path: "/search?q=%s")
+        
+        "https://www.craftoutlet.com"
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         "https://www.craftsman.com"
             .queryURL(path: "/products?ukeywords=%s")
         
+        "https://craftwarehouse.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.crash.net"
+        
+        "https://www.createforless.com"
+            .queryURL(path: "/search/results.aspx?txtSearch=%s")
         
         "https://www.createroom.com"
             .queryURL(path: "/search?q=%s&type=product")
@@ -517,6 +542,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?query=%s")
         
         "https://crunchk.com"
+        
+        "https://www.cryptolinenews.com"
+            .queryURL(path: "/?s=%s")
         
         
         // #CS
