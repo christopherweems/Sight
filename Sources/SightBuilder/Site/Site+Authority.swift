@@ -46,6 +46,15 @@ public extension Site {
     
 }
 
+extension Site.Authority: CustomStringConvertible {
+    public var description: String {
+        [subdomainPrefix, firstPrivateDomain]
+            .compactMap { $0 }
+            .joined()
+    }
+    
+}
+
 public extension Site.Authority {
     var isEmpty: Bool { firstPrivateDomain.isEmpty }
     
