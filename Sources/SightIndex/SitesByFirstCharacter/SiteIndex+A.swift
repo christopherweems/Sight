@@ -457,8 +457,20 @@ internal extension SiteIndex {
         "https://www.arm.com"
             .queryURL(path: "/Search?q=%s")
         
+        
+        // #ARN
+        
+        "https://www.arnoldporter.com"
+            .queryURL(path: "/en/sitesearch?keyword=%s", language: .english)
+        
+        
+        // #ARS
+        
         "https://arstechnica.com"
             .queryURL(path: "/search/?ie=UTF-8&q=%s")
+        
+        
+        // #ART
         
         "https://www.art.com"
             .queryURL(path: "/asp/search_do.asp/_/posters.htm?searchstring=%s")

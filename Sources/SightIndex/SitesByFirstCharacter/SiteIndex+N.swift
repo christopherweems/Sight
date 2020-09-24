@@ -77,6 +77,9 @@ internal extension SiteIndex {
         "https://www.nationalgrocers.org"
             .queryURL(path: "/?s=%s&submit=Search")
         
+        "https://www.naturaldiamonds.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.naturalarearugs.com"
             .queryURL(path: "/search-results/?search_query_adv=%s")
         
@@ -168,6 +171,9 @@ internal extension SiteIndex {
         
         "https://www.nemoequipment.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://www.neogaf.com"
+            .queryURL(path: "/search/1567753/?q=%s&o=relevance")
         
         "https://www.nestfragrances.com"
             .queryURL(path: "/search/?q=%s")
