@@ -321,6 +321,9 @@ internal extension SiteIndex {
         
         // #GO
         
+        "https://abcnews.go.com"
+            .queryURL(path: "/search?searchtext=%s")
+        
         "https://freeform.go.com"
         
         "https://gobattlers.com"
