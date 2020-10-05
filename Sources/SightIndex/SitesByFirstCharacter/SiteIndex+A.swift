@@ -635,6 +635,7 @@ internal extension SiteIndex {
             .queryURL(path: "/us/en/search.html?q=%s&fq=&Locale=en_us&BrandName=axe", locale: .unitedStates())
         
         "https://www.axios.com"
+            .queryURL(path: "/results?q=%0")
         
         "http://www.axs.tv"
             .queryURL(path: "/?s=%s")
