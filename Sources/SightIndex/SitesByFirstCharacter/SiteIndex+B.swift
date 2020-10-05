@@ -99,6 +99,9 @@ internal extension SiteIndex {
         
         "https://www.bbb.org"
         
+        "https://www.bbc.co.uk"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.bbc.com"
             .queryURL("https://www.bbc.co.uk/search?q=%s")
         
