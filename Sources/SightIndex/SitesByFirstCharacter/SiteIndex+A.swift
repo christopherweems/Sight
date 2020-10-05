@@ -303,6 +303,9 @@ internal extension SiteIndex {
         
         "http://amandamayphotosblog.com"
         
+        "https://amazon.com"
+            .queryURL(path: "/s?k=%s")
+        
         "https://aws.amazon.com"
             .queryURL(path: "/search/?searchQuery=%s")
         
