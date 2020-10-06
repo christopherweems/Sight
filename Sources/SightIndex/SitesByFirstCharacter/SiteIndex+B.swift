@@ -47,6 +47,9 @@ internal extension SiteIndex {
         
         // #BAN
         
+        "https://bandcamp.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.bandlab.com"
         
         "https://www.bannersociety.com"
@@ -64,6 +67,9 @@ internal extension SiteIndex {
         "https://www.bareminerals.com"
             .queryURL(path: "/on/demandware.store/Sites-BareMinerals_US_CA-Site/en_US/Search-Show?q=%s&lang=en_US", locale: .unitedStates())
         
+        "https://www.barenecessities.com"
+            .queryURL(path: "/search.aspx?search=%s&action=true&ft=1")
+        
         "https://www.barnebys.com"
             .queryURL(path: "/auctions/%s.html")
         
@@ -79,6 +85,9 @@ internal extension SiteIndex {
         
         // #BAS
         
+        "https://www.baseblu.com"
+            .queryURL(path: "/en/jxsearch?search_categories=2&search_query=%s&jx_submit_search=", language: .english)
+        
         "https://www.basebutter.com"
         
         "https://basecamp.com"
@@ -90,6 +99,12 @@ internal extension SiteIndex {
         
         "https://www.bathandbodyworks.com"
             .queryURL(path: "/s?q=%s")
+        
+        
+        // #BAU
+        
+        "https://www.baubax.com"
+            .queryURL(path: "/search?type=product&q=%s")
         
         "https://baylorbears.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
@@ -152,7 +167,13 @@ internal extension SiteIndex {
         
         // #BEL
         
+        "https://www.belladahl.com"
+            .queryURL(path: "/pages/search-results?q=%s")
+        
         "https://bellroy.com"
+            .queryURL(path: "/search?q=%s")
+        
+        "https://www.beltoutlet.com"
             .queryURL(path: "/search?q=%s")
         
         "https://beneathyourmask.com"
@@ -163,6 +184,9 @@ internal extension SiteIndex {
         
         "https://www.benjaminmoore.com"
         
+        "https://www.bergdorfgoodman.com"
+            .queryURL(path: "/search/?from=brSearch&responsive=true&request_type=search&search_type=keyword&q=%s&l=%s&fl=")
+        
         "https://berghoffworldwide.com"
             .queryURL(path: "/bgh_en_int/catalogsearch/result/?q=%s")
         
@@ -171,6 +195,9 @@ internal extension SiteIndex {
         
         "https://www.bet.com"
             .queryURL(path: "/searchresults.html?q=%s")
+        
+        "https://betseyjohnson.com"
+            .queryURL(path: "/pages/search-results?q=%s")
         
         
         // #BF
@@ -197,12 +224,18 @@ internal extension SiteIndex {
         "https://www.bhcosmetics.com"
             .queryURL(path: "/pages/search-results?q=%s")
         
+        "https://www.bhldn.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.bhphotovideo.com"
             .queryURL(path: "/c/search?Ntt=%s")
         
         // #BI
         
         "http://bible-api.com"
+        
+        "https://www.bigdogs.com"
+            .queryURL(path: "/search?type=product&q=NOT+tag%3A__gift+AND+%s*&product_type=")
         
         "https://bigten.org"
             .queryURL(path: "/searchresults.aspx?q=%s")
@@ -240,6 +273,9 @@ internal extension SiteIndex {
         // #BL
         
         "https://www.blackgirlsunscreen.com"
+        
+        "https://www.blackhalo.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.blackheartgoldpants.com"
             .queryURL(path: "/search?q=%s")
@@ -282,7 +318,11 @@ internal extension SiteIndex {
         "https://news.bloomberglaw.com"
             .queryURL(path: "/us-law-week/search?query=%s")
         
+        
         // #BLU
+        
+        "https://www.bluefly.com"
+            .queryURL(path: "/pages/search-results-page?q=%s")
         
         "https://www.blueridgenow.com"
             .queryURL(path: "/search?text=%s&start=1")
@@ -301,11 +341,23 @@ internal extension SiteIndex {
         
         // #BO
         
+        "https://www.bogner.com"
+            .queryURL(path: "/en-us/catalogsearch/result/?q=%s")
+        
         "https://boingboing.net"
             .queryURL(path: "/?s=%s")
         
+        
+        // #BON
+        
         "https://www.bona.co.za"
             .queryURL(path: "/?s=%s")
+        
+        "https://www.bonanza.com"
+            .queryURL(path: "/items/search?q[search_term]=%s")
+        
+        "https://bonobos.com"
+            .queryURL(path: "/search?term=%s")
         
         "https://boohoo.com"
             .queryURL("https://us.boohoo.com/search?q=%s", locale: .unitedStates())
@@ -316,6 +368,9 @@ internal extension SiteIndex {
         "https://www.bornandraisedknox.com"
         
         "https://www.boston.com"
+        
+        "https://www.bostonglobe.com"
+            .queryURL(path: "/search/?q=%s&p1=BGMenu_Search")
         
         "http://www.bostonsdeals.com"
         
@@ -381,6 +436,9 @@ internal extension SiteIndex {
         "https://brobible.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www.brooksbrothers.com"
+            .queryURL(path: "/on/demandware.store/Sites-brooksbrothers-Site/default/Search-Show?q=%s")
+        
         "https://www.brown.edu"
             .queryURL(path: "/search?q=%s")
         
@@ -411,7 +469,15 @@ internal extension SiteIndex {
         "https://bu.edu"
             .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bu.edu&context=site&q=%s&do_search=%s")
         
+        /*
+        "https://www.bumc.bu.edu/busm/"
+            .queryURL("https://search.bu.edu/?site=https%3A%2F%2Fwww.bumc.bu.edu%2Fbusm&context=site&q=%s&do_search=Search")
+        */
+        
         "https://www.budget.com"
+        
+        "https://www.buffalojeans.com"
+            .queryURL(path: "/en/search/?text=%s", language: .english)
         
         "https://www.buick.com"
         
@@ -458,6 +524,9 @@ internal extension SiteIndex {
         
         "https://www.buydig.com"
             .queryURL(path: "/shop/list/keyword/%s")
+        
+        "https://www.buzzfeed.com"
+            .queryURL(path: "/search?q=%s")
         
         // #BV
         // #BW

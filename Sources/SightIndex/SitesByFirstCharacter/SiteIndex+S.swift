@@ -453,6 +453,9 @@ internal extension SiteIndex {
         "https://www.siobeauty.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://sixcolors.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.sixityauto.com"
             .queryURL(path: "/search?q=%s")
         
@@ -627,6 +630,9 @@ internal extension SiteIndex {
         "https://www.somethingawful.com"
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #SON
+        
         "https://www.songkick.com"
             .queryURL(path: "/search?query=%s")
         
@@ -712,6 +718,12 @@ internal extension SiteIndex {
         
         "https://www.spin.com"
             .queryURL(path: "/?s=%s")
+        
+        
+        // #SPL
+        
+        "https://www.splendid.com"
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         "https://www.splits59.com"
             .queryURL(path: "/search?type=product&q=%s")
@@ -949,6 +961,9 @@ internal extension SiteIndex {
         
         "https://www.surlatable.com"
             .queryURL(path: "/search/search.jsp?Ntt=%s")
+        
+        "https://suva.edu"
+            .queryURL(path: "/?s=%s")
         
         "https://www.suvabeauty.com"
             .queryURL(path: "/search?q=%s")

@@ -334,6 +334,9 @@ internal extension SiteIndex {
         "https://www.usnews.com"
             .queryURL(path: "/search/news?q=%s#gsc.tab=0&gsc.q=%s&gsc.page=1")
         
+        "https://uspoloassn.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://usports.ca"
         
         "https://www.usu.edu"
@@ -365,6 +368,9 @@ internal extension SiteIndex {
         
         
         // #UTK
+        
+        "https://www.utk.edu"
+            .queryURL("https://google.tennessee.edu/search?q=%s&output=xml_no_dtd&oe=UTF-8&ie=UTF-8&ud=1&site=Knoxville&client=utk_translate_docpreview_sc_frontend&entqr=3&qtype=utk&proxystylesheet=utk_translate_docpreview_sc_frontend&btnG=Search")
         
         "https://www.utkaoii.com"
         
@@ -399,6 +405,9 @@ internal extension SiteIndex {
             .queryURL(path: "/site-search?search_text=%s")
         
         // #UW
+        
+        "https://uwa.edu.au"
+            .queryURL("http://apps.weboffice.uwa.edu.au/site-search/?site=search&hl=en&thisurl=www.uwa.edu.au&query=search&words=%s")
         
         "https://www.uwsta.com"
         .queryURL(path: "/catalogsearch/result/?q=%s")

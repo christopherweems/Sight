@@ -115,6 +115,9 @@ internal extension SiteIndex {
         "https://www.cbr.com"
             .queryURL(path: "/search/%s/")
         
+        "https://www.cbsnews.com"
+            .queryURL(path: "/search/?q=%s")
+        
         "https://www.cbssports.com"
         
         
@@ -171,6 +174,9 @@ internal extension SiteIndex {
         
         // #CH
         
+        "https://www.champssports.com"
+            .queryURL(path: "/search?query=%s")
+        
         "https://www.charlotteobserver.com"
             .queryURL(path: "/search/?q=%s")
         
@@ -207,6 +213,9 @@ internal extension SiteIndex {
         "https://www.chick-fil-a.com"
         
         "https://www.chilitechnology.com"
+        
+        "https://www.chineselaundry.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.christmastreeassociation.org"
         
@@ -304,6 +313,12 @@ internal extension SiteIndex {
         "https://www.cloudflare.com"
         
         
+        // #CLU
+        
+        "https://www.clubmonaco.com"
+            .queryURL(path: "/en/search?q=%s", language: .english)
+        
+        
         // #CM
         
         "https://www.cmgresearch.com"
@@ -315,6 +330,9 @@ internal extension SiteIndex {
         
         
         // #CN
+        
+        "https://www.cn.edu"
+            .queryURL(path: "/search?keywords=%s")
         
         "https://www.cnbc.com"
             .queryURL(path: "/search/?query=%s")
@@ -360,6 +378,15 @@ internal extension SiteIndex {
         
         "https://codewithchris.com"
         
+        
+        // #COG
+        
+        "https://www.coggles.com"
+            .queryURL(path: "/elysium.search?search=%s")
+        
+        
+        // #COH
+        
         "https://cohub.com"
         
         
@@ -386,6 +413,9 @@ internal extension SiteIndex {
         
         
         // #COL
+        
+        "https://www.colehaan.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://colinkeeley.com"
             .queryURL(path: "/search?q=%s")
@@ -462,6 +492,9 @@ internal extension SiteIndex {
         "https://copykat.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www.corgisocks.com"
+            .queryURL(path: "/pages/search-results-page?q=%s")
+        
         "https://www.cosabella.com"
             .queryURL(path: "/index.php?page=seek&id%5Bm%5D=pattern&id%5Bq%5D=%s")
         
@@ -493,6 +526,9 @@ internal extension SiteIndex {
         
         // #CR
         
+        "https://www.cracked.com"
+            .queryURL(path: "/search/search.php?sa=search&q=%s")
+        
         "https://www.craftdirect.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
@@ -507,6 +543,9 @@ internal extension SiteIndex {
         
         "https://craftwarehouse.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://cranems.com"
+            .queryURL(path: "/Search?q=%s")
         
         "https://www.crash.net"
         
@@ -530,6 +569,9 @@ internal extension SiteIndex {
         
         
         // #CRO
+        
+        "https://www.crocs.com"
+            .queryURL(path: "/on/demandware.store/Sites-crocs_us-Site/default/Search-Show?q=%s", locale: .unitedStates())
         
         "https://www.crossborderxpress.com"
             .queryURL(path: "/?s=%s")
@@ -569,10 +611,22 @@ internal extension SiteIndex {
         "https://www.cultofmac.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www.cupshe.com"
+            .queryURL(path: "/search?q=%s*&type=product")
+        
+        
+        // #CUR
+        
+        "https://www.curbed.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://curlie.org"
         
         "https://www.currantdaily.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://www.currentelliott.com"
+            .queryURL(path: "/nsearch/?q=%s")
         
         "https://www.cutcutcraft.com"
             .queryURL(path: "/?s=%s")

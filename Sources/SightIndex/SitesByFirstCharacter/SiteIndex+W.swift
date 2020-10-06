@@ -352,6 +352,9 @@ internal extension SiteIndex {
         "https://www.wisegeek.com"
             .queryURL("https://s.wisegeek.com/s/?cx=001721306601487571258%3Axvwilsw1lpg&cof=FORID%3A10&ie=ISO-8859-1&q=%s")
         
+        "https://summerofcode.withgoogle.com"
+            .queryURL(path: "/archive/search/?q=%s")
+        
         "https://www.wivk.com"
             .queryURL(path: "/?s=%s")
         
@@ -502,6 +505,7 @@ internal extension SiteIndex {
         "https://www.wpxi.com"
             .queryURL(path: "/search/%s/1/")
         
+        
         // #WQ
         // #WR
         
@@ -549,6 +553,9 @@ internal extension SiteIndex {
         
         "https://www.wtfm.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://www.wtnzfox43.com"
+            .queryURL(path: "/search?qu=%s&num=5")
         
         
         // #WTO
@@ -607,6 +614,7 @@ internal extension SiteIndex {
         "http://www.wweek.com"
             .queryURL(path: "/search/%s/?q=%s")
         
+        
         // #WX
                                 
         "http://www.wxbq.com"
@@ -614,6 +622,11 @@ internal extension SiteIndex {
         
         
         // #WY
+        
+        "https://wyze.com"
+            .queryURL(path: "/catalogsearch/result/?q=%s")
+        
+        
         // #WZ
         
     }

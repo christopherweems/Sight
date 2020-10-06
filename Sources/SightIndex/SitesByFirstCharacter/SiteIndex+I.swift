@@ -266,6 +266,9 @@ internal extension SiteIndex {
         
         // #IO
         
+        "https://www.iol.co.za"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.iona.edu"
             .queryURL(path: "/search.aspx?searchtext=%s&searchmode=anyword")
         
@@ -319,6 +322,9 @@ internal extension SiteIndex {
         
         "https://www.istockphoto.com"
             .queryURL(path: "/photos/%s")
+        
+        "https://www.isuzu.co.jp"
+            .queryURL(path: "/world/SerchResult.html?q=%s")
         
         
         // #IT

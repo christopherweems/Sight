@@ -23,6 +23,9 @@ internal extension SiteIndex {
         "https://factrepublic.com"
             .queryURL(path: "/?s=%s")
         
+        "https://facts.net"
+            .queryURL(path: "/search/%s")
+        
         "https://www.fairvote.org"
         
         "https://falconeri.com"
@@ -95,6 +98,9 @@ internal extension SiteIndex {
         
         "https://www.fatherhood.gov"
             .queryURL(path: "/search?search_api_fulltext=%s")
+        
+        "https://fatwreck.com"
+            .queryURL(path: "/search?q=%s&type=product")
         
         "http://www.fau.edu"
             .queryURL(path: "/search/?q=%s")

@@ -115,10 +115,13 @@ internal extension SiteIndex {
             .queryURL(path: "/search/#q=%s")
         
         
-        // #OL
+        // #OLA
         
         "https://www.olay.com"
             .queryURL(path: "/search.php?search_query=%s")
+        
+        
+        // #OLD
         
         "https://www.oldpueblotraders.com"
             .queryURL(path: "/search?search-type=user-generated&query=%s")
@@ -230,6 +233,9 @@ internal extension SiteIndex {
         "https://www.opposuits.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://www.oprah.com"
+            .queryURL(path: "/search.html?q=%s")
+        
         "https://opusartsupplies.com"
             .queryURL(path: "/?s=%s")
         
@@ -275,6 +281,9 @@ internal extension SiteIndex {
         
         "https://www.oshkosh.com"
             .queryURL(path: "/on/demandware.store/Sites-Carters-Site/default/Search-Show?q=%s")
+        
+        "https://oslofreedomforum.com"
+            .queryURL(path: "/?s=%s")
         
         "https://www.osu.edu"
             .queryURL(path: "/search.html?query=%s")

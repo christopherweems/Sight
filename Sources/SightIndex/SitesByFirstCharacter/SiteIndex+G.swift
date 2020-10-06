@@ -179,6 +179,9 @@ internal extension SiteIndex {
         
         "https://getbevel.com"
         
+        "https://getchoosy.com"
+            .queryURL(path: "/search?type=product&q=*%s*")
+        
         "https://gethyperskin.com"
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -535,6 +538,9 @@ internal extension SiteIndex {
         
         "https://www.gwu.edu"
             .queryURL(path: "/gsearch/%s")
+        
+        "https://closet.gwynniebee.com"
+            .queryURL(path: "/search?q=%s")
         
         
         // #GX

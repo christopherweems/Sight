@@ -14,6 +14,9 @@ internal extension SiteIndex {
         // #A1
         // #AA
         
+        "https://www.aa.com"
+            .queryURL(path: "/search#?query=%s")
+        
         "http://www.aabb.org"
             .queryURL(path: "/Search/Pages/results.aspx?k=%s")
         
@@ -31,6 +34,10 @@ internal extension SiteIndex {
         
         "https://aaos.org"
             .queryURL(path: "/search/?q=%s")
+        
+        "https://www.aarons.com"
+            .queryURL(path: "/showsearch?q=%s&lang=default")
+
         
         
         // #ABA
@@ -57,6 +64,9 @@ internal extension SiteIndex {
         
         "https://abc7ny.com"
             .queryURL(path: "/search/?query=%s")
+        
+        "https://www.abercrombie.com"
+            .queryURL(path: "/shop/us/search?departmentCategoryId=10000&searchTerm=%s")
         
         "http://www.aboutnorthgeorgia.com"
             .queryURL(path: "/angsearch.html?cx=partner-pub-4663345822218311%3A2989421403&cof=FORID%3A10&q=%s")
@@ -97,6 +107,9 @@ internal extension SiteIndex {
         "https://actblue.com"
             .queryURL("https://secure.actblue.com/directory?query=%s")
         
+        "https://www.activerideshop.com"
+            .queryURL(path: "/pages/search-results-page?q=%s")
+        
         "https://www.acura.com"
             .queryURL(path: "/search-results?q=%s")
         
@@ -128,6 +141,9 @@ internal extension SiteIndex {
         "https://www.adorncosmetics.com.au"
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
+        "https://www.adriannapapell.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.advanceautoparts.com"
             .queryURL("https://shop.advanceautoparts.com/web/PartSearchCmd?storeId=10151&catalogId=10051&langId=-1&pageId=partTypeList&actionSrc=Form&searchTerm=%s")
         
@@ -151,6 +167,9 @@ internal extension SiteIndex {
         
         "https://www.ae.com"
             .queryURL(path: "/us/en/s/%s", locale: .unitedStates())
+        
+        "https://aeon.co"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.aetv.com"
             .queryURL(path: "/search?q=%s")
@@ -246,6 +265,9 @@ internal extension SiteIndex {
         
         "https://www.allelitewrestling.com"
         
+        "https://allswellhome.com"
+            .queryURL(path: "/search?q=%s&type=product")
+        
         "https://www.aljazeera.com"
             .queryURL(path: "/Search/?q=%s")
         
@@ -274,6 +296,9 @@ internal extension SiteIndex {
         "https://www.allmusic.com"
             .queryURL(path: "/search/all/%s")
         
+        "https://www.alloyapparel.com"
+            .queryURL(path: "/search?q=%s&type=product")
+        
         "https://www.allrecipes.com"
             .queryURL(path: "/search/results/?wt=%s&sort=re")
         
@@ -287,6 +312,9 @@ internal extension SiteIndex {
         // #ALO
         
         "https://www.alonetogether.com"
+        
+        "https://www.altardstate.com"
+            .queryURL(path: "/search-page/?q=%s&lang=default")
         
         "https://www.altpress.com"
             .queryURL(path: "/?s=%s")
@@ -323,6 +351,9 @@ internal extension SiteIndex {
         
         "http://www.americangeode.com"
         
+        "https://www.amgen.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.amiba.net"
         
         "https://www.amnh.org"
@@ -340,6 +371,15 @@ internal extension SiteIndex {
             .queryURL(path: "/SearchResults?q=%s")
         
         "https://www.anchorbooks.com"
+        
+        "https://aninews.in"
+            .queryURL(path: "/search/?query=%s")
+        
+        "https://anniecloth.com"
+            .queryURL(path: "/search?q=%s")
+        
+        "https://www.ansys.com"
+            .queryURL(path: "/search?keyword=%s")
         
         
         // #AND
@@ -404,6 +444,9 @@ internal extension SiteIndex {
         
         // #APP
         
+        "https://www.appaman.com"
+            .queryURL(path: "/search?type=product&q=%s")
+        
         "https://forums.developer.apple.com"
             .queryURL("https://developer.apple.com/forums/search/?q=%s")
         
@@ -430,8 +473,14 @@ internal extension SiteIndex {
         "https://appstatesports.com"
             .queryURL(path: "/searchresults.aspx?cx=016306950182310286156%3Abuhobbh90pk&q=%s")
         
+        "https://apsu.edu"
+            .queryURL(path: "/search?q=%s")
+        
         
         // #AR
+        
+        "https://www.ariat.com"
+            .queryURL(path: "/search?q=%s&lang=en_US")
         
         "https://www.arbonne.com"
         
@@ -512,6 +561,9 @@ internal extension SiteIndex {
         "http://ashevilleblog.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www.asics.com"
+            .queryURL(path: "/us/en-us/search/?q=%s")
+        
         "https://www.ask.com"
             .queryURL(path: "/web?q=%s")
         
@@ -529,6 +581,12 @@ internal extension SiteIndex {
         "https://www.aspire.tv"
             .queryURL(path: "/?s=%s")
         
+        "https://www.astrogaming.com"
+            .queryURL(path: "/en-us/search.html?q=%s", locale: .unitedStates())
+        
+        "https://www.astrthelabel.com"
+            .queryURL(path: "/search?q=%s&type=product")
+        
         "https://www.astonmartin.com"
         
         "https://www.astrobrights.com"
@@ -536,6 +594,9 @@ internal extension SiteIndex {
         
         "https://gcse.asu.edu"
             .queryURL(path: "/search/google/%s")
+        
+        "https://asurams.edu"
+            .queryURL(path: "/search/index.php?q=%s")
         
         "https://asweetspoonful.com"
             .queryURL(path: "/?s=%s")

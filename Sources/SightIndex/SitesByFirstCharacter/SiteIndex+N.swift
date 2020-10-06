@@ -383,6 +383,8 @@ internal extension SiteIndex {
         // #NL
         // #NM
         
+        "https://www.nme.com"
+            .queryURL(path: "/?s=%s")
         
         "https://home-p.nmsu.edu"
             .queryURL(path: "/search_results.html?q=%s")
@@ -410,6 +412,9 @@ internal extension SiteIndex {
         
         "https://www.noodles.com"
             .queryURL(path: "/?s=%s")
+        
+        "https://noracora.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.nordkeyboards.com"
         

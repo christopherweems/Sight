@@ -225,6 +225,9 @@ internal extension SiteIndex {
         
         
         // #DI
+        
+        "https://dia.com"
+            .queryURL("https://shop.dia.com/search?q=%s&button=")
             
         "https://www.dickblick.com"
             .queryURL(path: "/search/?q=%s")
@@ -450,6 +453,9 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s&submit=Search")
         
         "https://dronebase.com"
+        
+        "https://dronedj.com"
+            .queryURL(path: "/?s=%s")
         
         "https://www.dronenerds.com"
             .queryURL(path: "/catalogsearch/result/?q=%s")

@@ -193,6 +193,9 @@ internal extension SiteIndex {
         "https://lily.com"
             .queryURL(path: "/?s=%s")
         
+        
+        // #LIN
+        
         "https://www.lindtusa.com"
             .queryURL(path: "/SearchDisplay?searchTerm=%s")
         
@@ -216,6 +219,12 @@ internal extension SiteIndex {
          "https://www.linkedin.com"
          .queryURL(path: "/jobs/search?keywords=%s")
          */
+        
+        "https://www.linksys.com"
+            .queryURL(path: "/us/search?text=%s", locale: .unitedStates())
+        
+        "https://www.linode.com"
+            .queryURL(path: "/search/%s")
         
         "https://www.linuxfoundation.org"
         
@@ -378,6 +387,9 @@ internal extension SiteIndex {
         // #LU
         
         "https://lucidmotors.com"
+        
+        "https://luckyandme.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.luckybrand.com"
             .queryURL(path: "/search?q=%s")
