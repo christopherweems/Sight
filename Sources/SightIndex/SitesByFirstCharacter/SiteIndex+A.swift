@@ -462,6 +462,9 @@ internal extension SiteIndex {
         "https://appleinsider.com"
             .queryURL(path: "/search/?query=%s")
         
+        "https://www.appleseeds.com"
+            .queryURL(path: "/search?search-type=user-generated&query=%s")
+        
         "https://appletoolbox.com"
             .queryURL(path: "/?s=%s")
         
