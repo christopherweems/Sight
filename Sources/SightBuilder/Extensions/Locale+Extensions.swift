@@ -40,5 +40,9 @@ public extension Locale {
     static func unitedStates(language: Language = .english) -> Locale {
         .init(identifier: "\(language.rawValue)_US")
     }
+    
+    static func unitedKingdom(language: Language = .english) -> Locale {
+        .init(identifier: "\(language.rawValue)_UK")
+    }
         
 }
