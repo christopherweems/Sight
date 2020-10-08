@@ -17,6 +17,10 @@ public extension Locale {
         
     }
     
+    static func austria(language: Language = .german) -> Locale {
+        .init(identifier: "\(language.rawValue)_AT")
+    }
+    
     static func chile(language: Language = .spanish) -> Locale {
         .init(identifier: "\(language.rawValue)_CL")
     }
