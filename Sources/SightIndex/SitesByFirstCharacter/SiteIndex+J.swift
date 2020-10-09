@@ -129,6 +129,8 @@ internal extension SiteIndex {
         "https://www.jellystore.com"
             .queryURL(path: "/search?q=%s")
         
+        "http://jerrysadowitz.com"
+        
         "https://www.jesrestaurantequipment.com"
             .queryURL(path: "/search.asp?keyword=%s")
         
