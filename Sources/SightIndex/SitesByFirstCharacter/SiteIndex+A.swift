@@ -373,8 +373,11 @@ internal extension SiteIndex {
         "https://www.anandtech.com"
             .queryURL(path: "/SearchResults?q=%s")
         
+        /*
+         // redirects
         "https://www.anchorbooks.com"
-        
+        */
+ 
         "https://aninews.in"
             .queryURL(path: "/search/?query=%s")
         
@@ -383,6 +386,9 @@ internal extension SiteIndex {
         
         "https://www.ansys.com"
             .queryURL(path: "/search?keyword=%s")
+        
+        "https://www.anntaylor.com"
+            .queryURL(path: "/search/searchResults.jsp?question=%s")
         
         
         // #AND
