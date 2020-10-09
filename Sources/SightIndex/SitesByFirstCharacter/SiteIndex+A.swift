@@ -337,6 +337,9 @@ internal extension SiteIndex {
         "https://aws.amazon.com"
             .queryURL(path: "/search/?searchQuery=%s")
         
+        "https://smile.amazon.com"
+            .queryURL(path: "/s?k=%s")
+        
         "https://ambcrypto.com"
             .queryURL(path: "/?s=%s")
         
