@@ -174,6 +174,9 @@ internal extension SiteIndex {
         
         // #CH
         
+        "https://www.chalktalksports.com"
+            .queryURL(path: "/search?cgid=cts&q=%s")
+        
         "https://www.champssports.com"
             .queryURL(path: "/search?query=%s")
         
