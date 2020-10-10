@@ -19,7 +19,7 @@ internal extension SiteIndex {
         // #XB
         
         "https://www.xbox.com"
-            .queryURL(path: "/en-us/Search?q=%s")
+            .queryURL(path: "/en-us/Search?q=%s", locale: .unitedStates())
         
         
         // #XC
@@ -35,7 +35,7 @@ internal extension SiteIndex {
         "https://www.xfinity.com"
         
         "https://www.xfl.com"
-            .queryURL(path: "/en-US/search?search=%s")
+            .queryURL(path: "/en-US/search?search=%s", locale: .unitedStates())
         
         
         // #XG

@@ -80,7 +80,7 @@ internal extension SiteIndex {
         "https://yetanotherdevblog.com"
         
         "https://www.yeti.com"
-            .queryURL(path: "/en_US/search?q=%s&lang=en_US")
+            .queryURL(path: "/en_US/search?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://blog.yeticheese.com"
         

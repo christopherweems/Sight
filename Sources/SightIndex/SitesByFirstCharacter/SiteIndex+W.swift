@@ -154,7 +154,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?type=product&q=%s")
         
         "https://weather.com"
-            .queryURL(path: "/en-US/search/enhancedlocalsearch?where=%s&loctypes=1/4/5/9/11/13/19/21/1000/1001/1003/")
+            .queryURL(path: "/en-US/search/enhancedlocalsearch?where=%s&loctypes=1/4/5/9/11/13/19/21/1000/1001/1003/", locale: .unitedStates())
         
         "https://forecast.weather.gov"
             .queryURL(path: "/zipcity.php?inputstring=%s")
@@ -183,8 +183,11 @@ internal extension SiteIndex {
         "https://welltraveledmile.com"
             .queryURL(path: "/?s=%s")
         
+        "https://www-de.wera.de"
+            .queryURL(path: "/nc/de/suche/?id=150&tx_kesearch_pi1%5Bsword%5D=%s", language: .german)
+        
         "https://www-us.wera.de"
-            .queryURL(path: "/nc/en/search/?tx_kesearch_pi1%5Bsword%5D=%s")
+            .queryURL(path: "/nc/en/search/?tx_kesearch_pi1%5Bsword%5D=%s", language: .english)
         
         "https://www.wesh.com"
             .queryURL(path: "/search?q=%s")

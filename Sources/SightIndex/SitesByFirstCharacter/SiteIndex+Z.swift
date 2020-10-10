@@ -21,7 +21,7 @@ internal extension SiteIndex {
             .queryURL(path: "/s/%s/")
         
         "https://www.zagg.com"
-            .queryURL(path: "/en_us/catalogsearch/result/?q=%s")
+            .queryURL(path: "/en_us/catalogsearch/result/?q=%s", locale: .unitedStates())
         
         "https://www.zales.com"
             .queryURL(path: "/search/?text=%s")
@@ -30,7 +30,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?term=%s")
         
         "https://www.zara.com"
-            .queryURL(path: "/us/en/search?searchTerm=%s")
+            .queryURL(path: "/us/en/search?searchTerm=%s", locale: .unitedStates())
         
         "https://www.zayo.com"
         
