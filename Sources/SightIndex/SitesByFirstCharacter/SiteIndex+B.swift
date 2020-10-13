@@ -430,6 +430,9 @@ internal extension SiteIndex {
         "https://www.britannica.com"
             .queryURL(path: "/search?query=%s")
         
+        "https://www.britishairways.com"
+            .queryURL(path: "/travel/searchba/public/en_us/?p_search_text=%s")
+        
         
         // #BRO
         

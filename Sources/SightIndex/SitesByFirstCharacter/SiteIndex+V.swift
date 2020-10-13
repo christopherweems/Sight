@@ -83,6 +83,9 @@ internal extension SiteIndex {
         
         "https://www.versionmuseum.com"
         
+        "https://versusboardgames.com"
+            .queryURL(path: "/search.php?search_query_adv=%s")
+        
         "https://www.verywellmind.com"
             .queryURL(path: "/search?q=%s")
         

@@ -381,6 +381,9 @@ internal extension SiteIndex {
         "https://aninews.in"
             .queryURL(path: "/search/?query=%s")
         
+        "https://annecole.com"
+            .queryURL("/search?query=%s")
+        
         "https://anniecloth.com"
             .queryURL(path: "/search?q=%s")
         
@@ -658,6 +661,9 @@ internal extension SiteIndex {
         
         "https://www.augustsage.com"
             .queryURL(path: "/search?q=%s")
+        
+        "https://aukey.com"
+            .queryURL(path: "/search?word=%s")
         
         "http://www.autoanything.com"
             .queryURL(path: "/shop/%s")

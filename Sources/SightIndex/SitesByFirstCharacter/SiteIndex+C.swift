@@ -183,6 +183,9 @@ internal extension SiteIndex {
         "https://www.charlotteobserver.com"
             .queryURL(path: "/search/?q=%s")
         
+        "https://charlotterusse.com"
+            .queryURL(path: "/search?q=%s")
+        
         "http://chattanoogacw.com"
             .queryURL(path: "/search?find=%s")
         

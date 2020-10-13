@@ -411,6 +411,9 @@ internal extension SiteIndex {
         "https://www.dove.com"
             .queryURL(path: "/us/en/search.html?q=%s")
         
+        "https://store.doverpublications.com"
+            .queryURL("https://doverpublications.ecomm-search.com/search?keywords=%s")
+        
         
         // #DP
         
