@@ -140,6 +140,9 @@ internal extension SiteIndex {
         "https://www.hbo.com"
             .queryURL(path: "/searchresults?q=%s")
         
+        "https://hbr.org"
+            .queryURL(path: "/search?search_type=&term=%s")
+        
         "https://hbx.com"
             .queryURL(path: "/search?q=%s")
         
