@@ -998,6 +998,9 @@ internal extension SiteIndex {
         
         "https://swiftpackageindex.com"
         
+        "https://swiftpackageregistry.com"
+            .queryURL(path: "/search?term=%s")
+        
         "https://www.swiglife.com"
             .queryURL(path: "/search?q=%s")
         
