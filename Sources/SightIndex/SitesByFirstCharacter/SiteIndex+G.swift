@@ -353,6 +353,9 @@ internal extension SiteIndex {
         
         "https://goodguydaniel.com"
         
+        "https://www.goodmorningamerica.com"
+            .queryURL(path: "/search?search-term=%s")
+        
         "https://www.goodreads.com"
             .queryURL(path: "/search?query=%s")
         
