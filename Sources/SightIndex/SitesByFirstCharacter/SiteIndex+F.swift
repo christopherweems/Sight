@@ -447,6 +447,9 @@ internal extension SiteIndex {
         "https://freshieandzero.com"
             .queryURL(path: "/search?type=product&q=%s")
         
+        "https://www.freshdirect.com"
+            .queryURL(path: "/srch.jsp?searchParams=%s")
+        
         "https://www.freshpair.com"
             .queryURL(path: "/search?findify_q=%s")
         
