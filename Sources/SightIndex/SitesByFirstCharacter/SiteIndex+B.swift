@@ -190,6 +190,9 @@ internal extension SiteIndex {
         "https://berghoffworldwide.com"
             .queryURL(path: "/bgh_en_int/catalogsearch/result/?q=%s")
         
+        "https://www.bestbuy.com"
+            .queryURL(path: "/site/searchpage.jsp?st=%s")
+        
         "https://www.bestusedtires.com"
             .queryURL(path: "/shop?search_query=%s")
         
