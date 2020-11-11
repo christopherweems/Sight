@@ -639,6 +639,9 @@ internal extension SiteIndex {
         
         // #ATL
         
+        "https://www.atl.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.atlassian.com"
             .queryURL(path: "/search?q=%s")
         

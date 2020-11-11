@@ -91,6 +91,9 @@ internal extension SiteIndex {
         "https://www.saturdaysnyc.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://savannahairport.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.save-on-crafts.com"
             .queryURL(path: "/catalogsearch/result/?f=%s")
         
