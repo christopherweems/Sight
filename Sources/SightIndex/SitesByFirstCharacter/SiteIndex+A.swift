@@ -313,6 +313,12 @@ internal extension SiteIndex {
         
         "https://www.alonetogether.com"
         
+        
+        // #ALP
+        
+        "https://www.alpa.org"
+            .queryURL(path: "/pages/search#q=%s")
+        
         "https://www.altardstate.com"
             .queryURL(path: "/search-page/?q=%s&lang=default")
         
