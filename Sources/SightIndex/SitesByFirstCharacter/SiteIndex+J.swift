@@ -29,6 +29,9 @@ internal extension SiteIndex {
         "https://www.jacksonsart.com"
             .queryURL(path: "/search/?q=%s")
         
+        "https://www.jacksonholeairport.com"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.jacksonville.com"
             .queryURL(path: "/search?text=%s")
         
