@@ -277,8 +277,8 @@ internal extension SiteIndex {
         "https://www.who.int"
             .queryURL(path: "/search?query=%s")
         
-        "https://products.wholefoodsmarket.com"
-            .queryURL(path: "/search?sort=relevance&text=%s")
+        "https://wholefoodsmarket.com"
+            .queryURL("https://products.wholefoodsmarket.com/search?sort=relevance&text=%s")
         
         "https://www.wholelattelove.com"
             .queryURL(path: "/search?type=product&q=%s")
