@@ -359,6 +359,9 @@ internal extension SiteIndex {
         "https://www.bonanza.com"
             .queryURL(path: "/items/search?q[search_term]=%s")
         
+        "https://www.bonappetit.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://bonobos.com"
             .queryURL(path: "/search?term=%s")
         
