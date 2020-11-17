@@ -29,7 +29,7 @@ internal class SiteSet {
                 return wwwPrefixed.value
             }
             
-            return firstPrivateDomainMatches.first?.value
+            return nil
         }
     }
     
