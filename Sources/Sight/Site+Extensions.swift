@@ -5,7 +5,7 @@
 //  Created by Christopher Weems on 6/18/20.
 //
 
-import SightBuilder
+@_exported import struct SightBuilder.Site
 import SightIndex
 
 // MARK: - ExpressibleByStringLiteral conformance
