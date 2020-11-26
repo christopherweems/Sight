@@ -24,8 +24,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.2.1"),
-        .package(url: "https://github.com/christopherweems/unstandard.git", .branch("main")),
+        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMajor(from: "0.3.1")),
+        .package(url: "https://github.com/christopherweems/unstandard.git", .upToNextMajor(from: "0.0.6")),
         
     ],
     targets: [
