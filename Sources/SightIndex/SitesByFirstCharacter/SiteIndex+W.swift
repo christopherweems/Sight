@@ -263,9 +263,6 @@ internal extension SiteIndex {
         
         "https://whatwg.org"
         
-        "https://map.what3words.com"
-            .queryURL(path: "/%s")
-        
         "https://wherearetheblackdesigners.com"
         
         "https://www.whiteandwarren.com"
