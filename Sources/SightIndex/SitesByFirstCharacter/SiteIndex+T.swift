@@ -486,6 +486,9 @@ internal extension SiteIndex {
         "https://www.thenorthface.com"
             .queryURL(path: "/shop/VFSearchDisplay?catalogId=20001&storeId=7001&langId=-1&searchTerm=%s")
         
+        "https://thenounproject.com"
+            .queryURL(path: "/search/?q=%s")
+        
         
         // #THEO
         
