@@ -219,9 +219,6 @@ internal extension SiteIndex {
         "https://www.restorationhardware.com"
             .queryURL(path: "/search/results.jsp?Ntt=%s")
         
-        "https://resy.com"
-            .queryURL(path: "/?query=%s")
-        
         "https://www.retailmenot.com"
             .queryURL(path: "/s/%s")
         
