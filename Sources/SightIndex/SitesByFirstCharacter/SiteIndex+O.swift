@@ -210,6 +210,9 @@ internal extension SiteIndex {
         "https://openfoodfacts.org"
             .queryURL("https://us.openfoodfacts.org/cgi/search.pl?search_terms=%s", locale: .unitedStates())
         
+        "https://www.opentable.com"
+            .queryURL(path: "/s?term=%s")
+        
         "https://www.openingceremony.com"
             .queryURL(path: "/search.html?q=%s")
         
