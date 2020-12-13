@@ -49,6 +49,9 @@ internal extension SiteIndex {
         "https://kassatex.com"
             .queryURL(path: "/search?type=product&q=%s")
         
+        "https://katbus.com"
+            .queryURL(path: "/Search?searchPhrase=%s")
+        
         "https://www.katespade.com"
             .queryURL(path: "/search?q=%s")
         
