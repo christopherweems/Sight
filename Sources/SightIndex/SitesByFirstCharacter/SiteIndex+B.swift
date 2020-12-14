@@ -295,6 +295,12 @@ internal extension SiteIndex {
             .queryURL(path: "/search.php?search_query=%s")
         
         
+        // #BLM
+        
+        "https://www.blm.gov"
+            .queryURL("https://search.usa.gov/search?query=%s&op=Search&affiliate=blm.govdrupal")
+        
+        
         // #BLOG
         
         "https://www.blog.google"
