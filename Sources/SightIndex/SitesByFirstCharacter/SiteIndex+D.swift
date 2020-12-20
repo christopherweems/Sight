@@ -303,6 +303,8 @@ internal extension SiteIndex {
         "https://www.diyphotography.net"
             .queryURL(path: "/?s=%s")
         
+        "http://www.dizzyfrinks.com"
+            .queryURL(path: "/?s=%s")
         
         // #DJ
         
