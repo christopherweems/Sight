@@ -114,6 +114,9 @@ internal extension SiteIndex {
         "https://shop.mango.com"
             .queryURL(path: "/us/search?kw=%s")
         
+        "https://www.mapquest.com"
+            .queryURL(path: "/search/results?query=%s")
+        
         "https://marca.com"
             .queryURL("https://cgi.marca.com/buscador/archivo_marca.html?q=%s", locale: .spain())
         
