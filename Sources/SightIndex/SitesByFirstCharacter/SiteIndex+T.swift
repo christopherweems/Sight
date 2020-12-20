@@ -599,6 +599,9 @@ internal extension SiteIndex {
         "https://www.theverge.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://thevinylfactory.com"
+            .queryURL(path: "/?s=%s")
+        
         
         // #THEW
         
