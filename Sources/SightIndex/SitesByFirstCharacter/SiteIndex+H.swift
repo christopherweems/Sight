@@ -98,6 +98,9 @@ internal extension SiteIndex {
         "https://www.harveynichols.com"
             .queryURL(path: "/int/search/%s/")
         
+        "https://babyalive.hasbro.com"
+            .queryURL(path: "/en-us/search?q=%s", locale: .unitedStates())
+        
         "https://www.hatcocaps.com"
             .queryURL(path: "/search?type=product&q=%s")
         
@@ -431,6 +434,9 @@ internal extension SiteIndex {
         
         "https://www.hukgear.com"
             .queryURL(path: "/search?type=product&q=%s")
+        
+        "http://www.huntingtonjuniorcollege.edu"
+            .queryURL(path: "/?searchtext=%s&searchmode=anyword")
         
         
         // #HV

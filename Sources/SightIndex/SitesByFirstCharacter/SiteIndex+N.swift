@@ -237,6 +237,9 @@ internal extension SiteIndex {
         "https://newrepublic.com"
             .queryURL(path: "/search?search=%s")
         
+        "https://www.newriver.edu"
+            .queryURL(path: "/?s=%s")
+        
         "https://www.news.com.au"
             .queryURL(path: "/search?q=%s")
         

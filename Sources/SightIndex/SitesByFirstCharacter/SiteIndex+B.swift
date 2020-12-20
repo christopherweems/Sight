@@ -64,6 +64,9 @@ internal extension SiteIndex {
         
         // #BAR
         
+        "https://barbellapparel.com"
+            .queryURL(path: "/search?type=product&q=%s")
+        
         "https://www.bareminerals.com"
             .queryURL(path: "/on/demandware.store/Sites-BareMinerals_US_CA-Site/en_US/Search-Show?q=%s&lang=en_US", locale: .unitedStates())
         
@@ -105,6 +108,9 @@ internal extension SiteIndex {
         
         "https://www.baubax.com"
             .queryURL(path: "/search?type=product&q=%s")
+        
+        "https://www.baublebar.com"
+            .queryURL(path: "/catalogsearch/result/?q=%s")
         
         "https://baylorbears.com"
             .queryURL(path: "/searchresults.aspx?q=%s")
@@ -183,6 +189,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         "https://www.benjaminmoore.com"
+            .queryURL(path: "/en-us/search?q=%s", locale: .unitedStates())
         
         "https://www.bergdorfgoodman.com"
             .queryURL(path: "/search/?from=brSearch&responsive=true&request_type=search&search_type=keyword&q=%s&l=%s&fl=")
@@ -198,6 +205,9 @@ internal extension SiteIndex {
         
         "https://www.bet.com"
             .queryURL(path: "/searchresults.html?q=%s")
+        
+        "https://www.bethanywv.edu"
+            .queryURL(path: "/?s=%s")
         
         "https://betseyjohnson.com"
             .queryURL(path: "/pages/search-results?q=%s")
@@ -232,6 +242,7 @@ internal extension SiteIndex {
         
         "https://www.bhphotovideo.com"
             .queryURL(path: "/c/search?Ntt=%s")
+        
         
         // #BI
         
@@ -371,8 +382,14 @@ internal extension SiteIndex {
         "https://bonobos.com"
             .queryURL(path: "/search?term=%s")
         
+        
+        // #BOO
+        
         "https://boohoo.com"
             .queryURL("https://us.boohoo.com/search?q=%s", locale: .unitedStates())
+        
+        "https://www.bootbarn.com"
+            .queryURL(path: "/search?q=%s")
         
         "https://www.boredpanda.com"
             .queryURL(path: "/?s=%s")
@@ -447,6 +464,9 @@ internal extension SiteIndex {
         
         
         // #BRO
+        
+        "https://www.broadleafbooks.com"
+            .queryURL(path: "/store/search?ss=%s")
         
         "https://brobible.com"
             .queryURL(path: "/?s=%s")

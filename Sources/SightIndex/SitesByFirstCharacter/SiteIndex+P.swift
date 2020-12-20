@@ -277,6 +277,9 @@ internal extension SiteIndex {
         
         "https://www.picknrg.com"
         
+        "https://www.pierpont.edu"
+            .queryURL(path: "/search/node/%s")
+        
         "https://www.pier1.com"
             .queryURL(path: "/on/demandware.store/Sites-pier1_us-Site/default/Search-Show?q=%s")
         

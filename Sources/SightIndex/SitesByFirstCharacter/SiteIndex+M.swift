@@ -141,6 +141,9 @@ internal extension SiteIndex {
         "https://www.marmot.com"
             .queryURL(path: "/search?globalsearch=%s")
         
+        "https://www.marshall.edu"
+            .queryURL(path: "/site-search/?q=%s")
+        
         "https://www.marshmallowpeeps.com"
             .queryURL(path: "/?s=%s")
         
@@ -215,6 +218,9 @@ internal extension SiteIndex {
             .queryURL(path: "/search?q=%s")
         
         "https://mcspro.com"
+        
+        "https://www.mctc.edu"
+            .queryURL(path: "/?s=%s")
         
         "http://www.mcubed.net"
         
