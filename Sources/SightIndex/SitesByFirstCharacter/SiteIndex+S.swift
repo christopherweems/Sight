@@ -453,6 +453,12 @@ internal extension SiteIndex {
         "https://singularityhub.com"
             .queryURL(path: "/search/?q=%s")
         
+        
+        // #SIR
+        
+        "https://www.siriusxm.com"
+            .queryURL(path: "/search?q=%s")
+        
         "https://www.siobeauty.com"
             .queryURL(path: "/search?q=%s")
         
