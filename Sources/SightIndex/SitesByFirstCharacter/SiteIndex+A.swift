@@ -626,6 +626,9 @@ internal extension SiteIndex {
         "https://www.ashleyfurniture.com"
             .queryURL(path: "/unxsearch/?q=%s")
         
+        "https://www.asheville.com"
+            .queryURL(path: "/?s=%s&submit=Search")
+        
         "http://ashevilleblog.com"
             .queryURL(path: "/?s=%s")
         
