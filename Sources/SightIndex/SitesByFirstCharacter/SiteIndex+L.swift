@@ -128,7 +128,7 @@ internal extension SiteIndex {
         "https://letsencrypt.org"
         
         "https://www.levi.com"
-            .queryURL(path: "/US/en_US/search/%s")
+            .queryURL(path: "/US/en_US/search/%s", locale: .unitedStates())
         
         "https://www.lexus.com"
             .queryURL(path: "/search?q=%s")

@@ -81,7 +81,7 @@ internal extension SiteIndex {
         // #OG
         
         "https://www.ogio.com"
-            .queryURL(path: "/on/demandware.store/Sites-OGIO-Site/en_US/Search-Show?q=%s&cgid=results")
+            .queryURL(path: "/on/demandware.store/Sites-OGIO-Site/en_US/Search-Show?q=%s&cgid=results", locale: .unitedStates())
         
         
         // #OGL

@@ -107,7 +107,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         "https://www.vice.com"
-            .queryURL(path: "/en_us/search?q=%s")
+            .queryURL(path: "/en_us/search?q=%s", locale: .unitedStates())
         
         "https://www.victorianlondon.org"
         
@@ -177,7 +177,7 @@ internal extension SiteIndex {
             .queryURL(path: "/Search?q=%s")
         
         "https://www.vitamix.com"
-            .queryURL(path: "/us/en_us/browse/s_%s/")
+            .queryURL(path: "/us/en_us/browse/s_%s/", locale: .unitedStates())
         
         "https://www.vixpaulahermanny.com"
             .queryURL(path: "/search?q=%s")

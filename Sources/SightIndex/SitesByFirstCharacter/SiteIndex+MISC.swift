@@ -59,7 +59,7 @@ internal extension SiteIndex {
             .queryURL(path: "/?s=%s")
         
         "https://www.3m.com"
-            .queryURL(path: "/3M/en_US/company-us/search/?Ntt=%s")
+            .queryURL(path: "/3M/en_US/company-us/search/?Ntt=%s", locale: .unitedStates())
         
         "https://3x1denim.com"
             .queryURL(path: "/search?q=%s")

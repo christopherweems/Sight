@@ -288,7 +288,7 @@ internal extension SiteIndex {
         // #ETH
         
         "https://www.ethanallen.com"
-            .queryURL(path: "/on/demandware.store/Sites-ethanallen-us-Site/en_US/Search-Show?q=%s&lang=en_US")
+            .queryURL(path: "/on/demandware.store/Sites-ethanallen-us-Site/en_US/Search-Show?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://ethereumworldnews.com"
             .queryURL(path: "/?s=%s")

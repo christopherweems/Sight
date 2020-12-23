@@ -460,7 +460,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?query=%s")
         
         "https://www.britishairways.com"
-            .queryURL(path: "/travel/searchba/public/en_us/?p_search_text=%s")
+            .queryURL(path: "/travel/searchba/public/en_us/?p_search_text=%s", locale: .unitedStates())
         
         
         // #BRO

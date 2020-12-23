@@ -268,7 +268,7 @@ internal extension SiteIndex {
             .queryURL(path: "/SearchDisplay?catalogId=14052&langId=-1&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&categoryId=&searchTerm=%s&storeId=13452&catalogId=14052&langId=-1&pageSize=24&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&searchSource=Q")
         
         "https://www.joseph-fashion.com"
-            .queryURL(path: "/en-gb/search?q=%s&lang=en_US")
+            .queryURL(path: "/en-gb/search?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://www.joulesusa.com"
             .queryURL(path: "/search/?text=%s")

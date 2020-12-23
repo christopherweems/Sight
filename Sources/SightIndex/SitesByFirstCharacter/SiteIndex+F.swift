@@ -149,7 +149,7 @@ internal extension SiteIndex {
             .queryURL(path: "/catalogsearch/result/?q=%s")
         
         "https://fein.com"
-            .queryURL(path: "/en_us/search-results/?query=%s")
+            .queryURL(path: "/en_us/search-results/?query=%s", locale: .unitedStates())
         
         "https://www.felina.com"
             .queryURL(path: "/pages/search-results?q=%s")
@@ -161,7 +161,7 @@ internal extension SiteIndex {
             .queryURL(path: "/us/search-results?async=false&q=%s")
         
         "https://auto.ferrari.com"
-            .queryURL(path: "/en_US/?s=%s")
+            .queryURL(path: "/en_US/?s=%s", locale: .unitedStates())
         
         "https://fetco.com"
             .queryURL(path: "/pl,search.html?s=%s&search_type=off&ilosc=8")
@@ -190,7 +190,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search/?q=%s")
         
         "https://www.figleaves.com"
-            .queryURL(path: "/us/search?q=%s&lang=en_US")
+            .queryURL(path: "/us/search?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://www.fila.com"
             .queryURL(path: "/search?q=%s")
@@ -454,7 +454,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?findify_q=%s")
         
         "https://www.frette.com"
-            .queryURL(path: "/en_US/search?q=%s")
+            .queryURL(path: "/en_US/search?q=%s", locale: .unitedStates())
         
         "https://froknowsphoto.com"
             .queryURL(path: "/?s=%s")

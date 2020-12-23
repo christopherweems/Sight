@@ -13,7 +13,7 @@ internal extension SiteIndex {
         // #G1
         
         "https://www.g-star.com"
-            .queryURL(path: "/en_us/search?q=%s")
+            .queryURL(path: "/en_us/search?q=%s", locale: .unitedStates())
         
         
         // #G2

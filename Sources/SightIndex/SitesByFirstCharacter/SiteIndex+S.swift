@@ -738,7 +738,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?type=product&q=%s")
         
         "https://www.splunk.com"
-            .queryURL(path: "/en_us/search.html?query=%s")
+            .queryURL(path: "/en_us/search.html?query=%s", locale: .unitedStates())
         
         "https://www.spoonforkbacon.com"
             .queryURL(path: "/?s=%s")
@@ -887,7 +887,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?type=product&q=%s")
         
         "https://www.stories.com"
-            .queryURL(path: "/en_usd/search.html?q=%s")
+            .queryURL(path: "/en_usd/search.html?q=%s", locale: .unitedStates())
         
         "https://stratechery.com"
             .queryURL(path: "/?s=%s")

@@ -156,7 +156,7 @@ internal extension SiteIndex {
             .queryURL(path: "/shop/?q=%s")
         
         "https://www.desigual.com"
-            .queryURL(path: "/en_US/search/?q=%s&lang=en_US")
+            .queryURL(path: "/en_US/search/?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://www.desmoinesregister.com"
             .queryURL(path: "/search/?q=%s")
@@ -262,7 +262,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search-term/%s?")
         
         "https://www.dior.com"
-            .queryURL(path: "/search/en_us/results?q=%s")
+            .queryURL(path: "/search/en_us/results?q=%s", locale: .unitedStates())
         
         "https://www.directbuy.com"
             .queryURL(path: "/product-search/?s=%s")
@@ -338,7 +338,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22%s%22%2C%22default_operator%22%3A%22AND%22%7D%7D%7D")
         
         "https://www.dockers.com"
-            .queryURL(path: "/US/en_US/search/%s")
+            .queryURL(path: "/US/en_US/search/%s", locale: .unitedStates())
         
         "https://www.dodge.com"
             .queryURL(path: "/find/searchresults.html?q=%s")

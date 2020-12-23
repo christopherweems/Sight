@@ -234,7 +234,7 @@ internal extension SiteIndex {
             .queryURL(path: "/s/search?q=%s")
         
         "https://www.intermixonline.com"
-            .queryURL(path: "/search?q=%s&lang=en_US")
+            .queryURL(path: "/search?q=%s&lang=en_US", locale: .unitedStates())
         
         "https://www.internetsociety.org"
             .queryURL(path: "/search/?q=%s")

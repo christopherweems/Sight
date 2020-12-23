@@ -390,7 +390,7 @@ internal extension SiteIndex {
             .queryURL(path: "/find/%s")
         
         "https://www.popsockets.com"
-            .queryURL(path: "/search?lang=en_US&q=%s")
+            .queryURL(path: "/search?lang=en_US&q=%s", locale: .unitedStates())
         
         "https://www.popularmechanics.com"
             .queryURL(path: "/search/?q=%s")

@@ -218,7 +218,7 @@ internal extension SiteIndex {
             .queryURL(path: "/search2.aspx?terms=%s")
         
         "https://www.hersheys.com"
-            .queryURL(path: "/york/en_us/search.html?q=%s")
+            .queryURL(path: "/york/en_us/search.html?q=%s", locale: .unitedStates())
         
         "https://www.hertz.com"
         
@@ -284,7 +284,7 @@ internal extension SiteIndex {
         // #HL
         
         "https://www2.hm.com"
-            .queryURL(path: "/en_us/search-results.html?q=%s")
+            .queryURL(path: "/en_us/search-results.html?q=%s", locale: .unitedStates())
         
         
         // #HM

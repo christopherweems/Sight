@@ -85,7 +85,7 @@ internal extension SiteIndex {
             .queryURL("https://us.targus.com/pages/search-results?q=%s", locale: .unitedStates())
         
         "https://tartecosmetics.com"
-            .queryURL(path: "/en_US/search?q=%s")
+            .queryURL(path: "/en_US/search?q=%s", locale: .unitedStates())
         
         "https://taskandpurpose.com"
             .queryURL(path: "/search?query=%s")
@@ -152,7 +152,7 @@ internal extension SiteIndex {
         // #TECH
         
         "https://www.tech21.com"
-            .queryURL(path: "/en_us/#q=%s")
+            .queryURL(path: "/en_us/#q=%s", locale: .unitedStates())
         
         "https://techcrunch.com"
             .queryURL("https://search.techcrunch.com/search;?p=%s")
