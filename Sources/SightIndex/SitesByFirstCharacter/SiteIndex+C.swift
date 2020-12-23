@@ -180,6 +180,9 @@ internal extension SiteIndex {
         "https://www.champssports.com"
             .queryURL(path: "/search?query=%s")
         
+        "https://www.charitynavigator.org"
+            .queryURL(path: "/index.cfm?keyword_list=%s&bay=search.results")
+        
         "https://www.charlotteobserver.com"
             .queryURL(path: "/search/?q=%s")
         
