@@ -17,7 +17,7 @@ public extension Site {
         public let domainPartCount: Int // ex. duckduckgo.com == 2, en.wikipedia.org == 3 `ebay.co.uk` == 2
         
         
-        // MARK: - Initializers
+        ///: Initializers
         
         public init(stringLiteral value: StringLiteralType) {
             self.init(value)

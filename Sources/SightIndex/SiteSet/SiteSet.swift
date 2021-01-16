@@ -34,7 +34,7 @@ internal class SiteSet {
     }
     
     
-    // MARK: - Initializers
+    ///: Initializers
         
     fileprivate init(sites: [Site.Authority: Site]) {
         self.sites = sites
@@ -49,7 +49,7 @@ internal class SiteSet {
 }
 
 
-// MARK: - Count
+///: Count
 
 internal extension SiteSet {
     var count: Int { sites.count }
@@ -61,7 +61,7 @@ internal extension SiteSet {
 }
 
 
-// MARK: - SiteSetBuilder (Function Builder)
+///: SiteSetBuilder (Function Builder)
 
 @_functionBuilder
 internal struct SiteSetBuilder {
@@ -91,7 +91,7 @@ extension SiteSetBuilder {
 }
 
 
-// MARK: - Helper Extensions
+///: Helper Extensions
 
 fileprivate extension Dictionary where Key == Site.Authority, Value == Site {
     init(sites: [Site]) {

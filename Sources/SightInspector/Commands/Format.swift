@@ -70,7 +70,7 @@ struct Format: ParsableCommand {
 }
 
 
-// MARK: - Helper Extensions
+///: Helper Extensions
 
 extension String {
     static var newLine: String { "\n" }

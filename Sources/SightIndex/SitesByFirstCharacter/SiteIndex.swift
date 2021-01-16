@@ -52,7 +52,7 @@ public class SiteIndex {
     lazy fileprivate var misc = SiteIndex.Misc
     
     
-    // MARK: - Initializers
+    ///: Initializers
     
     public init() { }
     

@@ -8,7 +8,7 @@
 @_exported import struct SightBuilder.Site
 import SightIndex
 
-// MARK: - ExpressibleByStringLiteral conformance
+///: ExpressibleByStringLiteral conformance
 
 extension Site: ExpressibleByStringLiteral {
     public init(stringLiteral value: String) {

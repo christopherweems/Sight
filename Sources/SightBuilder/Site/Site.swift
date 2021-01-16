@@ -24,7 +24,7 @@ public struct Site: Hashable, Identifiable {
     public var isQueryable: Bool { !queryParts.isEmpty }
     
     
-    // MARK: - Initializers
+    ///: Initializers
     
     public init(_ rootURLString: String) {
         self.root = rootURLString
@@ -37,7 +37,7 @@ public struct Site: Hashable, Identifiable {
 extension Site: Iffable, Wrappable { }
 
 
-// MARK: - Query URLs
+///: Query URLs
 
 public extension Site {
     enum Query: Hashable {
@@ -97,7 +97,7 @@ public extension Site {
 }
 
 
-// MARK: - Query Parts
+///: Query Parts
 
 internal extension Site {
     enum QueryParts: Hashable, Wrappable {

@@ -34,7 +34,7 @@ internal struct ImportFile {
     }
     
     
-    // MARK: - Initializers
+    ///: Initializers
     
     init?(contentsOf url: URL) {
         guard let _stringValue = try? String(contentsOf: url) else { return nil }
@@ -146,7 +146,7 @@ fileprivate extension ImportFile {
 }
 
 
-// MARK: - Helper Extensions
+///: Helper Extensions
 
 fileprivate extension Array where Element == String {
     var httpPrefixed: Self {

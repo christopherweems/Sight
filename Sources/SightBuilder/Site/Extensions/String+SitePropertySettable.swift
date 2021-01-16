@@ -8,7 +8,7 @@
 import Foundation
 
 
-// MARK: - Strings as Sites (Property setters)
+///: Strings as Sites (Property setters)
 
 extension String: SitePropertySettable {
     public func queryURL(path: String, method: HTTPMethod, locale: Locale?, language: Locale.Language?) -> Site {
