@@ -11,4 +11,5 @@ internal extension String {
     var withQueryPercentEncoding: String? {
         self.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
     }
+    
 }
