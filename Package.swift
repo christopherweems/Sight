@@ -24,8 +24,9 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMajor(from: "0.3.2")),
-        .package(url: "https://github.com/christopherweems/unstandard", .upToNextMajor(from: "0.0.20")),
+        .package(url: "https://github.com/apple/swift-argument-parser.git", .upToNextMajor(from: "0.3.2")),
+        .package(url: "https://github.com/christopherweems/unstandard.git", .upToNextMajor(from: "0.0.21")),
+        .package(url: "https://github.com/gitmcfly/lc-locale.git", .upToNextMajor(from: "0.0.1")),
         
     ],
     targets: [
@@ -36,7 +37,10 @@ let package = Package(
             dependencies: ["SightBuilder", "SightIndex"]),
         .target(
             name: "SightBuilder",
-            dependencies: [.product(name: "unstandard", package: "unstandard")]),
+            dependencies: [
+                .product(name: "lc-locale", package: "lc-locale"),
+                .product(name: "unstandard", package: "unstandard"),
+            ]),
         .target(
             name: "SightIndex",
             dependencies: [

@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "lc-locale",
+        "repositoryURL": "https://github.com/gitmcfly/lc-locale.git",
+        "state": {
+          "branch": null,
+          "revision": "677930d9baccb718a0570ca8271b28909803b921",
+          "version": "0.0.1"
+        }
+      },
+      {
         "package": "Resultto",
         "repositoryURL": "https://github.com/christopherweems/Resultto.git",
         "state": {
@@ -12,7 +21,7 @@
       },
       {
         "package": "swift-algorithms",
-        "repositoryURL": "https://github.com/apple/swift-algorithms",
+        "repositoryURL": "https://github.com/apple/swift-algorithms.git",
         "state": {
           "branch": null,
           "revision": "bb3bafeca0e164ece3403a9de646b7d38c07dd49",
@@ -21,7 +30,7 @@
       },
       {
         "package": "swift-argument-parser",
-        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser.git",
         "state": {
           "branch": null,
           "revision": "9564d61b08a5335ae0a36f789a7d71493eacadfc",
@@ -48,11 +57,11 @@
       },
       {
         "package": "unstandard",
-        "repositoryURL": "https://github.com/christopherweems/unstandard",
+        "repositoryURL": "https://github.com/christopherweems/unstandard.git",
         "state": {
           "branch": null,
-          "revision": "8e0ae959a57aba8a14b789561ec9ec87012c3c1d",
-          "version": "0.0.20"
+          "revision": "7864df0d4eadc2b09b23dd09a34b90166f3c1799",
+          "version": "0.0.21"
         }
       }
     ]
