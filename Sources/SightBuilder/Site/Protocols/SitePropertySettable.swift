@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import lc_locale
 
 public protocol SitePropertySettable {
     typealias HTTPMethod = Site.HTTPMethod
