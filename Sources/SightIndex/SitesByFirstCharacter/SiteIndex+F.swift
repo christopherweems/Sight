@@ -278,6 +278,9 @@ internal extension SiteIndex {
         "https://flyavl.com"
             .queryURL(path: "/search/all?keys=%s")
         
+        "http://flyjax.com"
+            .queryURL(path: "/search2015.aspx?txt=%s")
+        
         "https://flyknoxville.com"
             .queryURL(path: "/?s=%s")
         
