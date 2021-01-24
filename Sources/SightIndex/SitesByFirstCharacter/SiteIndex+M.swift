@@ -367,6 +367,9 @@ internal extension SiteIndex {
         "https://www.michaels.com"
             .queryURL(path: "/search?q=%s")
         
+        "https://guide.michelin.com"
+            .queryURL(path: "/en/search?q=%s", language: .english)
+        
         "https://www.microcenter.com"
             .queryURL(path: "/search/search_results.aspx?N=&cat=&Ntt=%s&searchButton=search")
         
