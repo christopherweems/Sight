@@ -63,7 +63,7 @@ internal extension SiteSet {
 
 ///: SiteSetBuilder (Function Builder)
 
-@_functionBuilder
+@resultBuilder
 internal struct SiteSetBuilder {
     static func buildBlock() -> SiteSet {
         .init(sites: [:])
