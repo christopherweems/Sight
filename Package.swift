@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -17,9 +17,6 @@ let package = Package(
         .library(
             name: "SightIndex",
             targets: ["SightBuilder", "SightIndex"]),
-        .executable(
-            name: "SightInspector",
-            targets: ["SightInspector"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -47,7 +44,7 @@ let package = Package(
                 "SightBuilder",
                 .product(name: "unstandard", package: "unstandard"),
             ]),
-        .target(
+        .executableTarget(
             name: "SightInspector",
             dependencies: [
                 "SightIndex",
